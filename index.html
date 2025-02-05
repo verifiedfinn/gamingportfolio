@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Gaming Portfolio">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>My Gaming Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/gsaptitleanimations.js"></script>
+</head>
+<body id="portfolio-page">
+    <header id="intro">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="favorite_skins.html">Favorite Skins</a></li>
+            </ul>
+        </nav>
+        <br>
+            <h1 id="title">
+                <span>M</span><span>y</span><span> </span>
+                <span>G</span><span>a</span><span>m</span><span>i</span><span>n</span><span>g</span><span> </span>
+                <span>P</span><span>o</span><span>r</span><span>t</span><span>f</span><span>o</span><span>l</span><span>i</span><span>o</span>
+            </h1>
+            <p id="description">Listed below are a couple of games I hold dear to my heart and still play today!</p>
+                                  
+    </header>
+    <br><br>
+
+    <!-- Search Bar and Sort Buttons -->
+    <div id="controls" style="text-align: center; margin-bottom: 20px;">
+        <input type="text" id="search-bar" class="filter-btn" placeholder="Search games..." />
+        <button id="sort-a-z" class="filter-btn">Sort A-Z</button>
+        <button id="sort-z-a" class="filter-btn">Sort Z-A</button>
+        <button id="view-favorites" class="filter-btn">View Favorites</button>
+    </div>
+    
+
+    <!-- Filter Buttons -->
+    <div id="filters" style="text-align: center; margin-bottom: 20px;">
+        <button class="filter-btn active" data-tag="All">All</button>
+        <button class="filter-btn" data-tag="MMORPG">MMORPG</button>
+        <button class="filter-btn" data-tag="Shooter">Shooter</button>
+        <button class="filter-btn" data-tag="Sports">Sports</button>
+        <button class="filter-btn" data-tag="Survival">Survival</button>
+        <button class="filter-btn" data-tag="Rogue-like">Rogue-like</button>
+        <button class="filter-btn" data-tag="Competitive">Competitive</button>
+        <button class="filter-btn" data-tag="RPG">RPG</button>
+        <button class="filter-btn" data-tag="Adventure">Adventure</button>
+        <button class="filter-btn" data-tag="Social">Social</button>
+        <button class="filter-btn" data-tag="Casual">Casual</button>
+        <button class="filter-btn" data-tag="Sandbox">Sandbox</button>
+        <button class="filter-btn" data-tag="Strategy">Strategy</button>
+    </div>
+
+    <!-- Dynamic Game Section -->
+    <div id="game-container"></div>
+
+    <footer>
+        <div class="footer-bar">
+            <a href="https://www.instagram.com/finn.horgan/">
+                <img src="images/icons8-instagram-50.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/finn-horgan/">
+                <img src="images/icons8-linked-in-50.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.finnhorgan.com/">
+                <img src="images/fh_logo_black.png" alt="Portfolio">
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/mainpagegames.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+</body>
+</html>
+
+
+

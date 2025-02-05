@@ -1,0 +1,879 @@
+/* Validator said this was needed to standardize boxes across web browsers */
+* {
+    margin: auto;
+    padding: 0;
+}
+
+/* Gsap css aide cause apparently this helps */
+#description {
+    display: inline-block; /* Allow GSAP to work smoothly */
+    transform: translateZ(0); /* Use GPU for animations */
+    will-change: transform; /* Optimize for smoother rendering */
+}
+
+#title span {
+    display: inline-block; /* Enable GSAP staggered animations */
+}
+
+
+/* Body and Main Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #00d9ff;
+    line-height: 1.6;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+/* Heading alignment and shadow glow */
+h1, h2 {
+    text-align: center;
+    text-shadow: 0 0 20px #00d9ff, 0 0 40px #00d9ff, 0 0 60px #00d9ff;
+}
+
+/* Sub-distinction to make main header bigger */
+header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+/* Main header styling for big section */
+header {
+    background-color: #000000;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 50px #00d9ff;
+}
+
+/* Navigation positioning */
+nav {
+    text-align: center;
+}
+
+/* Navigation bars list properties for perceived buttons */
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+/* Navagation list ITEMS style */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #000000;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 0 0 20px #00d9ff, 0 0 40px #00d9ff;
+}
+
+/* Animation for hover of said list buttons */
+nav ul li a:hover {
+    background-color: #00d9ff;
+    color: #000;
+    transform: scale(1.1);
+    box-shadow: 0 0 50px #00d9ff, 0 0 100px #00d9ff;
+}
+
+/* Extra accessibility for highlight to show which page you're on (extra points please Nina) */
+
+.active {
+    background-color: #02bbdc;
+    color: white;
+    
+}
+
+
+/* About Me container styling */
+.about-me {
+    max-width: 900px;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    padding: 50px;
+    background-color: transparent;
+    display: flex;
+    gap: 20px;
+}
+
+/* Seperate css for text width of section*/
+.about-text {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+/* Buttons for cv download inspired by og portfolio */
+.download-cv-btn {
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    max-width: 450px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    color: #fff;
+    text-align: center;
+    margin: 20px auto; /* Centers the button and adds spacing above/below */
+    display: block; /* Ensures the button spans its row */
+}
+
+
+/* Different button link with similar attributes used as .game_types keeps hijacking centering format */
+
+.button-link {
+    display: inline-block;
+    background: linear-gradient(to right, #04cdf0, #000000);
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Gaming Skills Portfolio/button centering and text for the SKINS */
+.game_types {
+    background-color: #222;
+    border: 2px solid #00d9ff;
+    padding: 10px;
+    padding-bottom: 80px;
+    border-radius: 20px;
+    width: calc(50% - 40px);
+    transition: transform 0.5s ease-in-out, box-shadow 0.4s;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+/* extra code to keep it flexible even though all images are same size */
+.game_types img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#portfolio-page .game_types {
+    width: 300px; /* Set a fixed width */
+    height: 400px; /* Set a fixed height */
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.game-image {
+    width: 100%;
+    height: 200px; /* Adjust based on desired image height */
+    object-fit: cover; /* Ensures images fill the space without distortion */
+    border-radius: 8px;
+}
+
+/* Skins grid to make it look better */
+#skins-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    position: absolute;
+    background-color: #222;
+    border: 2px solid #00d9ff;
+    padding: 40px;
+    border-radius: 20px;
+    transition: transform 0.5s ease-in-out, box-shadow 0.4s;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+/* Favorite skins image dimensions/crop */
+.skin_image {
+    width: 460px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* General section styling for condensed list for skins page */
+section {
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+/* General contact form css */
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #222;
+    padding: 50px;
+    border-radius: 10px;
+    box-sizing: border-box; /* added to make even on both sides */
+}
+
+#contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+    box-sizing: border-box; /* added to make it even on both sides */
+}
+
+#contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00d9ff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#contact-form button:hover {
+    background-color: #0099cc;
+}
+
+/* Footer bar for socials and my own portfolio */
+
+.footer-bar {
+    position: relative;
+    width: 100%;
+    background-color: #00d9ffe6;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-bar a {
+    margin: 0 15px;
+    text-decoration: none; /* Had an issue with link line appearing */
+    display: inline-block;
+}
+
+/* Because of imported custom, need to make sure it is resized uniformly */
+.footer-bar img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Carousel CSS to make it look like an actual round about */
+
+#carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    margin: auto;
+    position: relative;
+}
+
+
+#prev,
+#next {
+    top: 50%;
+    width: 70px;
+    transform: translateY(300%);
+    /*^ ensures they are positioned halway down*/
+    padding: 5px;
+    cursor: pointer;
+    /*^ changes the cursor when hovering over the buttons to show they are interactable*/
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #000;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 0 0 20px #00d9ff;
+}
+
+nav ul li a:hover {
+    background-color: #00d9ff;
+    color: #000;
+    transform: scale(1.1);
+    box-shadow: 0 0 50px #00d9ff, 0 0 100px #00d9ff;
+}
+
+.active {
+    background-color: #02bbdc;
+}
+
+/* Responsive Containers */
+.about-me {
+    max-width: 900px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#profile-pic {
+    flex: 1;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-text {
+    flex: 1;
+    text-align: left;
+}
+
+/* Contact Form */
+#contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer-bar {
+    width: 100%;
+    background-color: #00d9ffe6;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bar img {
+    width: 30px;
+    height: 30px;
+}
+
+#carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 1000px; /* Increased max-width for better spacing */
+    width: 90%; /* Ensure responsiveness */
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Image Display Area */
+#image-display {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #222;
+    padding-top: 5px;
+    border-radius: 10px;
+    max-width: 800px; /* Limit the width of the content */
+    width: 100%;
+    margin: 0 auto; /* Center content */
+    transition: opacity 0.5s ease-in-out;
+}
+
+#image-display h2 a {
+    color: #00d9ff;
+    text-decoration: none;
+    text-shadow: 0 0 20px #00d9ff;
+    font-size: 1.8rem; /* Slightly larger for better readability */
+    margin-bottom: 10px;
+}
+
+#image-display ul {
+    list-style-type: disc;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+    max-width: 600px; /* Limit width of the bullet points */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image-display ul li {
+    margin-bottom: 10px;
+    color: #00d9ff;
+    line-height: 1.6; /* Add line height for better spacing */
+    border: 2px inset #00d9ffc5;
+    border-radius: 20px;
+}
+
+/* Images styling inside the display */
+#image-display img {
+    max-width: 100%; /* Ensure the image fits the container */
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border: none; /* Remove any border from the carousel content */
+    padding: 0; /* Reset any inherited padding */
+    margin: 0; /* Reset any inherited margin */
+    border-radius: 10px;
+    object-fit: contain;
+    /* ^^Ensures the entire image is visible, maintaining aspect ratio */
+    
+}
+
+.game_types > #image-display {
+    border: none !important;
+}
+
+.project_image_container {
+    overflow: hidden;
+    width: 650px;
+    height: 339px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    object-fit: contain;
+    /* ^^Ensures the entire image is visible, maintaining aspect ratio */
+}
+
+/* Slider CSS */
+
+#sliderbutton {
+    padding: 10px;
+    width: 25%; /* Make the button span the full width of the parent */
+    box-sizing: border-box; /* Ensure padding doesn't add extra width */
+    cursor: pointer; /* Change cursor to a hand on hover */
+    position: absolute; /* Position at the bottom of the parent */
+    bottom: 0; /* Align at the very bottom */
+    border: none; /* Remove border for a flat look */
+    text-align: center; /* Center text inside the button */
+    font-size: 16px; /* Adjust font size for better readability */
+}
+
+
+
+#slidercontent {
+    padding:10px;
+    display: none;
+    
+    
+}
+
+/* Contact form Notification CSS */
+
+/* Feedback Message Styling */
+#formFeedback {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Success Message */
+#formFeedback.success {
+    color: green;
+    background-color: #e8f5e9;
+    border: 1px solid green;
+}
+
+/* Error Message */
+#formFeedback.error {
+    color: red;
+    background-color: #ffebee;
+    border: 1px solid red;
+}
+
+/*filter buttons */
+
+/* Category Button Container */
+#filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Space between buttons */
+    justify-content: center; /* Center align the buttons */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Category Buttons */
+.filter-btn {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px; /* Adjust padding for better spacing */
+    background-color: #000000;
+    border-radius: 5px;
+    transition: 0.3s;
+    box-shadow: 0 0 20px #00d9ff, 0 0 40px #00d9ff;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 0.9rem; /* Adjust text size for consistency */
+}
+
+/* Hover Effect for Category Buttons */
+.filter-btn:hover {
+    background-color: #00d9ff;
+    color: #000;
+    transform: scale(1.1);
+    box-shadow: 0 0 50px #00d9ff, 0 0 100px #00d9ff;
+}
+
+/* Active State for Category Buttons */
+.filter-btn.active {
+    background-color: #02bbdc;
+    color: white;
+}
+
+/* The container itself to fix the display look of the games and display correctly SEPERATE AS TO NOT INTERFERE WITH OTHER PAGES*/
+
+/* Scoped for the Gaming Portfolio page */
+#portfolio-page #game-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+}
+
+#portfolio-page .game_types {
+    flex: 0 1 300px; /* Fixed width for consistent sizing */
+    box-sizing: border-box;
+    background-color: #222;
+    padding: 15px;
+    border: 2px solid #00d9ff;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Ensure content aligns from the top */
+    transition: height 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+#portfolio-page .short-description {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Show only 2 lines before truncating */
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+}
+
+#portfolio-page .more-content {
+    display: none; /* Initially hidden */
+    margin-top: 10px;
+}
+
+#portfolio-page .game-image {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Limit the image height */
+    object-fit: contain; /* Ensure images maintain their aspect ratio */
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#portfolio-page .button-link {
+    display: inline-block;
+    background: linear-gradient(to right, #04cdf0, #000000);
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #00d9ff;
+    box-shadow: 0 0 5px #00d9ff, 0 0 10px #00d9ff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-top: 10px; /* Add spacing between elements */
+}
+
+#portfolio-page .button-link:hover {
+    background-color: #00d9ff;
+    color: #000;
+    transform: scale(1.1);
+    box-shadow: 0 0 50px #00d9ff, 0 0 100px #00d9ff;
+}
+
+#portfolio-page .steam-link:hover {
+    background-color: #0099cc;
+    color: #fff;
+    transform: none; /* Prevent scaling for specific links */
+    box-shadow: none;
+}
+
+/* Added to make sure alignment for buttons stays the same when no steam click button */
+.placeholder-link {
+    display: block;
+    height: 50px; /* Match the height of the Steam link button */
+    margin: 10px 0; /* Same margin as the button */
+}
+
+/* Favorites settings */
+
+.favorite-btn {
+    background: linear-gradient(to right, #04cdf0, #000000);
+    color: #fff;
+    border: 2px solid #00d9ff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 5px #00d9ff, 0 0 10px #00d9ff;
+}
+
+.favorite-btn.favorited {
+    background: linear-gradient(to right, #0f0, #008000); /* Green gradient */
+    color: #fff; /* Keep text white for better contrast */
+    border: 2px solid #0f0;
+    box-shadow: 0 0 5px #0f0, 0 0 20px rgba(0, 255, 0, 0.568); /* Green glow */
+    transform: scale(1.1); /* Slight enlargement for emphasis */
+}
+
+
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    #portfolio-page #game-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #portfolio-page .game_types {
+        flex: 0 1 90%; /* Take up 90% of the container's width */
+        max-width: 400px; /* Limit maximum size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #portfolio-page .game_types {
+        flex: 0 1 100%; /* Take up full width on very small screens */
+    }
+
+    #portfolio-page .button-link {
+        width: 100%; /* Make buttons full-width */
+        text-align: center;
+    }
+}
+
+
+
+
+/* Responsive Adjustments for Buttons/Responsive Media Queries */
+@media screen and (max-width: 768px) {
+    #filters {
+        flex-wrap: wrap; /* Ensure buttons wrap on smaller screens */
+    }
+    .filter-btn {
+        flex: 0 1 auto; /* Allow buttons to resize naturally */
+        font-size: 0.8rem; /* Adjust font size for smaller screens */
+        padding: 8px 15px; /* Adjust padding for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .filter-btn {
+        width: 100%; /* Stack buttons for very small screens */
+        text-align: center;
+    }
+}
+
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 768px) {
+    /* Stack navigation links vertically */
+    nav ul {
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+
+    nav ul li a {
+        width: 100%; /* Make the links span the full width */
+        text-align: center; /* Center the text */
+    }
+}
+
+/* Media Query for Very Small Screens (Optional) */
+@media screen and (max-width: 480px) {
+    nav ul {
+        width: 100%; /* Ensure nav container spans full width */
+    }
+
+    nav ul li a {
+        font-size: 0.9rem; /* Adjust font size for readability */
+        padding: 8px 10px; /* Reduce padding for compact layout */
+    }
+}
+
+/* For Tablets and Phones (screens 768px and below) */
+@media (max-width: 768px) {
+    #carousel-container {
+        display: none; /* Hide the carousel container */
+    }
+
+    #slidercontent {
+        display: block !important; /* Ensure the list of skins is always visible */
+        width: 90%; /* Adjust the width for smaller screens */
+        margin: 10px auto; /* Center the content */
+    }
+
+    .skin-item h2 {
+        font-size: 1.2rem; /* Reduce heading size */
+    }
+
+    .skin_image {
+        width: 100%; /* Adjust images to fit the screen */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 10px; /* Consistent styling */
+    }
+
+    #skins-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px; /* Add spacing between items */
+        justify-content: center; /* Center-align items */
+    }
+
+    h1, h2 {
+        font-size: 1.5rem; /* Reduce heading size */
+    }
+}
+
+/* Adjust title size specifically for the portfolio page on smaller screens */
+@media screen and (max-width: 768px) {
+    #portfolio-page #title span {
+        font-size: 1.4rem; /* Slightly reduce font size */
+    }
+
+    #portfolio-page #title {
+        display: inline-block;
+        white-space: nowrap; /* Prevent wrapping */
+    }
+}
+
+/* Further adjustments for very small screens (iPhones, etc.) */
+@media screen and (max-width: 480px) {
+    #portfolio-page #title span {
+        font-size: 1.8rem; /* Further reduce font size */
+    }
+}
+
+/* Responsive Adjustments for About Me Page */
+@media screen and (max-width: 768px) {
+    /* Center navigation links vertically */
+    nav ul {
+        flex-direction: column;
+        gap: 25px;
+        align-items: center;
+    }
+
+    nav ul li a {
+        width: 100%; /* Make the links span the full width */
+        text-align: center; /* Center-align text */
+        font-size: 0.9rem; /* Adjust font size */
+    }
+
+    /* Adjust the title on smaller screens */
+    #title span {
+        font-size: 1.5rem; /* Reduce the font size for About Me title */
+    }
+
+    /* Ensure the About Me container scales nicely */
+    .about-me {
+        padding: 20px; /* Add padding for better spacing */
+        text-align: center; /* Center-align all content */
+    }
+
+    /* About header adjustments */
+    .about-header h1 {
+        font-size: 1.8rem; /* Scale the main header */
+    }
+
+    .about-header h2 {
+        font-size: 1.2rem; /* Scale the subheader */
+    }
+
+    /* Adjust the profile picture for smaller screens */
+    #profile-pic {
+        max-width: 400px; /* Constrain size */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 auto 20px; /* Center with spacing below */
+        display: block; /* Ensure it's centered */
+    }
+
+    /* Adjust About Me text content */
+    .about-text p {
+        font-size: 0.9rem; /* Scale down the text */
+        line-height: 1.5; /* Adjust line spacing */
+        margin: 0 10px 20px; /* Add horizontal padding and space below */
+    }
+
+    /* Center and reposition the CV Download Button */
+    .download-cv-btn {
+        display: block; /* Ensure it spans its own row */
+        margin: 0 auto; /* Center it horizontally */
+        text-align: center; /* Align text within the button */
+        width: 250px; /* Keep size compact */
+        padding: 10px 15px; /* Adjust padding for better touchability */
+        background: linear-gradient(to right, #ff9a9e, #fad0c4); /* Stylish gradient */
+        color: #fff; /* Contrast text color */
+        border: none; /* Remove borders */
+        border-radius: 5px; /* Add rounded corners */
+        font-size: 1rem; /* Adjust font size */
+        cursor: pointer; /* Indicate interactivity */
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
+}
+
+/* Media Query for Very Small Screens (e.g., iPhone SE) */
+@media screen and (max-width: 480px) {
+    nav ul {
+        width: 100%; /* Ensure the nav container spans full width */
+    }
+
+    nav ul li a {
+        padding: 8px 10px; /* Reduce padding for compact layout */
+        font-size: 0.85rem; /* Scale font size further */
+    }
+
+    #title span {
+        font-size: 1.3rem; /* Further reduce title font size */
+    }
+
+    /* Adjust profile picture for very small screens */
+    #profile-pic {
+        max-width: 250px; /* Scale down the profile picture */
+    }
+
+    /* About header adjustments */
+    .about-header h1 {
+        font-size: 1.6rem; /* Further scale main header */
+    }
+
+    .about-header h2 {
+        font-size: 1rem; /* Further scale subheader */
+    }
+
+    /* Adjust About Me text content */
+    .about-text p {
+        font-size: 0.8rem; /* Further scale text size */
+    }
+
+    /* Center and reposition CV button for very small screens */
+    .download-cv-btn {
+        margin-top: 20px; /* Add margin above the button */
+        font-size: 0.9rem; /* Reduce font size */
+        padding: 8px 12px; /* Adjust padding */
+    }
+}

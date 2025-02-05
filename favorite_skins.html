@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Favorite Skins">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Favorite Skins</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/carouseldropdown.js"></script>
+    <script src="js/gsaptitleanimations.js"></script>
+</head>
+<body id="skins-page">
+    <header id="intro">
+        <nav>
+            <ul>
+                <li><a href="gaming_skills_portfolio.html">Home</a></li>
+                <li><a href="favorite_skins.html" class="active">Favorite Skins</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <br>
+        <h1 id="title">
+            <span>F</span><span>a</span><span>v</span><span>o</span><span>r</span><span>i</span><span>t</span><span>e</span>
+            <span>S</span><span>k</span><span>i</span><span>n</span><span>s</span>
+        </h1>
+        <p id="description">Below is a little list of some of my most favorite skins across some of my favorite games.</p>
+    </header>
+
+    <!-- Carousel -->
+     <br>
+    <div id="carousel-container" class="skin_types">
+        <button id="prev" class="button-link">Previous</button>
+        <div id="image-display" class="game_types"></div>
+        <button id="next" class="button-link">Next</button>
+        <div id="sliderbutton" class="button-link">Click to view all skins</div>
+    </div>
+
+    <br>
+
+    <!-- Dropdown Content -->
+    <aside id="slidercontent" style="display: none;">
+        <section id="skins-list">
+            <!-- Dynamic content will be populated here -->
+        </section>
+    </aside>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,451 @@
+{
+    "games": [
+        {
+            "Name": "Wizard101",
+            "Tags": ["MMORPG", "Competitive", "Strategy"],
+            "FirstSentence": "<em>Wizard101</em> is one of the first true MMORPGs I ever played",
+            "RemainingDescription": "Released in 2008, I was one of the first players when I was just eight years old. This game enhanced my love for magic, wizards, socialization, and in-game aesthetics. It is deeply nostalgic, and to this day, I still keep up with it when I have time as the community has kept it alive!",
+            "Image": "images/wizard101pic.jpg",
+            "Link": "https://store.steampowered.com/app/799960/Wizard101/"
+        },
+        {
+            "Name": "Counter-Strike 2",
+            "Tags": ["Shooter", "Strategy", "Competitive"],
+            "FirstSentence": "I started playing <em>Counter-Strike</em> in 2016",
+            "RemainingDescription": "With the aim of being part of the cool kids in High School. Although they never played with me, I was determined to make the $15 worth it. From there, I built a collection of Counter-Strike skins and became a trading entrepreneur. This game has since become a meditative addiction that helps me de-stress and have fun.",
+            "Image": "images/cs2pic.jpg",
+            "Link": "https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/"
+        },
+        {
+            "Name": "Rocket League",
+            "Tags": ["Sports", "Competitive"],
+            "FirstSentence": "<em>Rocket League</em> is like soccer but with flying cars!",
+            "RemainingDescription": "Starting my undergrad, I needed a game that was short, fun, and challenging. A buddy of mine introduced me to this game in the dorm, and I racked up thousands of hours trying to improve. It only took 4 years to achieve my goal of playing ranked with my friend. Now, the soundtracks remind me of great memories.",
+            "Image": "images/rocketleaguepic.jpg",
+            "Link": "https://store.steampowered.com/app/252950/Rocket_League/"
+        },
+        {
+            "Name": "Valheim",
+            "Tags": ["Survival", "Sandbox", "Adventure"],
+            "FirstSentence": "<em>Valheim</em> is a classic survival game based on Vikings",
+            "RemainingDescription": "I played this game twice with my university buddy. The retro 3D style, music, and atmosphere create a phenomenal setting for embarking on adventures late into the night. A solid game with a great difficulty curve for solo and multiplayer alike!",
+            "Image": "images/valheimpic.jpg",
+            "Link": "https://store.steampowered.com/app/1604030/V_Rising/"
+        },
+        {
+            "Name": "Hollow Knight",
+            "Tags": ["Rogue-like", "Adventure"],
+            "FirstSentence": "<em>Hollow Knight</em> is a rogue-like game with a fantastic art style",
+            "RemainingDescription": "That I picked up during a reading week in undergrad. Going in blind, I had no idea what to expect except that I was a little bug in an unknown world. The story, narrative, and exploration in this game are fantastic. It’s a must-play despite my limited hours in it.",
+            "Image": "images/hollowknightpic.jpg",
+            "Link": "https://store.steampowered.com/app/367520/Hollow_Knight/"
+        },
+        {
+            "Name": "Grand Theft Auto V",
+            "Tags": ["MMORPG", "Social"],
+            "FirstSentence": "A classic that I played with friends online for fun",
+            "RemainingDescription": "I would play with a University friend just to chat, get cool cars, and explore Los Santos gambling while finding new skins.",
+            "Image": "images/gtavpic.jpg",
+            "Link": "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/"
+        },
+        {
+            "Name": "SpeedRunners",
+            "Tags": ["Competitive"],
+            "FirstSentence": "<em>SpeedRunners</em> is a really fast paced swinging game",
+            "RemainingDescription": "With strategy hidden inside. Used to play this all the time in undergrad trying to get faster. Felt really cool to get good at this game!",
+            "Image": "images/speedrunnerspic.jpg",
+            "Link": "https://store.steampowered.com/app/207140/SpeedRunners/"
+        },
+        {
+            "Name": "Sea of Thieves",
+            "Tags": ["MMORPG", "Social", "Competitive"],
+            "FirstSentence": "A game truly about skins and vibes",
+            "RemainingDescription": "Played solo just trying to get cool skins and to chill out!",
+            "Image": "images/seaofthievespic.jpg",
+            "Link": "https://store.steampowered.com/app/1172620/Sea_of_Thieves/"
+        },
+        {
+            "Name": "Across the Obelisk",
+            "Tags": ["RPG", "Strategy", "Rogue-like"],
+            "FirstSentence": "A great crawler for deck building",
+            "RemainingDescription": "Played solo just to reach the spire, love card building games!",
+            "Image": "images/acrosstheobeliskpic.jpg",
+            "Link": "https://store.steampowered.com/app/1385380/Across_the_Obelisk/"
+        },
+        {
+            "Name": "Balatro",
+            "Tags": ["Sports", "Strategy", "Rogue-like"],
+            "FirstSentence": "Gambling without losing anything",
+            "RemainingDescription": "Loved playing this just because gambling is fun and this made straegy in a chance game viable.",
+            "Image": "images/balatropic.jpg",
+            "Link": "https://store.steampowered.com/app/1374870/Balatro/"
+        },
+        {
+            "Name": "SMITE",
+            "Tags": ["Competitive"],
+            "FirstSentence": "Tried to get into the Moba style",
+            "RemainingDescription": "Wasn't for me unfortunately but I tried!",
+            "Image": "images/smitepic.jpg",
+            "Link": "https://store.steampowered.com/app/386360/SMITE/"
+        },
+        {
+            "Name": "Divinity: Original Sin 2",
+            "Tags": ["RPG", "Adventure", "Strategy"],
+            "FirstSentence": "<em>Divinity: Original Sin 2</em> has amazing combat",
+            "RemainingDescription": "Loved playing this with my friend. Honestly better than BG3.",
+            "Image": "images/divinity2pic.jpg",
+            "Link": "https://store.steampowered.com/app/435150/Divinity_Original_Sin_2/"
+        },
+        {
+            "Name": "Baldur's Gate 3",
+            "Tags": ["RPG", "Adventure", "Casual"],
+            "FirstSentence": "We played DOS2. Had to play this",
+            "RemainingDescription": "Was really well done and the visuals are amazing. DOS2 Still better though combat wise.",
+            "Image": "images/baldursgate3pic.jpg",
+            "Link": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/"
+        },
+        {
+            "Name": "V Rising",
+            "Tags": ["Survival", "Adventure"],
+            "FirstSentence": "Great survival/Adventure game with base building",
+            "RemainingDescription": "Played it solo, played it with a friend, fantastic combat with great skisn too",
+            "Image": "images/vrisingpic.jpg",
+            "Link": "https://store.steampowered.com/app/1604030/V_Rising/"
+        },
+        {
+            "Name": "Among Us",
+            "Tags": ["Social", "Strategy"],
+            "FirstSentence": "Clue but less nerdy",
+            "RemainingDescription": "Played during covid, better than no social contact at all!",
+            "Image": "images/amonguspic.jpg",
+            "Link": "https://store.steampowered.com/app/945360/Among_Us/"
+        },
+        {
+            "Name": "Hades",
+            "Tags": ["Rogue-like", "Strategy"],
+            "FirstSentence": "Mythology meets great illustrations",
+            "RemainingDescription": "Just a fantastic game that I loved playing to get to the end to enjoy the great art.",
+            "Image": "images/hadespic.jpg",
+            "Link": "https://store.steampowered.com/app/1145360/Hades/"
+        },
+        {
+            "Name": "Garry's Mod",
+            "Tags": ["Sandbox"],
+            "FirstSentence": "Prophunt and TTT",
+            "RemainingDescription": "Just good party game fun.",
+            "Image": "images/garrysmodpic.jpg",
+            "Link": "https://store.steampowered.com/app/4000/Garrys_Mod/"
+        },
+        {
+            "Name": "Stardew Valley",
+            "Tags": ["RPG", "Social"],
+            "FirstSentence": "Best vibes ever",
+            "RemainingDescription": "<em>Stardew Valley</em> is just a great game to chill with friends and have some fun, espeically during covid.",
+            "Image": "images/stardewvalleypic.jpg",
+            "Link": "https://store.steampowered.com/app/413150/Stardew_Valley/"
+        },
+        {
+            "Name": "Super Auto Pets",
+            "Tags": ["Competitive", "Strategy"],
+            "FirstSentence": "Auto-Battler for quick strategies",
+            "RemainingDescription": "Friend told me about it, great for some flash-game fun.",
+            "Image": "images/superautopetspic.jpg",
+            "Link": "https://store.steampowered.com/app/1714040/Super_Auto_Pets/"
+        },
+        {
+            "Name": "Age of Empires II",
+            "Tags": ["Strategy","Competitive"],
+            "FirstSentence": "Classic city builder",
+            "RemainingDescription": "<em>Age of Empires II: Definitive Edition</em>. A beautifully remastered strategy classic that I loved playing to scratch the strategy build itch!",
+            "Image": "images/ageofempires2pic.jpg",
+            "Link": "https://store.steampowered.com/app/813780/Age_of_Empires_II_Definitive_Edition/"
+        },
+        {
+            "Name": "Hogwarts Legacy",
+            "Tags": ["Adventure", "RPG"],
+            "FirstSentence": "The OG Wizard101",
+            "RemainingDescription": "If you like <em>Harry Potter</em> you have to play this, got it for that reason.",
+            "Image": "images/hogwartslegacypic.jpg",
+            "Link": "https://store.steampowered.com/app/990080/Hogwarts_Legacy/"
+        },
+        {
+            "Name": "Noita",
+            "Tags": ["Rogue-like", "Adventure", "Sandbox"],
+            "FirstSentence": "Pixel active art at its finest",
+            "RemainingDescription": "<em>Noita</em> just lets you be a wizard, destroy things, and every pixel is out to kill you. Fantastic game.",
+            "Image": "images/noitapic.jpg",
+            "Link": "https://store.steampowered.com/app/881100/Noita/"
+        },
+        {
+            "Name": "Dead Cells",
+            "Tags": ["Rogue-like"],
+            "FirstSentence": "Roguelike with great pixel graphics",
+            "RemainingDescription": "<em>Dead Cells</em> is just a solid platformer game with rogue-like elements and amazing art! A must!",
+            "Image": "images/deadcellspic.jpg",
+            "Link": "https://store.steampowered.com/app/588650/Dead_Cells/"
+        },
+        {
+            "Name": "Rust",
+            "Tags": ["Survival", "Shooter"],
+            "FirstSentence": "Distopian Anger",
+            "RemainingDescription": "I respect the style and distopian theme of this game but man this game is more like a job. Still fun with the right people though!",
+            "Image": "images/rustpic.jpg",
+            "Link": "https://store.steampowered.com/app/252490/Rust/"
+        },
+        {
+            "Name": "ShellShock Live",
+            "Tags": ["Multiplayer", "Strategy"],
+            "FirstSentence": "Classic tanks action",
+            "RemainingDescription": "Just a fun tank game with some unique weapons with turn based combat. Very Fun.",
+            "Image": "images/shellshocklivepic.jpg",
+            "Link": "https://store.steampowered.com/app/326460/ShellShock_Live/"
+        },
+        {
+            "Name": "Crab Champions",
+            "Tags": ["Rogue-like", "Shooter"],
+            "FirstSentence": "Crabrave but actualized",
+            "RemainingDescription": "Silly game that is actually really good. Played with my friend for hours. More Updates Please!",
+            "Image": "images/crabchampionspic.jpg",
+            "Link": "https://store.steampowered.com/app/774801/Crab_Champions/"
+        },
+        {
+            "Name": "Wizard of Legend",
+            "Tags": ["Rogue-like"],
+            "FirstSentence": "Pixel art, wizards, need I say more?",
+            "RemainingDescription": "<em>Wizard of Legend</em> is like Noita but with levels and a fast paced slash/dash style. Just amazing!",
+            "Image": "images/wizardoflegendpic.jpg",
+            "Link": "https://store.steampowered.com/app/445980/Wizard_of_Legend/"
+        },
+        {
+            "Name": "Palworld",
+            "Tags": ["Survival", "Shooter"],
+            "FirstSentence": "Pokemon, but with guns",
+            "RemainingDescription": "<em>Palworld</em> was supposed to be a joke but is actually really good and satisfies the beastmaster itch while getting pokemon fanst to play games with you.",
+            "Image": "images/palworldpic.jpg",
+            "Link": "https://store.steampowered.com/app/1623730/Palworld/"
+        },
+        {
+            "Name": "Forts",
+            "Tags": ["Strategy", "Sandbox", "Competitive"],
+            "FirstSentence": "Best Fort game fight me",
+            "RemainingDescription": "I suck at this game and my friend beats me even when drunk. Still love it to bits. An amazing strategy game to see who can build better but in 2D.",
+            "Image": "images/fortspic.jpg",
+            "Link": "https://store.steampowered.com/app/410900/Forts/"
+        },
+        {
+            "Name": "FATE",
+            "Tags": ["RPG", "Rogue-like", "Strategy"],
+            "FirstSentence": "First dungeoncrawler I ever played",
+            "RemainingDescription": "<em>FATE</em> is one of the first dungeon crawelers and it has an unmistakable fantasy vibe. Love it dearly.",
+            "Image": "images/fatepic.jpg",
+            "Link": "https://store.steampowered.com/app/246840/FATE/"
+        },
+        {
+            "Name": "Raft",
+            "Tags": ["Survival", "Sandbox"],
+            "FirstSentence": "Build a raft and survive",
+            "RemainingDescription": "Bootleg Valheim but it did its job.",
+            "Image": "images/raftpic.jpg",
+            "Link": "https://store.steampowered.com/app/648800/Raft/"
+        },
+        {
+            "Name": "PlateUp!",
+            "Tags": ["Multiplayer", "Strategy"],
+            "FirstSentence": "Isaac and I's fun hell",
+            "RemainingDescription": "Run your own restaurant in <em>PlateUp!</em>. Then die trying to optomize the crap out of it. Still fun especially with my buddy.",
+            "Image": "images/plateuppic.jpg",
+            "Link": "https://store.steampowered.com/app/1599600/PlateUp/"
+        },
+        {
+            "Name": "Slay the Spire",
+            "Tags": ["Strategy", "Rogue-like"],
+            "FirstSentence": "Deck builder reborn",
+            "RemainingDescription": "Classic fantasy deckbuilder that was just fun to keep trying to beat.",
+            "Image": "images/slaythespirepic.jpg",
+            "Link": "https://store.steampowered.com/app/646570/Slay_the_Spire/"
+        },
+        {
+            "Name": "Vampire Survivors",
+            "Tags": ["Rogue-like"],
+            "FirstSentence": "Makes you feel really powerful",
+            "RemainingDescription": "Face endless waves of enemies in <em>Vampire Survivors</em>. Unlock abilities and survive as long as you can. Break the game and Win! Great game honestly.",
+            "Image": "images/vampiresurvivorspic.jpg",
+            "Link": "https://store.steampowered.com/app/1794680/Vampire_Survivors/"
+        },
+        {
+            "Name": "Risk of Rain 2",
+            "Tags": ["Rogue-like", "Strategy"],
+            "FirstSentence": "A great rogue-like shooter just so detailed",
+            "RemainingDescription": "Fight hordes of enemies in <em>Risk of Rain 2</em>. A fast-paced, multiplayer rogue-like with a unique 3D art style.",
+            "Image": "images/riskofrain2pic.jpg",
+            "Link": "https://store.steampowered.com/app/632360/Risk_of_Rain_2/"
+        },
+        {
+            "Name": "AVICII Invector",
+            "Tags": ["Casual"],
+            "FirstSentence": "A touching tribute rave in a game",
+            "RemainingDescription": "Soar through musical tracks in <em>AVICII Invector</em>. A rhythm-based music game featuring the iconic hits of AVICII.",
+            "Image": "images/aviciiinvectorpic.jpg",
+            "Link": "https://store.steampowered.com/app/810110/AVICII_Invector/"
+        },
+        {
+            "Name": "Call of Duty: Black Ops",
+            "Tags": ["Shooter", "Strategy", "Competitive", "Social"],
+            "FirstSentence": "CLASSIC first person shooter with so many memories",
+            "RemainingDescription": "<em>Call of Duty: Black Ops</em> is just a great OG split-screen classic with the arcade version and pizza being fantastic.",
+            "Image": "images/codblackopspic.jpg",
+            "Link": "https://store.steampowered.com/app/42700/Call_of_Duty_Black_Ops/"
+        },
+        {
+            "Name": "Deep Rock Galactic",
+            "Tags": ["Shooter", "Survival"],
+            "FirstSentence": "ROCK AND STONE",
+            "RemainingDescription": "Team up as dwarves and explore underground caverns in <em>Deep Rock Galactic</em>. Mine resources and fend off alien hordes, have a great time, and be in awe at how great it looks for how small the file size is!",
+            "Image": "images/deeprockgalacticpic.jpg",
+            "Link": "https://store.steampowered.com/app/548430/Deep_Rock_Galactic/"
+        },
+        {
+            "Name": "GRIS",
+            "Tags": ["Adventure"],
+            "FirstSentence": "Art that really makes you think",
+            "RemainingDescription": "Experience a serene and moving journey in <em>GRIS</em>. A visually stunning platformer that explores loss and recovery.",
+            "Image": "images/grispic.jpg",
+            "Link": "https://store.steampowered.com/app/683320/GRIS/"
+        },
+        {
+            "Name": "Kingdom Two Crowns",
+            "Tags": ["Strategy", "Survival"],
+            "FirstSentence": "Great multiplayer game with a friend",
+            "RemainingDescription": "Build and defend your kingdom in <em>Kingdom Two Crowns</em>. A pixel art strategy game with cooperative multiplayer.",
+            "Image": "images/kingdom2crownspic.jpg",
+            "Link": "https://store.steampowered.com/app/701160/Kingdom_Two_Crowns/"
+        },
+        {
+            "Name": "Magicka",
+            "Tags": ["Adventure", "RPG"],
+            "FirstSentence": "Just a great vibe with great execution",
+            "RemainingDescription": "Unleash chaotic spells in <em>Magicka</em>. A co-op action-adventure game filled with humor and creative spellcasting.",
+            "Image": "images/magickapic.jpg",
+            "Link": "https://store.steampowered.com/app/42910/Magicka/"
+        },
+        {
+            "Name": "Golf With Your Friends",
+            "Tags": ["Social", "Sports"],
+            "FirstSentence": "Mini-golf with friends and chaos",
+            "RemainingDescription": "Compete with your friends in <em>Golf With Your Friends</em>. A fun and challenging multiplayer mini-golf game.",
+            "Image": "images/golfwithyourfriendspic.jpg",
+            "Link": "https://store.steampowered.com/app/431240/Golf_With_Your_Friends/"
+        },
+        {
+            "Name": "Muse Dash",
+            "Tags": ["Casual"],
+            "FirstSentence": "Great rhythm game",
+            "RemainingDescription": "Dance and battle your way through songs in <em>Muse Dash</em>. A vibrant and energetic rhythm game with unique characters.",
+            "Image": "images/musedashpic.jpg",
+            "Link": "https://store.steampowered.com/app/774171/Muse_Dash/"
+        },
+        {
+            "Name": "Portal 2",
+            "Tags": ["Social"],
+            "FirstSentence": "Finished with a friend, great puzzle game",
+            "RemainingDescription": "Solve mind-bending puzzles in <em>Portal 2</em>. A humorous and innovative first-person puzzle game by Valve.",
+            "Image": "images/portal2pic.jpg",
+            "Link": "https://store.steampowered.com/app/620/Portal_2/"
+        },
+        {
+            "Name": "SANABI",
+            "Tags": ["Casual"],
+            "FirstSentence": "Great story and mechanics",
+            "RemainingDescription": "Unleash your grappling hook in <em>SANABI</em>. A fast-paced platformer with stylish combat and cyberpunk aesthetics.",
+            "Image": "images/sanabipic.jpg",
+            "Link": "https://store.steampowered.com/app/1632050/SANABI/"
+        },
+        {
+            "Name": "Tabletop Simulator",
+            "Tags": ["Social"],
+            "FirstSentence": "Playing boardgames with no world boundaries",
+            "RemainingDescription": "Play any tabletop game with friends in <em>Tabletop Simulator</em>. Create, share, and enjoy endless possibilities.",
+            "Image": "images/tabletopsimulatorpic.jpg",
+            "Link": "https://store.steampowered.com/app/286160/Tabletop_Simulator/"
+        },
+        {
+            "Name": "The Impossible Game",
+            "Tags": ["Rogue-like"],
+            "FirstSentence": "Free on xbox and eternal pain included",
+            "RemainingDescription": "Test your reflexes in <em>The Impossible Game</em>. A minimalist yet challenging platformer with intense gameplay.",
+            "Image": "images/theimpossiblegamepic.jpg",
+            "Link": "https://store.steampowered.com/app/352180/The_Impossible_Game/"
+        },
+        {
+            "Name": "Guild Wars 2",
+            "Tags": ["MMORPG"],
+            "FirstSentence": "The best mmorpg out there, my baby and my lover",
+            "RemainingDescription": "Explore the vibrant world of Tyria in <em>Guild Wars 2</em>. A dynamic MMORPG with stunning visuals and immersive gameplay. I love this game to bits it was the first real mmo I played and it's influence is infused in me.",
+            "Image": "images/guildwars2pic.jpg",
+            "Link": "https://store.steampowered.com/app/1284210/Guild_Wars_2/"
+        },
+        {
+            "Name": "Super Mario Bros. 3",
+            "Tags": ["Casual"],
+            "FirstSentence": "Literally my first game ever. Love it.",
+            "RemainingDescription": "Embark on a nostalgic journey with <em>Super Mario Bros. 3</em>. A timeless platformer that defined an era of gaming.",
+            "Image": "images/supermariobros3pic.jpg"
+        },
+        {
+            "Name": "Super Mario Galaxy",
+            "Tags": ["Casual"],
+            "FirstSentence": "Reignited the love for galaxy, stars, and great stories",
+            "RemainingDescription": "Travel across stunning planets in <em>Super Mario Galaxy</em>. A revolutionary platformer that brings gravity-defying gameplay to life.",
+            "Image": "images/supermariogalaxypic.jpg"
+        },
+        {
+            "Name": "New Super Mario Bros. Wii",
+            "Tags": ["Casual"],
+            "FirstSentence": "Just a well-done mario game with great music",
+            "RemainingDescription": "Jump into the classic Mario experience in <em>New Super Mario Bros. Wii</em>. A fun-filled platformer for friends and family.",
+            "Image": "images/newsupermariobroswiipic.jpg"
+        },
+        {
+            "Name": "Mario Kart Wii",
+            "Tags": ["Social", "Sports", "Competitive"],
+            "FirstSentence": "Amazing game with untold mechanics",
+            "RemainingDescription": "Rev your engines in <em>Mario Kart Wii</em>. A thrilling racing game with classic tracks, wacky power-ups, and endless fun.",
+            "Image": "images/mariokartwiipic.jpg"
+        },
+        {
+            "Name": "Super Smash Bros. Brawl",
+            "Tags": ["Social", "Competitive", "Strategy"],
+            "FirstSentence": "A classic for house parties",
+            "RemainingDescription": "Battle iconic characters in <em>Super Smash Bros. Brawl</em>. A beloved fighting game with intense multiplayer action.",
+            "Image": "images/supersmashbrosbrawlpic.jpg"
+        },
+        {
+            "Name": "Wii Sports Resort",
+            "Tags": ["Sports", "Competitive"],
+            "FirstSentence": "Who doesn't like Wii Bowiling?",
+            "RemainingDescription": "Experience a variety of exciting sports in <em>Wii Sports Resort</em>. A motion-controlled game that delivers family fun.",
+            "Image": "images/wiisportsresortpic.jpg"
+        },
+        {
+            "Name": "Club Penguin",
+            "Tags": ["Social"],
+            "FirstSentence": "One of the best Candian games out there",
+            "RemainingDescription": "<em>Club Penguin</em> was an iconic social multiplayer game. Customize your penguin, decorate igloos, and play games in a vibrant world.",
+            "Image": "images/clubpenguinpic.jpg"
+        },
+        {
+            "Name": "Steel Sentinels",
+            "Tags": ["Strategy", "Competitive"],
+            "FirstSentence": "A forgotten flashgame that was just so good",
+            "RemainingDescription": "<em>Steel Sentinels</em> is a tactical mech combat game. Command powerful mechs and dominate the battlefield in strategic multiplayer battles.",
+            "Image": "images/steelsentinelspic.jpg"
+        },
+        {
+            "Name": "Arcanists",
+            "Tags": ["Strategy", "Competitive"],
+            "FirstSentence": "Another amazing yet forgotten turn based flash game",
+            "RemainingDescription": "Cast spells and strategize in <em>Arcanists</em>. A turn-based multiplayer game with magical battles and tactical depth.",
+            "Image": "images/arcanistspic.jpg"
+        }
+    ]
+}

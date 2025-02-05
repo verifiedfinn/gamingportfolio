@@ -1,0 +1,120 @@
+[
+    {
+      "title": "Fade : Counter-Strike",
+      "url": "https://csgoskins.gg/items/butterfly-knife-fade",
+      "description": [
+        "Amazing gradient of sunset colors",
+        "Fantastic inspect animation",
+        "Has a nice size so it isn't too distracting"
+      ],
+      "images": {
+        "src": "images/fade.png",
+        "alt": "Butterfly Knife Fade Picture"
+      }
+    },
+    {
+      "title": "Commander Robe : Wizard101",
+      "url": "https://wiki.wizard101central.com/wiki/Item:Prestigious_Robe_(Any_Level)",
+      "description": [
+        "Majestic styling with ties to Knights",
+        "Royal and achieved only by getting warlord rank in PvP",
+        "Able to be paired with other armor sets"
+      ],
+      "images": {
+        "src": "images/wizard101-gear-4.jpg",
+        "alt": "Commander Robe Picture"
+      }
+    },
+    {
+      "title": "Black Dieci Wheels : Rocket League",
+      "url": "https://rocket-league.com/items/wheels/dieci/black",
+      "description": [
+        "Clean deep black that goes with everything",
+        "Fantastic symmetrical pattern which doesn't clash",
+        "Expensive and minimalistic making it highly valued"
+      ],
+      "images": {
+        "src": "images/wheels.jpg",
+        "alt": "Dieci Wheels Picture"
+      }
+    },
+    {
+      "title": "Awp Prince : Counter-Strike",
+      "url": "https://csgoskins.gg/items/awp-the-prince",
+      "description": [
+        "Filigree inspired design proclaiming royalty",
+        "Ultra rare with almost none dropped",
+        "Minimalist beauty with fine details"
+      ],
+      "images": {
+        "src": "images/prince.png",
+        "alt": "Awp Prince Picture"
+      }
+    },
+    {
+      "title": "M4A4 Howl : Counter-Strike",
+      "url": "https://csgoskins.gg/items/m4a4-howl",
+      "description": [
+        "Incredible copy right history among the community",
+        "Incredibly rare with no way to obtain it besides trading",
+        "Commands power and legacy"
+      ],
+      "images": {
+        "src": "images/howl.png",
+        "alt": "M4A4 Howl Picture"
+      }
+    },
+    {
+      "title": "Incinerator : GW2",
+      "url": "https://wiki.guildwars2.com/wiki/Incinerator",
+      "description": [
+        "My love for fire encapsuled in an amazing dagger",
+        "Favorite Legendary in Guild Wars 2 by far",
+        "Has an awesome molten footstep effect"
+      ],
+      "images": {
+        "src": "images/incinerator.jpg",
+        "alt": "Incinerator Picture"
+      }
+    },
+    {
+      "title": "Deathly Shoulderpads : GW2",
+      "url": "https://wiki.guildwars2.com/wiki/Deathly_Shoulderpads_Skin",
+      "description": [
+        "Amazing shoulder skin for a theif class",
+        "Goes well with anything and can be dyed",
+        "Rare and looks quite cool"
+      ],
+      "images": {
+        "src": "images/deathlyshoulder.jpg",
+        "alt": "Deathly Shoulder Picture"
+      }
+    },
+    {
+      "title": "Assasins armor : GW2",
+      "url": "https://wiki.guildwars2.com/wiki/Assassin%27s_armor",
+      "description": [
+        "Fantastic design for male and female rogues",
+        "Can be customized and dyed as individual parts",
+        "So good looking"
+      ],
+      "images": {
+        "src": "images/assasinsarmor.jpg",
+        "alt": "Assasins armor Picture"
+      }
+    },
+    {
+      "title": "Wreath of Cooperation : GW2",
+      "url": "https://wiki.guildwars2.com/wiki/Wreath_of_Cooperation_Skin",
+      "description": [
+        "Luxurious look and minimalistic headpiece",
+        "Royalty hat without being too much",
+        "Incredibly clean and dyeable"
+      ],
+      "images": {
+        "src": "images/wreathofcooperation.jpg",
+        "alt": "Wreath of Cooperation Picture"
+      }
+    }
+  ]
+  

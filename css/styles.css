@@ -643,237 +643,193 @@ nav ul li a:hover {
 
 
 
-/* Responsive Adjustments */
+/* ===== Mobile & Tablet Responsive Styles ===== */
+
 @media screen and (max-width: 768px) {
+    /* General Cleanup */
+    html, body {
+        overflow-x: hidden;
+    }
+
+    /* Game Container on Portfolio Page */
     #portfolio-page #game-container {
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
     }
 
     #portfolio-page .game_types {
-        flex: 0 1 90%; /* Take up 90% of the container's width */
-        max-width: 400px; /* Limit maximum size for smaller screens */
+        flex: 0 1 90%;
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+        min-height: 420px;
+        box-sizing: border-box;
+        margin: 10px 0;
     }
-}
 
-@media screen and (max-width: 480px) {
-    #portfolio-page .game_types {
-        flex: 0 1 100%; /* Take up full width on very small screens */
-    }
-
-    #portfolio-page .button-link {
-        width: 100%; /* Make buttons full-width */
+    /* Buttons inside cards */
+    #portfolio-page .button-link,
+    .favorite-btn {
+        width: 100%;
+        box-sizing: border-box;
         text-align: center;
+        margin: 5px 0;
     }
-}
 
-
-
-
-/* Responsive Adjustments for Buttons/Responsive Media Queries */
-@media screen and (max-width: 768px) {
-    #filters {
-        flex-wrap: wrap; /* Ensure buttons wrap on smaller screens */
-    }
-    .filter-btn {
-        flex: 0 1 auto; /* Allow buttons to resize naturally */
-        font-size: 0.8rem; /* Adjust font size for smaller screens */
-        padding: 8px 15px; /* Adjust padding for smaller screens */
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .filter-btn {
-        width: 100%; /* Stack buttons for very small screens */
+    /* Title Centering */
+    #portfolio-page #title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
     }
-}
 
-/* Media Query for Smaller Screens */
-@media screen and (max-width: 768px) {
-    /* Stack navigation links vertically */
+    #portfolio-page #title span {
+        display: inline-block;
+        white-space: normal;
+        font-size: 1.4rem;
+    }
+
+    /* Nav Styling */
     nav ul {
         flex-direction: column;
         gap: 25px;
         align-items: center;
+        width: 100%;
     }
 
     nav ul li a {
-        width: 100%; /* Make the links span the full width */
-        text-align: center; /* Center the text */
-    }
-}
-
-/* Media Query for Very Small Screens (Optional) */
-@media screen and (max-width: 480px) {
-    nav ul {
-        width: 100%; /* Ensure nav container spans full width */
+        width: 100%;
+        text-align: center;
+        font-size: 0.9rem;
+        padding: 8px 10px;
     }
 
-    nav ul li a {
-        font-size: 0.9rem; /* Adjust font size for readability */
-        padding: 8px 10px; /* Reduce padding for compact layout */
+    /* Filters */
+    #filters {
+        flex-wrap: wrap;
+        justify-content: center;
     }
-}
 
-/* For Tablets and Phones (screens 768px and below) */
-@media (max-width: 768px) {
+    .filter-btn {
+        flex: 0 1 auto;
+        font-size: 0.8rem;
+        padding: 8px 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Carousel & Skin List */
     #carousel-container {
-        display: none; /* Hide the carousel container */
+        display: none;
     }
 
     #slidercontent {
-        display: block !important; /* Ensure the list of skins is always visible */
-        width: 90%; /* Adjust the width for smaller screens */
-        margin: 10px auto; /* Center the content */
+        display: block !important;
+        width: 90%;
+        margin: 10px auto;
     }
 
     .skin-item h2 {
-        font-size: 1.2rem; /* Reduce heading size */
+        font-size: 1.2rem;
     }
 
     .skin_image {
-        width: 100%; /* Adjust images to fit the screen */
-        height: auto; /* Maintain aspect ratio */
-        border-radius: 10px; /* Consistent styling */
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
     }
 
     #skins-list {
         display: flex;
         flex-wrap: wrap;
-        gap: 10px; /* Add spacing between items */
-        justify-content: center; /* Center-align items */
+        gap: 10px;
+        justify-content: center;
     }
 
     h1, h2 {
-        font-size: 1.5rem; /* Reduce heading size */
-    }
-}
-
-/* Adjust title size specifically for the portfolio page on smaller screens */
-@media screen and (max-width: 768px) {
-    #portfolio-page #title span {
-        font-size: 1.4rem; /* Slightly reduce font size */
+        font-size: 1.5rem;
+        text-align: center;
     }
 
-    #portfolio-page #title {
-        display: inline-block;
-        white-space: nowrap; /* Prevent wrapping */
-    }
-}
-
-/* Further adjustments for very small screens (iPhones, etc.) */
-@media screen and (max-width: 480px) {
-    #portfolio-page #title span {
-        font-size: 1.8rem; /* Further reduce font size */
-    }
-}
-
-/* Responsive Adjustments for About Me Page */
-@media screen and (max-width: 768px) {
-    /* Center navigation links vertically */
-    nav ul {
-        flex-direction: column;
-        gap: 25px;
-        align-items: center;
-    }
-
-    nav ul li a {
-        width: 100%; /* Make the links span the full width */
-        text-align: center; /* Center-align text */
-        font-size: 0.9rem; /* Adjust font size */
-    }
-
-    /* Adjust the title on smaller screens */
-    #title span {
-        font-size: 1.5rem; /* Reduce the font size for About Me title */
-    }
-
-    /* Ensure the About Me container scales nicely */
+    /* About Me */
     .about-me {
-        padding: 20px; /* Add padding for better spacing */
-        text-align: center; /* Center-align all content */
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
     }
 
-    /* About header adjustments */
-    .about-header h1 {
-        font-size: 1.8rem; /* Scale the main header */
-    }
-
-    .about-header h2 {
-        font-size: 1.2rem; /* Scale the subheader */
-    }
-
-    /* Adjust the profile picture for smaller screens */
     #profile-pic {
-        max-width: 400px; /* Constrain size */
-        height: auto; /* Maintain aspect ratio */
-        margin: 0 auto 20px; /* Center with spacing below */
-        display: block; /* Ensure it's centered */
+        max-width: 250px;
+        height: auto;
+        margin: 0 auto 20px;
+        display: block;
     }
 
-    /* Adjust About Me text content */
     .about-text p {
-        font-size: 0.9rem; /* Scale down the text */
-        line-height: 1.5; /* Adjust line spacing */
-        margin: 0 10px 20px; /* Add horizontal padding and space below */
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin: 0 10px 20px;
     }
 
-    /* Center and reposition the CV Download Button */
     .download-cv-btn {
-        display: block; /* Ensure it spans its own row */
-        margin: 0 auto; /* Center it horizontally */
-        text-align: center; /* Align text within the button */
-        width: 250px; /* Keep size compact */
-        padding: 10px 15px; /* Adjust padding for better touchability */
-        background: linear-gradient(to right, #ff9a9e, #fad0c4); /* Stylish gradient */
-        color: #fff; /* Contrast text color */
-        border: none; /* Remove borders */
-        border-radius: 5px; /* Add rounded corners */
-        font-size: 1rem; /* Adjust font size */
-        cursor: pointer; /* Indicate interactivity */
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        width: 250px;
+        margin: 20px auto 0;
+        font-size: 1rem;
+        padding: 10px 15px;
+        display: block;
+        text-align: center;
+        background: linear-gradient(to right, #ff9a9e, #fad0c4);
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     }
 }
 
-/* Media Query for Very Small Screens (e.g., iPhone SE) */
+/* ===== Very Small Screens (iPhones, etc.) ===== */
+
 @media screen and (max-width: 480px) {
-    nav ul {
-        width: 100%; /* Ensure the nav container spans full width */
+    #portfolio-page .game_types {
+        flex: 0 1 100%;
+        width: 100%;
+    }
+
+    #portfolio-page #title span {
+        font-size: 1.3rem;
     }
 
     nav ul li a {
-        padding: 8px 10px; /* Reduce padding for compact layout */
-        font-size: 0.85rem; /* Scale font size further */
+        font-size: 0.85rem;
+        padding: 8px 10px;
     }
 
-    #title span {
-        font-size: 1.3rem; /* Further reduce title font size */
+    .filter-btn {
+        font-size: 0.75rem;
+        padding: 7px 12px;
     }
 
-    /* Adjust profile picture for very small screens */
-    #profile-pic {
-        max-width: 250px; /* Scale down the profile picture */
-    }
-
-    /* About header adjustments */
     .about-header h1 {
-        font-size: 1.6rem; /* Further scale main header */
+        font-size: 1.6rem;
     }
 
     .about-header h2 {
-        font-size: 1rem; /* Further scale subheader */
+        font-size: 1rem;
     }
 
-    /* Adjust About Me text content */
     .about-text p {
-        font-size: 0.8rem; /* Further scale text size */
+        font-size: 0.8rem;
     }
 
-    /* Center and reposition CV button for very small screens */
     .download-cv-btn {
-        margin-top: 20px; /* Add margin above the button */
-        font-size: 0.9rem; /* Reduce font size */
-        padding: 8px 12px; /* Adjust padding */
+        font-size: 0.9rem;
+        padding: 8px 12px;
     }
 }

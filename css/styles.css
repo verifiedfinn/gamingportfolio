@@ -644,14 +644,11 @@ nav ul li a:hover {
 
 
 /* ===== Mobile & Tablet Responsive Styles ===== */
-
 @media screen and (max-width: 768px) {
-    /* General Cleanup */
     html, body {
         overflow-x: hidden;
     }
 
-    /* Game Container on Portfolio Page */
     #portfolio-page #game-container {
         flex-direction: column;
         align-items: center;
@@ -670,7 +667,6 @@ nav ul li a:hover {
         margin: 10px 0;
     }
 
-    /* Buttons inside cards */
     #portfolio-page .button-link,
     .favorite-btn {
         width: 100%;
@@ -679,7 +675,6 @@ nav ul li a:hover {
         margin: 5px 0;
     }
 
-    /* Title Centering */
     #portfolio-page #title {
         display: flex;
         justify-content: center;
@@ -696,7 +691,6 @@ nav ul li a:hover {
         font-size: 1.4rem;
     }
 
-    /* Nav Styling */
     nav ul {
         flex-direction: column;
         gap: 25px;
@@ -715,17 +709,29 @@ nav ul li a:hover {
     #filters {
         flex-wrap: wrap;
         justify-content: center;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        overflow-x: hidden;
     }
 
     .filter-btn {
-        flex: 0 1 auto;
+        width: 100%;
+        max-width: 400px;
+        box-sizing: border-box;
         font-size: 0.8rem;
         padding: 8px 15px;
-        width: 100%;
+        margin: 5px auto;
         text-align: center;
+        display: block;
     }
 
-    /* Carousel & Skin List */
+    #search-bar {
+        -webkit-appearance: none;
+        outline: none;
+    }
+
     #carousel-container {
         display: none;
     }
@@ -758,7 +764,6 @@ nav ul li a:hover {
         text-align: center;
     }
 
-    /* About Me */
     .about-me {
         flex-direction: column;
         padding: 20px;
@@ -795,7 +800,6 @@ nav ul li a:hover {
 }
 
 /* ===== Very Small Screens (iPhones, etc.) ===== */
-
 @media screen and (max-width: 480px) {
     #portfolio-page .game_types {
         flex: 0 1 100%;
@@ -814,6 +818,9 @@ nav ul li a:hover {
     .filter-btn {
         font-size: 0.75rem;
         padding: 7px 12px;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
     }
 
     .about-header h1 {

@@ -764,11 +764,6 @@ nav ul li a:hover {
         text-align: center;
     }
 
-    #description {
-    transform: scale(0.95) !important;
-    transform-origin: top center;
-    }
-
     .about-me {
         flex-direction: column;
         padding: 20px;

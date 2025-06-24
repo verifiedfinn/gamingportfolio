@@ -764,6 +764,10 @@ nav ul li a:hover {
         text-align: center;
     }
 
+    #description {
+    font-size: 0.95rem; /* or try 0.9rem if needed */
+    }
+
     .about-me {
         flex-direction: column;
         padding: 20px;

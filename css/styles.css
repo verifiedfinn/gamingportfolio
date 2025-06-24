@@ -765,7 +765,7 @@ nav ul li a:hover {
     }
 
     #description {
-    font-size: 0.7rem; /* or try 0.9rem if needed */
+    font-size: 0.9rem !important;
     }
 
     .about-me {

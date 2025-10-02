@@ -446,6 +446,181 @@
             "FirstSentence": "Another amazing yet forgotten turn based flash game",
             "RemainingDescription": "Cast spells and strategize in <em>Arcanists</em>. A turn-based multiplayer game with magical battles and tactical depth.",
             "Image": "images/arcanistspic.jpg"
-        }
+        },
+        {
+            "Name": "Lego Star Wars",
+            "Tags": ["Adventure"],
+            "FirstSentence": "A childhood classic with great game design",
+            "RemainingDescription": "<em>Lego Star Wars</em> is an adventure game that allows you to explore the Star Wars universe in a Lego way.",
+            "Image": "images/starwarslego.jpg"
+        },
+        {
+            "Name": "Lego Indiana Jones",
+            "Tags": ["Adventure"],
+            "FirstSentence": "A childhood classic with great game design especially to movie details.",
+            "RemainingDescription": "<em>Lego Indiana Jones</em> is an adventure game that allows you to explore the Indian Jones universe in a Lego way.",
+            "Image": "images/indianalego.jpg"
+        },
+        {
+            "Name": "Wii Play",
+            "Tags": ["Casual", "Sports"],
+            "FirstSentence": "A collection of fun mini-games and Tanks which I played so much with my Dad.",
+            "RemainingDescription": "<em>Wii Play</em> includes a variety of casual activities such as shooting, fishing, and table tennis.",
+            "Image": "images/wiiplay.jpg"
+        },
+        {
+            "Name": "Deca Sports",
+            "Tags": ["Sports"],
+            "FirstSentence": "A multi-sport compilation offering a wide variety of games to play with my Dad.",
+            "RemainingDescription": "<em>Deca Sports</em> lets players compete in ten unique sporting events.",
+            "Image": "images/decasports.jpg"
+        },
+        {
+            "Name": "Nerf Strike Elite",
+            "Tags": ["Shooter"],
+            "FirstSentence": "An arcade-style shooter inspired by the Nerf Guns and really great customization.",
+            "RemainingDescription": "<em>Nerf Strike Elite</em> delivers fast-paced shooting action in colorful arenas.",
+            "Image": "images/nerfstrike.jpg"
+        },
+        {
+            "Name": "GH World Tour",
+            "Tags": ["Casual", "Social"],
+            "FirstSentence": "A Classic for guitar players and really exposed me to all things rock.",
+            "RemainingDescription": "<em>Guitar Hero World Tour</em> is a game where you play iconic guitar songs.",
+            "Image": "images/ghworldtour.jpg"
+        },
+        {
+            "Name": "TloS: Eternal Night",
+            "Tags": ["Adventure", "RPG"],
+            "FirstSentence": "The dark second entry in the Legend of Spyro trilogy.",
+            "RemainingDescription": "<em>The Legend of Spyro: The Eternal Night</em> continues Spyro's journey with new powers and challenges.",
+            "Image": "images/tloseternalnight.jpg"
+        },
+        {
+            "Name": "The Legend of Spyro: Dawn of the Dragon",
+            "Tags": ["Adventure", "RPG"],
+            "FirstSentence": "A co-op fusion enabled conclusion to Spyro’s epic trilogy and really well designed.",
+            "RemainingDescription": "<em>Dawn of the Dragon</em> introduces free flight and the ability to play as both Spyro and Cynder in realistic fashion.",
+            "Image": "images/spyrodawn.jpg"
+        },
+        {
+            "Name": "Wii Sports",
+            "Tags": ["Sports"],
+            "FirstSentence": "A classic original sports game for the Wii.",
+            "RemainingDescription": "<em>Wii Sports</em> includes tennis, bowling, boxing, baseball, and golf, offering family-friendly fun.",
+            "Image": "images/wiisports.jpg"
+        },
+        {
+            "Name": "Fifa 13",
+            "Tags": ["Sports", "Competitive"],
+            "FirstSentence": "A refined entry in EA’s long-running soccer franchise and great for competing against my Dad.",
+            "RemainingDescription": "<em>Fifa 13</em> enhances ball control, player impact, and competitive play both offline and online with an interesting story mode.",
+            "Image": "images/fifa13.jpg"
+        },
+        {
+            "Name": "Blast Works",
+            "Tags": ["Shooter", "Sandbox"],
+            "FirstSentence": "A shoot-'em-up with extensive creation tools which was fun for creativity but also very weird level wise.",
+            "RemainingDescription": "<em>Blast Works</em> lets you build your own ships, enemies, and levels while battling through scrolling stages.",
+            "Image": "images/blastworks.jpg"
+        },
+        {
+            "Name": "The Legend of Spyro",
+            "Tags": ["Adventure", "RPG"],
+            "FirstSentence": "The trilogy reboot of Spyro, great intro to the rest of them.",
+            "RemainingDescription": "<em>The Legend of Spyro</em> reimagines the character’s origins with a darker, story-driven adventure.",
+            "Image": "images/legendofspyro.jpg"
+        },
+        {
+            "Name": "MLB2K8",
+            "Tags": ["Sports"],
+            "FirstSentence": "A realistic baseball experience from the 2K series that was fun over ice cream and chaos with my Dad.",
+            "RemainingDescription": "<em>MLB 2K8</em> delivers simulation-focused gameplay with updated rosters and mechanics.",
+            "Image": "images/mlb2k8.jpg"
+        },
+        {
+            "Name": "Lego Indiana Jones",
+            "Tags": ["Adventure"],
+            "FirstSentence": "A childhood classic with great game design especially to movie details.",
+            "RemainingDescription": "<em>Lego Indiana Jones</em> is an adventure game that allows you to explore the Indiana Jones universe in a Lego way.",
+            "Image": "images/indianalegoog.jpg"
+        },
+        {
+            "Name": "Tron: Evolution",
+            "Tags": ["Adventure", "Action"],
+            "FirstSentence": "A futuristic action-adventure set in the Tron universe very accurate to the movie.",
+            "RemainingDescription": "<em>Tron: Evolution</em> bridges the story between the original film and <em>Tron: Legacy</em> with fast-paced combat and parkour.",
+            "Image": "images/tronevolution.jpg"
+        },
+        {
+            "Name": "Super Mario Galaxy 2",
+            "Tags": ["Adventure", "Platformer"],
+            "FirstSentence": "A colorful space adventure with Mario and Yoshi a sequel to the original.",
+            "RemainingDescription": "<em>Super Mario Galaxy 2</em> expands the original with new levels, abilities, and gravity-defying platforming.",
+            "Image": "images/mariogalaxy2.jpg"
+        },
+        {
+            "Name": "DKC Returns",
+            "Tags": ["Adventure", "Platformer"],
+            "FirstSentence": "The classic Donkey Kong series returns with new life and great motion controls instead of bongos.",
+            "RemainingDescription": "<em>Donkey Kong Country Returns</em> revives the platforming legacy with modern visuals and cooperative play.",
+            "Image": "images/dkcreturns.jpg"
+        },
+        {
+            "Name": "MySims Kingdom",
+            "Tags": ["Casual", "Sandbox"],
+            "FirstSentence": "A spin-off Sims game with a story-driven kingdom twist very interesting on the Wii.",
+            "RemainingDescription": "<em>MySims Kingdom</em> allows players to build, customize, and explore a whimsical kingdom.",
+            "Image": "images/mysimskingdom.jpg"
+        },
+        {
+            "Name": "Carnival Games",
+            "Tags": ["Casual"],
+            "FirstSentence": "A party game featuring classic carnival attractions almost like a flash game.",
+            "RemainingDescription": "<em>Carnival Games</em> lets you experience virtual midway activities like ring toss, skee-ball, and dunk tanks.",
+            "Image": "images/carnivalgames.jpg"
+        },
+        {
+            "Name": "WALL-E",
+            "Tags": ["Adventure"],
+            "FirstSentence": "An interactive retelling of Pixar’s animated classic with some great puzzles.",
+            "RemainingDescription": "<em>WALL-E</em> lets players guide the lovable robot through levels inspired by the film.",
+            "Image": "images/walle.jpg"
+        },
+        {
+            "Name": "Big Beach Sports",
+            "Tags": ["Sports"],
+            "FirstSentence": "A summer-themed sports collection set by the beach very niche.",
+            "RemainingDescription": "<em>Big Beach Sports</em> includes volleyball, soccer, cricket, and other tropical sports.",
+            "Image": "images/bigbeachsports.jpg"
+        },
+        {
+            "Name": "Boom Blox",
+            "Tags": ["Strategy", "Casual"],
+            "FirstSentence": "A puzzle game co-designed with Steven Spielberg and also odd puzzles.",
+            "RemainingDescription": "<em>Boom Blox</em> challenges players to knock down block structures using physics and strategy.",
+            "Image": "images/boomblox.jpg"
+        },
+        {
+            "Name": "Tournament of Legends",
+            "Tags": ["Fighting"],
+            "FirstSentence": "A mythological-themed fighting game for the Wii wwhich was pretty fun albeit forgetful.",
+            "RemainingDescription": "<em>Tournament of Legends</em> features gladiator-style combat with fantastical warriors and weapons.",
+            "Image": "images/tournamentoflegends.jpg"
+        },
+        {
+            "Name": "GW Galaxies",
+            "Tags": ["MMORPG", "Adventure"],
+            "FirstSentence": "Think space but lots of particles.",
+            "RemainingDescription": "<em>Galactic Wars Galaxies</em> provides online exploration, battles, and interstellar trading.",
+            "Image": "images/gwgalaxies.jpg"
+        },
+        {
+            "Name": "X Men Destiny",
+            "Tags": ["RPG", "Adventure"],
+            "FirstSentence": "A branching story-driven X-Men action RPG with interesting twists.",
+            "RemainingDescription": "<em>X-Men Destiny</em> lets players choose their powers and shape their destiny among mutants.",
+            "Image": "images/xmendestiny.jpg"
+        }    
     ]
 }

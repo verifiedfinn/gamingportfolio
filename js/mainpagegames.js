@@ -1,28 +1,46 @@
 $(document).ready(function () {
     let gamesData = [];
     let currentFilter = "All";
-    let favorites = JSON.parse(localStorage.getItem("favorites")) || []; // Load saved favorites
-    let sessionOrder = JSON.parse(sessionStorage.getItem("gameOrder")) || []; // Load game order from sessionStorage
+    let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+    let sessionOrder = JSON.parse(sessionStorage.getItem("gameOrder")) || [];
 
-    // Fetch JSON data
     $.getJSON("data/gameinfo.json", function (data) {
         gamesData = data.games;
 
-        // Randomize order on first load if no session order exists
         if (sessionOrder.length === 0) {
             sessionOrder = shuffleArray(gamesData.map((game) => game.Name));
             sessionStorage.setItem("gameOrder", JSON.stringify(sessionOrder));
         }
 
-        // Reorder games based on session storage
         gamesData = reorderGamesBySession(gamesData, sessionOrder);
 
-        displayGames(); // Render all games initially
+        fetch('https://gamingportfolio-mauve.vercel.app/api/steam')
+            .then(res => res.json())
+            .then(steamData => {
+                const steamMap = {};
+                steamData.games.forEach(g => {
+                    steamMap[g.name.toLowerCase()] = g;
+                });
+
+                gamesData = gamesData.map(game => {
+                    const steamGame = steamMap[game.Name.toLowerCase()];
+                    if (steamGame) {
+                        game.Hours = steamGame.hours;
+                        game.RecentlyPlayed = steamGame.recentlyPlayed;
+                    }
+                    return game;
+                });
+
+                displayGames();
+            })
+            .catch(() => {
+                displayGames();
+            });
+
     }).fail(function () {
         console.error("Failed to load JSON data.");
     });
 
-    // Shuffle array (Fisher-Yates algorithm)
     function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
@@ -31,7 +49,6 @@ $(document).ready(function () {
         return array;
     }
 
-    // Reorder games based on session order
     function reorderGamesBySession(games, order) {
         const orderedGames = [];
         const gameMap = games.reduce((map, game) => {
@@ -39,15 +56,13 @@ $(document).ready(function () {
             return map;
         }, {});
 
-        // Add games in the saved order
         order.forEach((gameName) => {
             if (gameMap[gameName]) {
                 orderedGames.push(gameMap[gameName]);
-                delete gameMap[gameName]; // Remove from map once added
+                delete gameMap[gameName];
             }
         });
 
-        // Add any remaining games that weren't in the saved order
         Object.values(gameMap).forEach((game) => {
             orderedGames.push(game);
         });
@@ -55,13 +70,11 @@ $(document).ready(function () {
         return orderedGames;
     }
 
-    // Save current game order to sessionStorage
     function saveGameOrder(games) {
         const gameOrder = games.map((game) => game.Name);
         sessionStorage.setItem("gameOrder", JSON.stringify(gameOrder));
     }
 
-    // Function to display games
     function displayGames(filter = "All", searchQuery = "", sortDirection = "none") {
         const container = $("#game-container");
         container.empty();
@@ -84,14 +97,11 @@ $(document).ready(function () {
             gamesToDisplay = sortGames(gamesToDisplay, sortDirection);
         }
 
-        // Save the current order to sessionStorage
         saveGameOrder(gamesToDisplay);
-
         gamesToDisplay.forEach((game) => container.append(renderGame(game)));
-        attachHandlers(); // Attach handlers to dynamically added elements
+        attachHandlers();
     }
 
-    // Sorting logic
     function sortGames(games, direction) {
         if (direction === "A-Z") {
             return games.sort((a, b) => a.Name.localeCompare(b.Name));
@@ -99,29 +109,34 @@ $(document).ready(function () {
         if (direction === "Z-A") {
             return games.sort((a, b) => b.Name.localeCompare(a.Name));
         }
-        return games; // Default to the current order if no sortDirection is applied
+        return games;
     }
 
-    // Render a single game
     function renderGame(game) {
         const isFavorite = favorites.includes(game.Name);
         const favoriteClass = isFavorite ? "favorited" : "";
+        const hoursDisplay = game.Hours !== undefined
+            ? `<span class="game-hours">⏱ ${game.Hours} hrs</span>`
+            : '';
+        const recentBadge = game.RecentlyPlayed
+            ? `<span class="recently-played-badge">● Recently Played</span>`
+            : '';
 
         return `
             <div class="game_types" data-name="${game.Name}">
-                <h2>${game.Name}</h2>
+                <h2>${game.Name} ${recentBadge}</h2>
                 <p class="short-description">${game.FirstSentence}</p>
                 <div class="more-content" style="display: none;">
                     <p>${game.RemainingDescription}</p>
                 </div>
                 <img src="${game.Image}" alt="${game.Name}" class="game-image">
+                ${hoursDisplay}
                 <button class="button-link read-more-btn">Read More</button>
                 <button class="favorite-btn ${favoriteClass}">❤️ Favorite</button>
             </div>
         `;
     }
 
-    // Attach handlers for read more and favorite buttons
     function attachHandlers() {
         $(".read-more-btn").on("click", function (event) {
             event.stopPropagation();
@@ -145,18 +160,15 @@ $(document).ready(function () {
             if ($(this).hasClass("favorited")) {
                 favorites = favorites.filter((favName) => favName !== gameName);
                 $(this).removeClass("favorited");
-                console.log(`Removed ${gameName} from favorites.`);
             } else {
                 favorites.push(gameName);
                 $(this).addClass("favorited");
-                console.log(`Added ${gameName} to favorites.`);
             }
 
-            localStorage.setItem("favorites", JSON.stringify(favorites)); // Save to localStorage
+            localStorage.setItem("favorites", JSON.stringify(favorites));
         });
     }
 
-    // "View Favorites" button functionality
     $("#view-favorites").on("click", function () {
         if (currentFilter === "Favorites") {
             currentFilter = "All";
@@ -168,7 +180,6 @@ $(document).ready(function () {
         displayGames(currentFilter, $("#search-bar").val());
     });
 
-    // Filter button clicks
     $("#filters").on("click", ".filter-btn", function () {
         $(".filter-btn").removeClass("active");
         $(this).addClass("active");
@@ -176,12 +187,10 @@ $(document).ready(function () {
         displayGames(currentFilter, $("#search-bar").val());
     });
 
-    // Search input
     $("#search-bar").on("input", function () {
         displayGames(currentFilter, $(this).val());
     });
 
-    // Sort buttons
     $("#sort-a-z").on("click", function () {
         displayGames(currentFilter, $("#search-bar").val(), "A-Z");
     });

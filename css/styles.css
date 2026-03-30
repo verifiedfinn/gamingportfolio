@@ -108,6 +108,29 @@ nav ul li a:hover {
     text-align: center; 
 }
 
+/* Extra tile for game hours and games I am playing via api*/
+.game-hours {
+    display: block;
+    color: #00ff9f;
+    font-size: 0.85rem;
+    margin: 6px 0;
+    font-family: monospace;
+    letter-spacing: 0.05em;
+}
+
+.recently-played-badge {
+    color: #00ff9f;
+    font-size: 0.75rem;
+    margin-left: 8px;
+    vertical-align: middle;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+}
+
 /* Buttons for cv download inspired by og portfolio */
 .download-cv-btn {
     background: linear-gradient(to right, #ffafbd, #ffc3a0);

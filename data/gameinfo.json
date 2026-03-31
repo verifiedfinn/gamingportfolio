@@ -36,7 +36,7 @@
             "Name": "Hollow Knight",
             "Tags": ["Rogue-like", "Adventure"],
             "FirstSentence": "<em>Hollow Knight</em> is a rogue-like game with a fantastic art style",
-            "RemainingDescription": "That I picked up during a reading week in undergrad. Going in blind, I had no idea what to expect except that I was a little bug in an unknown world. The story, narrative, and exploration in this game are fantastic. It’s a must-play despite my limited hours in it.",
+            "RemainingDescription": "That I picked up during a reading week in undergrad. Going in blind, I had no idea what to expect except that I was a little bug in an unknown world. The story, narrative, and exploration in this game are fantastic. It's a must-play despite my limited hours in it.",
             "Image": "images/hollowknightpic.jpg",
             "Link": "https://store.steampowered.com/app/367520/Hollow_Knight/"
         },
@@ -401,6 +401,7 @@
         {
             "Name": "New Super Mario Bros. Wii",
             "Tags": ["Casual"],
+            "Hours": 1221,
             "FirstSentence": "Just a well-done mario game with great music",
             "RemainingDescription": "Jump into the classic Mario experience in <em>New Super Mario Bros. Wii</em>. A fun-filled platformer for friends and family.",
             "Image": "images/newsupermariobroswiipic.jpg"
@@ -408,6 +409,7 @@
         {
             "Name": "Mario Kart Wii",
             "Tags": ["Social", "Sports", "Competitive"],
+            "Hours": 659,
             "FirstSentence": "Amazing game with untold mechanics",
             "RemainingDescription": "Rev your engines in <em>Mario Kart Wii</em>. A thrilling racing game with classic tracks, wacky power-ups, and endless fun.",
             "Image": "images/mariokartwiipic.jpg"
@@ -415,6 +417,7 @@
         {
             "Name": "Super Smash Bros. Brawl",
             "Tags": ["Social", "Competitive", "Strategy"],
+            "Hours": 650,
             "FirstSentence": "A classic for house parties",
             "RemainingDescription": "Battle iconic characters in <em>Super Smash Bros. Brawl</em>. A beloved fighting game with intense multiplayer action.",
             "Image": "images/supersmashbrosbrawlpic.jpg"
@@ -450,6 +453,7 @@
         {
             "Name": "Lego Star Wars",
             "Tags": ["Adventure"],
+            "Hours": 640,
             "FirstSentence": "A childhood classic with great game design",
             "RemainingDescription": "<em>Lego Star Wars</em> is an adventure game that allows you to explore the Star Wars universe in a Lego way.",
             "Image": "images/starwarslego.jpg"
@@ -457,6 +461,7 @@
         {
             "Name": "Lego Indiana Jones",
             "Tags": ["Adventure"],
+            "Hours": 461,
             "FirstSentence": "A childhood classic with great game design especially to movie details.",
             "RemainingDescription": "<em>Lego Indiana Jones</em> is an adventure game that allows you to explore the Indian Jones universe in a Lego way.",
             "Image": "images/indianalego.jpg"
@@ -464,6 +469,7 @@
         {
             "Name": "Wii Play",
             "Tags": ["Casual", "Sports"],
+            "Hours": 408,
             "FirstSentence": "A collection of fun mini-games and Tanks which I played so much with my Dad.",
             "RemainingDescription": "<em>Wii Play</em> includes a variety of casual activities such as shooting, fishing, and table tennis.",
             "Image": "images/wiiplay.jpg"
@@ -471,6 +477,7 @@
         {
             "Name": "Deca Sports",
             "Tags": ["Sports"],
+            "Hours": 338,
             "FirstSentence": "A multi-sport compilation offering a wide variety of games to play with my Dad.",
             "RemainingDescription": "<em>Deca Sports</em> lets players compete in ten unique sporting events.",
             "Image": "images/decasports.jpg"
@@ -478,6 +485,7 @@
         {
             "Name": "Nerf Strike Elite",
             "Tags": ["Shooter"],
+            "Hours": 264,
             "FirstSentence": "An arcade-style shooter inspired by the Nerf Guns and really great customization.",
             "RemainingDescription": "<em>Nerf Strike Elite</em> delivers fast-paced shooting action in colorful arenas.",
             "Image": "images/nerfstrike.jpg"
@@ -485,6 +493,7 @@
         {
             "Name": "GH World Tour",
             "Tags": ["Casual", "Social"],
+            "Hours": 238,
             "FirstSentence": "A Classic for guitar players and really exposed me to all things rock.",
             "RemainingDescription": "<em>Guitar Hero World Tour</em> is a game where you play iconic guitar songs.",
             "Image": "images/ghworldtour.jpg"
@@ -499,7 +508,7 @@
         {
             "Name": "The Legend of Spyro: Dawn of the Dragon",
             "Tags": ["Adventure", "RPG"],
-            "FirstSentence": "A co-op fusion enabled conclusion to Spyro’s epic trilogy and really well designed.",
+            "FirstSentence": "A co-op fusion enabled conclusion to Spyro's epic trilogy and really well designed.",
             "RemainingDescription": "<em>Dawn of the Dragon</em> introduces free flight and the ability to play as both Spyro and Cynder in realistic fashion.",
             "Image": "images/spyrodawn.jpg"
         },
@@ -513,7 +522,7 @@
         {
             "Name": "Fifa 13",
             "Tags": ["Sports", "Competitive"],
-            "FirstSentence": "A refined entry in EA’s long-running soccer franchise and great for competing against my Dad.",
+            "FirstSentence": "A refined entry in EA's long-running soccer franchise and great for competing against my Dad.",
             "RemainingDescription": "<em>Fifa 13</em> enhances ball control, player impact, and competitive play both offline and online with an interesting story mode.",
             "Image": "images/fifa13.jpg"
         },
@@ -528,7 +537,7 @@
             "Name": "The Legend of Spyro",
             "Tags": ["Adventure", "RPG"],
             "FirstSentence": "The trilogy reboot of Spyro, great intro to the rest of them.",
-            "RemainingDescription": "<em>The Legend of Spyro</em> reimagines the character’s origins with a darker, story-driven adventure.",
+            "RemainingDescription": "<em>The Legend of Spyro</em> reimagines the character's origins with a darker, story-driven adventure.",
             "Image": "images/legendofspyro.jpg"
         },
         {
@@ -555,6 +564,7 @@
         {
             "Name": "Super Mario Galaxy 2",
             "Tags": ["Adventure", "Platformer"],
+            "Hours": 89,
             "FirstSentence": "A colorful space adventure with Mario and Yoshi a sequel to the original.",
             "RemainingDescription": "<em>Super Mario Galaxy 2</em> expands the original with new levels, abilities, and gravity-defying platforming.",
             "Image": "images/mariogalaxy2.jpg"
@@ -562,6 +572,7 @@
         {
             "Name": "DKC Returns",
             "Tags": ["Adventure", "Platformer"],
+            "Hours": 64,
             "FirstSentence": "The classic Donkey Kong series returns with new life and great motion controls instead of bongos.",
             "RemainingDescription": "<em>Donkey Kong Country Returns</em> revives the platforming legacy with modern visuals and cooperative play.",
             "Image": "images/dkcreturns.jpg"
@@ -569,6 +580,7 @@
         {
             "Name": "MySims Kingdom",
             "Tags": ["Casual", "Sandbox"],
+            "Hours": 53,
             "FirstSentence": "A spin-off Sims game with a story-driven kingdom twist very interesting on the Wii.",
             "RemainingDescription": "<em>MySims Kingdom</em> allows players to build, customize, and explore a whimsical kingdom.",
             "Image": "images/mysimskingdom.jpg"
@@ -576,6 +588,7 @@
         {
             "Name": "Carnival Games",
             "Tags": ["Casual"],
+            "Hours": 36,
             "FirstSentence": "A party game featuring classic carnival attractions almost like a flash game.",
             "RemainingDescription": "<em>Carnival Games</em> lets you experience virtual midway activities like ring toss, skee-ball, and dunk tanks.",
             "Image": "images/carnivalgames.jpg"
@@ -583,13 +596,15 @@
         {
             "Name": "WALL-E",
             "Tags": ["Adventure"],
-            "FirstSentence": "An interactive retelling of Pixar’s animated classic with some great puzzles.",
+            "Hours": 33,
+            "FirstSentence": "An interactive retelling of Pixar's animated classic with some great puzzles.",
             "RemainingDescription": "<em>WALL-E</em> lets players guide the lovable robot through levels inspired by the film.",
             "Image": "images/walle.jpg"
         },
         {
             "Name": "Big Beach Sports",
             "Tags": ["Sports"],
+            "Hours": 30,
             "FirstSentence": "A summer-themed sports collection set by the beach very niche.",
             "RemainingDescription": "<em>Big Beach Sports</em> includes volleyball, soccer, cricket, and other tropical sports.",
             "Image": "images/bigbeachsports.jpg"
@@ -597,6 +612,7 @@
         {
             "Name": "Boom Blox",
             "Tags": ["Strategy", "Casual"],
+            "Hours": 36,
             "FirstSentence": "A puzzle game co-designed with Steven Spielberg and also odd puzzles.",
             "RemainingDescription": "<em>Boom Blox</em> challenges players to knock down block structures using physics and strategy.",
             "Image": "images/boomblox.jpg"
@@ -604,6 +620,7 @@
         {
             "Name": "Tournament of Legends",
             "Tags": ["Fighting"],
+            "Hours": 13,
             "FirstSentence": "A mythological-themed fighting game for the Wii wwhich was pretty fun albeit forgetful.",
             "RemainingDescription": "<em>Tournament of Legends</em> features gladiator-style combat with fantastical warriors and weapons.",
             "Image": "images/tournamentoflegends.jpg"
@@ -611,6 +628,7 @@
         {
             "Name": "GW Galaxies",
             "Tags": ["MMORPG", "Adventure"],
+            "Hours": 10,
             "FirstSentence": "Think space but lots of particles.",
             "RemainingDescription": "<em>Galactic Wars Galaxies</em> provides online exploration, battles, and interstellar trading.",
             "Image": "images/gwgalaxies.jpg"
@@ -618,9 +636,10 @@
         {
             "Name": "X Men Destiny",
             "Tags": ["RPG", "Adventure"],
+            "Hours": 3,
             "FirstSentence": "A branching story-driven X-Men action RPG with interesting twists.",
             "RemainingDescription": "<em>X-Men Destiny</em> lets players choose their powers and shape their destiny among mutants.",
             "Image": "images/xmendestiny.jpg"
-        }    
+        }
     ]
 }

@@ -2,17 +2,29 @@
 * {
     margin: auto;
     padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: inherit;
+}
+
+button:active,
+a:active {
+    transform: none !important;
+    transition: none !important;
 }
 
 /* Gsap css aide cause apparently this helps */
 #description {
-    display: inline-block; /* Allow GSAP to work smoothly */
-    transform: translateZ(0); /* Use GPU for animations */
-    will-change: transform; /* Optimize for smoother rendering */
+    display: inline-block;
+    transform: translateZ(0);
+    will-change: transform;
 }
 
 #title span {
-    display: inline-block; /* Enable GSAP staggered animations */
+    display: inline-block;
 }
 
 /* Body and Main Styling */
@@ -31,13 +43,11 @@ h1, h2 {
     text-shadow: 0 0 20px #00d9ff, 0 0 40px #00d9ff, 0 0 60px #00d9ff;
 }
 
-/* Sub-distinction to make main header bigger */
 header h1 {
     font-size: 2.5rem;
     color: #ffffff;
 }
 
-/* Main header styling for big section */
 header {
     background-color: #000000;
     padding: 30px;
@@ -45,12 +55,10 @@ header {
     box-shadow: 0 0 50px #00d9ff;
 }
 
-/* Navigation positioning */
 nav {
     text-align: center;
 }
 
-/* Navigation bars list properties for perceived buttons */
 nav ul {
     list-style-type: none;
     display: inline-flex;
@@ -59,18 +67,16 @@ nav ul {
     padding: 0;
 }
 
-/* Navagation list ITEMS style */
 nav ul li a {
     color: #fff;
     text-decoration: none;
     padding: 10px 15px;
     background-color: #000000;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: background-color 0.3s, transform 0.3s, color 0.3s;
     box-shadow: 0 0 20px #00d9ff, 0 0 40px #00d9ff;
 }
 
-/* Animation for hover of said list buttons */
 nav ul li a:hover {
     background-color: #00d9ff;
     color: #000;
@@ -78,13 +84,11 @@ nav ul li a:hover {
     box-shadow: 0 0 50px #00d9ff, 0 0 100px #00d9ff;
 }
 
-/* Extra accessibility for highlight to show which page you're on */
 .active {
     background-color: #02bbdc;
     color: white;
 }
 
-/* About Me container styling */
 .about-me {
     max-width: 900px;
     margin: 0 auto;
@@ -97,7 +101,6 @@ nav ul li a:hover {
     gap: 20px;
 }
 
-/* Seperate css for text width of section*/
 .about-text {
     max-width: 500px;
     margin: 0 auto;
@@ -137,6 +140,7 @@ nav ul li a:hover {
     color: #00ff9f;
     animation: slowpulse 3s ease-in-out infinite;
 }
+
 .card-meta {
     position: absolute !important;
     top: 12px !important;
@@ -162,6 +166,29 @@ nav ul li a:hover {
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 4px;
     white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.steam-icon {
+    width: 10px !important;
+    height: 10px !important;
+    min-width: 10px;
+    min-height: 10px;
+    max-width: 10px;
+    max-height: 10px;
+    opacity: 0.6;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    object-fit: contain;
+    filter: grayscale(100%);
+}
+
+.game-image[src*="logo_steam"] {
+    object-fit: contain;
+    padding: 20px;
 }
 
 .game-hours {
@@ -176,6 +203,7 @@ nav ul li a:hover {
     text-shadow: 0 0 6px rgba(0,229,255,0.5);
     white-space: nowrap;
     margin-top: 12px;
+    margin-bottom: 8px;
     display: inline-block;
 }
 
@@ -196,7 +224,6 @@ nav ul li a:hover {
 }
 /* ===== END STEAM API BADGES ===== */
 
-/* Buttons for cv download inspired by og portfolio */
 .download-cv-btn {
     background: linear-gradient(to right, #ffafbd, #ffc3a0);
     max-width: 450px;
@@ -210,7 +237,6 @@ nav ul li a:hover {
     display: block;
 }
 
-/* Different button link with similar attributes */
 .button-link {
     display: inline-block;
     background: linear-gradient(to right, #04cdf0, #000000);
@@ -222,7 +248,6 @@ nav ul li a:hover {
     margin: 10px 0;
 }
 
-/* Gaming Skills Portfolio/button centering and text for the SKINS */
 .game_types {
     background-color: #222;
     border: 2px solid #00d9ff;
@@ -236,7 +261,6 @@ nav ul li a:hover {
     position: relative;
 }
 
-/* extra code to keep it flexible even though all images are same size */
 .game_types img {
     width: 100%;
     height: auto;
@@ -250,7 +274,6 @@ nav ul li a:hover {
     border-radius: 8px;
 }
 
-/* Skins grid to make it look better */
 #skins-list {
     display: flex;
     flex-wrap: wrap;
@@ -266,7 +289,6 @@ nav ul li a:hover {
     position: relative;
 }
 
-/* Favorite skins image dimensions/crop */
 .skin_image {
     width: 460px;
     height: 250px;
@@ -274,14 +296,12 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
-/* General section styling for condensed list for skins page */
 section {
     margin: 20px;
     padding: 20px;
     text-align: left;
 }
 
-/* General contact form css */
 #contact-form {
     max-width: 600px;
     margin: 0 auto;
@@ -324,7 +344,6 @@ section {
     background-color: #0099cc;
 }
 
-/* Footer bar for socials and my own portfolio */
 .footer-bar {
     position: relative;
     width: 100%;
@@ -344,7 +363,6 @@ section {
     height: 30px;
 }
 
-/* Carousel CSS */
 #carousel-container {
     display: flex;
     align-items: center;
@@ -369,7 +387,7 @@ nav ul li a {
     padding: 10px 15px;
     background-color: #000;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: background-color 0.3s, transform 0.3s, color 0.3s;
     box-shadow: 0 0 20px #00d9ff;
 }
 
@@ -384,7 +402,6 @@ nav ul li a:hover {
     background-color: #02bbdc;
 }
 
-/* Responsive Containers */
 .about-me {
     max-width: 900px;
     margin: 20px auto;
@@ -405,7 +422,6 @@ nav ul li a:hover {
     text-align: left;
 }
 
-/* Contact Form */
 #contact-form {
     max-width: 600px;
     margin: 20px auto;
@@ -414,7 +430,6 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
-/* Footer */
 .footer-bar {
     width: 100%;
     background-color: #00d9ffe6;
@@ -438,7 +453,6 @@ nav ul li a:hover {
     text-align: center;
 }
 
-/* Image Display Area */
 #image-display {
     display: flex;
     flex-direction: row;
@@ -478,7 +492,6 @@ nav ul li a:hover {
     border-radius: 20px;
 }
 
-/* Images styling inside the display */
 #image-display img {
     max-width: 100%;
     border-radius: 10px;
@@ -502,7 +515,6 @@ nav ul li a:hover {
     object-fit: contain;
 }
 
-/* Slider CSS */
 #sliderbutton {
     padding: 10px;
     width: 25%;
@@ -520,7 +532,6 @@ nav ul li a:hover {
     display: none;
 }
 
-/* Contact form Notification CSS */
 #formFeedback {
     display: block;
     font-size: 14px;
@@ -543,7 +554,6 @@ nav ul li a:hover {
     border: 1px solid red;
 }
 
-/* Category Button Container */
 #filters {
     display: flex;
     flex-wrap: wrap;
@@ -553,18 +563,19 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-/* Category Buttons */
 .filter-btn {
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
     background-color: #000000;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, color 0.3s ease-in-out;
     box-shadow: 0 0 20px #00d9ff, 0 0 40px #00d9ff;
     display: inline-block;
     cursor: pointer;
     font-size: 0.9rem;
+    will-change: transform;
+    -webkit-font-smoothing: antialiased;
 }
 
 .filter-btn:hover {
@@ -579,7 +590,6 @@ nav ul li a:hover {
     color: white;
 }
 
-/* Scoped for the Gaming Portfolio page */
 #portfolio-page #game-container {
     display: flex;
     flex-wrap: wrap;
@@ -619,11 +629,14 @@ nav ul li a:hover {
 
 #portfolio-page .more-content {
     display: none;
-    margin-top: 12px;
+    margin-top: 8px;
     padding-top: 8px;
+    padding-bottom: 8px;
     border-top: 1px solid rgba(0, 229, 255, 0.1);
     width: 100%;
+    text-align: center;
 }
+
 #portfolio-page .game-image {
     width: 100%;
     height: auto;
@@ -643,7 +656,7 @@ nav ul li a:hover {
     border-radius: 5px;
     border: 2px solid #00d9ff;
     box-shadow: 0 0 5px #00d9ff, 0 0 10px #00d9ff;
-    transition: all 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, color 0.3s ease-in-out;
     cursor: pointer;
     margin-top: 10px;
 }
@@ -653,6 +666,11 @@ nav ul li a:hover {
     color: #000;
     transform: scale(1.1);
     box-shadow: 0 0 50px #00d9ff, 0 0 100px #00d9ff;
+}
+
+#portfolio-page .button-link:active {
+    transform: none !important;
+    transition: none !important;
 }
 
 #portfolio-page .steam-link:hover {
@@ -668,7 +686,6 @@ nav ul li a:hover {
     margin: 10px 0;
 }
 
-/* Favorites settings */
 .favorite-btn {
     background: linear-gradient(to right, #04cdf0, #000000);
     color: #fff;
@@ -676,8 +693,13 @@ nav ul li a:hover {
     border-radius: 5px;
     padding: 10px 15px;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, color 0.3s ease-in-out;
     box-shadow: 0 0 5px #00d9ff, 0 0 10px #00d9ff;
+}
+
+.favorite-btn:active {
+    transform: none !important;
+    transition: none !important;
 }
 
 .favorite-btn.favorited {
@@ -707,10 +729,149 @@ nav ul li a:hover {
     padding-top: 10px;
 }
 
+/* ===== Mobile picker ===== */
+#mobile-picker {
+    display: none;
+}
+
 /* ===== Mobile & Tablet Responsive Styles ===== */
 @media screen and (max-width: 768px) {
     html, body {
         overflow-x: hidden;
+    }
+
+    #filters {
+        display: none !important;
+    }
+
+    #mobile-picker {
+        display: block;
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+        width: 85%;
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.7);
+        margin: 10px auto 15px auto;
+        border-radius: 20px;
+        border: 1px solid #00d9ff;
+        box-shadow:
+            0 0 20px #00d9ff,
+            0 0 40px rgba(0, 217, 255, 0.3),
+            inset 0 0 40px rgba(0, 0, 0, 0.9),
+            inset 0 10px 20px rgba(0, 0, 0, 0.7),
+            inset 0 -10px 20px rgba(0, 0, 0, 0.7);
+    }
+
+    #mobile-picker::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 6%;
+        right: 6%;
+        height: 44px;
+        transform: translateY(-50%);
+        background: rgba(0, 217, 255, 0.03);
+        border-radius: 10px;
+        border-top: 1px solid rgba(0, 217, 255, 0.4);
+        border-bottom: 1px solid rgba(0, 217, 255, 0.4);
+        box-shadow:
+            0 0 8px rgba(0, 217, 255, 0.15),
+            inset 0 0 12px rgba(0, 217, 255, 0.04);
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    #mobile-picker::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        background: linear-gradient(
+            to bottom,
+            rgba(0,0,0,0.95) 0%,
+            rgba(0,0,0,0.65) 22%,
+            rgba(0,0,0,0) 42%,
+            rgba(0,0,0,0) 58%,
+            rgba(0,0,0,0.65) 78%,
+            rgba(0,0,0,0.95) 100%
+        );
+        border-radius: 20px;
+        pointer-events: none;
+    }
+
+    #mobile-picker-overlay {
+        display: none;
+    }
+
+    #mobile-picker-drum {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        will-change: transform;
+        transition: transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        z-index: 0;
+    }
+
+    .picker-item {
+        height: 44px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Courier New', monospace;
+        font-size: 0.85rem;
+        color: rgba(255, 255, 255, 0.15);
+        letter-spacing: 0.12em;
+        user-select: none;
+        -webkit-user-select: none;
+        transition: color 0.15s, font-size 0.15s, text-shadow 0.15s;
+        text-transform: uppercase;
+    }
+
+    .picker-item.active {
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        text-shadow: 0 0 20px #00d9ff, 0 0 40px rgba(0,217,255,0.4);
+    }
+
+    #controls {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 8px !important;
+        justify-content: center !important;
+        padding: 8px 10px !important;
+        box-sizing: border-box !important;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    #controls #search-bar {
+        flex: 1 1 100% !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        font-size: 0.85rem !important;
+        padding: 8px 12px !important;
+        margin: 0 !important;
+    }
+
+    #controls .filter-btn {
+        flex: 1 1 calc(50% - 4px) !important;
+        max-width: calc(50% - 4px) !important;
+        width: auto !important;
+        font-size: 0.75rem !important;
+        padding: 8px 6px !important;
+        box-sizing: border-box !important;
+        margin: 0 !important;
+        text-align: center !important;
+        border-radius: 5px !important;
     }
 
     #portfolio-page #game-container {
@@ -769,27 +930,6 @@ nav ul li a:hover {
         padding: 8px 10px;
     }
 
-    #filters {
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-        padding: 10px;
-        overflow-x: hidden;
-    }
-
-    .filter-btn {
-        width: 100%;
-        max-width: 400px;
-        box-sizing: border-box;
-        font-size: 0.8rem;
-        padding: 8px 15px;
-        margin: 5px auto;
-        text-align: center;
-        display: block;
-    }
-
     #search-bar {
         -webkit-appearance: none;
         outline: none;
@@ -805,9 +945,7 @@ nav ul li a:hover {
         margin: 10px auto;
     }
 
-    .skin-item h2 {
-        font-size: 1.2rem;
-    }
+    .skin-item h2 { font-size: 1.2rem; }
 
     .skin_image {
         width: 100%;
@@ -862,7 +1000,7 @@ nav ul li a:hover {
     }
 }
 
-/* ===== Very Small Screens (iPhones, etc.) ===== */
+/* ===== Very Small Screens ===== */
 @media screen and (max-width: 480px) {
     #portfolio-page .game_types {
         flex: 0 1 100%;
@@ -878,28 +1016,41 @@ nav ul li a:hover {
         padding: 8px 10px;
     }
 
-    .filter-btn {
-        font-size: 0.75rem;
-        padding: 7px 12px;
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
+    #controls .filter-btn {
+        font-size: 0.7rem !important;
+        padding: 7px 6px !important;
     }
 
-    .about-header h1 {
-        font-size: 1.6rem;
-    }
-
-    .about-header h2 {
-        font-size: 1rem;
-    }
-
-    .about-text p {
-        font-size: 0.8rem;
-    }
+    .about-header h1 { font-size: 1.6rem; }
+    .about-header h2 { font-size: 1rem; }
+    .about-text p { font-size: 0.8rem; }
 
     .download-cv-btn {
         font-size: 0.9rem;
         padding: 8px 12px;
     }
+}
+
+.picker-arrow {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(0, 217, 255, 0.5);
+    font-size: 0.6rem;
+    z-index: 10;
+    pointer-events: none;
+    letter-spacing: 4px;
+}
+
+.picker-arrow-up {
+    top: 6px;
+}
+
+.picker-arrow-down {
+    bottom: 6px;
+}
+
+@keyframes arrowpulse {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 0.9; }
 }

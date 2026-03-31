@@ -59,7 +59,6 @@
     </header>
     <br><br>
 
-    <!-- Search Bar and Sort Buttons -->
     <div id="controls" style="text-align: center; margin-bottom: 20px;">
         <input type="text" id="search-bar" class="filter-btn" placeholder="Search games..." />
         <button id="sort-a-z" class="filter-btn">Sort A-Z</button>
@@ -69,7 +68,6 @@
         <button id="sort-recent" class="filter-btn">Recently Played</button>
     </div>
 
-    <!-- Filter Buttons — desktop only -->
     <div id="filters" style="text-align: center; margin-bottom: 20px;">
         <button class="filter-btn active" data-tag="All">All</button>
         <button class="filter-btn" data-tag="MMORPG">MMORPG</button>
@@ -91,32 +89,6 @@
         <button class="filter-btn" data-tag="Steam">Steam</button>
     </div>
 
-    <!-- Mobile native picker -->
-    <div id="mobile-filter-wrapper">
-        <label for="mobile-filter-select">CATEGORY</label>
-        <select id="mobile-filter-select">
-            <option value="All">All</option>
-            <option value="MMORPG">MMORPG</option>
-            <option value="Shooter">Shooter</option>
-            <option value="Sports">Sports</option>
-            <option value="Survival">Survival</option>
-            <option value="Rogue-like">Rogue-like</option>
-            <option value="Competitive">Competitive</option>
-            <option value="RPG">RPG</option>
-            <option value="Adventure">Adventure</option>
-            <option value="Social">Social</option>
-            <option value="Casual">Casual</option>
-            <option value="Sandbox">Sandbox</option>
-            <option value="Strategy">Strategy</option>
-            <option value="Multiplayer">Multiplayer</option>
-            <option value="Fighting">Fighting</option>
-            <option value="Platformer">Platformer</option>
-            <option value="Action">Action</option>
-            <option value="Steam">Steam</option>
-        </select>
-    </div>
-
-    <!-- Dynamic Game Section -->
     <div id="game-container"></div>
 
     <script src="js/mainpagegames.js"></script>

@@ -57,9 +57,11 @@ $(document).ready(function () {
 
                 gamesData = [...gamesData, ...newGames];
                 displayGames();
+                initMobilePicker();
             })
             .catch(() => {
                 displayGames();
+                initMobilePicker();
             });
 
     }).fail(function () {
@@ -223,19 +225,139 @@ $(document).ready(function () {
         });
     }
 
-    // Mobile native select picker
-    $("#mobile-filter-select").on("change", function () {
-        currentFilter = $(this).val();
-        displayGames(currentFilter, $("#search-bar").val());
-    });
+    function initMobilePicker() {
+        if (window.innerWidth > 768) return;
+        if (document.getElementById('mobile-picker')) return;
+
+        const categories = ['All', 'MMORPG', 'Shooter', 'Sports', 'Survival', 'Rogue-like',
+            'Competitive', 'RPG', 'Adventure', 'Social', 'Casual', 'Sandbox',
+            'Strategy', 'Steam', 'Multiplayer', 'Fighting', 'Platformer', 'Action'];
+
+        const itemHeight = 40;
+        const visibleItems = 3;
+        const pickerHeight = itemHeight * visibleItems;
+
+        const picker = document.createElement('div');
+        picker.id = 'mobile-picker';
+        picker.style.height = pickerHeight + 'px';
+
+        const drum = document.createElement('ul');
+        drum.id = 'mobile-picker-drum';
+
+        const padTop = document.createElement('li');
+        drum.appendChild(padTop);
+
+        categories.forEach((cat) => {
+            const li = document.createElement('li');
+            li.textContent = cat;
+            li.dataset.tag = cat;
+            li.className = 'picker-item';
+            drum.appendChild(li);
+        });
+
+        const padBottom = document.createElement('li');
+        drum.appendChild(padBottom);
+
+        const overlay = document.createElement('div');
+        overlay.id = 'mobile-picker-overlay';
+
+        const highlight = document.createElement('div');
+        highlight.id = 'mobile-picker-highlight';
+
+        picker.appendChild(drum);
+        picker.appendChild(overlay);
+        picker.appendChild(highlight);
+
+        const filtersEl = document.getElementById('filters');
+        filtersEl.parentNode.insertBefore(picker, filtersEl);
+        filtersEl.style.display = 'none';
+
+        let currentIndex = 0;
+        let startY = 0;
+        let lastY = 0;
+        let lastTime = 0;
+        let startOffset = 0;
+        let offset = 0;
+        let isDragging = false;
+        let velocity = 0;
+
+        function setOffset(val, animate) {
+            offset = val;
+            drum.style.transition = animate
+                ? 'transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94)'
+                : 'none';
+            drum.style.transform = `translateY(${val}px)`;
+        }
+
+        function snapTo(index, animate) {
+            currentIndex = Math.max(0, Math.min(index, categories.length - 1));
+            const targetOffset = -currentIndex * itemHeight + itemHeight;
+            setOffset(targetOffset, animate);
+
+            document.querySelectorAll('.picker-item').forEach((el, i) => {
+                el.classList.toggle('active', i === currentIndex);
+            });
+
+            if ('vibrate' in navigator) navigator.vibrate(8);
+            try {
+                const ctx = new (window.AudioContext || window.webkitAudioContext)();
+                const buf = ctx.createBuffer(1, ctx.sampleRate * 0.02, ctx.sampleRate);
+                const src = ctx.createBufferSource();
+                src.buffer = buf;
+                src.connect(ctx.destination);
+                src.start();
+            } catch(e) {}
+
+            currentFilter = categories[currentIndex];
+            displayGames(currentFilter, document.getElementById('search-bar').value);
+        }
+
+        drum.addEventListener('touchstart', function(e) {
+            isDragging = true;
+            startY = e.touches[0].clientY;
+            lastY = startY;
+            lastTime = Date.now();
+            startOffset = offset;
+            velocity = 0;
+            drum.style.transition = 'none';
+        }, { passive: true });
+
+        drum.addEventListener('touchmove', function(e) {
+            if (!isDragging) return;
+            const y = e.touches[0].clientY;
+            const now = Date.now();
+            velocity = (y - lastY) / (now - lastTime);
+            lastY = y;
+            lastTime = now;
+            const delta = y - startY;
+            setOffset(startOffset + delta, false);
+        }, { passive: true });
+
+        drum.addEventListener('touchend', function() {
+            isDragging = false;
+            const momentumDelta = velocity * 80;
+            const rawIndex = -(offset + momentumDelta - itemHeight) / itemHeight;
+            snapTo(Math.round(rawIndex), true);
+        }, { passive: true });
+
+        snapTo(0, false);
+    }
 
     $(window).on('resize', function () {
-        if (window.innerWidth > 768) {
-            $('#filters').show();
+        if (window.innerWidth <= 768) {
+            if (!document.getElementById('mobile-picker')) initMobilePicker();
         } else {
-            $('#filters').hide();
+            const p = document.getElementById('mobile-picker');
+            if (p) p.remove();
+            $('#filters').show();
         }
     });
+
+    if ('vibrate' in navigator) {
+        $(document).on('click', '#filters .filter-btn', function () {
+            navigator.vibrate(10);
+        });
+    }
 
     $("#view-favorites").on("click", function () {
         if (currentFilter === "Favorites") {

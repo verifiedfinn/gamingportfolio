@@ -14,28 +14,52 @@ $(document).ready(function () {
 
         gamesData = reorderGamesBySession(gamesData, sessionOrder);
 
-        fetch('https://gamingportfolio-mauve.vercel.app/api/steam')
-            .then(res => res.json())
-            .then(steamData => {
-                const steamMap = {};
-                steamData.games.forEach(g => {
-                    steamMap[g.name.toLowerCase()] = g;
-                });
+fetch('https://gamingportfolio-mauve.vercel.app/api/steam')
+    .then(res => res.json())
+    .then(steamData => {
+        const steamMap = {};
+        steamData.games.forEach(g => {
+            steamMap[g.name.toLowerCase()] = g;
+        });
 
-                gamesData = gamesData.map(game => {
-                    const steamGame = steamMap[game.Name.toLowerCase()];
-                    if (steamGame) {
-                        game.Hours = steamGame.hours;
-                        game.RecentlyPlayed = steamGame.recentlyPlayed;
-                    }
-                    return game;
-                });
+        gamesData = gamesData.map(game => {
+            const steamGame = steamMap[game.Name.toLowerCase()];
+            if (steamGame) {
+                if (game.Hours === undefined) game.Hours = steamGame.hours;
+                game.RecentlyPlayed = steamGame.recentlyPlayed;
+            }
+            return game;
+        });
 
-                displayGames();
-            })
-            .catch(() => {
-                displayGames();
-            });
+        // Now fetch auto-add games
+        return fetch('https://gamingportfolio-mauve.vercel.app/api/steamgames');
+    })
+    .then(res => res.json())
+    .then(steamGames => {
+        const existingNames = new Set(gamesData.map(g => g.Name.toLowerCase()));
+
+        const newGames = steamGames.games
+            .filter(g => !existingNames.has(g.name.toLowerCase()))
+            .map(g => ({
+                Name: g.name,
+                Tags: ["Steam"],
+                FirstSentence: g.shortDescription
+                    ? g.shortDescription.substring(0, 100) + '...'
+                    : `A game I've put ${g.hours} hours into.`,
+                RemainingDescription: g.description || 'No description available.',
+                Image: g.image,
+                Link: g.link,
+                Hours: g.hours,
+                RecentlyPlayed: false,
+                SteamAutoAdded: true
+            }));
+
+        gamesData = [...gamesData, ...newGames];
+        displayGames();
+    })
+    .catch(() => {
+        displayGames();
+    });
 
     }).fail(function () {
         console.error("Failed to load JSON data.");
@@ -109,38 +133,55 @@ $(document).ready(function () {
         if (direction === "Z-A") {
             return games.sort((a, b) => b.Name.localeCompare(a.Name));
         }
+        if (direction === "hours") {
+            return games.sort((a, b) => (b.Hours || 0) - (a.Hours || 0));
+        }
+        if (direction === "recent") {
+            return games.sort((a, b) => (b.RecentlyPlayed ? 1 : 0) - (a.RecentlyPlayed ? 1 : 0));
+        }
         return games;
     }
 
     function renderGame(game) {
-        const isFavorite = favorites.includes(game.Name);
-        const favoriteClass = isFavorite ? "favorited" : "";
-        const hoursDisplay = game.Hours !== undefined
-            ? `<span class="game-hours">⏱ ${game.Hours} hrs</span>`
-            : '';
-        const recentBadge = game.RecentlyPlayed
-            ? `<span class="recently-played-badge">● Recently Played</span>`
-            : '';
+    const isFavorite = favorites.includes(game.Name);
+    const favoriteClass = isFavorite ? "favorited" : "";
+    const hoursDisplay = game.Hours !== undefined
+        ? `<p class="game-hours">⏱ ${game.Hours} hrs logged</p>`
+        : '';
+    const recentBadge = game.RecentlyPlayed
+        ? `<span class="recently-played-badge">Recently Played</span>`
+        : '';
+    const steamBadge = game.SteamAutoAdded
+        ? `<span class="steam-auto-badge">⚡ Steam</span>`
+        : '';
 
-        return `
-            <div class="game_types" data-name="${game.Name}">
-                <h2>${game.Name} ${recentBadge}</h2>
+    return `
+        <div class="game_types" data-name="${game.Name}">
+            <div class="card-meta">
+                ${recentBadge}
+                ${steamBadge}
+            </div>
+            <div class="card-top">
+                <h2>${game.Name}</h2>
                 <p class="short-description">${game.FirstSentence}</p>
+                <img src="${game.Image}" alt="${game.Name}" class="game-image">
                 <div class="more-content" style="display: none;">
                     <p>${game.RemainingDescription}</p>
+                    ${hoursDisplay}
                 </div>
-                <img src="${game.Image}" alt="${game.Name}" class="game-image">
-                ${hoursDisplay}
+            </div>
+            <div class="card-bottom">
                 <button class="button-link read-more-btn">Read More</button>
                 <button class="favorite-btn ${favoriteClass}">❤️ Favorite</button>
             </div>
-        `;
-    }
+        </div>
+    `;
+}
 
     function attachHandlers() {
-        $(".read-more-btn").on("click", function (event) {
+        $(".read-more-btn").off("click").on("click", function (event) {
             event.stopPropagation();
-            const moreContent = $(this).siblings(".more-content");
+            const moreContent = $(this).closest(".game_types").find(".more-content");
             const parentBox = $(this).closest(".game_types");
 
             if (moreContent.is(":visible")) {
@@ -153,7 +194,7 @@ $(document).ready(function () {
             }
         });
 
-        $(".favorite-btn").on("click", function () {
+        $(".favorite-btn").off("click").on("click", function () {
             const parentBox = $(this).closest(".game_types");
             const gameName = parentBox.data("name");
 
@@ -197,5 +238,13 @@ $(document).ready(function () {
 
     $("#sort-z-a").on("click", function () {
         displayGames(currentFilter, $("#search-bar").val(), "Z-A");
+    });
+
+    $("#sort-hours").on("click", function () {
+        displayGames(currentFilter, $("#search-bar").val(), "hours");
+    });
+
+    $("#sort-recent").on("click", function () {
+        displayGames(currentFilter, $("#search-bar").val(), "recent");
     });
 });

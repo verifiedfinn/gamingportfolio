@@ -57,11 +57,9 @@ $(document).ready(function () {
 
                 gamesData = [...gamesData, ...newGames];
                 displayGames();
-                initMobilePicker();
             })
             .catch(() => {
                 displayGames();
-                initMobilePicker();
             });
 
     }).fail(function () {
@@ -225,104 +223,17 @@ $(document).ready(function () {
         });
     }
 
-    // iOS haptic via AudioContext
-    function triggerHaptic() {
-        try {
-            const ctx = new (window.AudioContext || window.webkitAudioContext)();
-            const osc = ctx.createOscillator();
-            const gain = ctx.createGain();
-            osc.connect(gain);
-            gain.connect(ctx.destination);
-            gain.gain.setValueAtTime(0.001, ctx.currentTime);
-            osc.start(ctx.currentTime);
-            osc.stop(ctx.currentTime + 0.01);
-        } catch(e) {}
-        if ('vibrate' in navigator) navigator.vibrate(8);
-    }
-
-    function initMobilePicker() {
-        if (window.innerWidth > 768) return;
-        if ($('#mobile-picker').length > 0) return;
-
-        const categories = ['All', 'MMORPG', 'Shooter', 'Sports', 'Survival', 'Rogue-like',
-            'Competitive', 'RPG', 'Adventure', 'Social', 'Casual', 'Sandbox',
-            'Strategy', 'Steam', 'Multiplayer', 'Fighting', 'Platformer', 'Action'];
-
-        const picker = $('<div id="mobile-picker"></div>');
-        const drum = $('<div id="mobile-picker-drum"></div>');
-        const overlay = $('<div id="mobile-picker-overlay"></div>');
-
-        categories.forEach((cat) => {
-            drum.append(`<div class="picker-item" data-tag="${cat}">${cat}</div>`);
-        });
-
-        picker.append(overlay).append(drum);
-        picker.append('<div class="picker-arrow picker-arrow-up">▲</div>');
-        picker.append('<div class="picker-arrow picker-arrow-down">▼</div>');
-        $('#filters').hide();
-        $('#filters').before(picker);
-
-        const itemHeight = 36;
-        let currentIndex = 0;
-        let startY = 0;
-        let currentY = 0;
-        let isDragging = false;
-        let startTime = 0;
-
-        function snapTo(index) {
-            currentIndex = Math.max(0, Math.min(index, categories.length - 1));
-            const offset = -currentIndex * itemHeight + (picker.height() / 2) - (itemHeight / 2);
-            drum.css('transform', `translateY(${offset}px)`);
-
-            $('.picker-item').removeClass('active');
-            $(`.picker-item[data-tag="${categories[currentIndex]}"]`).addClass('active');
-
-            triggerHaptic();
-
-            currentFilter = categories[currentIndex];
-            displayGames(currentFilter, $("#search-bar").val());
-        }
-
-        drum.on('touchstart', function (e) {
-            isDragging = true;
-            startY = e.originalEvent.touches[0].clientY;
-            currentY = startY;
-            startTime = Date.now();
-            drum.css('transition', 'none');
-        });
-
-        drum.on('touchmove', function (e) {
-            if (!isDragging) return;
-            const y = e.originalEvent.touches[0].clientY;
-            const deltaY = Math.abs(y - startY);
-            const deltaX = 0;
-
-            // Only prevent default if clearly scrolling the picker vertically
-            if (deltaY > 5) {
-                e.preventDefault();
-                currentY = y;
-                const offset = -currentIndex * itemHeight + (picker.height() / 2) - (itemHeight / 2) + (y - startY);
-                drum.css('transform', `translateY(${offset}px)`);
-            }
-        });
-
-        drum.on('touchend', function () {
-            isDragging = false;
-            drum.css('transition', 'transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94)');
-            const delta = currentY - startY;
-            const indexDelta = Math.round(-delta / itemHeight);
-            snapTo(currentIndex + indexDelta);
-        });
-
-        snapTo(0);
-    }
+    // Mobile native select picker
+    $("#mobile-filter-select").on("change", function () {
+        currentFilter = $(this).val();
+        displayGames(currentFilter, $("#search-bar").val());
+    });
 
     $(window).on('resize', function () {
-        if (window.innerWidth <= 768) {
-            if ($('#mobile-picker').length === 0) initMobilePicker();
-        } else {
-            $('#mobile-picker').remove();
+        if (window.innerWidth > 768) {
             $('#filters').show();
+        } else {
+            $('#filters').hide();
         }
     });
 

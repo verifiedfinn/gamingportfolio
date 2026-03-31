@@ -181,33 +181,33 @@ $(document).ready(function () {
         `;
     }
 
-function attachHandlers() {
-    $(".read-more-btn").off("click").on("click", function (event) {
-        event.stopPropagation();
-        const moreContent = $(this).closest(".game_types").find(".more-content");
-        const parentBox = $(this).closest(".game_types");
-        const btn = $(this);
+    function attachHandlers() {
+        $(".read-more-btn").off("click").on("click", function (event) {
+            event.stopPropagation();
+            const moreContent = $(this).closest(".game_types").find(".more-content");
+            const parentBox = $(this).closest(".game_types");
+            const btn = $(this);
 
-        btn.css("pointer-events", "none");
+            btn.css("pointer-events", "none");
 
-        if (moreContent.is(":visible")) {
-            parentBox.css("overflow", "hidden");
-            moreContent.slideUp(300, () => {
+            if (moreContent.is(":visible")) {
+                parentBox.css("overflow", "hidden");
+                moreContent.slideUp(300, () => {
+                    parentBox.css("height", "auto");
+                    parentBox.css("overflow", "visible");
+                    btn.css("pointer-events", "");
+                });
+                btn.text("Read More");
+            } else {
+                parentBox.css("overflow", "hidden");
                 parentBox.css("height", "auto");
-                parentBox.css("overflow", "visible");
-                btn.css("pointer-events", "");
-            });
-            btn.text("Read More");
-        } else {
-            parentBox.css("overflow", "hidden");
-            parentBox.css("height", "auto");
-            moreContent.slideDown(300, () => {
-                parentBox.css("overflow", "visible");
-                btn.css("pointer-events", "");
-            });
-            btn.text("Read Less");
-        }
-    });
+                moreContent.slideDown(300, () => {
+                    parentBox.css("overflow", "visible");
+                    btn.css("pointer-events", "");
+                });
+                btn.text("Read Less");
+            }
+        });
 
         $(".favorite-btn").off("click").on("click", function () {
             const parentBox = $(this).closest(".game_types");
@@ -223,6 +223,21 @@ function attachHandlers() {
 
             localStorage.setItem("favorites", JSON.stringify(favorites));
         });
+    }
+
+    // iOS haptic via AudioContext
+    function triggerHaptic() {
+        try {
+            const ctx = new (window.AudioContext || window.webkitAudioContext)();
+            const osc = ctx.createOscillator();
+            const gain = ctx.createGain();
+            osc.connect(gain);
+            gain.connect(ctx.destination);
+            gain.gain.setValueAtTime(0.001, ctx.currentTime);
+            osc.start(ctx.currentTime);
+            osc.stop(ctx.currentTime + 0.01);
+        } catch(e) {}
+        if ('vibrate' in navigator) navigator.vibrate(8);
     }
 
     function initMobilePicker() {
@@ -247,11 +262,12 @@ function attachHandlers() {
         $('#filters').hide();
         $('#filters').before(picker);
 
-        const itemHeight = 44;
+        const itemHeight = 36;
         let currentIndex = 0;
         let startY = 0;
         let currentY = 0;
         let isDragging = false;
+        let startTime = 0;
 
         function snapTo(index) {
             currentIndex = Math.max(0, Math.min(index, categories.length - 1));
@@ -261,7 +277,7 @@ function attachHandlers() {
             $('.picker-item').removeClass('active');
             $(`.picker-item[data-tag="${categories[currentIndex]}"]`).addClass('active');
 
-            if ('vibrate' in navigator) navigator.vibrate(8);
+            triggerHaptic();
 
             currentFilter = categories[currentIndex];
             displayGames(currentFilter, $("#search-bar").val());
@@ -271,16 +287,23 @@ function attachHandlers() {
             isDragging = true;
             startY = e.originalEvent.touches[0].clientY;
             currentY = startY;
+            startTime = Date.now();
             drum.css('transition', 'none');
         });
 
         drum.on('touchmove', function (e) {
-            e.preventDefault();
             if (!isDragging) return;
             const y = e.originalEvent.touches[0].clientY;
-            currentY = y;
-            const offset = -currentIndex * itemHeight + (picker.height() / 2) - (itemHeight / 2) + (y - startY);
-            drum.css('transform', `translateY(${offset}px)`);
+            const deltaY = Math.abs(y - startY);
+            const deltaX = 0;
+
+            // Only prevent default if clearly scrolling the picker vertically
+            if (deltaY > 5) {
+                e.preventDefault();
+                currentY = y;
+                const offset = -currentIndex * itemHeight + (picker.height() / 2) - (itemHeight / 2) + (y - startY);
+                drum.css('transform', `translateY(${offset}px)`);
+            }
         });
 
         drum.on('touchend', function () {
@@ -302,12 +325,6 @@ function attachHandlers() {
             $('#filters').show();
         }
     });
-
-    if ('vibrate' in navigator) {
-        $(document).on('click', '#filters .filter-btn', function () {
-            navigator.vibrate(10);
-        });
-    }
 
     $("#view-favorites").on("click", function () {
         if (currentFilter === "Favorites") {

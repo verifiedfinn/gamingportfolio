@@ -278,6 +278,34 @@ nav ul li a:hover {
     border-radius: 8px;
 }
 
+.game-image-wrapper {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+ 
+#portfolio-page .game-image-wrapper {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+ 
+/* On mobile, allow the wrapper to translate for parallax */
+@media screen and (max-width: 768px) {
+    .game-image-wrapper {
+        will-change: transform;
+    }
+ 
+    /* Remove margin-top from .game-image itself since wrapper handles spacing */
+    #portfolio-page .game-image {
+        margin-top: 0;
+        border-radius: 0;  /* wrapper handles radius */
+        display: block;
+    }
+}
+ 
+
 #skins-list {
     display: flex;
     flex-wrap: wrap;
@@ -598,7 +626,7 @@ nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 10px;
 }
 
@@ -989,23 +1017,56 @@ nav ul li a:hover {
         border-radius: 5px !important;
     }
 
-    #portfolio-page #game-container {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding: 10px;
-        box-sizing: border-box;
-    }
+    /* ===== Horizontal swipe deck ===== */
+#portfolio-page #game-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: visible;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    gap: 0px;
+    padding: 30px 10vw 40px 10vw;
+    box-sizing: border-box;
+    width: 100%;
+    align-items: center;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    background: #111;
+    perspective: 1000px;
+}
 
-    #portfolio-page .game_types {
-        flex: 0 1 90%;
-        max-width: 400px;
-        width: 100%;
-        height: auto;
-        min-height: 420px;
-        box-sizing: border-box;
-        margin: 10px 0;
-    }
+#portfolio-page #game-container::-webkit-scrollbar {
+    display: none;
+}
+
+#portfolio-page .game_types {
+    flex: 0 0 80vw;
+    min-width: 80vw;
+    max-width: 80vw;
+    height: auto;
+    min-height: 480px;
+    box-sizing: border-box;
+    margin: 0 8px;
+    scroll-snap-align: center;
+    transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+                opacity 0.35s ease,
+                box-shadow 0.35s ease;
+    transform: scale(0.88) rotateY(8deg);
+    opacity: 0.75;
+    will-change: transform, opacity;
+    overflow: visible;
+    position: relative;
+    transform-origin: center center;
+}
+
+#portfolio-page .game_types.is-centered {
+    transform: scale(1) rotateY(0deg);
+    opacity: 1;
+    box-shadow: 0 0 30px rgba(0,217,255,0.5), 0 0 60px rgba(0,217,255,0.2);
+    z-index: 2;
+}
 
     #portfolio-page .button-link,
     .favorite-btn {
@@ -1118,8 +1179,9 @@ nav ul li a:hover {
 /* ===== Very Small Screens ===== */
 @media screen and (max-width: 480px) {
     #portfolio-page .game_types {
-        flex: 0 1 100%;
-        width: 100%;
+        flex: 0 0 88vw;
+        min-width: 88vw;
+        max-width: 88vw;
     }
 
     #portfolio-page #title span {
@@ -1144,4 +1206,75 @@ nav ul li a:hover {
         font-size: 0.9rem;
         padding: 8px 12px;
     }
+}
+
+/* ===== Card deck enhancements ===== */
+#card-counter {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #card-counter {
+        display: block;
+        text-align: center;
+        font-family: 'Courier New', monospace;
+        font-size: 0.75rem;
+        color: rgba(0,217,255,0.6);
+        letter-spacing: 0.15em;
+        margin: 0 auto 8px auto;
+        padding: 0;
+    }
+
+    #card-counter span {
+        color: #00d9ff;
+        font-weight: 700;
+    }
+
+    /* Scan-line effect on centered card */
+    #portfolio-page .game_types.is-centered::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 2px,
+            rgba(0,217,255,0.015) 2px,
+            rgba(0,217,255,0.015) 4px
+        );
+        pointer-events: none;
+        border-radius: 10px;
+        z-index: 1;
+        animation: scanPulse 3s ease-in-out infinite;
+    }
+
+    @keyframes scanPulse {
+        0%, 100% { opacity: 0.5; }
+        50% { opacity: 1; }
+    }
+
+    /* Swipe hint */
+    @keyframes swipeHint {
+        0% { transform: scale(1) translateX(0); }
+        30% { transform: scale(1) translateX(-18px); }
+        60% { transform: scale(1) translateX(0); }
+        100% { transform: scale(1) translateX(0); }
+    }
+
+    #portfolio-page .game_types.swipe-hint {
+        animation: swipeHint 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    }
+}
+
+@keyframes snapFlash {
+    0% { border-color: #00d9ff; box-shadow: 0 0 0px rgba(0,217,255,0); }
+    30% { border-color: #fff; box-shadow: 0 0 40px rgba(0,217,255,0.9), 0 0 80px rgba(0,217,255,0.4); }
+    100% { border-color: #00d9ff; box-shadow: 0 0 30px rgba(0,217,255,0.5), 0 0 60px rgba(0,217,255,0.2); }
+}
+
+#portfolio-page .game_types.snap-flash {
+    animation: snapFlash 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }

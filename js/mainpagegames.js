@@ -227,129 +227,68 @@ $(document).ready(function () {
 
     function initMobilePicker() {
         if (window.innerWidth > 768) return;
-        if (document.getElementById('mobile-picker')) return;
+        if (document.getElementById('picker-modal')) return;
 
         const categories = ['All', 'MMORPG', 'Shooter', 'Sports', 'Survival', 'Rogue-like',
             'Competitive', 'RPG', 'Adventure', 'Social', 'Casual', 'Sandbox',
             'Strategy', 'Steam', 'Multiplayer', 'Fighting', 'Platformer', 'Action'];
 
-        const itemHeight = 40;
-        const visibleItems = 3;
-        const pickerHeight = itemHeight * visibleItems;
+        const modal = document.createElement('div');
+        modal.id = 'picker-modal';
+        modal.innerHTML = `
+            <div id="picker-backdrop"></div>
+            <div id="picker-sheet">
+                <div id="picker-handle"></div>
+                <div id="picker-header">
+                    <div id="picker-title">SELECT CATEGORY</div>
+                    <button id="picker-close">✕</button>
+                </div>
+                <div id="picker-list">
+                    ${categories.map(cat => `<button class="picker-option${cat === 'All' ? ' active' : ''}" data-val="${cat}">${cat}</button>`).join('')}
+                </div>
+            </div>
+        `;
+        document.body.appendChild(modal);
 
-        const picker = document.createElement('div');
-        picker.id = 'mobile-picker';
-        picker.style.height = pickerHeight + 'px';
+        function closeModal() {
+            document.getElementById('picker-modal').classList.remove('active');
+        }
 
-        const drum = document.createElement('ul');
-        drum.id = 'mobile-picker-drum';
-
-        const padTop = document.createElement('li');
-        drum.appendChild(padTop);
-
-        categories.forEach((cat) => {
-            const li = document.createElement('li');
-            li.textContent = cat;
-            li.dataset.tag = cat;
-            li.className = 'picker-item';
-            drum.appendChild(li);
+        document.getElementById('mobile-filter-btn').addEventListener('click', function() {
+            document.getElementById('picker-modal').classList.add('active');
         });
 
-        const padBottom = document.createElement('li');
-        drum.appendChild(padBottom);
+        document.getElementById('picker-backdrop').addEventListener('click', closeModal);
+        document.getElementById('picker-close').addEventListener('click', closeModal);
 
-        const overlay = document.createElement('div');
-        overlay.id = 'mobile-picker-overlay';
-
-        const highlight = document.createElement('div');
-        highlight.id = 'mobile-picker-highlight';
-
-        picker.appendChild(drum);
-        picker.appendChild(overlay);
-        picker.appendChild(highlight);
-
-        const filtersEl = document.getElementById('filters');
-        filtersEl.parentNode.insertBefore(picker, filtersEl);
-        filtersEl.style.display = 'none';
-
-        let currentIndex = 0;
-        let startY = 0;
-        let lastY = 0;
-        let lastTime = 0;
-        let startOffset = 0;
-        let offset = 0;
-        let isDragging = false;
-        let velocity = 0;
-
-        function setOffset(val, animate) {
-            offset = val;
-            drum.style.transition = animate
-                ? 'transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94)'
-                : 'none';
-            drum.style.transform = `translateY(${val}px)`;
-        }
-
-        function snapTo(index, animate) {
-            currentIndex = Math.max(0, Math.min(index, categories.length - 1));
-            const targetOffset = -currentIndex * itemHeight + itemHeight;
-            setOffset(targetOffset, animate);
-
-            document.querySelectorAll('.picker-item').forEach((el, i) => {
-                el.classList.toggle('active', i === currentIndex);
-            });
-
-            if ('vibrate' in navigator) navigator.vibrate(8);
-            try {
-                const ctx = new (window.AudioContext || window.webkitAudioContext)();
-                const buf = ctx.createBuffer(1, ctx.sampleRate * 0.02, ctx.sampleRate);
-                const src = ctx.createBufferSource();
-                src.buffer = buf;
-                src.connect(ctx.destination);
-                src.start();
-            } catch(e) {}
-
-            currentFilter = categories[currentIndex];
-            displayGames(currentFilter, document.getElementById('search-bar').value);
-        }
-
-        drum.addEventListener('touchstart', function(e) {
-            isDragging = true;
-            startY = e.touches[0].clientY;
-            lastY = startY;
-            lastTime = Date.now();
-            startOffset = offset;
-            velocity = 0;
-            drum.style.transition = 'none';
-        }, { passive: true });
-
-        drum.addEventListener('touchmove', function(e) {
-            if (!isDragging) return;
-            const y = e.touches[0].clientY;
+        let lastHapticTime = 0;
+        document.getElementById('picker-list').addEventListener('scroll', function() {
             const now = Date.now();
-            velocity = (y - lastY) / (now - lastTime);
-            lastY = y;
-            lastTime = now;
-            const delta = y - startY;
-            setOffset(startOffset + delta, false);
-        }, { passive: true });
+            if (now - lastHapticTime > 80) {
+                if ('vibrate' in navigator) navigator.vibrate(4);
+                lastHapticTime = now;
+            }
+        });
 
-        drum.addEventListener('touchend', function() {
-            isDragging = false;
-            const momentumDelta = velocity * 80;
-            const rawIndex = -(offset + momentumDelta - itemHeight) / itemHeight;
-            snapTo(Math.round(rawIndex), true);
-        }, { passive: true });
-
-        snapTo(0, false);
+        document.getElementById('picker-list').addEventListener('click', function(e) {
+            const btn = e.target.closest('.picker-option');
+            if (!btn) return;
+            const selected = btn.dataset.val;
+            currentFilter = selected;
+            document.getElementById('mobile-filter-label').textContent = 'Filter: ' + selected;
+            closeModal();
+            displayGames(currentFilter, document.getElementById('search-bar').value);
+            if ('vibrate' in navigator) navigator.vibrate(10);
+            document.querySelectorAll('.picker-option').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        });
     }
 
     $(window).on('resize', function () {
-        if (window.innerWidth <= 768) {
-            if (!document.getElementById('mobile-picker')) initMobilePicker();
-        } else {
-            const p = document.getElementById('mobile-picker');
-            if (p) p.remove();
+        if (window.innerWidth > 768) {
             $('#filters').show();
+        } else {
+            $('#filters').hide();
         }
     });
 

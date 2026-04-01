@@ -1,0 +1,114 @@
+name: Update Steam Data
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Runs daily at 6am UTC
+  workflow_dispatch:       # Also allows manual trigger from GitHub Actions tab
+
+jobs:
+  update-steam-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch Steam data and update gameinfo.json
+        run: |
+          node - << 'EOF'
+          const fs = require('fs');
+          const https = require('https');
+
+          function fetchJSON(url) {
+            return new Promise((resolve, reject) => {
+              https.get(url, (res) => {
+                let data = '';
+                res.on('data', chunk => data += chunk);
+                res.on('end', () => {
+                  try { resolve(JSON.parse(data)); }
+                  catch(e) { reject(new Error('Failed to parse JSON from ' + url)); }
+                });
+              }).on('error', reject);
+            });
+          }
+
+          async function main() {
+            console.log('Fetching Steam hours + recently played...');
+            const steamData = await fetchJSON('https://gamingportfolio-mauve.vercel.app/api/steam');
+
+            console.log('Fetching Steam games list...');
+            const steamGames = await fetchJSON('https://gamingportfolio-mauve.vercel.app/api/steamgames');
+
+            console.log('Loading gameinfo.json...');
+            const raw = fs.readFileSync('data/gameinfo.json', 'utf8');
+            const gameinfo = JSON.parse(raw);
+
+            // Build steam lookup map
+            const steamMap = {};
+            steamData.games.forEach(g => {
+              steamMap[g.name.toLowerCase()] = g;
+            });
+
+            // Update hours + recently played for existing games
+            gameinfo.games = gameinfo.games.map(game => {
+              const steamGame = steamMap[game.Name.toLowerCase()];
+              if (steamGame) {
+                // Only update hours if not manually set (manual overrides are integers with no decimal)
+                if (game.Hours === undefined) {
+                  game.Hours = steamGame.hours;
+                }
+                game.RecentlyPlayed = steamGame.recentlyPlayed;
+              }
+              return game;
+            });
+
+            // Add new Steam games not already in JSON
+            const existingNames = new Set(gameinfo.games.map(g => g.Name.toLowerCase()));
+            const newGames = steamGames.games
+              .filter(g => !existingNames.has(g.name.toLowerCase()))
+              .map(g => {
+                const rawDesc = g.shortDescription || `A game I've put ${g.hours} hours into.`;
+                const shortDesc = rawDesc.length > 80 ? rawDesc.substring(0, 80).trimEnd() + '...' : rawDesc;
+                return {
+                  Name: g.name,
+                  Tags: ["Steam"],
+                  FirstSentence: shortDesc,
+                  RemainingDescription: g.description || 'No description available.',
+                  Image: g.image,
+                  Link: g.link,
+                  Hours: g.hours,
+                  RecentlyPlayed: false,
+                  SteamAutoAdded: true
+                };
+              });
+
+            if (newGames.length > 0) {
+              console.log(`Adding ${newGames.length} new Steam games...`);
+              gameinfo.games = [...gameinfo.games, ...newGames];
+            }
+
+            // Update existing SteamAutoAdded games hours
+            gameinfo.games = gameinfo.games.map(game => {
+              if (!game.SteamAutoAdded) return game;
+              const steamGame = steamMap[game.Name.toLowerCase()];
+              if (steamGame) {
+                game.Hours = steamGame.hours;
+                game.RecentlyPlayed = steamGame.recentlyPlayed;
+              }
+              return game;
+            });
+
+            fs.writeFileSync('data/gameinfo.json', JSON.stringify(gameinfo, null, 4), 'utf8');
+            console.log(`Done. Total games: ${gameinfo.games.length}`);
+          }
+
+          main().catch(e => { console.error(e); process.exit(1); });
+          EOF
+
+      - name: Commit updated gameinfo.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/gameinfo.json
+          git diff --staged --quiet || git commit -m "chore: update Steam hours and game data [skip ci]"
+          git push

@@ -740,11 +740,24 @@ nav ul li a:hover {
     right: 0;
     z-index: 9999;
     pointer-events: none;
+    background: none !important;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #picker-modal.active {
     display: block;
     pointer-events: none;
+    background: none !important;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; background: rgba(0,0,0,0); }
+    to { opacity: 1; background: rgba(0,0,0,0.5); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; background: rgba(0,0,0,0.5); }
+    to { opacity: 0; background: rgba(0,0,0,0); }
 }
 
 #picker-backdrop {
@@ -752,6 +765,21 @@ nav ul li a:hover {
     top: 0; left: 0; right: 0; bottom: 0;
     background: rgba(0,0,0,0.5);
     pointer-events: auto;
+    animation: fadeIn 0.2s ease forwards;
+}
+
+#picker-backdrop.closing {
+    animation: fadeOut 0.2s ease forwards;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+}
+
+@keyframes slideDown {
+    from { transform: translateY(0); }
+    to { transform: translateY(100%); }
 }
 
 #picker-sheet {
@@ -769,6 +797,11 @@ nav ul li a:hover {
     width: 100%;
     box-sizing: border-box;
     margin: 0;
+    animation: slideUp 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+#picker-sheet.closing {
+    animation: slideDown 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
 #picker-handle {
@@ -862,6 +895,13 @@ nav ul li a:hover {
 
 .picker-option:active {
     background: rgba(0,217,255,0.1);
+}
+
+#picker-list button,
+.picker-option {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    outline: none;
 }
 
 /* ===== Mobile & Tablet Responsive Styles ===== */

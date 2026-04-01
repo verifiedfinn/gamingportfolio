@@ -97,6 +97,38 @@
 
     <div id="game-container"></div>
 
+    <!-- Picker modal in HTML so iOS can find it immediately -->
+    <div id="picker-modal">
+        <div id="picker-backdrop"></div>
+        <div id="picker-sheet">
+            <div id="picker-handle"></div>
+            <div id="picker-header">
+                <div id="picker-title">SELECT CATEGORY</div>
+                <button id="picker-close" style="-webkit-tap-highlight-color: transparent;">✕</button>
+            </div>
+            <div id="picker-list">
+                <button class="picker-option active" data-val="All" style="-webkit-tap-highlight-color: transparent;">All</button>
+                <button class="picker-option" data-val="MMORPG" style="-webkit-tap-highlight-color: transparent;">MMORPG</button>
+                <button class="picker-option" data-val="Shooter" style="-webkit-tap-highlight-color: transparent;">Shooter</button>
+                <button class="picker-option" data-val="Sports" style="-webkit-tap-highlight-color: transparent;">Sports</button>
+                <button class="picker-option" data-val="Survival" style="-webkit-tap-highlight-color: transparent;">Survival</button>
+                <button class="picker-option" data-val="Rogue-like" style="-webkit-tap-highlight-color: transparent;">Rogue-like</button>
+                <button class="picker-option" data-val="Competitive" style="-webkit-tap-highlight-color: transparent;">Competitive</button>
+                <button class="picker-option" data-val="RPG" style="-webkit-tap-highlight-color: transparent;">RPG</button>
+                <button class="picker-option" data-val="Adventure" style="-webkit-tap-highlight-color: transparent;">Adventure</button>
+                <button class="picker-option" data-val="Social" style="-webkit-tap-highlight-color: transparent;">Social</button>
+                <button class="picker-option" data-val="Casual" style="-webkit-tap-highlight-color: transparent;">Casual</button>
+                <button class="picker-option" data-val="Sandbox" style="-webkit-tap-highlight-color: transparent;">Sandbox</button>
+                <button class="picker-option" data-val="Strategy" style="-webkit-tap-highlight-color: transparent;">Strategy</button>
+                <button class="picker-option" data-val="Steam" style="-webkit-tap-highlight-color: transparent;">Steam</button>
+                <button class="picker-option" data-val="Multiplayer" style="-webkit-tap-highlight-color: transparent;">Multiplayer</button>
+                <button class="picker-option" data-val="Fighting" style="-webkit-tap-highlight-color: transparent;">Fighting</button>
+                <button class="picker-option" data-val="Platformer" style="-webkit-tap-highlight-color: transparent;">Platformer</button>
+                <button class="picker-option" data-val="Action" style="-webkit-tap-highlight-color: transparent;">Action</button>
+            </div>
+        </div>
+    </div>
+
     <script src="js/mainpagegames.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 </body>

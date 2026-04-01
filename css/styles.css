@@ -735,7 +735,6 @@ nav ul li a:hover {
 
 /* ===== Picker modal ===== */
 #picker-modal {
-    display: none;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -744,12 +743,12 @@ nav ul li a:hover {
     pointer-events: none;
     background: none !important;
     -webkit-tap-highlight-color: transparent;
+    visibility: hidden;
 }
 
 #picker-modal.active {
-    display: block;
+    visibility: visible;
     pointer-events: none;
-    background: none !important;
 }
 
 @keyframes fadeIn {

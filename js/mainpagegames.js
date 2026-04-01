@@ -288,28 +288,6 @@ $(document).ready(function () {
             if (dx > dy && dx > 10) e.stopPropagation();
         }, { passive: true, ...sig });
 
-        container.addEventListener('scroll', function() {
-            const containerRect = container.getBoundingClientRect();
-            const containerCenter = containerRect.left + containerRect.width / 2;
-            cards.forEach(card => {
-                const cardRect = card.getBoundingClientRect();
-                const cardCenter = cardRect.left + cardRect.width / 2;
-                const offset = (cardCenter - containerCenter) / containerRect.width;
-                const wrapper = card.querySelector('.game-image-wrapper');
-                if (card.classList.contains('is-centered')) {
-                    card.style.transform = '';
-                    if (wrapper) wrapper.style.transform = '';
-                    return;
-                }
-                if (wrapper) {
-                    wrapper.style.transform = `translateX(${offset * -20}px)`;
-                    wrapper.style.transition = 'transform 0.1s linear';
-                }
-                const clampedOffset = Math.max(-1, Math.min(1, offset));
-                card.style.transform = `scale(0.88) rotateY(${clampedOffset * 6}deg)`;
-            });
-        }, { passive: true, ...sig });
-
         const hintKey = 'swipeHintShown';
         if (!sessionStorage.getItem(hintKey) && cards.length > 1) {
             sessionStorage.setItem(hintKey, '1');

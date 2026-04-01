@@ -244,117 +244,98 @@ $(document).ready(function () {
         });
     }
 
-    function initMobilePicker() {
-        if (window.innerWidth > 768) return;
-        if (document.getElementById('picker-modal')) return;
+function initMobilePicker() {
+    if (window.innerWidth > 768) return;
+    if (document.getElementById('picker-modal')) return;
 
-        const categories = ['All', 'MMORPG', 'Shooter', 'Sports', 'Survival', 'Rogue-like',
-            'Competitive', 'RPG', 'Adventure', 'Social', 'Casual', 'Sandbox',
-            'Strategy', 'Steam', 'Multiplayer', 'Fighting', 'Platformer', 'Action'];
+    const categories = ['All', 'MMORPG', 'Shooter', 'Sports', 'Survival', 'Rogue-like',
+        'Competitive', 'RPG', 'Adventure', 'Social', 'Casual', 'Sandbox',
+        'Strategy', 'Steam', 'Multiplayer', 'Fighting', 'Platformer', 'Action'];
 
-        const modal = document.createElement('div');
-        modal.id = 'picker-modal';
-        modal.innerHTML = `
-            <div id="picker-backdrop"></div>
-            <div id="picker-sheet">
-                <div id="picker-handle"></div>
-                <div id="picker-header">
-                    <div id="picker-title">SELECT CATEGORY</div>
-                    <button id="picker-close" style="-webkit-tap-highlight-color: transparent;">✕</button>
-                </div>
-                <div id="picker-list">
-                    ${categories.map(cat => `<button class="picker-option${cat === 'All' ? ' active' : ''}" data-val="${cat}" style="-webkit-tap-highlight-color: transparent;">${cat}</button>`).join('')}
-                </div>
+    const modal = document.createElement('div');
+    modal.id = 'picker-modal';
+    modal.innerHTML = `
+        <div id="picker-backdrop"></div>
+        <div id="picker-sheet">
+            <div id="picker-handle"></div>
+            <div id="picker-header">
+                <div id="picker-title">SELECT CATEGORY</div>
+                <button id="picker-close" style="-webkit-tap-highlight-color: transparent;">✕</button>
             </div>
-        `;
-        document.body.appendChild(modal);
+            <div id="picker-list">
+                ${categories.map(cat => `<button class="picker-option${cat === 'All' ? ' active' : ''}" data-val="${cat}" style="-webkit-tap-highlight-color: transparent;">${cat}</button>`).join('')}
+            </div>
+        </div>
+    `;
+    document.body.appendChild(modal);
 
-        function closeModal(callback) {
-            const sheet = document.getElementById('picker-sheet');
-            const backdrop = document.getElementById('picker-backdrop');
-            sheet.classList.add('closing');
-            backdrop.classList.add('closing');
-            setTimeout(() => {
-                document.getElementById('picker-modal').classList.remove('active');
-                sheet.classList.remove('closing');
-                backdrop.classList.remove('closing');
-                if (callback) callback();
-            }, 300);
-        }
-
-        // Use touchend for iOS — click fires too late or not at all
-        function addTapHandler(el, fn) {
-            let startY = 0;
-            el.addEventListener('touchstart', function(e) {
-                startY = e.touches[0].clientY;
-            }, { passive: true });
-            el.addEventListener('touchend', function(e) {
-                const dy = Math.abs(e.changedTouches[0].clientY - startY);
-                if (dy < 10) { e.preventDefault(); fn(e); }
-            }, { passive: false });
-            el.addEventListener('click', fn);
-        }
-
-        addTapHandler(document.getElementById('mobile-filter-btn'), function() {
-            document.getElementById('picker-modal').classList.add('active');
-            haptic(8);
-        });
-
-        addTapHandler(document.getElementById('picker-backdrop'), function() {
-            closeModal();
-        });
-
-        addTapHandler(document.getElementById('picker-close'), function() {
-            closeModal();
-        });
-
-        let lastHapticTime = 0;
-        document.getElementById('picker-list').addEventListener('scroll', function() {
-            const now = Date.now();
-            if (now - lastHapticTime > 80) {
-                haptic(4);
-                lastHapticTime = now;
-            }
-        }, { passive: true });
-
-        // Use touchend on picker options for iOS
-        let touchStartY = 0;
-        document.getElementById('picker-list').addEventListener('touchstart', function(e) {
-            touchStartY = e.touches[0].clientY;
-        }, { passive: true });
-
-        document.getElementById('picker-list').addEventListener('touchend', function(e) {
-            const dy = Math.abs(e.changedTouches[0].clientY - touchStartY);
-            if (dy > 10) return; // was a scroll not a tap
-            const btn = e.target.closest('.picker-option');
-            if (!btn) return;
-            e.preventDefault();
-            const selected = btn.dataset.val;
-            currentFilter = selected;
-            document.getElementById('mobile-filter-label').textContent = 'Filter: ' + selected;
-            document.querySelectorAll('.picker-option').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            haptic(10);
-            closeModal(() => {
-                displayGames(currentFilter, document.getElementById('search-bar').value);
-            });
-        }, { passive: false });
-
-        // Fallback click for non-iOS
-        document.getElementById('picker-list').addEventListener('click', function(e) {
-            const btn = e.target.closest('.picker-option');
-            if (!btn) return;
-            const selected = btn.dataset.val;
-            currentFilter = selected;
-            document.getElementById('mobile-filter-label').textContent = 'Filter: ' + selected;
-            document.querySelectorAll('.picker-option').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            haptic(10);
-            closeModal(() => {
-                displayGames(currentFilter, document.getElementById('search-bar').value);
-            });
-        });
+    function openModal() {
+        document.getElementById('picker-modal').classList.add('active');
     }
+
+    function closeModal(callback) {
+        const sheet = document.getElementById('picker-sheet');
+        const backdrop = document.getElementById('picker-backdrop');
+        sheet.classList.add('closing');
+        backdrop.classList.add('closing');
+        setTimeout(() => {
+            document.getElementById('picker-modal').classList.remove('active');
+            sheet.classList.remove('closing');
+            backdrop.classList.remove('closing');
+            if (callback) callback();
+        }, 300);
+    }
+
+    // Simple — no touchend tricks, just click works on both iOS and Android
+    document.getElementById('mobile-filter-btn').addEventListener('click', openModal);
+    document.getElementById('picker-backdrop').addEventListener('click', function() { closeModal(); });
+    document.getElementById('picker-close').addEventListener('click', function() { closeModal(); });
+
+    let lastHapticTime = 0;
+    document.getElementById('picker-list').addEventListener('scroll', function() {
+        const now = Date.now();
+        if (now - lastHapticTime > 80) {
+            haptic(4);
+            lastHapticTime = now;
+        }
+    }, { passive: true });
+
+    let touchStartY = 0;
+    document.getElementById('picker-list').addEventListener('touchstart', function(e) {
+        touchStartY = e.touches[0].clientY;
+    }, { passive: true });
+
+    document.getElementById('picker-list').addEventListener('touchend', function(e) {
+        const dy = Math.abs(e.changedTouches[0].clientY - touchStartY);
+        if (dy > 10) return;
+        const btn = e.target.closest('.picker-option');
+        if (!btn) return;
+        e.preventDefault();
+        const selected = btn.dataset.val;
+        currentFilter = selected;
+        document.getElementById('mobile-filter-label').textContent = 'Filter: ' + selected;
+        document.querySelectorAll('.picker-option').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        haptic(10);
+        closeModal(() => {
+            displayGames(currentFilter, document.getElementById('search-bar').value);
+        });
+    }, { passive: false });
+
+    document.getElementById('picker-list').addEventListener('click', function(e) {
+        const btn = e.target.closest('.picker-option');
+        if (!btn) return;
+        const selected = btn.dataset.val;
+        currentFilter = selected;
+        document.getElementById('mobile-filter-label').textContent = 'Filter: ' + selected;
+        document.querySelectorAll('.picker-option').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        haptic(10);
+        closeModal(() => {
+            displayGames(currentFilter, document.getElementById('search-bar').value);
+        });
+    });
+}
 
     $(window).on('resize', function () {
         if (window.innerWidth > 768) {

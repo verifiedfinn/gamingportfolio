@@ -566,19 +566,19 @@ nav ul li a:hover {
     padding: 10px 20px;
     background-color: #000000;
     border-radius: 5px;
-    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     box-shadow: 0 0 20px #00d9ff, 0 0 40px #00d9ff;
     display: inline-block;
     cursor: pointer;
     font-size: 0.9rem;
-    will-change: transform;
     -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
 }
 
 .filter-btn:hover {
     background-color: #00d9ff;
     color: #000;
-    transform: scale(1.1);
     box-shadow: 0 0 50px #00d9ff, 0 0 100px #00d9ff;
 }
 
@@ -653,15 +653,16 @@ nav ul li a:hover {
     border-radius: 5px;
     border: 2px solid #00d9ff;
     box-shadow: 0 0 5px #00d9ff, 0 0 10px #00d9ff;
-    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     cursor: pointer;
     margin-top: 10px;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
 }
 
 #portfolio-page .button-link:hover {
     background-color: #00d9ff;
     color: #000;
-    transform: scale(1.1);
     box-shadow: 0 0 50px #00d9ff, 0 0 100px #00d9ff;
 }
 
@@ -690,8 +691,10 @@ nav ul li a:hover {
     border-radius: 5px;
     padding: 10px 15px;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     box-shadow: 0 0 5px #00d9ff, 0 0 10px #00d9ff;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
 }
 
 .favorite-btn:active {
@@ -704,7 +707,6 @@ nav ul li a:hover {
     color: #fff;
     border: 2px solid #0f0;
     box-shadow: 0 0 5px #0f0, 0 0 20px rgba(0, 255, 0, 0.568);
-    transform: scale(1.1);
 }
 
 .card-top {
@@ -751,13 +753,13 @@ nav ul li a:hover {
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; background: rgba(0,0,0,0); }
-    to { opacity: 1; background: rgba(0,0,0,0.5); }
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
 
 @keyframes fadeOut {
-    from { opacity: 1; background: rgba(0,0,0,0.5); }
-    to { opacity: 0; background: rgba(0,0,0,0); }
+    from { opacity: 1; }
+    to { opacity: 0; }
 }
 
 #picker-backdrop {
@@ -853,6 +855,8 @@ nav ul li a:hover {
     justify-content: center;
     box-shadow: none;
     flex-shrink: 0;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
 }
 
 #picker-list {
@@ -863,6 +867,14 @@ nav ul li a:hover {
     width: 100%;
     box-sizing: border-box;
     margin: 0;
+}
+
+#picker-list button,
+.picker-option {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    outline: none;
+    touch-action: manipulation;
 }
 
 .picker-option {
@@ -897,11 +909,9 @@ nav ul li a:hover {
     background: rgba(0,217,255,0.1);
 }
 
-#picker-list button,
-.picker-option {
+#mobile-filter-btn {
     -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
-    outline: none;
+    touch-action: manipulation;
 }
 
 /* ===== Mobile & Tablet Responsive Styles ===== */

@@ -145,6 +145,23 @@ $(document).ready(function () {
         return games;
     }
 
+    function haptic(ms) {
+        try {
+            if ('vibrate' in navigator) {
+                navigator.vibrate(ms);
+                return;
+            }
+            // iOS AudioContext haptic trick
+            const ctx = new (window.AudioContext || window.webkitAudioContext)();
+            const buf = ctx.createBuffer(1, ctx.sampleRate * 0.01, ctx.sampleRate);
+            const src = ctx.createBufferSource();
+            src.buffer = buf;
+            src.connect(ctx.destination);
+            src.start();
+            setTimeout(() => ctx.close(), 100);
+        } catch(e) {}
+    }
+
     function renderGame(game) {
         const isFavorite = favorites.includes(game.Name);
         const favoriteClass = isFavorite ? "favorited" : "";
@@ -182,7 +199,8 @@ $(document).ready(function () {
     }
 
     function attachHandlers() {
-        $(".read-more-btn").off("click").on("click", function (event) {
+        $(".read-more-btn").off("click touchend").on("touchend click", function (event) {
+            event.preventDefault();
             event.stopPropagation();
             const moreContent = $(this).closest(".game_types").find(".more-content");
             const parentBox = $(this).closest(".game_types");
@@ -209,7 +227,8 @@ $(document).ready(function () {
             }
         });
 
-        $(".favorite-btn").off("click").on("click", function () {
+        $(".favorite-btn").off("click touchend").on("touchend click", function (event) {
+            event.preventDefault();
             const parentBox = $(this).closest(".game_types");
             const gameName = parentBox.data("name");
 
@@ -225,79 +244,117 @@ $(document).ready(function () {
         });
     }
 
-function initMobilePicker() {
-    if (window.innerWidth > 768) return;
-    if (document.getElementById('picker-modal')) return;
+    function initMobilePicker() {
+        if (window.innerWidth > 768) return;
+        if (document.getElementById('picker-modal')) return;
 
-    const categories = ['All', 'MMORPG', 'Shooter', 'Sports', 'Survival', 'Rogue-like',
-        'Competitive', 'RPG', 'Adventure', 'Social', 'Casual', 'Sandbox',
-        'Strategy', 'Steam', 'Multiplayer', 'Fighting', 'Platformer', 'Action'];
+        const categories = ['All', 'MMORPG', 'Shooter', 'Sports', 'Survival', 'Rogue-like',
+            'Competitive', 'RPG', 'Adventure', 'Social', 'Casual', 'Sandbox',
+            'Strategy', 'Steam', 'Multiplayer', 'Fighting', 'Platformer', 'Action'];
 
-    const modal = document.createElement('div');
-    modal.id = 'picker-modal';
-    modal.innerHTML = `
-        <div id="picker-backdrop"></div>
-        <div id="picker-sheet">
-            <div id="picker-handle"></div>
-            <div id="picker-header">
-                <div id="picker-title">SELECT CATEGORY</div>
-                <button id="picker-close" style="-webkit-tap-highlight-color: transparent;">✕</button>
+        const modal = document.createElement('div');
+        modal.id = 'picker-modal';
+        modal.innerHTML = `
+            <div id="picker-backdrop"></div>
+            <div id="picker-sheet">
+                <div id="picker-handle"></div>
+                <div id="picker-header">
+                    <div id="picker-title">SELECT CATEGORY</div>
+                    <button id="picker-close" style="-webkit-tap-highlight-color: transparent;">✕</button>
+                </div>
+                <div id="picker-list">
+                    ${categories.map(cat => `<button class="picker-option${cat === 'All' ? ' active' : ''}" data-val="${cat}" style="-webkit-tap-highlight-color: transparent;">${cat}</button>`).join('')}
+                </div>
             </div>
-            <div id="picker-list">
-                ${categories.map(cat => `<button class="picker-option${cat === 'All' ? ' active' : ''}" data-val="${cat}" style="-webkit-tap-highlight-color: transparent;">${cat}</button>`).join('')}
-            </div>
-        </div>
-    `;
-    document.body.appendChild(modal);
+        `;
+        document.body.appendChild(modal);
 
-    function closeModal(callback) {
-        const sheet = document.getElementById('picker-sheet');
-        const backdrop = document.getElementById('picker-backdrop');
-        sheet.classList.add('closing');
-        backdrop.classList.add('closing');
-        setTimeout(() => {
-            document.getElementById('picker-modal').classList.remove('active');
-            sheet.classList.remove('closing');
-            backdrop.classList.remove('closing');
-            if (callback) callback();
-        }, 300);
-    }
-
-    document.getElementById('mobile-filter-btn').addEventListener('click', function() {
-        document.getElementById('picker-modal').classList.add('active');
-    });
-
-    document.getElementById('picker-backdrop').addEventListener('click', function() {
-        closeModal();
-    });
-
-    document.getElementById('picker-close').addEventListener('click', function() {
-        closeModal();
-    });
-
-    let lastHapticTime = 0;
-    document.getElementById('picker-list').addEventListener('scroll', function() {
-        const now = Date.now();
-        if (now - lastHapticTime > 80) {
-            if ('vibrate' in navigator) navigator.vibrate(4);
-            lastHapticTime = now;
+        function closeModal(callback) {
+            const sheet = document.getElementById('picker-sheet');
+            const backdrop = document.getElementById('picker-backdrop');
+            sheet.classList.add('closing');
+            backdrop.classList.add('closing');
+            setTimeout(() => {
+                document.getElementById('picker-modal').classList.remove('active');
+                sheet.classList.remove('closing');
+                backdrop.classList.remove('closing');
+                if (callback) callback();
+            }, 300);
         }
-    });
 
-    document.getElementById('picker-list').addEventListener('click', function(e) {
-        const btn = e.target.closest('.picker-option');
-        if (!btn) return;
-        const selected = btn.dataset.val;
-        currentFilter = selected;
-        document.getElementById('mobile-filter-label').textContent = 'Filter: ' + selected;
-        document.querySelectorAll('.picker-option').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        if ('vibrate' in navigator) navigator.vibrate(10);
-        closeModal(() => {
-            displayGames(currentFilter, document.getElementById('search-bar').value);
+        // Use touchend for iOS — click fires too late or not at all
+        function addTapHandler(el, fn) {
+            let startY = 0;
+            el.addEventListener('touchstart', function(e) {
+                startY = e.touches[0].clientY;
+            }, { passive: true });
+            el.addEventListener('touchend', function(e) {
+                const dy = Math.abs(e.changedTouches[0].clientY - startY);
+                if (dy < 10) { e.preventDefault(); fn(e); }
+            }, { passive: false });
+            el.addEventListener('click', fn);
+        }
+
+        addTapHandler(document.getElementById('mobile-filter-btn'), function() {
+            document.getElementById('picker-modal').classList.add('active');
+            haptic(8);
         });
-    });
-}
+
+        addTapHandler(document.getElementById('picker-backdrop'), function() {
+            closeModal();
+        });
+
+        addTapHandler(document.getElementById('picker-close'), function() {
+            closeModal();
+        });
+
+        let lastHapticTime = 0;
+        document.getElementById('picker-list').addEventListener('scroll', function() {
+            const now = Date.now();
+            if (now - lastHapticTime > 80) {
+                haptic(4);
+                lastHapticTime = now;
+            }
+        }, { passive: true });
+
+        // Use touchend on picker options for iOS
+        let touchStartY = 0;
+        document.getElementById('picker-list').addEventListener('touchstart', function(e) {
+            touchStartY = e.touches[0].clientY;
+        }, { passive: true });
+
+        document.getElementById('picker-list').addEventListener('touchend', function(e) {
+            const dy = Math.abs(e.changedTouches[0].clientY - touchStartY);
+            if (dy > 10) return; // was a scroll not a tap
+            const btn = e.target.closest('.picker-option');
+            if (!btn) return;
+            e.preventDefault();
+            const selected = btn.dataset.val;
+            currentFilter = selected;
+            document.getElementById('mobile-filter-label').textContent = 'Filter: ' + selected;
+            document.querySelectorAll('.picker-option').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            haptic(10);
+            closeModal(() => {
+                displayGames(currentFilter, document.getElementById('search-bar').value);
+            });
+        }, { passive: false });
+
+        // Fallback click for non-iOS
+        document.getElementById('picker-list').addEventListener('click', function(e) {
+            const btn = e.target.closest('.picker-option');
+            if (!btn) return;
+            const selected = btn.dataset.val;
+            currentFilter = selected;
+            document.getElementById('mobile-filter-label').textContent = 'Filter: ' + selected;
+            document.querySelectorAll('.picker-option').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            haptic(10);
+            closeModal(() => {
+                displayGames(currentFilter, document.getElementById('search-bar').value);
+            });
+        });
+    }
 
     $(window).on('resize', function () {
         if (window.innerWidth > 768) {

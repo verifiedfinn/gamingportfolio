@@ -1,0 +1,4198 @@
+{
+    "updatedAt": "2026-04-01T22:56:00.596Z",
+    "hoursMap": {
+        "140": {
+            "hours": 2.9,
+            "recentlyPlayed": false
+        },
+        "counter-strike": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "team fortress classic": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "day of defeat": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "deathmatch classic": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "half-life: opposing force": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ricochet": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "half-life": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "counter-strike: condition zero": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "counter-strike: condition zero deleted scenes": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "half-life: blue shift": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "half-life 2": {
+            "hours": 9.3,
+            "recentlyPlayed": false
+        },
+        "counter-strike: source": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "half-life: source": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "day of defeat: source": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "half-life 2: deathmatch": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "half-life deathmatch: source": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "portal": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "team fortress 2": {
+            "hours": 0.7,
+            "recentlyPlayed": false
+        },
+        "left 4 dead": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "left 4 dead 2": {
+            "hours": 1.1,
+            "recentlyPlayed": false
+        },
+        "portal 2": {
+            "hours": 14.6,
+            "recentlyPlayed": false
+        },
+        "counter-strike 2": {
+            "hours": 3841,
+            "recentlyPlayed": true
+        },
+        "peggle deluxe": {
+            "hours": 5,
+            "recentlyPlayed": false
+        },
+        "sniper elite": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "garry's mod": {
+            "hours": 60.4,
+            "recentlyPlayed": false
+        },
+        "total war: medieval ii - definitive edition": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "stubbs the zombie in rebel without a pulse": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "overlord ii": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "operation flashpoint: dragon rising": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the witcher: enhanced edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "fallout: new vegas": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "train simulator classic": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "overgrowth": {
+            "hours": 0.7,
+            "recentlyPlayed": false
+        },
+        "dark sector": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tales of monkey island: chapter 1 - launch of the screaming narwhal": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tales of monkey island: chapter 2 - the siege of spinner cay ": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tales of monkey island: chapter 3 - lair of the leviathan ": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tales of monkey island: chapter 4 - the trial and execution of guybrush threepwood ": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tales of monkey island: chapter 5 - rise of the pirate god": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "sniper ghost warrior 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ai war: fleet command": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "mafia": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "call of duty: black ops": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "call of duty: black ops - multiplayer": {
+            "hours": 5.2,
+            "recentlyPlayed": false
+        },
+        "magicka": {
+            "hours": 14.2,
+            "recentlyPlayed": false
+        },
+        "metro 2033": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "metro: last light complete edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "operation flashpoint: red river": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "grid 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "mount & blade: warband": {
+            "hours": 8.3,
+            "recentlyPlayed": false
+        },
+        "borderlands 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "amnesia: the dark descent": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "sniper elite v2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the darkness ii": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "sonic generations": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "nidhogg": {
+            "hours": 2,
+            "recentlyPlayed": false
+        },
+        "hard reset": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "terraria": {
+            "hours": 0.9,
+            "recentlyPlayed": false
+        },
+        "bastion": {
+            "hours": 8.4,
+            "recentlyPlayed": false
+        },
+        "monaco": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "worms revolution": {
+            "hours": 2.6,
+            "recentlyPlayed": false
+        },
+        "torchlight ii": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "q.u.b.e.": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "binary domain": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "waveform": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "castle crashers": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "sins of a solar empire: rebellion": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "dishonored": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "to the moon": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "speedrunners": {
+            "hours": 146.4,
+            "recentlyPlayed": false
+        },
+        "batman™: arkham knight": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "batman™: arkham origins": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "guns of icarus online": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "sanctum 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the witness": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "sonic & all-stars racing transformed collection": {
+            "hours": 2.4,
+            "recentlyPlayed": false
+        },
+        "ftl: faster than light": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "south park™: the stick of truth™": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "call of duty: black ops - osx": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "call of duty: black ops - multiplayer osx": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "go home dinosaurs!": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "payday 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "scribblenauts unlimited": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "mercenary kings": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hotline miami": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "grim dawn": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "kerbal space program": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "rpg maker vx ace": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the stanley parable": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "resident evil revelations": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "insurgency": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "cry of fear": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "3dmark": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "brothers - a tale of two sons": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "brütal legend": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "desktop dungeons": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "castle story": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "full throttle remastered": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "wreckfest": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "warframe": {
+            "hours": 1.3,
+            "recentlyPlayed": false
+        },
+        "killing floor 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "broken age": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "kenshi": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "mad max": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "naruto shippuden: ultimate ninja storm 3 full burst": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "rpg maker xp": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "pac-man championship edition dx+": {
+            "hours": 1.5,
+            "recentlyPlayed": false
+        },
+        "hitman™": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "magicka 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "battleblock theater": {
+            "hours": 1,
+            "recentlyPlayed": false
+        },
+        "path of exile": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "amnesia: a machine for pigs": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "q.u.b.e: director's cut": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "getting over it with bennett foddy": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "middle-earth™: shadow of mordor™": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "assassin's creed iv black flag": {
+            "hours": 1,
+            "recentlyPlayed": false
+        },
+        "injustice: gods among us ultimate edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "verdun": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "space engineers": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "skullgirls 2nd encore": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "fate": {
+            "hours": 22.3,
+            "recentlyPlayed": false
+        },
+        "crypt of the necrodancer": {
+            "hours": 7.9,
+            "recentlyPlayed": false
+        },
+        "lego® marvel super heroes": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the wolf among us": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the binding of isaac: rebirth": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "chroma squad": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the legend of heroes: trails in the sky": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "7 days to die": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the impossible game": {
+            "hours": 8.4,
+            "recentlyPlayed": false
+        },
+        "rust": {
+            "hours": 42.8,
+            "recentlyPlayed": false
+        },
+        "death road to canada": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "rocket league": {
+            "hours": 1788.5,
+            "recentlyPlayed": true
+        },
+        "a hat in time": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "sparkle 2 evo": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "cities: skylines": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hyper light drifter": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ring runner: flight of the sages": {
+            "hours": 2.4,
+            "recentlyPlayed": false
+        },
+        "assassin's creed liberation": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "mount & blade ii: bannerlord": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ori and the blind forest": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "darkest dungeon®": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "subnautica": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "goat simulator": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "gameguru classic": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "panzer corps": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "satellite reign": {
+            "hours": 0.8,
+            "recentlyPlayed": false
+        },
+        "cuphead": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "running with rifles": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "robot roller-derby disco dodgeball": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "american truck simulator": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "grand theft auto v legacy": {
+            "hours": 206.6,
+            "recentlyPlayed": false
+        },
+        "wreckfest throw-a-santa + sneak peek 2.0": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hotline miami 2: wrong number": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "darkwood": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "space run": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "no man's sky": {
+            "hours": 0.9,
+            "recentlyPlayed": false
+        },
+        "fate: undiscovered realms": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "on rusty trails": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "diehard dungeon": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "interplanetary": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hover": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "stellaris": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "this war of mine": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "beamng.drive": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tooth and tail": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tabletop simulator": {
+            "hours": 10.2,
+            "recentlyPlayed": false
+        },
+        "fault - milestone one": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "metro 2033 redux": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "toybox turbos": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "mini metro": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "fable anniversary": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "sid meier's civilization vi": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "endless™ legend": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the witcher 3: wild hunt": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "crawl": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "knight squad": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "rimworld": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "miscreated": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "amerzone: the explorer’s legacy (1999)": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ryse: son of rome": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "inside": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "sunless sea": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the long dark": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "fancy skulls": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "we need to go deeper": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dirt rally": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "geometry wars 3: dimensions evolved": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "enter the gungeon": {
+            "hours": 13.3,
+            "recentlyPlayed": false
+        },
+        "rain world": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "duck game": {
+            "hours": 7.5,
+            "recentlyPlayed": false
+        },
+        "mountain": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "silence": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "life is strange™": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "moon hunters": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "unloved": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "20xx": {
+            "hours": 0.5,
+            "recentlyPlayed": false
+        },
+        "geometry dash": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "don't starve together": {
+            "hours": 4.7,
+            "recentlyPlayed": false
+        },
+        "framed collection": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "superhot": {
+            "hours": 0.6,
+            "recentlyPlayed": false
+        },
+        "frostpunk": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "vagante": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "jotun: valhalla edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "shellshock live": {
+            "hours": 41.9,
+            "recentlyPlayed": false
+        },
+        "gloria victis": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "children of morta": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the jackbox party pack": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "aer memories of old": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "adom (ancient domains of mystery)": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "town of salem": {
+            "hours": 5.4,
+            "recentlyPlayed": false
+        },
+        "out there: ω edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "yoku's island express": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "finding paradise": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "headlander": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "basement": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "toto temple deluxe": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tacoma": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "cryptark": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ark: survival evolved": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "popup dungeon": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "crazy machines 3": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "middle-earth™: shadow of war™": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ubermosh": {
+            "hours": 2.4,
+            "recentlyPlayed": false
+        },
+        "tom clancy's rainbow six siege": {
+            "hours": 3.6,
+            "recentlyPlayed": false
+        },
+        "turmoil": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "leap of fate": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "total war: warhammer": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "kona": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hacknet": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "shiness: the lightning kingdom": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dragon's dogma: dark arisen": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hollow knight": {
+            "hours": 59.2,
+            "recentlyPlayed": false
+        },
+        "kingdom: classic": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "gremlins, inc.": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "discouraged workers": {
+            "hours": 2.3,
+            "recentlyPlayed": false
+        },
+        "rolling sun": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "barony": {
+            "hours": 1.6,
+            "recentlyPlayed": false
+        },
+        "sudden strike 4": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "portal knights": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "dark souls™ iii": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the surge": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dead island definitive edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dead island riptide definitive edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hue": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "nimbatus - the space drone constructor": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "rivals of aether": {
+            "hours": 0.7,
+            "recentlyPlayed": false
+        },
+        "pathologic classic hd": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "abzû": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "smite": {
+            "hours": 106.2,
+            "recentlyPlayed": false
+        },
+        "ultimate chicken horse": {
+            "hours": 1.6,
+            "recentlyPlayed": false
+        },
+        "ori and the blind forest: definitive edition": {
+            "hours": 0.8,
+            "recentlyPlayed": false
+        },
+        "darksiders ii deathinitive edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "oxenfree": {
+            "hours": 1,
+            "recentlyPlayed": false
+        },
+        "tekken 7": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "anarcute": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "blast-off": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "epic manager": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "undertale": {
+            "hours": 1.9,
+            "recentlyPlayed": false
+        },
+        "endless™ space 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tsioque": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hearts of iron iv": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "helldivers™": {
+            "hours": 0.3,
+            "recentlyPlayed": false
+        },
+        "tower unite": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "office battle": {
+            "hours": 0.5,
+            "recentlyPlayed": false
+        },
+        "distraint: deluxe edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "magicka 2: spell balance beta": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "simpleplanes": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the jackbox party pack 2": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "highschool romance": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "epistory - typing chronicles": {
+            "hours": 0.3,
+            "recentlyPlayed": false
+        },
+        "out of space": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "neurovoider": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "wuppo - definitive edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the dwarves": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "nex machina": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "pony island": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the uncertain: last quiet day": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ark: survival of the fittest": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hard reset redux": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "x-morph: defense": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "system shock: classic": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "system shock: enhanced edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "forts": {
+            "hours": 23.1,
+            "recentlyPlayed": false
+        },
+        "elex": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "metro exodus": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "stardew valley": {
+            "hours": 55,
+            "recentlyPlayed": false
+        },
+        "hellblade: senua's sacrifice": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "outlast 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "light fall": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "draw slasher": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "rwby: grimm eclipse": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "pankapu": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "blackwake": {
+            "hours": 1.1,
+            "recentlyPlayed": false
+        },
+        "oneshot": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dirt 4": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "indivisible": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "furi": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "little nightmares": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "one piece burning blood": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "abiotic factor": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "factorio": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "zwei: the arges adventure": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "zwei: the ilvard insurrection": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "momodora: reverie under the moonlight": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tales of berseria": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "golf with your friends": {
+            "hours": 16.8,
+            "recentlyPlayed": false
+        },
+        "aseprite": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "wildfire": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "wallpaper engine": {
+            "hours": 10.8,
+            "recentlyPlayed": false
+        },
+        "z1 battle royale": {
+            "hours": 4.2,
+            "recentlyPlayed": false
+        },
+        "bit blaster xl": {
+            "hours": 0.6,
+            "recentlyPlayed": false
+        },
+        "the jackbox party pack 3": {
+            "hours": 4.8,
+            "recentlyPlayed": false
+        },
+        "lost castle": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "divinity: original sin 2": {
+            "hours": 111.4,
+            "recentlyPlayed": true
+        },
+        "hidden folks": {
+            "hours": 0.6,
+            "recentlyPlayed": false
+        },
+        "hyper box": {
+            "hours": 2.8,
+            "recentlyPlayed": false
+        },
+        "h1z1: test server": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "conan exiles": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "drawful 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "expeditions: viking": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "wizard of legend": {
+            "hours": 28.8,
+            "recentlyPlayed": false
+        },
+        "overcooked": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "book of demons": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "battle chef brigade": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "oxygen not included": {
+            "hours": 1.1,
+            "recentlyPlayed": false
+        },
+        "domino sky": {
+            "hours": 1.1,
+            "recentlyPlayed": false
+        },
+        "katana zero": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "syberia 3": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "surviving mars": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "fury unleashed": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "speed brawl": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "uno": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "absolver": {
+            "hours": 5.7,
+            "recentlyPlayed": false
+        },
+        "quantum break": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "titan quest anniversary edition": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "scanner sombre": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "human fall flat": {
+            "hours": 11.1,
+            "recentlyPlayed": false
+        },
+        "mini thief": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "aven colony": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "minion masters": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "warhammer 40,000: gladius - relics of war": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the elder scrolls v: skyrim special edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dashbored": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "orwell": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "tropico 6": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "figment": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dungeons 3": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "praey for the gods": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "batman - the telltale series": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the turing test": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "what remains of edith finch": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "911 operator": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "celeste": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "optika": {
+            "hours": 2.4,
+            "recentlyPlayed": false
+        },
+        "pathologic 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "five nights at freddy's: sister location": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "fly and destroy": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "zup! x": {
+            "hours": 1.9,
+            "recentlyPlayed": false
+        },
+        "spikit": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the hex": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "thoth": {
+            "hours": 0.5,
+            "recentlyPlayed": false
+        },
+        "intralism": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "ubermosh vol.3": {
+            "hours": 3.2,
+            "recentlyPlayed": false
+        },
+        "toejam & earl: back in the groove": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "thehunter: call of the wild™": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dear esther: landmark edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "rpg maker vx": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "serial cleaner": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "lust for darkness": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "emily is away too": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "siege of centauri": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "nier:automata™": {
+            "hours": 12.9,
+            "recentlyPlayed": false
+        },
+        "the wild eight": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "satisfactory": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "for the king": {
+            "hours": 0.7,
+            "recentlyPlayed": false
+        },
+        "synthetik": {
+            "hours": 20.8,
+            "recentlyPlayed": false
+        },
+        "mages of mystralia": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "wandersong": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "soulblight": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "sundered: eldritch edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ancestors: the humankind odyssey ": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "guts and glory": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "bomber crew": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "lara croft go": {
+            "hours": 0.9,
+            "recentlyPlayed": false
+        },
+        "battlestar galactica deadlock": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "soulcalibur vi": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "trip to vinelands": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "pathway": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "half-life: alyx": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "deep rock galactic": {
+            "hours": 12.7,
+            "recentlyPlayed": false
+        },
+        "valkyrie drive -bhikkhuni-": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the sexy brutale": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "lethal league blaze": {
+            "hours": 2.5,
+            "recentlyPlayed": false
+        },
+        "life is strange: before the storm": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "goat of duty": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "my friend pedro": {
+            "hours": 0.5,
+            "recentlyPlayed": false
+        },
+        "zup! 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "duke of alpha centauri": {
+            "hours": 0.5,
+            "recentlyPlayed": false
+        },
+        "the land of pain": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "golf it!": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "pikuniku": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dead in vinland": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "aporia: beyond the valley": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "zup! 3": {
+            "hours": 1.6,
+            "recentlyPlayed": false
+        },
+        "neverout": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "old man's journey": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "everything": {
+            "hours": 0.3,
+            "recentlyPlayed": false
+        },
+        "black desert": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "voiceattack": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "sonic mania": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "late shift": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "trailmakers": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "shadows: awakening": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dead cells": {
+            "hours": 43.8,
+            "recentlyPlayed": false
+        },
+        "uayeb: the dry land - episode 1": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "zup! 4": {
+            "hours": 2.4,
+            "recentlyPlayed": false
+        },
+        "sunless skies": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "mini rollers": {
+            "hours": 1.4,
+            "recentlyPlayed": false
+        },
+        "boreal blade": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "valfaris": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "devil may cry 5": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "zup! f": {
+            "hours": 2.2,
+            "recentlyPlayed": false
+        },
+        "moonlighter": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "darksiders iii": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "wargroove": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hotshot racing": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the jackbox party pack 4": {
+            "hours": 4.8,
+            "recentlyPlayed": false
+        },
+        "zup! zero": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "paradox soul": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "fort triumph": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "shootout on cash island": {
+            "hours": 7.2,
+            "recentlyPlayed": false
+        },
+        "orbt xl": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ultimate epic battle simulator": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "zup! s": {
+            "hours": 1.5,
+            "recentlyPlayed": false
+        },
+        "pc building simulator": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "necroworm": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tom clancy's rainbow six siege - test server": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "next jump: shmup tactics": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tt isle of man: ride on the edge": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hellpoint": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "amaze 2": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "soundpad": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "pixplode": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "risk of rain 2": {
+            "hours": 184,
+            "recentlyPlayed": false
+        },
+        "disco elysium": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "orwell: ignorance is strength": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "last day of june": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "corridor z": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "murderous pursuits": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "journey": {
+            "hours": 0.3,
+            "recentlyPlayed": false
+        },
+        "yakuza 0": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the escapists 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "mirror": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the surge 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "zup! 5": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "car mechanic simulator 2018": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "slay the spire": {
+            "hours": 15.8,
+            "recentlyPlayed": false
+        },
+        "raft": {
+            "hours": 22.1,
+            "recentlyPlayed": false
+        },
+        "interplanetary: enhanced edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "zup! zero 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "zup! 7": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "field of glory ii": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tales from candlekeep: tomb of annihilation": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "drunken wrestlers 2": {
+            "hours": 0.6,
+            "recentlyPlayed": false
+        },
+        "desolate": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "total tank simulator": {
+            "hours": 0.5,
+            "recentlyPlayed": false
+        },
+        "fight'n rage": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "stick fight: the game": {
+            "hours": 7.9,
+            "recentlyPlayed": false
+        },
+        "batman: the enemy within - the telltale series": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "heroes of hammerwatch": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "we were here too": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "nowhere prophet": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "gris": {
+            "hours": 4.2,
+            "recentlyPlayed": false
+        },
+        "forged battalion": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "pogostuck: rage with your friends": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "bad north: jotunn edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "trine 4: the nightmare prince": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dirt rally 2.0": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tennis world tour": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "bloodstained: ritual of the night": {
+            "hours": 1.3,
+            "recentlyPlayed": false
+        },
+        "deep sky derelicts": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "despotism 3k": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "rust - staging branch": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "kingdom two crowns": {
+            "hours": 21.8,
+            "recentlyPlayed": false
+        },
+        "ttv2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "grid (2019)": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "slapshot": {
+            "hours": 0.3,
+            "recentlyPlayed": false
+        },
+        "darksiders genesis": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "chuchel": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "simulacra": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "little misfortune": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "diamo xl": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "sigma theory": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "driftland: the magic revival": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "orbital racer": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "elderborn": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "overcooked! 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "raji: an ancient epic": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "superflight": {
+            "hours": 0.9,
+            "recentlyPlayed": false
+        },
+        "slipstream": {
+            "hours": 4.7,
+            "recentlyPlayed": false
+        },
+        "not tonight": {
+            "hours": 1.5,
+            "recentlyPlayed": false
+        },
+        "f1 2018": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "breathedge": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "phasmophobia": {
+            "hours": 2.3,
+            "recentlyPlayed": false
+        },
+        "drake hollow": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "deadly days": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hellblade: senua's sacrifice vr edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "treasure hunter simulator": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "forager": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "black future '88": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "outer wilds": {
+            "hours": 1.8,
+            "recentlyPlayed": false
+        },
+        "atmasphere": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "sable": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "excellent expectations": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "hammerting": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "retimed": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "muse dash": {
+            "hours": 11.4,
+            "recentlyPlayed": false
+        },
+        "rhythm doctor": {
+            "hours": 2.4,
+            "recentlyPlayed": false
+        },
+        "heaven's vault": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "warhammer: chaosbane": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the jackbox party pack 5": {
+            "hours": 2,
+            "recentlyPlayed": false
+        },
+        "crab champions": {
+            "hours": 41.4,
+            "recentlyPlayed": false
+        },
+        "project winter": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dungeon gambit boy": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "mouse (sneaking)": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "gloomhaven": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "doom eternal": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hexologic": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "neon abyss": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "valkyria chronicles 4 complete edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the beast inside": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "levelhead": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "112 operator": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "outward": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "neo cab": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "zup! 8": {
+            "hours": 2.3,
+            "recentlyPlayed": false
+        },
+        "wizard101": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "plane mechanic simulator": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "wrecked": {
+            "hours": 0.5,
+            "recentlyPlayed": false
+        },
+        "achievement printer": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "shining resonance refrain": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "animal well": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "scheming through the zombie apocalypse: the beginning": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "supraland": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "age of empires ii: definitive edition": {
+            "hours": 46.6,
+            "recentlyPlayed": false
+        },
+        "sekiro™: shadows die twice": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "totally accurate battlegrounds": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "kovaak's": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "tales of the neon sea": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "blonde driver": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hiveswap friendsim": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "roarr! jurassic edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tabletop playground": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "rustler": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "δv: rings of saturn": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "sunset overdrive": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "subnautica: below zero": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "touhou luna nights": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "retromaze": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ikenfell": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "secret neighbor": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "imperator: rome": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dicey dungeons": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "rover mechanic simulator": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "super bit blaster xl": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "out of reach: treasure royale": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "control ultimate edition": {
+            "hours": 0.7,
+            "recentlyPlayed": false
+        },
+        "lovecraft's untold stories": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "radio commander": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "crying suns": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "garage: bad trip": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "shenmue iii": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "pummel party": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "granblue fantasy: relink": {
+            "hours": 2.2,
+            "recentlyPlayed": false
+        },
+        "noita": {
+            "hours": 45.6,
+            "recentlyPlayed": false
+        },
+        "xcom: chimera squad": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "in other waters": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "valheim": {
+            "hours": 194,
+            "recentlyPlayed": false
+        },
+        "deadside": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "iron danger": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "last epoch": {
+            "hours": 8,
+            "recentlyPlayed": false
+        },
+        "reventure": {
+            "hours": 1.6,
+            "recentlyPlayed": false
+        },
+        "last oasis": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "family man": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "miscreated: experimental server": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "jet lancer": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "train station renovation": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "bee simulator": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "coffee talk": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "telefrag vr": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "golf peaks": {
+            "hours": 1.2,
+            "recentlyPlayed": false
+        },
+        "back 4 blood": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "yakuza kiwami 2 (legacy)": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "f1 2019": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "swag and sorcery": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "conan exiles - public beta client": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "simmiland": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "big brother is shaping you": {
+            "hours": 2.1,
+            "recentlyPlayed": false
+        },
+        "townsmen - a kingdom rebuilt": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "inmost": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "darksburg": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the textorcist: the story of ray bibbia": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "colt canyon": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "minoria": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "relicta": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "swine hd remaster": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "among us": {
+            "hours": 62.9,
+            "recentlyPlayed": false
+        },
+        "gothic playable teaser": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "shan gui ii: sweet osmanthus ii": {
+            "hours": 0.6,
+            "recentlyPlayed": false
+        },
+        "fantasy blacksmith": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "bloons td 6": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "one step from eden": {
+            "hours": 9.4,
+            "recentlyPlayed": false
+        },
+        "frog detective 1: the haunted island": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "boomerang fu": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "spiritfarer®: farewell edition": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "sniper ghost warrior contracts": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dwarf fortress": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "panzer paladin": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "effie": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "size matters": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "halo: the master chief collection": {
+            "hours": 0.8,
+            "recentlyPlayed": false
+        },
+        "autonauts": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "cepheus protocol": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "avicii invector": {
+            "hours": 15.1,
+            "recentlyPlayed": false
+        },
+        "hogwarts legacy": {
+            "hours": 45.4,
+            "recentlyPlayed": false
+        },
+        "lossless scaling": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "lightmatter": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "fae tactics": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "spyro™ reignited trilogy": {
+            "hours": 2.2,
+            "recentlyPlayed": false
+        },
+        "moving out": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ring of pain": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "amnesia: rebirth": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "crown trick": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "cook, serve, delicious! 3?!": {
+            "hours": 0.7,
+            "recentlyPlayed": false
+        },
+        "tetris® effect: connected": {
+            "hours": 1.3,
+            "recentlyPlayed": false
+        },
+        "blacksad: under the skin": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tools up!": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "wrc 8 fia world rally championship": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the jackbox party pack 6": {
+            "hours": 3.3,
+            "recentlyPlayed": false
+        },
+        "mirror maker": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "moons of madness": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "peaky blinders: mastermind": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "pga tour 2k21": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "west of dead": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the long drive": {
+            "hours": 4.9,
+            "recentlyPlayed": false
+        },
+        "smile for me": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "war selection": {
+            "hours": 8.2,
+            "recentlyPlayed": false
+        },
+        "warsaw rising: city of heroes": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hollow knight: silksong": {
+            "hours": 98.1,
+            "recentlyPlayed": false
+        },
+        "mafia: definitive edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ultimate zombie defense": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "struggling": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "paw paw paw": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dirt 5": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dreamscaper": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "call of the sea": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "deleveled": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "islanders": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "frog detective 2: the case of the invisible wizard": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "half past fate": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "superliminal": {
+            "hours": 1.4,
+            "recentlyPlayed": false
+        },
+        "wingspan": {
+            "hours": 9.8,
+            "recentlyPlayed": true
+        },
+        "ori and the will of the wisps": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the suicide of rachel foster": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "jump king": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "vane": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "still there": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "röki": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "earthx": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "narita boy": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "seen": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "motorcycle mechanic simulator 2021": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "main assembly": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "f1 2020": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "before your eyes": {
+            "hours": 1.2,
+            "recentlyPlayed": false
+        },
+        "baldur's gate 3": {
+            "hours": 102.7,
+            "recentlyPlayed": false
+        },
+        "yakuza 3 remastered": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the henry stickmin collection": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "cyberpunk 2077": {
+            "hours": 0.3,
+            "recentlyPlayed": false
+        },
+        "inscryption": {
+            "hours": 19.4,
+            "recentlyPlayed": false
+        },
+        "song of horror": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "fall guys": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "aeolis tournament": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "rock of ages 3: make & break": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "monster train": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "shing!": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "mo:astray": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the last spell": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "nier replicant ver.1.22474487139...": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "as far as the eye": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "chicory: a colorful tale": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "mindustry": {
+            "hours": 0.5,
+            "recentlyPlayed": false
+        },
+        "iris and the giant": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "risk: global domination": {
+            "hours": 1.1,
+            "recentlyPlayed": false
+        },
+        "cyber hook": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "monster prom 2: monster camp": {
+            "hours": 1.3,
+            "recentlyPlayed": false
+        },
+        "pawnbarian": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "wwe 2k battlegrounds": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "remothered: broken porcelain ": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "total war: warhammer iii": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "pesterquest": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "sludge life": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "necronator: dead wrong": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hades ii": {
+            "hours": 1.1,
+            "recentlyPlayed": false
+        },
+        "hades": {
+            "hours": 61.1,
+            "recentlyPlayed": false
+        },
+        "not for broadcast": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "skul: the hero slayer": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "horizon zero dawn™ complete edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "going under": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "paradise killer": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "necesse": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "marbles on stream": {
+            "hours": 3.1,
+            "recentlyPlayed": false
+        },
+        "the ambassador: fractured timelines": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "star wars jedi: fallen order�� ": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "carto": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "sea of thieves": {
+            "hours": 149.3,
+            "recentlyPlayed": false
+        },
+        "slapshot: rebound": {
+            "hours": 2.3,
+            "recentlyPlayed": false
+        },
+        "red dead redemption 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "space crew: legendary edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "kill it with fire": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tell me why": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "path of giants": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "hiveswap: act 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "worms rumble": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "say no! more": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "enshrouded": {
+            "hours": 2.1,
+            "recentlyPlayed": false
+        },
+        "rubber bandits": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ageless": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the jackbox party pack 7": {
+            "hours": 6.8,
+            "recentlyPlayed": false
+        },
+        "gunfire reborn": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "zup! z": {
+            "hours": 1.2,
+            "recentlyPlayed": false
+        },
+        "blue fire": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "detroit: become human": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the sims™ 4": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "titanfall® 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "sea of stars": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "golden light": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "elden ring": {
+            "hours": 0.7,
+            "recentlyPlayed": false
+        },
+        "skully": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "rogue legacy 2": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "days gone": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "pureya": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "vampire: the masquerade - shadows of new york": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "remnant ii": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "loop hero": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ultimate racing 2d 2": {
+            "hours": 1.8,
+            "recentlyPlayed": false
+        },
+        "post void": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ship of fools": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "milky way prince – the vampire star": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "cult of the lamb": {
+            "hours": 7.1,
+            "recentlyPlayed": false
+        },
+        "cassette beasts": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "mass effect™ legendary edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "morkredd": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "against the storm": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "risk of rain returns": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "werewolf: the apocalypse - heart of the forest": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "5d chess with multiverse time travel": {
+            "hours": 0.6,
+            "recentlyPlayed": false
+        },
+        "ampersat": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "manor lords": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "street fighter™ 6": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dyson sphere program": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "crosshair x": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "operation: tango - demo": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "viewfinder": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "guilty gear -strive-": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "across the obelisk": {
+            "hours": 131.9,
+            "recentlyPlayed": false
+        },
+        "milk inside a bag of milk inside a bag of milk": {
+            "hours": 0.3,
+            "recentlyPlayed": false
+        },
+        "john wick hex": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "syberia - the world before": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "deadlock": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "it takes two": {
+            "hours": 10.9,
+            "recentlyPlayed": false
+        },
+        "the amazing american circus": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "make way": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "metro exodus enhanced edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "cookie clicker": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "final fantasy vii remake intergrade": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "(the) gnorp apologue": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "goons: legends & mayhem": {
+            "hours": 1,
+            "recentlyPlayed": false
+        },
+        "cocoon": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "machinika museum": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "pico park": {
+            "hours": 2.6,
+            "recentlyPlayed": false
+        },
+        "wartales": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "neon white": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "waifu impact": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "forza horizon 5": {
+            "hours": 1.1,
+            "recentlyPlayed": false
+        },
+        "golf club nostalgia": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "rounds": {
+            "hours": 2,
+            "recentlyPlayed": false
+        },
+        "dredge": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "sanabi": {
+            "hours": 11.3,
+            "recentlyPlayed": false
+        },
+        "tape to tape": {
+            "hours": 2,
+            "recentlyPlayed": false
+        },
+        "god of war": {
+            "hours": 0.3,
+            "recentlyPlayed": false
+        },
+        "plateup!": {
+            "hours": 23.9,
+            "recentlyPlayed": true
+        },
+        "v rising": {
+            "hours": 71.9,
+            "recentlyPlayed": false
+        },
+        "hellslave": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "core keeper": {
+            "hours": 7.7,
+            "recentlyPlayed": false
+        },
+        "palworld": {
+            "hours": 28.5,
+            "recentlyPlayed": false
+        },
+        "lies of p": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "a little to the left": {
+            "hours": 1.4,
+            "recentlyPlayed": false
+        },
+        "dome keeper": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "lust from beyond: m edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "eternity egg": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "bopl battle": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "persona 5 royal": {
+            "hours": 0.6,
+            "recentlyPlayed": false
+        },
+        "isle of jura": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "tiny tina's assault on dragon keep: a wonderlands one-shot adventure": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "super auto pets": {
+            "hours": 49.7,
+            "recentlyPlayed": false
+        },
+        "midinous": {
+            "hours": 0.5,
+            "recentlyPlayed": false
+        },
+        "have a nice death": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "no fair play": {
+            "hours": 0.5,
+            "recentlyPlayed": false
+        },
+        "blue fire: void maker": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "vampire survivors": {
+            "hours": 13.5,
+            "recentlyPlayed": false
+        },
+        "arc raiders": {
+            "hours": 105.9,
+            "recentlyPlayed": false
+        },
+        "wildfrost": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "marvel’s spider-man remastered": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "hi-fi rush": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "quickerflak": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dave the diver": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "ratchet & clank: rift apart": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "various daylife": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "clair obscur: expedition 33": {
+            "hours": 32.9,
+            "recentlyPlayed": false
+        },
+        "knightfall: a daring journey": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "chants of sennaar": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "the cub": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "brotato": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "stacklands": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "lethal company": {
+            "hours": 4.2,
+            "recentlyPlayed": false
+        },
+        "octopath traveler ii": {
+            "hours": 0.6,
+            "recentlyPlayed": false
+        },
+        "one-armed cook": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "barro gt": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "dragon's dogma 2": {
+            "hours": 0.7,
+            "recentlyPlayed": false
+        },
+        "islands of insight": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "the finals": {
+            "hours": 0.8,
+            "recentlyPlayed": false
+        },
+        "kinitopet": {
+            "hours": 1.7,
+            "recentlyPlayed": false
+        },
+        "the master's pupil": {
+            "hours": 0.3,
+            "recentlyPlayed": false
+        },
+        "tiny rogues": {
+            "hours": 46.1,
+            "recentlyPlayed": false
+        },
+        "blasphemous 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "cepheus protocol experimental branch": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "4d golf": {
+            "hours": 1,
+            "recentlyPlayed": false
+        },
+        "little nightmares enhanced edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "my dream setup": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "halls of torment": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "pizza tower": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "thronefall": {
+            "hours": 0.1,
+            "recentlyPlayed": false
+        },
+        "q  remastered": {
+            "hours": 1.5,
+            "recentlyPlayed": false
+        },
+        "death must die": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "nubs!": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "balatro": {
+            "hours": 132.8,
+            "recentlyPlayed": false
+        },
+        "horizon forbidden west™ complete edition": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "bronzebeard's tavern": {
+            "hours": 4.8,
+            "recentlyPlayed": false
+        },
+        "backpack battles": {
+            "hours": 0.7,
+            "recentlyPlayed": false
+        },
+        "sword of the sea": {
+            "hours": 1,
+            "recentlyPlayed": true
+        },
+        "horizon zero dawn™ remastered": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "chained together": {
+            "hours": 0.7,
+            "recentlyPlayed": false
+        },
+        "dispatch": {
+            "hours": 1.7,
+            "recentlyPlayed": true
+        },
+        "pico park 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "nothing": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "supermarket together": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "party club": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "buckshot roulette": {
+            "hours": 0.4,
+            "recentlyPlayed": false
+        },
+        "cakey's twisted bakery": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "fate: reawakened": {
+            "hours": 0.2,
+            "recentlyPlayed": false
+        },
+        "unplagued": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "schedule i": {
+            "hours": 5.7,
+            "recentlyPlayed": true
+        },
+        "grand theft auto v enhanced": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "r.e.p.o.": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "peak": {
+            "hours": 6.4,
+            "recentlyPlayed": true
+        },
+        "yakuza kiwami 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
+        "super battle golf": {
+            "hours": 26.9,
+            "recentlyPlayed": true
+        }
+    },
+    "games": [
+        {
+            "Name": "Portal 2",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to d...",
+            "RemainingDescription": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to design co-op puzzles for you and your friends!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/620/header.jpg",
+            "Link": "https://store.steampowered.com/app/620/",
+            "Hours": 14.6,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Counter-Strike 2",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "For over two decades, Counter-Strike has offered an elite competitive experience...",
+            "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
+            "Link": "https://store.steampowered.com/app/730/",
+            "Hours": 3841,
+            "RecentlyPlayed": true,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Garry's Mod",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We...",
+            "RemainingDescription": "Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/4000/header.jpg",
+            "Link": "https://store.steampowered.com/app/4000/",
+            "Hours": 60.4,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Magicka",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Magicka is a satirical action-adventure game set in a rich fantasy world based o...",
+            "RemainingDescription": "Magicka is a satirical action-adventure game set in a rich fantasy world based on Norse mythology. The player assumes the role of a wizard from a sacred order tasked with stopping an evil sorcerer who has thrown the world into turmoil, his foul creations besieging the forces of good.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/42910/header.jpg",
+            "Link": "https://store.steampowered.com/app/42910/",
+            "Hours": 14.2,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "SpeedRunners",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Cut-throat multiplayer running game that pits 4 players against each other, loca...",
+            "RemainingDescription": "Cut-throat multiplayer running game that pits 4 players against each other, locally and/or online. Run, jump, swing around, and use devious weapons and pick-ups to knock opponents off-screen! One of the most competitive games you'll ever play.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/207140/header.jpg",
+            "Link": "https://store.steampowered.com/app/207140/",
+            "Hours": 146.4,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "FATE",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Play (or Re-play) This Classic Dungeon Crawler!During the golden days of action...",
+            "RemainingDescription": "Play (or Re-play) This Classic Dungeon Crawler!During the golden days of action RPGs, FATE was a powerhouse, winning runner-up for PC Magazine’s Role-Playing Game of the year. Popular enough to spawn 3 sequels, this was one of the premier dungeon crawlers of its time.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/246840/header.jpg",
+            "Link": "https://store.steampowered.com/app/246840/",
+            "Hours": 22.3,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Rust",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "The only aim in Rust is to survive. Everything wants you to die - the island’s w...",
+            "RemainingDescription": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg",
+            "Link": "https://store.steampowered.com/app/252490/",
+            "Hours": 42.8,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Rocket League",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayh...",
+            "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
+            "Link": "https://store.steampowered.com/app/252950/",
+            "Hours": 1788.5,
+            "RecentlyPlayed": true,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Grand Theft Auto V Legacy",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Grand Theft Auto V for PC offers players the option to explore the award-winning...",
+            "RemainingDescription": "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg",
+            "Link": "https://store.steampowered.com/app/271590/",
+            "Hours": 206.6,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Tabletop Simulator",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Tabletop Simulator is the only simulator where you can let your aggression out b...",
+            "RemainingDescription": "Tabletop Simulator is the only simulator where you can let your aggression out by flipping the table! There are no rules to follow: just you, a physics sandbox, and your friends. Make your own online board games or play the thousands of community created mods. Unlimited gaming possibilities!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/286160/header.jpg",
+            "Link": "https://store.steampowered.com/app/286160/",
+            "Hours": 10.2,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Enter the Gungeon",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Enter the Gungeon is a bullet hell dungeon crawler following a band of misfits s...",
+            "RemainingDescription": "Enter the Gungeon is a bullet hell dungeon crawler following a band of misfits seeking to shoot, loot, dodge roll and table-flip their way to personal absolution by reaching the legendary Gungeon’s ultimate treasure: the gun that can kill the past.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/311690/header.jpg",
+            "Link": "https://store.steampowered.com/app/311690/",
+            "Hours": 13.3,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "ShellShock Live",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Demolish your friends with hundreds of upgradable weapons shot from your customi...",
+            "RemainingDescription": "Demolish your friends with hundreds of upgradable weapons shot from your customizable tank in this action-packed online multiplayer tanks game. Earn XP to level up and unlock new tanks, weapons, and gear. Fight against or alongside your friends for strategic team or free-for-all matches.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/326460/header.jpg",
+            "Link": "https://store.steampowered.com/app/326460/",
+            "Hours": 41.9,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Hollow Knight",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Forge your own path in Hollow Knight! An epic action adventure through a vast ru...",
+            "RemainingDescription": "Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/367520/header.jpg",
+            "Link": "https://store.steampowered.com/app/367520/",
+            "Hours": 59.2,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "SMITE",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Join 40+ million players in SMITE, the Battleground of the Gods! Wield Thor’s ha...",
+            "RemainingDescription": "Join 40+ million players in SMITE, the Battleground of the Gods! Wield Thor’s hammer, turn your foes to stone as Medusa, or flex your divine power as one of 100+ other mythological icons. Become a God and play FREE today!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/386360/header.jpg",
+            "Link": "https://store.steampowered.com/app/386360/",
+            "Hours": 106.2,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Forts",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Unleash your creativity and strategic prowess in Forts, the exhilarating physics...",
+            "RemainingDescription": "Unleash your creativity and strategic prowess in Forts, the exhilarating physics-based RTS! Design, construct, and customize imposing fortresses, bristling with devastating firepower, and blast your opponent’s buildings to rubble!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/410900/header.jpg",
+            "Link": "https://store.steampowered.com/app/410900/",
+            "Hours": 23.1,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Stardew Valley",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with...",
+            "RemainingDescription": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg",
+            "Link": "https://store.steampowered.com/app/413150/",
+            "Hours": 55,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Golf With Your Friends",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Why have friends if not to play Golf... With Your Friends! Nothing is out of bou...",
+            "RemainingDescription": "Why have friends if not to play Golf... With Your Friends! Nothing is out of bounds as you take on courses filled with fast paced, exciting, simultaneous mini golf for up to 12 players!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/431240/header.jpg",
+            "Link": "https://store.steampowered.com/app/431240/",
+            "Hours": 16.8,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Wallpaper Engine",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Use stunning live wallpapers on your desktop. Animate your own images to create...",
+            "RemainingDescription": "Use stunning live wallpapers on your desktop. Animate your own images to create new wallpapers or import videos/websites and share them on the Steam Workshop!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/431960/header.jpg",
+            "Link": "https://store.steampowered.com/app/431960/",
+            "Hours": 10.8,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Divinity: Original Sin 2",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "The critically acclaimed RPG that raised the bar, from the creators of Baldur's...",
+            "RemainingDescription": "The critically acclaimed RPG that raised the bar, from the creators of Baldur's Gate 3. Gather your party. Master deep, tactical combat. Venture as a party of up to four - but know that only one of you will have the chance to become a God.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/435150/header.jpg",
+            "Link": "https://store.steampowered.com/app/435150/",
+            "Hours": 111.4,
+            "RecentlyPlayed": true,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Wizard of Legend",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Wizard of Legend is a no-nonsense, action-packed take on wizardry that emphasize...",
+            "RemainingDescription": "Wizard of Legend is a no-nonsense, action-packed take on wizardry that emphasizes precise movements and smart comboing of spells in a rogue-like dungeon crawler that features over a hundred unique spells and relics!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/445980/header.jpg",
+            "Link": "https://store.steampowered.com/app/445980/",
+            "Hours": 28.8,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Human Fall Flat",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Human Fall Flat is a hilarious, light-hearted platformer set in floating dreamsc...",
+            "RemainingDescription": "Human Fall Flat is a hilarious, light-hearted platformer set in floating dreamscapes that can be played solo or with up to 8 players online. Free new levels keep its vibrant community rewarded.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/477160/header.jpg",
+            "Link": "https://store.steampowered.com/app/477160/",
+            "Hours": 11.1,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "NieR:Automata™",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "NieR: Automata tells the story of androids 2B, 9S and A2 and their battle to rec...",
+            "RemainingDescription": "NieR: Automata tells the story of androids 2B, 9S and A2 and their battle to reclaim the machine-driven dystopia overrun by powerful machines.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/524220/header.jpg",
+            "Link": "https://store.steampowered.com/app/524220/",
+            "Hours": 12.9,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "SYNTHETIK",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "SYNTHETIK is an unforgiving tactical shooter rogue-lite where freedom and experi...",
+            "RemainingDescription": "SYNTHETIK is an unforgiving tactical shooter rogue-lite where freedom and experimentation is key. Fight in a world overrun by the Machine Legion and their Gods. Experience the next level in gun-play and dive into unparalleled build options and Android upgrades. Can you defeat the Heart of Armageddon?",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/528230/header.jpg",
+            "Link": "https://store.steampowered.com/app/528230/",
+            "Hours": 20.8,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Deep Rock Galactic",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Deep Rock Galactic is a 1-4 player co-op FPS featuring dwarven space miners, pro...",
+            "RemainingDescription": "Deep Rock Galactic is a 1-4 player co-op FPS featuring dwarven space miners, procedurally-generated destructible environments, and endless hordes of alien monsters. Explore cave systems, mine for minerals, and work together to survive!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/548430/header.jpg",
+            "Link": "https://store.steampowered.com/app/548430/",
+            "Hours": 12.7,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Dead Cells",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Dead Cells is a roguelite, metroidvania inspired, action-platformer. You'll expl...",
+            "RemainingDescription": "Dead Cells is a roguelite, metroidvania inspired, action-platformer. You'll explore a sprawling, ever-changing castle... assuming you’re able to fight your way past its keepers in 2D souls-lite combat. No checkpoints. Kill, die, learn, repeat.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/588650/header.jpg",
+            "Link": "https://store.steampowered.com/app/588650/",
+            "Hours": 43.8,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Risk of Rain 2",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Выберитесь с хаотичной неизвестной планеты, отбиваясь от полчищ безумных монстро...",
+            "RemainingDescription": "Выберитесь с хаотичной неизвестной планеты, отбиваясь от полчищ безумных монстров в одиночку или с друзьями. Неожиданным образом сочетайте найденные предметы и постигайте все особенности персонажей, пока сами не станете разрушительной силой, вселяющей ужас в противников.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/632360/header.jpg",
+            "Link": "https://store.steampowered.com/app/632360/",
+            "Hours": 184,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Slay the Spire",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "We fused card games and roguelikes together to make the best single player deckb...",
+            "RemainingDescription": "We fused card games and roguelikes together to make the best single player deckbuilder we could. Craft a unique deck, encounter bizarre creatures, discover relics of immense power, and Slay the Spire!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/646570/header.jpg",
+            "Link": "https://store.steampowered.com/app/646570/",
+            "Hours": 15.8,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Raft",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or toget...",
+            "RemainingDescription": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/648800/header.jpg",
+            "Link": "https://store.steampowered.com/app/648800/",
+            "Hours": 22.1,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Kingdom Two Crowns",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Gather coins, build defenses and reclaim your fallen Kingdom. Explore and uncove...",
+            "RemainingDescription": "Gather coins, build defenses and reclaim your fallen Kingdom. Explore and uncover secrets, unlock new technologies and protect your crown versus waves of Greed monsters that come at night. Kingdom is a solo or co-op micro-strategy and tower defense game set in an atmospheric pixel world.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/701160/header.jpg",
+            "Link": "https://store.steampowered.com/app/701160/",
+            "Hours": 21.8,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Muse Dash",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Paradise of parkour &amp; rhythm game ★★★ — Muse Dash!!",
+            "RemainingDescription": "Paradise of parkour &amp; rhythm game ★★★ — Muse Dash!!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/774171/header.jpg",
+            "Link": "https://store.steampowered.com/app/774171/",
+            "Hours": 11.4,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Crab Champions",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Claw your way across exotic islands combining fluid movement with fast paced com...",
+            "RemainingDescription": "Claw your way across exotic islands combining fluid movement with fast paced combat to become a Crab Champion in this third person roguelike shooter.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/774801/header.jpg",
+            "Link": "https://store.steampowered.com/app/774801/",
+            "Hours": 41.4,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Age of Empires II: Definitive Edition",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "42 Civilizations, 229 Campaign Missions, Singleplayer, Co-Op, Multiplayer, In-Ga...",
+            "RemainingDescription": "42 Civilizations, 229 Campaign Missions, Singleplayer, Co-Op, Multiplayer, In-Game Editor, Mods, Cross-play...It is good to be the king.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/813780/header.jpg",
+            "Link": "https://store.steampowered.com/app/813780/",
+            "Hours": 46.6,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Noita",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Noita is a magical action roguelite set in a world where every pixel is physical...",
+            "RemainingDescription": "Noita is a magical action roguelite set in a world where every pixel is physically simulated. Fight, explore, melt, burn, freeze and evaporate your way through the procedurally generated world using spells you've created yourself.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/881100/header.jpg",
+            "Link": "https://store.steampowered.com/app/881100/",
+            "Hours": 45.6,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Valheim",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "A brutal exploration and survival game for 1-10 players, set in a procedurally-g...",
+            "RemainingDescription": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg",
+            "Link": "https://store.steampowered.com/app/892970/",
+            "Hours": 194,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Among Us",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "An online and local party game of teamwork and betrayal for 4-15 players...in sp...",
+            "RemainingDescription": "An online and local party game of teamwork and betrayal for 4-15 players...in space!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg",
+            "Link": "https://store.steampowered.com/app/945360/",
+            "Hours": 62.9,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "AVICII Invector",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Soar through vocal melodies, sweep each fade and attack every beat in 25 of AVIC...",
+            "RemainingDescription": "Soar through vocal melodies, sweep each fade and attack every beat in 25 of AVICII’s biggest hits, in this enthralling futuristic rhythm-action experience – AVICII Invector.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/986800/header.jpg",
+            "Link": "https://store.steampowered.com/app/986800/",
+            "Hours": 15.1,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Hogwarts Legacy",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control...",
+            "RemainingDescription": "Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control of the action and be at the center of your own adventure in the wizarding world.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/990080/header.jpg",
+            "Link": "https://store.steampowered.com/app/990080/",
+            "Hours": 45.4,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Hollow Knight: Silksong",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Discover a vast, haunted kingdom in Hollow Knight: Silksong! Explore, fight and...",
+            "RemainingDescription": "Discover a vast, haunted kingdom in Hollow Knight: Silksong! Explore, fight and survive as you ascend to the peak of a land ruled by silk and song.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1030300/header.jpg",
+            "Link": "https://store.steampowered.com/app/1030300/",
+            "Hours": 98.1,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Baldur's Gate 3",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons...",
+            "RemainingDescription": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons &amp; Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg",
+            "Link": "https://store.steampowered.com/app/1086940/",
+            "Hours": 102.7,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Inscryption",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Inscryption is an inky black card-based odyssey that blends the deckbuilding rog...",
+            "RemainingDescription": "Inscryption is an inky black card-based odyssey that blends the deckbuilding roguelike, escape-room style puzzles, and psychological horror into a blood-laced smoothie. Darker still are the secrets inscrybed upon the cards...",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1092790/header.jpg",
+            "Link": "https://store.steampowered.com/app/1092790/",
+            "Hours": 19.4,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Hades",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Defy the god of the dead as you hack and slash out of the Underworld in this rog...",
+            "RemainingDescription": "Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion, Transistor, and Pyre.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg",
+            "Link": "https://store.steampowered.com/app/1145360/",
+            "Hours": 61.1,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Sea of Thieves",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Sea of Thieves is a smash-hit pirate adventure game, offering the quintessential...",
+            "RemainingDescription": "Sea of Thieves is a smash-hit pirate adventure game, offering the quintessential pirate experience of plundering lost treasures, intense battles, vanquishing sea monsters and more. Dive in with this revised edition of the game, which includes access to digital bonus media.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1172620/header.jpg",
+            "Link": "https://store.steampowered.com/app/1172620/",
+            "Hours": 149.3,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Across the Obelisk",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Set forth in a co-op roguelite deckbuilder where every choice matters! Craft dec...",
+            "RemainingDescription": "Set forth in a co-op roguelite deckbuilder where every choice matters! Craft decks of breathtaking power. Journey alone or with up to three friends. Plot your party’s path to glory and face powerful enemies in deep tactical combat on your quest to save the kingdom of Senenthia in Across the Obelisk!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1385380/header.jpg",
+            "Link": "https://store.steampowered.com/app/1385380/",
+            "Hours": 131.9,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "It Takes Two",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Embark on the craziest journey of your life in It Takes Two. Invite a friend to...",
+            "RemainingDescription": "Embark on the craziest journey of your life in It Takes Two. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Winner of GAME OF THE YEAR at the Game Awards 2021.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1426210/header.jpg",
+            "Link": "https://store.steampowered.com/app/1426210/",
+            "Hours": 10.9,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "SANABI",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "SANABI is an exhilarating stylish dystopian action-platformer. Play as a legenda...",
+            "RemainingDescription": "SANABI is an exhilarating stylish dystopian action-platformer. Play as a legendary retired veteran and use your signature prosthetic arm to jump over cliffs and skyscrapers, zip through bullets and traps and defeat powerful enemies.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1562700/header.jpg",
+            "Link": "https://store.steampowered.com/app/1562700/",
+            "Hours": 11.3,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "PlateUp!",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Cook and serve your dishes, design and decorate your restaurants, and expand you...",
+            "RemainingDescription": "Cook and serve your dishes, design and decorate your restaurants, and expand your culinary kingdom with new unlocks, abilities and dishes in procedurally-generated locations. Classic cooking action with permanent roguelite progression. Hire your friends - or do it all yourself!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1599600/header.jpg",
+            "Link": "https://store.steampowered.com/app/1599600/",
+            "Hours": 23.9,
+            "RecentlyPlayed": true,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "V Rising",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Awaken as a Vampire. Hunt for blood in nearby settlements to regain your strengt...",
+            "RemainingDescription": "Awaken as a Vampire. Hunt for blood in nearby settlements to regain your strength and evade the scorching sun to survive. Raise your castle and thrive in an ever-changing, open world full of mystery. Gain allies online and conquer the land of the living.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1604030/header.jpg",
+            "Link": "https://store.steampowered.com/app/1604030/",
+            "Hours": 71.9,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Palworld",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quo...",
+            "RemainingDescription": "Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quot; in this completely new multiplayer, open world survival and crafting game!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg",
+            "Link": "https://store.steampowered.com/app/1623730/",
+            "Hours": 28.5,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Super Auto Pets",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Build the strongest team of pets and tussle with your friends!",
+            "RemainingDescription": "Build the strongest team of pets and tussle with your friends!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1714040/header.jpg",
+            "Link": "https://store.steampowered.com/app/1714040/",
+            "Hours": 49.7,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Vampire Survivors",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Mow down thousands of night creatures and survive until dawn! Vampire Survivors...",
+            "RemainingDescription": "Mow down thousands of night creatures and survive until dawn! Vampire Survivors is a gothic horror casual game with rogue-lite elements, where your choices can allow you to quickly snowball against the hundreds of monsters that get thrown at you. Be the bullet hell!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1794680/header.jpg",
+            "Link": "https://store.steampowered.com/app/1794680/",
+            "Hours": 13.5,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "ARC Raiders",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth,...",
+            "RemainingDescription": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1808500/header.jpg",
+            "Link": "https://store.steampowered.com/app/1808500/",
+            "Hours": 105.9,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Clair Obscur: Expedition 33",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Lead the members of Expedition 33 on their quest to destroy the Paintress so tha...",
+            "RemainingDescription": "Lead the members of Expedition 33 on their quest to destroy the Paintress so that she can never paint death again. Explore a world of wonders inspired by Belle Époque France and battle unique enemies in this turn-based RPG with real-time mechanics.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1903340/header.jpg",
+            "Link": "https://store.steampowered.com/app/1903340/",
+            "Hours": 32.9,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Tiny Rogues",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Tiny Rogues is a challenging fantasy rogue-lite bullet-hell dungeon crawler with...",
+            "RemainingDescription": "Tiny Rogues is a challenging fantasy rogue-lite bullet-hell dungeon crawler with rpg elements. Build a new unique character each run and fight one monster-infested room after another! Discover unique weapons, collect magical items and level up to become more and more powerful!",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/2088570/header.jpg",
+            "Link": "https://store.steampowered.com/app/2088570/",
+            "Hours": 46.1,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Balatro",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you...",
+            "RemainingDescription": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/2379780/header.jpg",
+            "Link": "https://store.steampowered.com/app/2379780/",
+            "Hours": 132.8,
+            "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Super Battle Golf",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "An online 1-8 player golf game where everyone plays at the same time. Swing, sho...",
+            "RemainingDescription": "An online 1-8 player golf game where everyone plays at the same time. Swing, shoot, sabotage, and finish first by any means necessary in a free-for-all rush to the hole.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/4069520/header.jpg",
+            "Link": "https://store.steampowered.com/app/4069520/",
+            "Hours": 26.9,
+            "RecentlyPlayed": true,
+            "SteamAutoAdded": true
+        }
+    ]
+}

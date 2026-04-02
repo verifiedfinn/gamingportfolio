@@ -6,9 +6,13 @@ $(document).ready(function () {
     let cardListenerAbort = null;
 
     // Load both JSONs in parallel, merge, then render
+    const steamPromise = fetch("data/steamgames.json")
+        .then(r => r.ok ? r.json() : null)
+        .catch(() => null);
+
     Promise.all([
         $.getJSON("data/gameinfo.json"),
-        $.getJSON("data/steamgames.json").catch(() => null)  // graceful fallback if not yet generated
+        steamPromise
     ]).then(function([gameinfo, steamData]) {
         gamesData = gameinfo.games;
 
@@ -33,7 +37,7 @@ $(document).ready(function () {
         gamesData = shuffleArray(gamesData);
         displayGames();
         initMobilePicker();
-    }).fail(function() {
+    }).catch(function() {
         console.error("Failed to load game data.");
     });
 

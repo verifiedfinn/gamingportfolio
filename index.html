@@ -43,6 +43,37 @@
 </script>
 </head>
 <body id="portfolio-page">
+
+    <!-- Mobile only back button -->
+    <a href="https://finnhorgan.com" id="back-to-portfolio">← Portfolio</a>
+
+    <style>
+    #back-to-portfolio {
+        display: none;
+    }
+    @media screen and (max-width: 768px) {
+        #back-to-portfolio {
+            display: flex;
+            align-items: center;
+            position: fixed;
+            top: 12px;
+            right: 14px;
+            z-index: 99999;
+            color: #00d9ff;
+            background: rgba(0,0,0,0.75);
+            border: 1px solid #00d9ff;
+            border-radius: 8px;
+            padding: 6px 12px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.72rem;
+            letter-spacing: 0.08em;
+            text-decoration: none;
+            text-transform: uppercase;
+            box-shadow: 0 0 10px rgba(0,217,255,0.4);
+            -webkit-tap-highlight-color: transparent;
+        }
+    }
+    </style>
     <header id="intro">
         <nav>
             <ul>
@@ -132,18 +163,5 @@
 
     <script src="js/mainpagegames.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script>
-function sendHeight() {
-    const height = document.documentElement.scrollHeight;
-    window.parent.postMessage({ height: height }, '*');
-}
-
-// Send on load and whenever content changes
-window.addEventListener('load', sendHeight);
-window.addEventListener('resize', sendHeight);
-
-// Also send periodically in case content loads async
-setInterval(sendHeight, 1000);
-</script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-04-01T22:56:00.596Z",
+    "updatedAt": "2026-04-02T07:24:41.122Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -90,7 +90,7 @@
             "recentlyPlayed": false
         },
         "counter-strike 2": {
-            "hours": 3841,
+            "hours": 3841.5,
             "recentlyPlayed": true
         },
         "peggle deluxe": {
@@ -2857,7 +2857,7 @@
             "hours": 0,
             "recentlyPlayed": false
         },
-        "star wars jedi: fallen order�� ": {
+        "star wars jedi: fallen order™ ": {
             "hours": 0,
             "recentlyPlayed": false
         },
@@ -3454,7 +3454,7 @@
             "recentlyPlayed": false
         },
         "schedule i": {
-            "hours": 5.7,
+            "hours": 7.8,
             "recentlyPlayed": true
         },
         "grand theft auto v enhanced": {
@@ -3501,7 +3501,7 @@
             "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
-            "Hours": 3841,
+            "Hours": 3841.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3809,8 +3809,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Выберитесь с хаотичной неизвестной планеты, отбиваясь от полчищ безумных монстро...",
-            "RemainingDescription": "Выберитесь с хаотичной неизвестной планеты, отбиваясь от полчищ безумных монстров в одиночку или с друзьями. Неожиданным образом сочетайте найденные предметы и постигайте все особенности персонажей, пока сами не станете разрушительной силой, вселяющей ужас в противников.",
+            "FirstSentence": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters –...",
+            "RemainingDescription": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters – with your friends, or on your own. Combine loot in surprising ways and master each character until you become the havoc you feared upon your first crash landing.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/632360/header.jpg",
             "Link": "https://store.steampowered.com/app/632360/",
             "Hours": 184,

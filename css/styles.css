@@ -1278,3 +1278,23 @@ nav ul li a:hover {
 #portfolio-page .game_types.snap-flash {
     animation: snapFlash 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
+
+.more-content {
+    display: none;
+}
+.more-content.expanded {
+    display: block;
+}
+
+#portfolio-page .more-content {
+    display: none;
+}
+#portfolio-page .more-content.expanded {
+    display: block;
+    margin-top: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top: 1px solid rgba(0, 229, 255, 0.1);
+    width: 100%;
+    text-align: center;
+}

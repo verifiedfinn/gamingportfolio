@@ -71,12 +71,10 @@
         display: block !important;
     }
 
-    /* Hide old nav buttons on mobile since we have tabs */
     header#intro nav {
         display: none;
     }
 
-    /* Push content below fixed header */
     header#intro {
         padding-top: 62px;
     }
@@ -136,7 +134,6 @@
         flex-shrink: 0;
     }
 
-    /* Radial overlay */
     #radial-overlay {
         position: fixed !important;
         top: 0;
@@ -155,32 +152,60 @@
         pointer-events: auto;
     }
 
-    /* Animated grid canvas */
+    /* background pulse animation layer */
     #radial-canvas {
         position: absolute;
         inset: 0;
         width: 100%;
         height: 100%;
         opacity: 0;
-        transition: opacity 0.4s;
+        transition: opacity 0.35s ease;
+        pointer-events: none;
     }
 
     #radial-overlay.open #radial-canvas {
         opacity: 1;
     }
 
+    /* curved trace menu layer */
     #radial-lines-svg {
         position: absolute;
         inset: 0;
         width: 100%;
         height: 100%;
         opacity: 0;
-        transition: opacity 0.4s;
+        transition: opacity 0.35s ease;
         pointer-events: none;
+        overflow: visible;
     }
 
     #radial-overlay.open #radial-lines-svg {
-        opacity: 0.4;
+        opacity: 1;
+    }
+
+    .trace-line {
+        fill: none;
+        stroke: rgba(0, 217, 255, 0.22);
+        stroke-width: 1.15;
+        stroke-linecap: round;
+        filter: drop-shadow(0 0 4px rgba(0,217,255,0.22));
+    }
+
+    .trace-line-glow {
+        fill: none;
+        stroke: rgba(0, 217, 255, 0.9);
+        stroke-width: 1.8;
+        stroke-linecap: round;
+        filter: drop-shadow(0 0 7px rgba(0,217,255,0.65));
+        stroke-dasharray: 0 999;
+        stroke-dashoffset: 0;
+        opacity: 0.95;
+    }
+
+    .trace-pulse {
+        fill: #00d9ff;
+        filter: drop-shadow(0 0 8px rgba(0,217,255,0.95));
+        opacity: 0;
     }
 
     #radial-center {
@@ -262,7 +287,6 @@
 </head>
 <body id="portfolio-page">
 
-    <!-- Mobile nav header -->
     <div id="mobile-nav-header">
         <a href="https://www.finnhorgan.com" id="fh-logo-link">
             <img id="fh-logo-img"
@@ -286,7 +310,6 @@
         </button>
     </div>
 
-    <!-- Radial menu overlay -->
     <div id="radial-overlay" onclick="handleRadialOverlayClick(event)">
         <canvas id="radial-canvas"></canvas>
         <svg id="radial-lines-svg"></svg>
@@ -422,30 +445,48 @@
     let radialOpen = false;
     let radialNodes = [];
     let radialBuilt = false;
+    let traceMeta = [];
     let gridAnimFrame = null;
 
     function startGrid() {
         const canvas = document.getElementById('radial-canvas');
+        if (!canvas) return;
+
         const ctx = canvas.getContext('2d');
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
-        const W = canvas.width, H = canvas.height;
+
+        const W = canvas.width;
+        const H = canvas.height;
         const size = 44;
         const PULSE_LEN = 260;
         const MAX_PULSES = 5;
         const pulses = [];
 
-        // Pre-draw static grid to offscreen canvas so we don't redraw it every frame
+        if (gridAnimFrame) {
+            cancelAnimationFrame(gridAnimFrame);
+            gridAnimFrame = null;
+        }
+
         const gridCanvas = document.createElement('canvas');
-        gridCanvas.width = W; gridCanvas.height = H;
+        gridCanvas.width = W;
+        gridCanvas.height = H;
         const gCtx = gridCanvas.getContext('2d');
         gCtx.strokeStyle = 'rgba(0,217,255,0.035)';
         gCtx.lineWidth = 0.5;
+
         for (let x = 0; x <= W; x += size) {
-            gCtx.beginPath(); gCtx.moveTo(x, 0); gCtx.lineTo(x, H); gCtx.stroke();
+            gCtx.beginPath();
+            gCtx.moveTo(x, 0);
+            gCtx.lineTo(x, H);
+            gCtx.stroke();
         }
+
         for (let y = 0; y <= H; y += size) {
-            gCtx.beginPath(); gCtx.moveTo(0, y); gCtx.lineTo(W, y); gCtx.stroke();
+            gCtx.beginPath();
+            gCtx.moveTo(0, y);
+            gCtx.lineTo(W, y);
+            gCtx.stroke();
         }
 
         function spawnPulse() {
@@ -453,11 +494,25 @@
             if (horiz) {
                 const row = Math.floor(Math.random() * Math.ceil(H / size)) * size;
                 const dir = Math.random() > 0.5 ? 1 : -1;
-                pulses.push({ horiz, x: dir > 0 ? 0 : W, y: row, dir, speed: 0.9 + Math.random() * 0.6, alpha: 0 });
+                pulses.push({
+                    horiz,
+                    x: dir > 0 ? 0 : W,
+                    y: row,
+                    dir,
+                    speed: 0.9 + Math.random() * 0.6,
+                    alpha: 0
+                });
             } else {
                 const col = Math.floor(Math.random() * Math.ceil(W / size)) * size;
                 const dir = Math.random() > 0.5 ? 1 : -1;
-                pulses.push({ horiz, x: col, y: dir > 0 ? 0 : H, dir, speed: 0.9 + Math.random() * 0.6, alpha: 0 });
+                pulses.push({
+                    horiz,
+                    x: col,
+                    y: dir > 0 ? 0 : H,
+                    dir,
+                    speed: 0.9 + Math.random() * 0.6,
+                    alpha: 0
+                });
             }
         }
 
@@ -472,31 +527,41 @@
             ctx.drawImage(gridCanvas, 0, 0);
 
             spawnTimer++;
-            if (spawnTimer > 70 && pulses.length < MAX_PULSES) { spawnPulse(); spawnTimer = 0; }
+            if (spawnTimer > 70 && pulses.length < MAX_PULSES) {
+                spawnPulse();
+                spawnTimer = 0;
+            }
 
             for (let i = pulses.length - 1; i >= 0; i--) {
                 const p = pulses[i];
-                p.horiz ? p.x += p.dir * p.speed : p.y += p.dir * p.speed;
+                if (p.horiz) p.x += p.dir * p.speed;
+                else p.y += p.dir * p.speed;
                 p.alpha = Math.min(1, p.alpha + 0.02);
 
                 const gone = p.horiz
                     ? (p.dir > 0 ? p.x > W + PULSE_LEN : p.x < -PULSE_LEN)
                     : (p.dir > 0 ? p.y > H + PULSE_LEN : p.y < -PULSE_LEN);
-                if (gone) { pulses.splice(i, 1); continue; }
+
+                if (gone) {
+                    pulses.splice(i, 1);
+                    continue;
+                }
 
                 const hx = p.x, hy = p.y;
                 const tx = p.horiz ? hx - p.dir * PULSE_LEN : hx;
                 const ty = p.horiz ? hy : hy - p.dir * PULSE_LEN;
 
-                // Single smooth gradient line — no repaints, no artifacts
                 ctx.save();
                 ctx.globalAlpha = p.alpha;
+
                 const grad = p.horiz
                     ? ctx.createLinearGradient(tx, hy, hx, hy)
                     : ctx.createLinearGradient(hx, ty, hx, hy);
+
                 grad.addColorStop(0,   'rgba(0,217,255,0)');
                 grad.addColorStop(0.7, 'rgba(0,217,255,0.06)');
                 grad.addColorStop(1,   'rgba(0,217,255,0.55)');
+
                 ctx.beginPath();
                 ctx.moveTo(tx, ty);
                 ctx.lineTo(hx, hy);
@@ -504,7 +569,6 @@
                 ctx.lineWidth = 1;
                 ctx.stroke();
 
-                // Soft ethereal glow at head only
                 const glow = ctx.createRadialGradient(hx, hy, 0, hx, hy, 14);
                 glow.addColorStop(0,   'rgba(0,217,255,0.22)');
                 glow.addColorStop(0.4, 'rgba(0,217,255,0.06)');
@@ -513,6 +577,7 @@
                 ctx.arc(hx, hy, 14, 0, Math.PI * 2);
                 ctx.fillStyle = glow;
                 ctx.fill();
+
                 ctx.restore();
             }
 
@@ -523,12 +588,30 @@
     }
 
     function stopGrid() {
-        if (gridAnimFrame) { cancelAnimationFrame(gridAnimFrame); gridAnimFrame = null; }
+        if (gridAnimFrame) {
+            cancelAnimationFrame(gridAnimFrame);
+            gridAnimFrame = null;
+        }
+
+        const canvas = document.getElementById('radial-canvas');
+        if (canvas) {
+            const ctx = canvas.getContext('2d');
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+    }
+
+    function clearRadialVisuals() {
+        const linesSvg = document.getElementById('radial-lines-svg');
+        const wheel = document.getElementById('radial-wheel');
+        if (linesSvg) linesSvg.innerHTML = '';
+        if (wheel) wheel.innerHTML = '';
+        radialNodes = [];
+        traceMeta = [];
+        radialBuilt = false;
     }
 
     function buildRadialWheel() {
-        if (radialBuilt) return;
-        radialBuilt = true;
+        clearRadialVisuals();
 
         const W  = window.innerWidth;
         const H  = window.innerHeight;
@@ -543,24 +626,61 @@
         const linesSvg = document.getElementById('radial-lines-svg');
         const wheel    = document.getElementById('radial-wheel');
 
+        linesSvg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+        linesSvg.setAttribute('preserveAspectRatio', 'none');
+
         pages.forEach((page, i) => {
             const angle = (i / pages.length) * 2 * Math.PI - Math.PI / 2;
             const x = cx + Math.cos(angle) * r;
             const y = cy + Math.sin(angle) * r;
 
-            const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-            line.setAttribute('x1', cx); line.setAttribute('y1', cy);
-            line.setAttribute('x2', x);  line.setAttribute('y2', y);
-            line.setAttribute('stroke', '#00d9ff');
-            line.setAttribute('stroke-width', '0.5');
-            line.setAttribute('stroke-dasharray', '4 4');
-            linesSvg.appendChild(line);
+            const midRadius = r * 0.52;
+            const mx = cx + Math.cos(angle) * midRadius;
+            const my = cy + Math.sin(angle) * midRadius;
+
+            const perpX = -Math.sin(angle) * 16;
+            const perpY =  Math.cos(angle) * 16;
+
+            const c1x = cx + (mx - cx) * 0.45 + perpX * 0.35;
+            const c1y = cy + (my - cy) * 0.45 + perpY * 0.35;
+            const c2x = mx + perpX;
+            const c2y = my + perpY;
+
+            const d = `M ${cx} ${cy} C ${c1x} ${c1y}, ${c2x} ${c2y}, ${x} ${y}`;
+
+            const basePath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+            basePath.setAttribute('d', d);
+            basePath.setAttribute('class', 'trace-line');
+            linesSvg.appendChild(basePath);
+
+            const glowPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+            glowPath.setAttribute('d', d);
+            glowPath.setAttribute('class', 'trace-line-glow');
+            linesSvg.appendChild(glowPath);
+
+            const pulse = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+            pulse.setAttribute('cx', x);
+            pulse.setAttribute('cy', y);
+            pulse.setAttribute('r', '2.2');
+            pulse.setAttribute('class', 'trace-pulse');
+            linesSvg.appendChild(pulse);
+
+            const length = glowPath.getTotalLength();
+            glowPath.style.strokeDasharray = `${length}`;
+            glowPath.style.strokeDashoffset = `${length}`;
+
+            traceMeta.push({
+                glowPath,
+                pulse,
+                length,
+                delay: i * 0.055
+            });
 
             const node = document.createElement('div');
             node.className = 'rnode';
             node.style.left = x + 'px';
             node.style.top  = y + 'px';
-            node.style.transitionDelay = (i * 0.04) + 's';
+            node.style.transitionDelay = (0.18 + i * 0.045) + 's';
             node.innerHTML = `<a href="${page.url}">
                 <div class="rnode-icon">
                     <svg width="22" height="22" viewBox="0 0 14 14">${page.icon}</svg>
@@ -570,6 +690,71 @@
             wheel.appendChild(node);
             radialNodes.push(node);
         });
+
+        radialBuilt = true;
+    }
+
+    function animateTraceIn() {
+        traceMeta.forEach(({ glowPath, pulse, length, delay }) => {
+            glowPath.animate(
+                [
+                    { strokeDashoffset: length, opacity: 0.0 },
+                    { strokeDashoffset: 0, opacity: 1.0 }
+                ],
+                {
+                    duration: 700,
+                    delay: delay * 1000,
+                    easing: 'cubic-bezier(0.22, 1, 0.36, 1)',
+                    fill: 'forwards'
+                }
+            );
+
+            pulse.animate(
+                [
+                    { opacity: 0, transform: 'scale(0.2)', transformOrigin: 'center' },
+                    { opacity: 1, transform: 'scale(1.35)', offset: 0.55, transformOrigin: 'center' },
+                    { opacity: 0.75, transform: 'scale(1)', transformOrigin: 'center' }
+                ],
+                {
+                    duration: 620,
+                    delay: (delay * 1000) + 430,
+                    easing: 'ease-out',
+                    fill: 'forwards'
+                }
+            );
+        });
+    }
+
+    function animateTraceOut() {
+        traceMeta.forEach(({ glowPath, pulse, length }, index) => {
+            const reverseDelay = (traceMeta.length - 1 - index) * 35;
+
+            glowPath.animate(
+                [
+                    { strokeDashoffset: 0, opacity: 1 },
+                    { strokeDashoffset: -length * 0.15, opacity: 0 }
+                ],
+                {
+                    duration: 240,
+                    delay: reverseDelay,
+                    easing: 'ease-in',
+                    fill: 'forwards'
+                }
+            );
+
+            pulse.animate(
+                [
+                    { opacity: 0.75, transform: 'scale(1)', transformOrigin: 'center' },
+                    { opacity: 0, transform: 'scale(0.5)', transformOrigin: 'center' }
+                ],
+                {
+                    duration: 160,
+                    delay: reverseDelay,
+                    easing: 'ease-in',
+                    fill: 'forwards'
+                }
+            );
+        });
     }
 
     function toggleRadialMenu() {
@@ -577,30 +762,66 @@
     }
 
     function openRadialMenu() {
-        buildRadialWheel();
+        if (!radialBuilt) buildRadialWheel();
+
         radialOpen = true;
         document.getElementById('radial-overlay').classList.add('open');
-        document.getElementById('nav-menu-btn').innerHTML = `<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><line x1="2" y1="2" x2="14" y2="14" stroke="#00d9ff" stroke-width="2.5"/><line x1="14" y1="2" x2="2" y2="14" stroke="#00d9ff" stroke-width="2.5"/></svg>`;
+        document.getElementById('nav-menu-btn').innerHTML = `
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <line x1="2" y1="2" x2="14" y2="14" stroke="#00d9ff" stroke-width="2.5"/>
+                <line x1="14" y1="2" x2="2" y2="14" stroke="#00d9ff" stroke-width="2.5"/>
+            </svg>`;
         document.getElementById('nav-menu-btn').style.boxShadow = '0 0 18px rgba(0,217,255,0.8)';
+
         startGrid();
+        animateTraceIn();
         radialNodes.forEach(n => n.classList.add('vis'));
     }
 
     function closeRadialMenu() {
         radialOpen = false;
         document.getElementById('radial-overlay').classList.remove('open');
-        document.getElementById('nav-menu-btn').innerHTML = `<svg width="20" height="16" viewBox="0 0 20 16" fill="none"><rect x="0" y="0" width="20" height="2" fill="#00d9ff"/><rect x="4" y="7" width="16" height="2" fill="#00d9ff"/><rect x="8" y="14" width="12" height="2" fill="#00d9ff"/></svg>`;
+        document.getElementById('nav-menu-btn').innerHTML = `
+            <svg width="20" height="16" viewBox="0 0 20 16" fill="none">
+                <rect x="0" y="0" width="20" height="2" fill="#00d9ff"/>
+                <rect x="4" y="7" width="16" height="2" fill="#00d9ff"/>
+                <rect x="8" y="14" width="12" height="2" fill="#00d9ff"/>
+            </svg>`;
         document.getElementById('nav-menu-btn').style.boxShadow = '0 0 10px rgba(0,217,255,0.4)';
+
         stopGrid();
+        animateTraceOut();
+
         radialNodes.forEach((n, i) => {
-            n.style.transitionDelay = ((radialNodes.length - 1 - i) * 0.025) + 's';
+            n.style.transitionDelay = ((radialNodes.length - 1 - i) * 0.02) + 's';
             n.classList.remove('vis');
         });
+
+        setTimeout(() => {
+            if (!radialOpen) clearRadialVisuals();
+        }, 420);
     }
 
     function handleRadialOverlayClick(e) {
-        if (!e.target.closest('.rnode')) closeRadialMenu();
+        if (!e.target.closest('.rnode') && !e.target.closest('#nav-menu-btn')) {
+            closeRadialMenu();
+        }
     }
+
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768) return;
+        stopGrid();
+        if (radialOpen) {
+            buildRadialWheel();
+            startGrid();
+            requestAnimationFrame(() => {
+                radialNodes.forEach(n => n.classList.add('vis'));
+                animateTraceIn();
+            });
+        } else {
+            clearRadialVisuals();
+        }
+    });
 
     window.toggleRadialMenu = toggleRadialMenu;
     window.handleRadialOverlayClick = handleRadialOverlayClick;

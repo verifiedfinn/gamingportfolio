@@ -41,39 +41,259 @@
   }
 })();
 </script>
+
+<style>
+/* Hide mobile elements on desktop */
+#mobile-nav-header,
+#radial-overlay {
+    display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+    /* Show mobile elements */
+    #mobile-nav-header {
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 52px;
+        background: #000;
+        border-bottom: 1px solid rgba(0,217,255,0.35);
+        padding: 0 14px;
+        z-index: 9999999;
+        box-sizing: border-box;
+    }
+
+    #radial-overlay {
+        display: block !important;
+    }
+
+    /* Hide old nav buttons on mobile since we have tabs */
+    header#intro nav {
+        display: none;
+    }
+
+    /* Push content below fixed header */
+    header#intro {
+        padding-top: 62px;
+    }
+
+    #fh-logo-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent;
+        flex-shrink: 0;
+    }
+
+    #fh-logo-img {
+        height: 34px;
+        width: auto;
+    }
+
+    #mobile-page-tabs {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+    }
+
+    .mobile-tab {
+        color: rgba(0,217,255,0.5);
+        font-family: 'Courier New', monospace;
+        font-size: 0.6rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 5px 10px;
+        border: 1px solid rgba(0,217,255,0.2);
+        -webkit-tap-highlight-color: transparent;
+        white-space: nowrap;
+        background: transparent;
+    }
+
+    .mobile-tab.active {
+        color: #000;
+        background: #00d9ff;
+        border-color: #00d9ff;
+        font-weight: bold;
+    }
+
+    #nav-menu-btn {
+        width: 38px;
+        height: 38px;
+        background: rgba(0,0,0,0.8);
+        border: 1px solid #00d9ff;
+        box-shadow: 0 0 10px rgba(0,217,255,0.4);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -webkit-tap-highlight-color: transparent;
+        padding: 0;
+        flex-shrink: 0;
+    }
+
+    /* Radial overlay */
+    #radial-overlay {
+        position: fixed !important;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: transparent;
+        pointer-events: none;
+        transition: background 0.35s;
+        z-index: 999998;
+        overflow: hidden;
+    }
+
+    #radial-overlay.open {
+        background: rgba(0,5,15,0.96);
+        pointer-events: auto;
+    }
+
+    /* Animated grid canvas */
+    #radial-canvas {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 0.4s;
+    }
+
+    #radial-overlay.open #radial-canvas {
+        opacity: 1;
+    }
+
+    #radial-lines-svg {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 0.4s;
+        pointer-events: none;
+    }
+
+    #radial-overlay.open #radial-lines-svg {
+        opacity: 0.4;
+    }
+
+    #radial-center {
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #00d9ff;
+        box-shadow: 0 0 20px #00d9ff, 0 0 40px rgba(0,217,255,0.5);
+        transform: translate(-50%, -50%) scale(0);
+        transition: transform 0.3s cubic-bezier(0.34,1.56,0.64,1);
+        pointer-events: none;
+    }
+
+    #radial-overlay.open #radial-center {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    .rnode {
+        position: absolute;
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0;
+        transition: transform 0.35s cubic-bezier(0.34,1.56,0.64,1), opacity 0.25s;
+        pointer-events: none;
+        text-align: center;
+    }
+
+    .rnode.vis {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .rnode a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .rnode-icon {
+        width: 44px;
+        height: 44px;
+        background: #000;
+        border: 1px solid #00d9ff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 10px rgba(0,217,255,0.35);
+        position: relative;
+    }
+
+    .rnode-icon::before {
+        content: '';
+        position: absolute;
+        top: -4px; left: -4px; right: -4px; bottom: -4px;
+        border: 1px solid rgba(0,217,255,0.1);
+        pointer-events: none;
+    }
+
+    .rnode a:active .rnode-icon {
+        background: rgba(0,217,255,0.15);
+        box-shadow: 0 0 24px rgba(0,217,255,0.9);
+    }
+
+    .rnode-label {
+        color: #00d9ff;
+        font-family: 'Courier New', monospace;
+        font-size: 0.52rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        white-space: nowrap;
+        text-shadow: 0 0 6px rgba(0,217,255,0.6);
+    }
+}
+</style>
 </head>
 <body id="portfolio-page">
 
-    <!-- Mobile only back button -->
-    <a href="https://finnhorgan.com" id="back-to-portfolio">← Portfolio</a>
+    <!-- Mobile nav header -->
+    <div id="mobile-nav-header">
+        <a href="https://www.finnhorgan.com" id="fh-logo-link">
+            <img id="fh-logo-img"
+                src="https://static.wixstatic.com/media/b00180_9e8a31f645784bc4b1de0985628e510f~mv2.png"
+                alt="FH"
+                onerror="this.style.display='none';document.getElementById('fh-logo-fallback').style.display='block'">
+            <span id="fh-logo-fallback" style="display:none;color:#00d9ff;font-family:'Courier New',monospace;font-size:1.1rem;font-weight:bold;letter-spacing:-1px;">FH</span>
+        </a>
 
-    <style>
-    #back-to-portfolio {
-        display: none;
-    }
-    @media screen and (max-width: 768px) {
-        #back-to-portfolio {
-            display: flex;
-            align-items: center;
-            position: fixed;
-            top: 12px;
-            right: 14px;
-            z-index: 99999;
-            color: #00d9ff;
-            background: rgba(0,0,0,0.75);
-            border: 1px solid #00d9ff;
-            border-radius: 8px;
-            padding: 6px 12px;
-            font-family: 'Courier New', monospace;
-            font-size: 0.72rem;
-            letter-spacing: 0.08em;
-            text-decoration: none;
-            text-transform: uppercase;
-            box-shadow: 0 0 10px rgba(0,217,255,0.4);
-            -webkit-tap-highlight-color: transparent;
-        }
-    }
-    </style>
+        <div id="mobile-page-tabs">
+            <a href="index.html" class="mobile-tab active">Games</a>
+            <a href="favorite_skins.html" class="mobile-tab">Skins</a>
+        </div>
+
+        <button id="nav-menu-btn" onclick="toggleRadialMenu()">
+            <svg id="nav-menu-icon" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                <rect x="0" y="0" width="20" height="2" fill="#00d9ff"/>
+                <rect x="4" y="7" width="16" height="2" fill="#00d9ff"/>
+                <rect x="8" y="14" width="12" height="2" fill="#00d9ff"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Radial menu overlay -->
+    <div id="radial-overlay" onclick="handleRadialOverlayClick(event)">
+        <canvas id="radial-canvas"></canvas>
+        <svg id="radial-lines-svg"></svg>
+        <div id="radial-center"></div>
+        <div id="radial-wheel"></div>
+    </div>
+
     <header id="intro">
         <nav>
             <ul>
@@ -129,7 +349,6 @@
 
     <div id="game-container"></div>
 
-    <!-- Picker modal in HTML so iOS can find it immediately -->
     <div id="picker-modal">
         <div id="picker-backdrop"></div>
         <div id="picker-sheet">
@@ -163,5 +382,230 @@
 
     <script src="js/mainpagegames.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <script>
+    if (window.innerWidth <= 768) {
+
+    const LOGO_OFF = 'https://static.wixstatic.com/media/b00180_9e8a31f645784bc4b1de0985628e510f~mv2.png';
+    const LOGO_ON  = 'https://static.wixstatic.com/media/b00180_9c04a8654193489898ea6ae52d0af979~mv2.png';
+    const logoImg  = document.getElementById('fh-logo-img');
+    if (logoImg) {
+        logoImg.addEventListener('touchstart', () => logoImg.src = LOGO_ON, { passive: true });
+        logoImg.addEventListener('touchend',   () => logoImg.src = LOGO_OFF, { passive: true });
+        logoImg.addEventListener('mousedown',  () => logoImg.src = LOGO_ON);
+        logoImg.addEventListener('mouseup',    () => logoImg.src = LOGO_OFF);
+    }
+
+    const pages = [
+        { label:'Home',            url:'https://www.finnhorgan.com/',
+          icon:'<path d="M3 8L7 4l4 4M4 7v5h2V9h2v3h2V7" stroke="#00d9ff" stroke-width="1.3" stroke-linecap="square" fill="none"/>' },
+        { label:'Game Dev',        url:'https://www.finnhorgan.com/game-development',
+          icon:'<rect x="2" y="4" width="10" height="7" stroke="#00d9ff" stroke-width="1.3" fill="none"/><rect x="6" y="7" width="1" height="3" fill="#00d9ff"/><rect x="4" y="8" width="3" height="1" fill="#00d9ff"/><rect x="9" y="8" width="1" height="1" fill="#00d9ff"/><line x1="7" y1="2" x2="7" y2="4" stroke="#00d9ff" stroke-width="1.3"/>' },
+        { label:'Coding',          url:'https://www.finnhorgan.com/coding-showcase',
+          icon:'<rect x="1" y="2" width="12" height="10" stroke="#00d9ff" stroke-width="1.3" fill="none"/><line x1="1" y1="5" x2="13" y2="5" stroke="#00d9ff" stroke-width="0.8"/><rect x="3" y="7" width="2" height="1" fill="#00d9ff"/><rect x="7" y="7" width="3" height="1" fill="#00d9ff"/><rect x="3" y="9" width="5" height="1" fill="#00d9ff"/>' },
+        { label:'Work in Context', url:'https://www.finnhorgan.com/project-details',
+          icon:'<rect x="1" y="2" width="12" height="10" stroke="#00d9ff" stroke-width="1.3" fill="none"/><line x1="1" y1="5" x2="13" y2="5" stroke="#00d9ff" stroke-width="0.8"/><rect x="3" y="7" width="4" height="1" fill="#00d9ff"/><rect x="3" y="9" width="7" height="1" fill="#00d9ff"/>' },
+        { label:'Digital',         url:'https://www.finnhorgan.com/digital-showcase',
+          icon:'<rect x="1" y="1" width="6" height="6" stroke="#00d9ff" stroke-width="1.3" fill="none"/><rect x="8" y="1" width="5" height="3" stroke="#00d9ff" stroke-width="1.3" fill="none"/><rect x="8" y="5" width="5" height="3" stroke="#00d9ff" stroke-width="1.3" fill="none"/><rect x="1" y="8" width="12" height="4" stroke="#00d9ff" stroke-width="1.3" fill="none"/>' },
+        { label:'Audio',           url:'https://www.finnhorgan.com/audio-showcase',
+          icon:'<rect x="5" y="1" width="4" height="7" rx="2" stroke="#00d9ff" stroke-width="1.3" fill="none"/><path d="M3 7c0 2.8 8 2.8 8 0" stroke="#00d9ff" stroke-width="1.3" fill="none" stroke-linecap="square"/><line x1="7" y1="10" x2="7" y2="13" stroke="#00d9ff" stroke-width="1.3"/><line x1="5" y1="13" x2="9" y2="13" stroke="#00d9ff" stroke-width="1.3"/>' },
+        { label:'Video Edits',     url:'https://www.finnhorgan.com/video-edits',
+          icon:'<rect x="1" y="3" width="9" height="8" stroke="#00d9ff" stroke-width="1.3" fill="none"/><path d="M10 6l4-2v6l-4-2V6z" stroke="#00d9ff" stroke-width="1.3" fill="none"/><rect x="3" y="5" width="1" height="4" fill="#00d9ff"/><rect x="5" y="5" width="1" height="4" fill="#00d9ff"/>' },
+        { label:'Bio/CV',          url:'https://www.finnhorgan.com/bio-cv',
+          icon:'<rect x="2" y="1" width="10" height="12" stroke="#00d9ff" stroke-width="1.3" fill="none"/><rect x="5" y="2" width="4" height="4" stroke="#00d9ff" stroke-width="1" fill="none"/><line x1="4" y1="8" x2="10" y2="8" stroke="#00d9ff" stroke-width="1"/><line x1="4" y1="10" x2="8" y2="10" stroke="#00d9ff" stroke-width="1"/>' },
+        { label:'Contact',         url:'https://www.finnhorgan.com/contact',
+          icon:'<rect x="1" y="3" width="12" height="8" stroke="#00d9ff" stroke-width="1.3" fill="none"/><polyline points="1,3 7,9 13,3" stroke="#00d9ff" stroke-width="1.3" fill="none" stroke-linejoin="miter"/>' },
+        { label:'Player Profile',  url:'https://verifiedfinn.github.io/gamingportfolio',
+          icon:'<rect x="1" y="1" width="12" height="12" stroke="#00d9ff" stroke-width="1.3" fill="none"/><rect x="3" y="3" width="8" height="8" stroke="#00d9ff" stroke-width="0.8" fill="none"/><rect x="5" y="5" width="4" height="4" fill="#00d9ff" opacity="0.4"/><rect x="6" y="6" width="2" height="2" fill="#00d9ff"/>' },
+    ];
+
+    let radialOpen = false;
+    let radialNodes = [];
+    let radialBuilt = false;
+    let gridAnimFrame = null;
+
+    function startGrid() {
+        const canvas = document.getElementById('radial-canvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        const W = canvas.width, H = canvas.height;
+        const size = 44;
+        const PULSE_LEN = 260;
+        const MAX_PULSES = 5;
+        const pulses = [];
+
+        // Pre-draw static grid to offscreen canvas so we don't redraw it every frame
+        const gridCanvas = document.createElement('canvas');
+        gridCanvas.width = W; gridCanvas.height = H;
+        const gCtx = gridCanvas.getContext('2d');
+        gCtx.strokeStyle = 'rgba(0,217,255,0.035)';
+        gCtx.lineWidth = 0.5;
+        for (let x = 0; x <= W; x += size) {
+            gCtx.beginPath(); gCtx.moveTo(x, 0); gCtx.lineTo(x, H); gCtx.stroke();
+        }
+        for (let y = 0; y <= H; y += size) {
+            gCtx.beginPath(); gCtx.moveTo(0, y); gCtx.lineTo(W, y); gCtx.stroke();
+        }
+
+        function spawnPulse() {
+            const horiz = Math.random() > 0.5;
+            if (horiz) {
+                const row = Math.floor(Math.random() * Math.ceil(H / size)) * size;
+                const dir = Math.random() > 0.5 ? 1 : -1;
+                pulses.push({ horiz, x: dir > 0 ? 0 : W, y: row, dir, speed: 0.9 + Math.random() * 0.6, alpha: 0 });
+            } else {
+                const col = Math.floor(Math.random() * Math.ceil(W / size)) * size;
+                const dir = Math.random() > 0.5 ? 1 : -1;
+                pulses.push({ horiz, x: col, y: dir > 0 ? 0 : H, dir, speed: 0.9 + Math.random() * 0.6, alpha: 0 });
+            }
+        }
+
+        for (let i = 0; i < MAX_PULSES; i++) {
+            setTimeout(() => spawnPulse(), i * 500 + Math.random() * 300);
+        }
+
+        let spawnTimer = 0;
+
+        function draw() {
+            ctx.clearRect(0, 0, W, H);
+            ctx.drawImage(gridCanvas, 0, 0);
+
+            spawnTimer++;
+            if (spawnTimer > 70 && pulses.length < MAX_PULSES) { spawnPulse(); spawnTimer = 0; }
+
+            for (let i = pulses.length - 1; i >= 0; i--) {
+                const p = pulses[i];
+                p.horiz ? p.x += p.dir * p.speed : p.y += p.dir * p.speed;
+                p.alpha = Math.min(1, p.alpha + 0.02);
+
+                const gone = p.horiz
+                    ? (p.dir > 0 ? p.x > W + PULSE_LEN : p.x < -PULSE_LEN)
+                    : (p.dir > 0 ? p.y > H + PULSE_LEN : p.y < -PULSE_LEN);
+                if (gone) { pulses.splice(i, 1); continue; }
+
+                const hx = p.x, hy = p.y;
+                const tx = p.horiz ? hx - p.dir * PULSE_LEN : hx;
+                const ty = p.horiz ? hy : hy - p.dir * PULSE_LEN;
+
+                // Single smooth gradient line — no repaints, no artifacts
+                ctx.save();
+                ctx.globalAlpha = p.alpha;
+                const grad = p.horiz
+                    ? ctx.createLinearGradient(tx, hy, hx, hy)
+                    : ctx.createLinearGradient(hx, ty, hx, hy);
+                grad.addColorStop(0,   'rgba(0,217,255,0)');
+                grad.addColorStop(0.7, 'rgba(0,217,255,0.06)');
+                grad.addColorStop(1,   'rgba(0,217,255,0.55)');
+                ctx.beginPath();
+                ctx.moveTo(tx, ty);
+                ctx.lineTo(hx, hy);
+                ctx.strokeStyle = grad;
+                ctx.lineWidth = 1;
+                ctx.stroke();
+
+                // Soft ethereal glow at head only
+                const glow = ctx.createRadialGradient(hx, hy, 0, hx, hy, 14);
+                glow.addColorStop(0,   'rgba(0,217,255,0.22)');
+                glow.addColorStop(0.4, 'rgba(0,217,255,0.06)');
+                glow.addColorStop(1,   'rgba(0,217,255,0)');
+                ctx.beginPath();
+                ctx.arc(hx, hy, 14, 0, Math.PI * 2);
+                ctx.fillStyle = glow;
+                ctx.fill();
+                ctx.restore();
+            }
+
+            gridAnimFrame = requestAnimationFrame(draw);
+        }
+
+        gridAnimFrame = requestAnimationFrame(draw);
+    }
+
+    function stopGrid() {
+        if (gridAnimFrame) { cancelAnimationFrame(gridAnimFrame); gridAnimFrame = null; }
+    }
+
+    function buildRadialWheel() {
+        if (radialBuilt) return;
+        radialBuilt = true;
+
+        const W  = window.innerWidth;
+        const H  = window.innerHeight;
+        const cx = W / 2;
+        const cy = H / 2;
+        const r  = Math.min(W, H) * 0.36;
+
+        const center = document.getElementById('radial-center');
+        center.style.left = cx + 'px';
+        center.style.top  = cy + 'px';
+
+        const linesSvg = document.getElementById('radial-lines-svg');
+        const wheel    = document.getElementById('radial-wheel');
+
+        pages.forEach((page, i) => {
+            const angle = (i / pages.length) * 2 * Math.PI - Math.PI / 2;
+            const x = cx + Math.cos(angle) * r;
+            const y = cy + Math.sin(angle) * r;
+
+            const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+            line.setAttribute('x1', cx); line.setAttribute('y1', cy);
+            line.setAttribute('x2', x);  line.setAttribute('y2', y);
+            line.setAttribute('stroke', '#00d9ff');
+            line.setAttribute('stroke-width', '0.5');
+            line.setAttribute('stroke-dasharray', '4 4');
+            linesSvg.appendChild(line);
+
+            const node = document.createElement('div');
+            node.className = 'rnode';
+            node.style.left = x + 'px';
+            node.style.top  = y + 'px';
+            node.style.transitionDelay = (i * 0.04) + 's';
+            node.innerHTML = `<a href="${page.url}">
+                <div class="rnode-icon">
+                    <svg width="22" height="22" viewBox="0 0 14 14">${page.icon}</svg>
+                </div>
+                <span class="rnode-label">${page.label}</span>
+            </a>`;
+            wheel.appendChild(node);
+            radialNodes.push(node);
+        });
+    }
+
+    function toggleRadialMenu() {
+        radialOpen ? closeRadialMenu() : openRadialMenu();
+    }
+
+    function openRadialMenu() {
+        buildRadialWheel();
+        radialOpen = true;
+        document.getElementById('radial-overlay').classList.add('open');
+        document.getElementById('nav-menu-btn').innerHTML = `<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><line x1="2" y1="2" x2="14" y2="14" stroke="#00d9ff" stroke-width="2.5"/><line x1="14" y1="2" x2="2" y2="14" stroke="#00d9ff" stroke-width="2.5"/></svg>`;
+        document.getElementById('nav-menu-btn').style.boxShadow = '0 0 18px rgba(0,217,255,0.8)';
+        startGrid();
+        radialNodes.forEach(n => n.classList.add('vis'));
+    }
+
+    function closeRadialMenu() {
+        radialOpen = false;
+        document.getElementById('radial-overlay').classList.remove('open');
+        document.getElementById('nav-menu-btn').innerHTML = `<svg width="20" height="16" viewBox="0 0 20 16" fill="none"><rect x="0" y="0" width="20" height="2" fill="#00d9ff"/><rect x="4" y="7" width="16" height="2" fill="#00d9ff"/><rect x="8" y="14" width="12" height="2" fill="#00d9ff"/></svg>`;
+        document.getElementById('nav-menu-btn').style.boxShadow = '0 0 10px rgba(0,217,255,0.4)';
+        stopGrid();
+        radialNodes.forEach((n, i) => {
+            n.style.transitionDelay = ((radialNodes.length - 1 - i) * 0.025) + 's';
+            n.classList.remove('vis');
+        });
+    }
+
+    function handleRadialOverlayClick(e) {
+        if (!e.target.closest('.rnode')) closeRadialMenu();
+    }
+
+    window.toggleRadialMenu = toggleRadialMenu;
+    window.handleRadialOverlayClick = handleRadialOverlayClick;
+
+    } // end mobile only
+    </script>
 </body>
 </html>

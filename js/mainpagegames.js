@@ -137,7 +137,7 @@ $(document).ready(function () {
                     <div class="game-image-wrapper">
                         <img src="${game.Image}" alt="${game.Name}" class="game-image" onerror="this.onerror=null;this.src='https://store.steampowered.com/public/shared/images/header/logo_steam.svg?t=962016';">
                     </div>
-                    <div class="more-content" style="display: none;">
+                    <div class="more-content">
                         <p>${game.RemainingDescription}</p>
                         ${hoursDisplay}
                     </div>
@@ -151,33 +151,24 @@ $(document).ready(function () {
     }
 
     function attachHandlers() {
-        $(".read-more-btn").off("click touchend").on("touchend click", function (event) {
+        const evts = ('ontouchstart' in window) ? 'touchend' : 'click';
+
+        $(".read-more-btn").off("click touchend").on(evts, function (event) {
             event.preventDefault();
             event.stopPropagation();
-            const moreContent = $(this).closest(".game_types").find(".more-content");
-            const parentBox = $(this).closest(".game_types");
+            const moreContent = $(this).closest(".game_types").find(".more-content")[0];
             const btn = $(this);
-            btn.css("pointer-events", "none");
-            if (moreContent.is(":visible")) {
-                parentBox.css("overflow", "hidden");
-                moreContent.slideUp(300, () => {
-                    parentBox.css("height", "auto");
-                    parentBox.css("overflow", "visible");
-                    btn.css("pointer-events", "");
-                });
+
+            if (moreContent.classList.contains('expanded')) {
+                moreContent.classList.remove('expanded');
                 btn.text("Read More");
             } else {
-                parentBox.css("overflow", "hidden");
-                parentBox.css("height", "auto");
-                moreContent.slideDown(300, () => {
-                    parentBox.css("overflow", "visible");
-                    btn.css("pointer-events", "");
-                });
+                moreContent.classList.add('expanded');
                 btn.text("Read Less");
             }
         });
 
-        $(".favorite-btn").off("click touchend").on("touchend click", function (event) {
+        $(".favorite-btn").off("click touchend").on(evts, function (event) {
             event.preventDefault();
             const parentBox = $(this).closest(".game_types");
             const gameName = parentBox.data("name");

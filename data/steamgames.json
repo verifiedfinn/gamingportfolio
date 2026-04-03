@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-04-02T07:24:41.122Z",
+    "updatedAt": "2026-04-03T07:21:10.018Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -90,7 +90,7 @@
             "recentlyPlayed": false
         },
         "counter-strike 2": {
-            "hours": 3841.5,
+            "hours": 3841.7,
             "recentlyPlayed": true
         },
         "peggle deluxe": {
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1788.5,
+            "hours": 1789,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -1227,7 +1227,7 @@
         },
         "golf with your friends": {
             "hours": 16.8,
-            "recentlyPlayed": false
+            "recentlyPlayed": true
         },
         "aseprite": {
             "hours": 0,
@@ -3418,7 +3418,7 @@
             "recentlyPlayed": false
         },
         "dispatch": {
-            "hours": 1.7,
+            "hours": 4.5,
             "recentlyPlayed": true
         },
         "pico park 2": {
@@ -3454,7 +3454,7 @@
             "recentlyPlayed": false
         },
         "schedule i": {
-            "hours": 7.8,
+            "hours": 11.2,
             "recentlyPlayed": true
         },
         "grand theft auto v enhanced": {
@@ -3475,7 +3475,7 @@
         },
         "super battle golf": {
             "hours": 26.9,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         }
     },
     "games": [
@@ -3497,11 +3497,11 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "For over two decades, Counter-Strike has offered an elite competitive experience...",
-            "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
+            "FirstSentence": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновател...",
+            "RemainingDescription": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновательной игры, путь развития которой определяют миллионы игроков со всего мира. Теперь пришло время нового этапа — Counter-Strike 2.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
-            "Hours": 3841.5,
+            "Hours": 3841.7,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3562,8 +3562,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "The only aim in Rust is to survive. Everything wants you to die - the island’s w...",
-            "RemainingDescription": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night.",
+            "FirstSentence": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окру...",
+            "RemainingDescription": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg",
             "Link": "https://store.steampowered.com/app/252490/",
             "Hours": 42.8,
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1788.5,
+            "Hours": 1789,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3697,7 +3697,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/431240/header.jpg",
             "Link": "https://store.steampowered.com/app/431240/",
             "Hours": 16.8,
-            "RecentlyPlayed": false,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {
@@ -4182,6 +4182,19 @@
             "SteamAutoAdded": true
         },
         {
+            "Name": "Schedule I",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "From small-time dope pusher to kingpin - manufacture and distribute a range of d...",
+            "RemainingDescription": "From small-time dope pusher to kingpin - manufacture and distribute a range of drugs throughout the grungy city of Hyland Point. Expand your empire with properties, businesses, employees and more.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/3164500/header.jpg",
+            "Link": "https://store.steampowered.com/app/3164500/",
+            "Hours": 11.2,
+            "RecentlyPlayed": true,
+            "SteamAutoAdded": true
+        },
+        {
             "Name": "Super Battle Golf",
             "Tags": [
                 "Steam"
@@ -4191,7 +4204,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/4069520/header.jpg",
             "Link": "https://store.steampowered.com/app/4069520/",
             "Hours": 26.9,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         }
     ]

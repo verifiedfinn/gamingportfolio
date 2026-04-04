@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-04-03T07:21:10.018Z",
+    "updatedAt": "2026-04-04T07:10:56.101Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -90,7 +90,7 @@
             "recentlyPlayed": false
         },
         "counter-strike 2": {
-            "hours": 3841.7,
+            "hours": 3842.5,
             "recentlyPlayed": true
         },
         "peggle deluxe": {
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1789,
+            "hours": 1790.5,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3170,7 +3170,7 @@
             "recentlyPlayed": false
         },
         "plateup!": {
-            "hours": 23.9,
+            "hours": 26.4,
             "recentlyPlayed": true
         },
         "v rising": {
@@ -3291,7 +3291,7 @@
         },
         "chants of sennaar": {
             "hours": 0.2,
-            "recentlyPlayed": false
+            "recentlyPlayed": true
         },
         "the cub": {
             "hours": 0,
@@ -3454,7 +3454,7 @@
             "recentlyPlayed": false
         },
         "schedule i": {
-            "hours": 11.2,
+            "hours": 11.5,
             "recentlyPlayed": true
         },
         "grand theft auto v enhanced": {
@@ -3467,7 +3467,7 @@
         },
         "peak": {
             "hours": 6.4,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "yakuza kiwami 2": {
             "hours": 0,
@@ -3497,11 +3497,11 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновател...",
-            "RemainingDescription": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновательной игры, путь развития которой определяют миллионы игроков со всего мира. Теперь пришло время нового этапа — Counter-Strike 2.",
+            "FirstSentence": "For over two decades, Counter-Strike has offered an elite competitive experience...",
+            "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
-            "Hours": 3841.7,
+            "Hours": 3842.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3562,8 +3562,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окру...",
-            "RemainingDescription": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь.",
+            "FirstSentence": "The only aim in Rust is to survive. Everything wants you to die - the island’s w...",
+            "RemainingDescription": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg",
             "Link": "https://store.steampowered.com/app/252490/",
             "Hours": 42.8,
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1789,
+            "Hours": 1790.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3718,8 +3718,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "The critically acclaimed RPG that raised the bar, from the creators of Baldur's...",
-            "RemainingDescription": "The critically acclaimed RPG that raised the bar, from the creators of Baldur's Gate 3. Gather your party. Master deep, tactical combat. Venture as a party of up to four - but know that only one of you will have the chance to become a God.",
+            "FirstSentence": "来自《博德之门3》的开发团队，倍受好评的本作提升了RPG业界标杆。召集你的队伍，驾驭富有深度和挑战性的战斗。以最多四人的队伍进行冒险 - 但是请记住，只有其中一...",
+            "RemainingDescription": "来自《博德之门3》的开发团队，倍受好评的本作提升了RPG业界标杆。召集你的队伍，驾驭富有深度和挑战性的战斗。以最多四人的队伍进行冒险 - 但是请记住，只有其中一人才能成神。",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/435150/header.jpg",
             "Link": "https://store.steampowered.com/app/435150/",
             "Hours": 111.4,
@@ -4004,8 +4004,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Defy the god of the dead as you hack and slash out of the Underworld in this rog...",
-            "RemainingDescription": "Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion, Transistor, and Pyre.",
+            "FirstSentence": "挑战死神，在地狱中杀出血路。由 Bastion、Transistor 和 Pyre 原班人马打造的全新地下城 类游 戏，为您带来爽 快 的 自 由 砍 杀 体验",
+            "RemainingDescription": "挑战死神，在地狱中杀出血路。由 Bastion、Transistor 和 Pyre 原班人马打造的全新地下城 类游 戏，为您带来爽 快 的 自 由 砍 杀 体验",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg",
             "Link": "https://store.steampowered.com/app/1145360/",
             "Hours": 61.1,
@@ -4073,7 +4073,7 @@
             "RemainingDescription": "Cook and serve your dishes, design and decorate your restaurants, and expand your culinary kingdom with new unlocks, abilities and dishes in procedurally-generated locations. Classic cooking action with permanent roguelite progression. Hire your friends - or do it all yourself!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1599600/header.jpg",
             "Link": "https://store.steampowered.com/app/1599600/",
-            "Hours": 23.9,
+            "Hours": 26.4,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4190,7 +4190,7 @@
             "RemainingDescription": "From small-time dope pusher to kingpin - manufacture and distribute a range of drugs throughout the grungy city of Hyland Point. Expand your empire with properties, businesses, employees and more.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/3164500/header.jpg",
             "Link": "https://store.steampowered.com/app/3164500/",
-            "Hours": 11.2,
+            "Hours": 11.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

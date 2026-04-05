@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-04-04T07:10:56.101Z",
+    "updatedAt": "2026-04-05T07:18:18.001Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -1258,7 +1258,7 @@
             "recentlyPlayed": false
         },
         "divinity: original sin 2": {
-            "hours": 111.4,
+            "hours": 113.3,
             "recentlyPlayed": true
         },
         "hidden folks": {
@@ -2857,7 +2857,7 @@
             "hours": 0,
             "recentlyPlayed": false
         },
-        "star wars jedi: fallen order™ ": {
+        "star wars jedi: fallen order��� ": {
             "hours": 0,
             "recentlyPlayed": false
         },
@@ -3170,7 +3170,7 @@
             "recentlyPlayed": false
         },
         "plateup!": {
-            "hours": 26.4,
+            "hours": 26.8,
             "recentlyPlayed": true
         },
         "v rising": {
@@ -3418,7 +3418,7 @@
             "recentlyPlayed": false
         },
         "dispatch": {
-            "hours": 4.5,
+            "hours": 5,
             "recentlyPlayed": true
         },
         "pico park 2": {
@@ -3484,8 +3484,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to d...",
-            "RemainingDescription": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to design co-op puzzles for you and your friends!",
+            "FirstSentence": "¡La «Iniciativa de Prueba Perpetua» se ha ampliado, permitiéndote ahora diseñar...",
+            "RemainingDescription": "¡La «Iniciativa de Prueba Perpetua» se ha ampliado, permitiéndote ahora diseñar puzles cooperativos para ti y tus amigos!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/620/header.jpg",
             "Link": "https://store.steampowered.com/app/620/",
             "Hours": 14.6,
@@ -3718,11 +3718,11 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "来自《博德之门3》的开发团队，倍受好评的本作提升了RPG业界标杆。召集你的队伍，驾驭富有深度和挑战性的战斗。以最多四人的队伍进行冒险 - 但是请记住，只有其中一...",
-            "RemainingDescription": "来自《博德之门3》的开发团队，倍受好评的本作提升了RPG业界标杆。召集你的队伍，驾驭富有深度和挑战性的战斗。以最多四人的队伍进行冒险 - 但是请记住，只有其中一人才能成神。",
+            "FirstSentence": "The critically acclaimed RPG that raised the bar, from the creators of Baldur's...",
+            "RemainingDescription": "The critically acclaimed RPG that raised the bar, from the creators of Baldur's Gate 3. Gather your party. Master deep, tactical combat. Venture as a party of up to four - but know that only one of you will have the chance to become a God.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/435150/header.jpg",
             "Link": "https://store.steampowered.com/app/435150/",
-            "Hours": 111.4,
+            "Hours": 113.3,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4004,8 +4004,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "挑战死神，在地狱中杀出血路。由 Bastion、Transistor 和 Pyre 原班人马打造的全新地下城 类游 戏，为您带来爽 快 的 自 由 砍 杀 体验",
-            "RemainingDescription": "挑战死神，在地狱中杀出血路。由 Bastion、Transistor 和 Pyre 原班人马打造的全新地下城 类游 戏，为您带来爽 快 的 自 由 砍 杀 体验",
+            "FirstSentence": "Defy the god of the dead as you hack and slash out of the Underworld in this rog...",
+            "RemainingDescription": "Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion, Transistor, and Pyre.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg",
             "Link": "https://store.steampowered.com/app/1145360/",
             "Hours": 61.1,
@@ -4073,7 +4073,7 @@
             "RemainingDescription": "Cook and serve your dishes, design and decorate your restaurants, and expand your culinary kingdom with new unlocks, abilities and dishes in procedurally-generated locations. Classic cooking action with permanent roguelite progression. Hire your friends - or do it all yourself!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1599600/header.jpg",
             "Link": "https://store.steampowered.com/app/1599600/",
-            "Hours": 26.4,
+            "Hours": 26.8,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

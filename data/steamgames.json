@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-04-05T07:18:18.001Z",
+    "updatedAt": "2026-04-06T07:56:21.319Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1790.5,
+            "hours": 1791,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -1258,7 +1258,7 @@
             "recentlyPlayed": false
         },
         "divinity: original sin 2": {
-            "hours": 113.3,
+            "hours": 114.7,
             "recentlyPlayed": true
         },
         "hidden folks": {
@@ -2857,7 +2857,7 @@
             "hours": 0,
             "recentlyPlayed": false
         },
-        "star wars jedi: fallen order��� ": {
+        "star wars jedi: fallen order™ ": {
             "hours": 0,
             "recentlyPlayed": false
         },
@@ -3418,7 +3418,7 @@
             "recentlyPlayed": false
         },
         "dispatch": {
-            "hours": 5,
+            "hours": 6.1,
             "recentlyPlayed": true
         },
         "pico park 2": {
@@ -3484,8 +3484,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "¡La «Iniciativa de Prueba Perpetua» se ha ampliado, permitiéndote ahora diseñar...",
-            "RemainingDescription": "¡La «Iniciativa de Prueba Perpetua» se ha ampliado, permitiéndote ahora diseñar puzles cooperativos para ti y tus amigos!",
+            "FirstSentence": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to d...",
+            "RemainingDescription": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to design co-op puzzles for you and your friends!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/620/header.jpg",
             "Link": "https://store.steampowered.com/app/620/",
             "Hours": 14.6,
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1790.5,
+            "Hours": 1791,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3722,7 +3722,7 @@
             "RemainingDescription": "The critically acclaimed RPG that raised the bar, from the creators of Baldur's Gate 3. Gather your party. Master deep, tactical combat. Venture as a party of up to four - but know that only one of you will have the chance to become a God.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/435150/header.jpg",
             "Link": "https://store.steampowered.com/app/435150/",
-            "Hours": 113.3,
+            "Hours": 114.7,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

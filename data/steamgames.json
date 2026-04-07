@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-04-06T07:56:21.319Z",
+    "updatedAt": "2026-04-07T07:43:29.846Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -90,7 +90,7 @@
             "recentlyPlayed": false
         },
         "counter-strike 2": {
-            "hours": 3842.5,
+            "hours": 3844,
             "recentlyPlayed": true
         },
         "peggle deluxe": {
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1791,
+            "hours": 1797.6,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2650,7 +2650,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 9.8,
+            "hours": 11.1,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -2857,7 +2857,7 @@
             "hours": 0,
             "recentlyPlayed": false
         },
-        "star wars jedi: fallen order™ ": {
+        "star wars jedi: fallen order�� ": {
             "hours": 0,
             "recentlyPlayed": false
         },
@@ -3418,7 +3418,7 @@
             "recentlyPlayed": false
         },
         "dispatch": {
-            "hours": 6.1,
+            "hours": 7.6,
             "recentlyPlayed": true
         },
         "pico park 2": {
@@ -3501,7 +3501,7 @@
             "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
-            "Hours": 3842.5,
+            "Hours": 3844,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1791,
+            "Hours": 1797.6,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3971,6 +3971,19 @@
             "Link": "https://store.steampowered.com/app/1030300/",
             "Hours": 98.1,
             "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "Wingspan",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5...",
+            "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
+            "Link": "https://store.steampowered.com/app/1054490/",
+            "Hours": 11.1,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {

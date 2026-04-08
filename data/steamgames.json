@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-04-07T07:43:29.846Z",
+    "updatedAt": "2026-04-08T07:47:06.977Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1797.6,
+            "hours": 1804.4,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2650,7 +2650,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 11.1,
+            "hours": 13,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -2857,7 +2857,7 @@
             "hours": 0,
             "recentlyPlayed": false
         },
-        "star wars jedi: fallen order�� ": {
+        "star wars jedi: fallen order™ ": {
             "hours": 0,
             "recentlyPlayed": false
         },
@@ -3291,7 +3291,7 @@
         },
         "chants of sennaar": {
             "hours": 0.2,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "the cub": {
             "hours": 0,
@@ -3562,8 +3562,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "The only aim in Rust is to survive. Everything wants you to die - the island’s w...",
-            "RemainingDescription": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night.",
+            "FirstSentence": "En Rust, el único propósito es sobrevivir. Todo lo que te rodea quiere liquidart...",
+            "RemainingDescription": "En Rust, el único propósito es sobrevivir. Todo lo que te rodea quiere liquidarte: la fauna de la isla, los demás habitantes, el entorno y otros supervivientes. Haz lo que sea para ver la luz de un nuevo día.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg",
             "Link": "https://store.steampowered.com/app/252490/",
             "Hours": 42.8,
@@ -3575,11 +3575,11 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayh...",
-            "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
+            "FirstSentence": "¡El fútbol se une a los coches una vez más en la esperada continuación basada en...",
+            "RemainingDescription": "¡El fútbol se une a los coches una vez más en la esperada continuación basada en la física del querido juego clásico en arenas Supersonic Acrobatic Rocket-Powered Battle-Cars!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1797.6,
+            "Hours": 1804.4,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3588,8 +3588,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Grand Theft Auto V for PC offers players the option to explore the award-winning...",
-            "RemainingDescription": "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.",
+            "FirstSentence": "Grand Theft Auto V para PC ofrece a los jugadores la opción de explorar el galar...",
+            "RemainingDescription": "Grand Theft Auto V para PC ofrece a los jugadores la opción de explorar el galardonado mundo de Los Santos y el condado de Blaine con una resolución de 4K y disfrutar del juego a 60 fotogramas por segundo.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg",
             "Link": "https://store.steampowered.com/app/271590/",
             "Hours": 206.6,
@@ -3614,8 +3614,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Enter the Gungeon is a bullet hell dungeon crawler following a band of misfits s...",
-            "RemainingDescription": "Enter the Gungeon is a bullet hell dungeon crawler following a band of misfits seeking to shoot, loot, dodge roll and table-flip their way to personal absolution by reaching the legendary Gungeon’s ultimate treasure: the gun that can kill the past.",
+            "FirstSentence": "“挺进地牢”是一款弹幕射击游戏，地牢探险者跟随一群生活颇为悲情且背负痛苦回忆的 同伴，设法通过射击、劫掠、翻滚躲闪等获得传说中地牢的终极宝藏：一把可以“抹去过...",
+            "RemainingDescription": "“挺进地牢”是一款弹幕射击游戏，地牢探险者跟随一群生活颇为悲情且背负痛苦回忆的 同伴，设法通过射击、劫掠、翻滚躲闪等获得传说中地牢的终极宝藏：一把可以“抹去过 去”的枪，从而翻转他们的命运，拯救悲情人生。",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/311690/header.jpg",
             "Link": "https://store.steampowered.com/app/311690/",
             "Hours": 13.3,
@@ -3679,8 +3679,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with...",
-            "RemainingDescription": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+            "FirstSentence": "Acabas de heredar la vieja parcela agrícola de tu abuelo de Stardew Valley. Deci...",
+            "RemainingDescription": "Acabas de heredar la vieja parcela agrícola de tu abuelo de Stardew Valley. Decides partir hacia una nueva vida con unas herramientas usadas y algunas monedas. ¿Te ves capaz de vivir de la tierra y convertir estos campos descuidados en un hogar próspero?",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg",
             "Link": "https://store.steampowered.com/app/413150/",
             "Hours": 55,
@@ -3822,8 +3822,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "We fused card games and roguelikes together to make the best single player deckb...",
-            "RemainingDescription": "We fused card games and roguelikes together to make the best single player deckbuilder we could. Craft a unique deck, encounter bizarre creatures, discover relics of immense power, and Slay the Spire!",
+            "FirstSentence": "Hemos fusionado juegos de cartas y roguelikes para crear el mejor juego de carta...",
+            "RemainingDescription": "Hemos fusionado juegos de cartas y roguelikes para crear el mejor juego de cartas para un solo jugador que pudiéramos. Crea un mazo único, encuentra criaturas extrañas, descubre reliquias de inmenso poder y mata La Aguja.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/646570/header.jpg",
             "Link": "https://store.steampowered.com/app/646570/",
             "Hours": 15.8,
@@ -3887,8 +3887,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "42 Civilizations, 229 Campaign Missions, Singleplayer, Co-Op, Multiplayer, In-Ga...",
-            "RemainingDescription": "42 Civilizations, 229 Campaign Missions, Singleplayer, Co-Op, Multiplayer, In-Game Editor, Mods, Cross-play...It is good to be the king.",
+            "FirstSentence": "Age of Empires II: Definitive Edition incluye &quot;Los últimos khanes&quot;, qu...",
+            "RemainingDescription": "Age of Empires II: Definitive Edition incluye &quot;Los últimos khanes&quot;, que incorpora 3 campañas y 4 civilizaciones nuevas. Las frecuentes actualizaciones contienen eventos, contenido adicional, nuevos modos de juego (¡como el reciente modo cooperativo!) y funciones mejoradas.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/813780/header.jpg",
             "Link": "https://store.steampowered.com/app/813780/",
             "Hours": 46.6,
@@ -3913,8 +3913,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "A brutal exploration and survival game for 1-10 players, set in a procedurally-g...",
-            "RemainingDescription": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
+            "FirstSentence": "Un brutal juego de supervivencia y exploración multijugador, ambientado en un pu...",
+            "RemainingDescription": "Un brutal juego de supervivencia y exploración multijugador, ambientado en un purgatorio generado de forma procedural e inspirado en la cultura vikinga. ¡Lucha, construye y conquista tu viaje en una saga digna de la bendición de Odin!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg",
             "Link": "https://store.steampowered.com/app/892970/",
             "Hours": 194,
@@ -3982,7 +3982,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 11.1,
+            "Hours": 13,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

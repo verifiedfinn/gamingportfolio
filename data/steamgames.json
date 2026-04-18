@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-04-17T08:00:45.650Z",
+    "updatedAt": "2026-04-18T07:20:48.343Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1846.6,
+            "hours": 1849.8,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2650,7 +2650,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 24.4,
+            "hours": 25.4,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -3455,7 +3455,7 @@
         },
         "schedule i": {
             "hours": 11.5,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "grand theft auto v enhanced": {
             "hours": 0,
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1846.6,
+            "Hours": 1849.8,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3982,7 +3982,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 24.4,
+            "Hours": 25.4,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4204,7 +4204,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/3164500/header.jpg",
             "Link": "https://store.steampowered.com/app/3164500/",
             "Hours": 11.5,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {

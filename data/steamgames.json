@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-04-18T07:20:48.343Z",
+    "updatedAt": "2026-04-19T07:40:49.288Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1849.8,
+            "hours": 1855.4,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -1258,7 +1258,7 @@
             "recentlyPlayed": false
         },
         "divinity: original sin 2": {
-            "hours": 119.8,
+            "hours": 123.5,
             "recentlyPlayed": true
         },
         "hidden folks": {
@@ -2650,7 +2650,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 25.4,
+            "hours": 25.7,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -3171,7 +3171,7 @@
         },
         "plateup!": {
             "hours": 26.8,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "v rising": {
             "hours": 71.9,
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1849.8,
+            "Hours": 1855.4,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3722,7 +3722,7 @@
             "RemainingDescription": "The critically acclaimed RPG that raised the bar, from the creators of Baldur's Gate 3. Gather your party. Master deep, tactical combat. Venture as a party of up to four - but know that only one of you will have the chance to become a God.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/435150/header.jpg",
             "Link": "https://store.steampowered.com/app/435150/",
-            "Hours": 119.8,
+            "Hours": 123.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3982,7 +3982,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 25.4,
+            "Hours": 25.7,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4087,7 +4087,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1599600/header.jpg",
             "Link": "https://store.steampowered.com/app/1599600/",
             "Hours": 26.8,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {

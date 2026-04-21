@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-04-20T08:22:15.927Z",
+    "updatedAt": "2026-04-21T08:04:34.345Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1862.1,
+            "hours": 1862.5,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3419,7 +3419,7 @@
         },
         "dispatch": {
             "hours": 7.6,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "pico park 2": {
             "hours": 0,
@@ -3497,8 +3497,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "For over two decades, Counter-Strike has offered an elite competitive experience...",
-            "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
+            "FirstSentence": "Durante más de dos décadas, Counter-Strike ha brindado una experiencia competiti...",
+            "RemainingDescription": "Durante más de dos décadas, Counter-Strike ha brindado una experiencia competitiva de élite, una experiencia moldeada por millones de jugadores en todo el mundo. Ahora es el momento de comenzar el siguiente capítulo en la historia de CS. Esto es Counter-Strike 2.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
             "Hours": 3844.2,
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1862.1,
+            "Hours": 1862.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4160,8 +4160,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Возглавьте Экспедицию 33 и уничтожьте Художницу, чтобы она никогда больше не смо...",
-            "RemainingDescription": "Возглавьте Экспедицию 33 и уничтожьте Художницу, чтобы она никогда больше не смогла нарисовать смерть. Исследуйте мир чудес, созданный на основе Прекрасной эпохи Франции, и побеждайте уникальных врагов в пошаговой ролевой игре с механикой реального времени.",
+            "FirstSentence": "Lead the members of Expedition 33 on their quest to destroy the Paintress so tha...",
+            "RemainingDescription": "Lead the members of Expedition 33 on their quest to destroy the Paintress so that she can never paint death again. Explore a world of wonders inspired by Belle Époque France and battle unique enemies in this turn-based RPG with real-time mechanics.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1903340/header.jpg",
             "Link": "https://store.steampowered.com/app/1903340/",
             "Hours": 32.9,

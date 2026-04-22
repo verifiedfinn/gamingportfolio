@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-04-21T08:04:34.345Z",
+    "updatedAt": "2026-04-22T08:01:03.401Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -306,8 +306,8 @@
             "recentlyPlayed": false
         },
         "sonic & all-stars racing transformed collection": {
-            "hours": 2.4,
-            "recentlyPlayed": false
+            "hours": 2.5,
+            "recentlyPlayed": true
         },
         "ftl: faster than light": {
             "hours": 0,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1862.5,
+            "hours": 1864.3,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -1415,7 +1415,7 @@
         },
         "celeste": {
             "hours": 0.4,
-            "recentlyPlayed": false
+            "recentlyPlayed": true
         },
         "optika": {
             "hours": 2.4,
@@ -2766,8 +2766,8 @@
             "recentlyPlayed": false
         },
         "chicory: a colorful tale": {
-            "hours": 0,
-            "recentlyPlayed": false
+            "hours": 0.2,
+            "recentlyPlayed": true
         },
         "mindustry": {
             "hours": 0.5,
@@ -3497,8 +3497,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Durante más de dos décadas, Counter-Strike ha brindado una experiencia competiti...",
-            "RemainingDescription": "Durante más de dos décadas, Counter-Strike ha brindado una experiencia competitiva de élite, una experiencia moldeada por millones de jugadores en todo el mundo. Ahora es el momento de comenzar el siguiente capítulo en la historia de CS. Esto es Counter-Strike 2.",
+            "FirstSentence": "For over two decades, Counter-Strike has offered an elite competitive experience...",
+            "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
             "Hours": 3844.2,
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1862.5,
+            "Hours": 1864.3,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

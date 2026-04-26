@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-04-25T07:40:31.640Z",
+    "updatedAt": "2026-04-26T07:49:39.222Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1874.5,
+            "hours": 1875.8,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -1258,7 +1258,7 @@
             "recentlyPlayed": false
         },
         "divinity: original sin 2": {
-            "hours": 128.3,
+            "hours": 131,
             "recentlyPlayed": true
         },
         "hidden folks": {
@@ -3583,7 +3583,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1874.5,
+            "Hours": 1875.8,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3726,7 +3726,7 @@
             "RemainingDescription": "The critically acclaimed RPG that raised the bar, from the creators of Baldur's Gate 3. Gather your party. Master deep, tactical combat. Venture as a party of up to four - but know that only one of you will have the chance to become a God.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/435150/header.jpg",
             "Link": "https://store.steampowered.com/app/435150/",
-            "Hours": 128.3,
+            "Hours": 131,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4060,8 +4060,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Отправьтесь в самое безумное путешествие в жизни в игре It Takes Two. Пригласите...",
-            "RemainingDescription": "Отправьтесь в самое безумное путешествие в жизни в игре It Takes Two. Пригласите друга присоединиться бесплатно благодаря версии для друга*, радостно преодолевая многочисленные испытания.",
+            "FirstSentence": "Embark on the craziest journey of your life in It Takes Two. Invite a friend to...",
+            "RemainingDescription": "Embark on the craziest journey of your life in It Takes Two. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Winner of GAME OF THE YEAR at the Game Awards 2021.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1426210/header.jpg",
             "Link": "https://store.steampowered.com/app/1426210/",
             "Hours": 10.9,

@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-05-05T08:21:33.669Z",
+    "updatedAt": "2026-05-06T08:37:29.046Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -307,7 +307,7 @@
         },
         "sonic & all-stars racing transformed collection": {
             "hours": 2.5,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "ftl: faster than light": {
             "hours": 0,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1913.7,
+            "hours": 1918.5,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -1273,7 +1273,7 @@
             "hours": 0,
             "recentlyPlayed": false
         },
-        "conan exiles": {
+        "conan exiles enhanced": {
             "hours": 0,
             "recentlyPlayed": false
         },
@@ -1415,7 +1415,7 @@
         },
         "celeste": {
             "hours": 0.4,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "optika": {
             "hours": 2.4,
@@ -2767,7 +2767,7 @@
         },
         "chicory: a colorful tale": {
             "hours": 0.2,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "mindustry": {
             "hours": 0.5,
@@ -3583,7 +3583,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1913.7,
+            "Hours": 1918.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

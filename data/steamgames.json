@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-05-07T08:44:33.022Z",
+    "updatedAt": "2026-05-08T07:50:54.827Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1920,
+            "hours": 1925.3,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3527,8 +3527,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Magicka is a satirical action-adventure game set in a rich fantasy world based o...",
-            "RemainingDescription": "Magicka is a satirical action-adventure game set in a rich fantasy world based on Norse mythology. The player assumes the role of a wizard from a sacred order tasked with stopping an evil sorcerer who has thrown the world into turmoil, his foul creations besieging the forces of good.",
+            "FirstSentence": "Комплект для четверых уже доступен!",
+            "RemainingDescription": "Комплект для четверых уже доступен!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/42910/header.jpg",
             "Link": "https://store.steampowered.com/app/42910/",
             "Hours": 14.2,
@@ -3583,7 +3583,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1920,
+            "Hours": 1925.3,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

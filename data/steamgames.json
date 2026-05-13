@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-05-12T08:49:43.753Z",
+    "updatedAt": "2026-05-13T08:53:40.027Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1941.2,
+            "hours": 1945.1,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2433,10 +2433,6 @@
             "hours": 62.9,
             "recentlyPlayed": false
         },
-        "gothic playable teaser": {
-            "hours": 0,
-            "recentlyPlayed": false
-        },
         "shan gui ii: sweet osmanthus ii": {
             "hours": 0.6,
             "recentlyPlayed": false
@@ -2650,7 +2646,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 40.9,
+            "hours": 41.6,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -3583,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1941.2,
+            "Hours": 1945.1,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3986,7 +3982,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 40.9,
+            "Hours": 41.6,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3995,8 +3991,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons...",
-            "RemainingDescription": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons &amp; Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.",
+            "FirstSentence": "《博德之门3》是一款以“龙与地下城”世界为背景的、强调故事与队伍冒险体验的角色扮演游戏。你的每一个选择，都会编织出一段关于同伴与背叛、生存与牺牲，以及至上力量诱...",
+            "RemainingDescription": "《博德之门3》是一款以“龙与地下城”世界为背景的、强调故事与队伍冒险体验的角色扮演游戏。你的每一个选择，都会编织出一段关于同伴与背叛、生存与牺牲，以及至上力量诱惑的故事。",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg",
             "Link": "https://store.steampowered.com/app/1086940/",
             "Hours": 102.7,

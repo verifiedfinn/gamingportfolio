@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-05-14T08:46:55.007Z",
+    "updatedAt": "2026-05-15T09:19:22.295Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -91,7 +91,7 @@
         },
         "counter-strike 2": {
             "hours": 3844.6,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "peggle deluxe": {
             "hours": 5,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1948,
+            "hours": 1948.9,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2646,7 +2646,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 43.2,
+            "hours": 45.5,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -3502,7 +3502,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
             "Hours": 3844.6,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1948,
+            "Hours": 1948.9,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3982,7 +3982,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 43.2,
+            "Hours": 45.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4160,8 +4160,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Bir daha ölümü resmedemesin diye Ressam'ı yok etmek için çıktıkları bu görevde K...",
-            "RemainingDescription": "Bir daha ölümü resmedemesin diye Ressam'ı yok etmek için çıktıkları bu görevde Keşif 33'e liderlik et. Fransa'nın Belle Époque döneminden esinlenen muazzam bir dünyayı keşfet, gerçek zamanlı mekanikleriyle bu sıra tabanlı RYO'da benzersiz düşmanlarla savaş.",
+            "FirstSentence": "Lead the members of Expedition 33 on their quest to destroy the Paintress so tha...",
+            "RemainingDescription": "Lead the members of Expedition 33 on their quest to destroy the Paintress so that she can never paint death again. Explore a world of wonders inspired by Belle Époque France and battle unique enemies in this turn-based RPG with real-time mechanics.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1903340/header.jpg",
             "Link": "https://store.steampowered.com/app/1903340/",
             "Hours": 32.9,

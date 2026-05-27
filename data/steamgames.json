@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-05-26T10:11:42.352Z",
+    "updatedAt": "2026-05-27T10:09:43.361Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -2646,7 +2646,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 57.3,
+            "hours": 58,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -3982,7 +3982,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 57.3,
+            "Hours": 58,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-05-28T10:18:25.893Z",
+    "updatedAt": "2026-05-29T10:07:51.343Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1957.9,
+            "hours": 1958.5,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2646,7 +2646,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 59.4,
+            "hours": 61.1,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -3497,8 +3497,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновател...",
-            "RemainingDescription": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновательной игры, путь развития которой определяют миллионы игроков со всего мира. Теперь пришло время нового этапа — Counter-Strike 2.",
+            "FirstSentence": "For over two decades, Counter-Strike has offered an elite competitive experience...",
+            "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
             "Hours": 3844.8,
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1957.9,
+            "Hours": 1958.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3705,8 +3705,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Use stunning live wallpapers on your desktop. Animate your own images to create...",
-            "RemainingDescription": "Use stunning live wallpapers on your desktop. Animate your own images to create new wallpapers or import videos/websites and share them on the Steam Workshop!",
+            "FirstSentence": "Masaüstünüzde etkileyici canlı duvar kağıtları kullanın. Yeni duvar kağıtları ol...",
+            "RemainingDescription": "Masaüstünüzde etkileyici canlı duvar kağıtları kullanın. Yeni duvar kağıtları oluşturmak için kendi görüntülerinizi canlandırın veya videoları/web sitelerini içe aktarın ve bunları Steam Atölyesinde paylaşın!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/431960/header.jpg",
             "Link": "https://store.steampowered.com/app/431960/",
             "Hours": 10.8,
@@ -3982,7 +3982,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 59.4,
+            "Hours": 61.1,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

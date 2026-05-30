@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-05-29T10:07:51.343Z",
+    "updatedAt": "2026-05-30T08:36:00.546Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -2151,7 +2151,7 @@
         },
         "wizard101": {
             "hours": 0.2,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "plane mechanic simulator": {
             "hours": 0,
@@ -2646,7 +2646,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 61.1,
+            "hours": 62.4,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -3705,8 +3705,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Masaüstünüzde etkileyici canlı duvar kağıtları kullanın. Yeni duvar kağıtları ol...",
-            "RemainingDescription": "Masaüstünüzde etkileyici canlı duvar kağıtları kullanın. Yeni duvar kağıtları oluşturmak için kendi görüntülerinizi canlandırın veya videoları/web sitelerini içe aktarın ve bunları Steam Atölyesinde paylaşın!",
+            "FirstSentence": "Use stunning live wallpapers on your desktop. Animate your own images to create...",
+            "RemainingDescription": "Use stunning live wallpapers on your desktop. Animate your own images to create new wallpapers or import videos/websites and share them on the Steam Workshop!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/431960/header.jpg",
             "Link": "https://store.steampowered.com/app/431960/",
             "Hours": 10.8,
@@ -3982,7 +3982,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 61.1,
+            "Hours": 62.4,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

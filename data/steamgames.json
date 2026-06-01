@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-05-31T08:56:45.259Z",
+    "updatedAt": "2026-06-01T11:50:06.704Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -1639,7 +1639,7 @@
         },
         "voiceattack": {
             "hours": 0,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "sonic mania": {
             "hours": 0,
@@ -2646,7 +2646,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 65,
+            "hours": 66.6,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -3978,11 +3978,11 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5...",
-            "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
+            "FirstSentence": "Wingspan è un rilassante e premiato gioco di strategia sugli uccelli per 1-5 gio...",
+            "RemainingDescription": "Wingspan è un rilassante e premiato gioco di strategia sugli uccelli per 1-5 giocatori. Ogni uccello giocato accresce la catena di combinazioni disponibili in uno dei propri tre habitat. L'obiettivo è scoprire e attirare i migliori uccelli nella propria rete di riserve naturali.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 65,
+            "Hours": 66.6,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

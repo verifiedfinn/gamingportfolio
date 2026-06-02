@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-06-01T11:50:06.704Z",
+    "updatedAt": "2026-06-02T10:48:49.500Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1958.5,
+            "hours": 1958.8,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1958.5,
+            "Hours": 1958.8,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3978,8 +3978,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Wingspan è un rilassante e premiato gioco di strategia sugli uccelli per 1-5 gio...",
-            "RemainingDescription": "Wingspan è un rilassante e premiato gioco di strategia sugli uccelli per 1-5 giocatori. Ogni uccello giocato accresce la catena di combinazioni disponibili in uno dei propri tre habitat. L'obiettivo è scoprire e attirare i migliori uccelli nella propria rete di riserve naturali.",
+            "FirstSentence": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5...",
+            "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
             "Hours": 66.6,

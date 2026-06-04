@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-06-03T11:16:28.710Z",
+    "updatedAt": "2026-06-04T10:07:29.073Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1959.8,
+            "hours": 1959.9,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2646,7 +2646,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 66.6,
+            "hours": 67.2,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -3166,8 +3166,8 @@
             "recentlyPlayed": false
         },
         "plateup!": {
-            "hours": 26.8,
-            "recentlyPlayed": false
+            "hours": 27.3,
+            "recentlyPlayed": true
         },
         "v rising": {
             "hours": 71.9,
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1959.8,
+            "Hours": 1959.9,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3809,8 +3809,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Выберитесь с хаотичной неизвестной планеты, отбиваясь от полчищ безумных монстро...",
-            "RemainingDescription": "Выберитесь с хаотичной неизвестной планеты, отбиваясь от полчищ безумных монстров в одиночку или с друзьями. Неожиданным образом сочетайте найденные предметы и постигайте все особенности персонажей, пока сами не станете разрушительной силой, вселяющей ужас в противников.",
+            "FirstSentence": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters –...",
+            "RemainingDescription": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters – with your friends, or on your own. Combine loot in surprising ways and master each character until you become the havoc you feared upon your first crash landing.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/632360/header.jpg",
             "Link": "https://store.steampowered.com/app/632360/",
             "Hours": 184,
@@ -3982,7 +3982,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 66.6,
+            "Hours": 67.2,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4086,8 +4086,8 @@
             "RemainingDescription": "Cook and serve your dishes, design and decorate your restaurants, and expand your culinary kingdom with new unlocks, abilities and dishes in procedurally-generated locations. Classic cooking action with permanent roguelite progression. Hire your friends - or do it all yourself!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1599600/header.jpg",
             "Link": "https://store.steampowered.com/app/1599600/",
-            "Hours": 26.8,
-            "RecentlyPlayed": false,
+            "Hours": 27.3,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {

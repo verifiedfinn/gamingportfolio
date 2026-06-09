@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-06-08T11:11:12.112Z",
+    "updatedAt": "2026-06-09T09:57:43.576Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -693,7 +693,7 @@
             "hours": 0,
             "recentlyPlayed": false
         },
-        "endless™ legend": {
+        "endless legend™": {
             "hours": 0,
             "recentlyPlayed": false
         },
@@ -1037,7 +1037,7 @@
             "hours": 1.9,
             "recentlyPlayed": false
         },
-        "endless™ space 2": {
+        "endless space™ 2": {
             "hours": 0,
             "recentlyPlayed": false
         },
@@ -2150,7 +2150,7 @@
             "recentlyPlayed": false
         },
         "wizard101": {
-            "hours": 0.4,
+            "hours": 0.6,
             "recentlyPlayed": true
         },
         "plane mechanic simulator": {
@@ -2646,7 +2646,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 67.2,
+            "hours": 68.7,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -2941,7 +2941,7 @@
             "hours": 0,
             "recentlyPlayed": false
         },
-        "sea of stars": {
+        "sea of stars: sunset edition": {
             "hours": 0.2,
             "recentlyPlayed": false
         },
@@ -3982,7 +3982,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 67.2,
+            "Hours": 68.7,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

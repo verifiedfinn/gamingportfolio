@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-06-14T09:48:34.239Z",
+    "updatedAt": "2026-06-15T12:33:37.146Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1969,
+            "hours": 1971.6,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2150,7 +2150,7 @@
             "recentlyPlayed": false
         },
         "wizard101": {
-            "hours": 0.9,
+            "hours": 1,
             "recentlyPlayed": true
         },
         "plane mechanic simulator": {
@@ -3562,8 +3562,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окру...",
-            "RemainingDescription": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь.",
+            "FirstSentence": "The only aim in Rust is to survive. Everything wants you to die - the island’s w...",
+            "RemainingDescription": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg",
             "Link": "https://store.steampowered.com/app/252490/",
             "Hours": 42.8,
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1969,
+            "Hours": 1971.6,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3783,8 +3783,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Deep Rock Galactic — кооперативный шутер от первого лица для 1-4 игроков, в кото...",
-            "RemainingDescription": "Deep Rock Galactic — кооперативный шутер от первого лица для 1-4 игроков, в котором вас ждут крутые космические дворфы, полностью разрушаемое окружение, процедурно генерируемые системы пещер, а также бесконечные волны инопланетных чудовищ.",
+            "FirstSentence": "Deep Rock Galactic is a 1-4 player co-op FPS featuring dwarven space miners, pro...",
+            "RemainingDescription": "Deep Rock Galactic is a 1-4 player co-op FPS featuring dwarven space miners, procedurally-generated destructible environments, and endless hordes of alien monsters. Explore cave systems, mine for minerals, and work together to survive!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/548430/header.jpg",
             "Link": "https://store.steampowered.com/app/548430/",
             "Hours": 12.7,
@@ -3796,8 +3796,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Dead Cells, metroidvania türünden ilham alan roguelite bir aksiyon platform oyun...",
-            "RemainingDescription": "Dead Cells, metroidvania türünden ilham alan roguelite bir aksiyon platform oyunudur. Sürekli büyüyen ve değişen bir kaleyi keşfedeceksin... Kayıt noktası yok. Öldür, öl, öğren, tekrarla.",
+            "FirstSentence": "Dead Cells is a roguelite, metroidvania inspired, action-platformer. You'll expl...",
+            "RemainingDescription": "Dead Cells is a roguelite, metroidvania inspired, action-platformer. You'll explore a sprawling, ever-changing castle... assuming you’re able to fight your way past its keepers in 2D souls-lite combat. No checkpoints. Kill, die, learn, repeat.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/588650/header.jpg",
             "Link": "https://store.steampowered.com/app/588650/",
             "Hours": 43.8,
@@ -3991,8 +3991,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Partini topla ve dostluk, ihanet, fedakârlık, hayatta kalma ve mutlak güç arzusu...",
-            "RemainingDescription": "Partini topla ve dostluk, ihanet, fedakârlık, hayatta kalma ve mutlak güç arzusuyla dolu bir hikâyede Unutulmuş Diyarlar'a dön.",
+            "FirstSentence": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons...",
+            "RemainingDescription": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons &amp; Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg",
             "Link": "https://store.steampowered.com/app/1086940/",
             "Hours": 102.7,
@@ -4134,8 +4134,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Mow down thousands of night creatures and survive until dawn! Vampire Survivors...",
-            "RemainingDescription": "Mow down thousands of night creatures and survive until dawn! Vampire Survivors is a gothic horror casual game with rogue-lite elements, where your choices can allow you to quickly snowball against the hundreds of monsters that get thrown at you. Be the bullet hell!",
+            "FirstSentence": "Пачками косить порождений ночи и дожить до рассвета! Vampire Survivors — казуаль...",
+            "RemainingDescription": "Пачками косить порождений ночи и дожить до рассвета! Vampire Survivors — казуальная игра в стиле готического хоррора с элементами упрощенного рогалика. Здесь каждое ваше решение может вызвать лавину последствий для орд монстров, с которыми вам предстоит столкнуться.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1794680/header.jpg",
             "Link": "https://store.steampowered.com/app/1794680/",
             "Hours": 13.5,

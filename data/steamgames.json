@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-06-17T11:10:04.806Z",
+    "updatedAt": "2026-06-18T10:41:22.360Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1972.8,
+            "hours": 1973.5,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3167,7 +3167,7 @@
         },
         "plateup!": {
             "hours": 27.3,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "v rising": {
             "hours": 71.9,
@@ -3562,8 +3562,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "The only aim in Rust is to survive. Everything wants you to die - the island’s w...",
-            "RemainingDescription": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night.",
+            "FirstSentence": "Rust'ta tek bir hedefin var: hayatta kalmak. Adadaki her şey ve herkes seni öldü...",
+            "RemainingDescription": "Rust'ta tek bir hedefin var: hayatta kalmak. Adadaki her şey ve herkes seni öldürmek istiyor. Adanın yaban hayatı, diğer yerlileri, doğa, diğer hayatta kalanlar... Bir gece daha dayanmak için ne gerekiyorsa yap.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg",
             "Link": "https://store.steampowered.com/app/252490/",
             "Hours": 42.8,
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1972.8,
+            "Hours": 1973.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3679,8 +3679,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with...",
-            "RemainingDescription": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+            "FirstSentence": "Você herdou a antiga fazenda do seu avô, em Stardew Valley. Com ferramentas de s...",
+            "RemainingDescription": "Você herdou a antiga fazenda do seu avô, em Stardew Valley. Com ferramentas de segunda-mão e algumas moedas, você parte para dar início a sua nova vida. Será que você vai aprender a viver da terra, a transformar esse matagal em um próspero lar?",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg",
             "Link": "https://store.steampowered.com/app/413150/",
             "Hours": 55,
@@ -3783,8 +3783,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Deep Rock Galactic is a 1-4 player co-op FPS featuring dwarven space miners, pro...",
-            "RemainingDescription": "Deep Rock Galactic is a 1-4 player co-op FPS featuring dwarven space miners, procedurally-generated destructible environments, and endless hordes of alien monsters. Explore cave systems, mine for minerals, and work together to survive!",
+            "FirstSentence": "Deep Rock Galactic — кооперативный шутер от первого лица для 1-4 игроков, в кото...",
+            "RemainingDescription": "Deep Rock Galactic — кооперативный шутер от первого лица для 1-4 игроков, в котором вас ждут крутые космические дворфы, полностью разрушаемое окружение, процедурно генерируемые системы пещер, а также бесконечные волны инопланетных чудовищ.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/548430/header.jpg",
             "Link": "https://store.steampowered.com/app/548430/",
             "Hours": 12.7,
@@ -3796,8 +3796,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Dead Cells — це екшн-платформер і метроїдванія з елементами рогалика. Досліджуйт...",
-            "RemainingDescription": "Dead Cells — це екшн-платформер і метроїдванія з елементами рогалика. Досліджуйте великий замок, який постійно змінюється... Якщо подолаєте його охоронців. Без збережень. Вбивайте, вмирайте, набувайте досвіду та враховуйте його на повторах.",
+            "FirstSentence": "Dead Cells est un jeu d'action/plateforme rogue-lite intégrant des éléments de M...",
+            "RemainingDescription": "Dead Cells est un jeu d'action/plateforme rogue-lite intégrant des éléments de Metroidvania. Explorez un château tentaculaire en perpétuelle évolution… Pas de points de contrôle. Tuer, mourir, apprendre, recommencer.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/588650/header.jpg",
             "Link": "https://store.steampowered.com/app/588650/",
             "Hours": 43.8,
@@ -3900,8 +3900,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Noita — боевик с элементами «roguelike» с физическим моделированием пикселей. Вы...",
-            "RemainingDescription": "Noita — боевик с элементами «roguelike» с физическим моделированием пикселей. Вы сражаетесь, исследуете различные места, расплавляете, сжигаете, замораживаете и испаряете препятствия, используя заклинания. Можно просто исследовать всё вокруг и смотреть, сколько проблем удастся нажить!",
+            "FirstSentence": "Noita is a magical action roguelite set in a world where every pixel is physical...",
+            "RemainingDescription": "Noita is a magical action roguelite set in a world where every pixel is physically simulated. Fight, explore, melt, burn, freeze and evaporate your way through the procedurally generated world using spells you've created yourself.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/881100/header.jpg",
             "Link": "https://store.steampowered.com/app/881100/",
             "Hours": 45.6,
@@ -3952,8 +3952,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control...",
-            "RemainingDescription": "Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control of the action and be at the center of your own adventure in the wizarding world.",
+            "FirstSentence": "Hogwarts Legacy : L'Héritage de Poudlard est un RPG d'action-aventure immersif e...",
+            "RemainingDescription": "Hogwarts Legacy : L'Héritage de Poudlard est un RPG d'action-aventure immersif en monde ouvert. Vous pouvez prendre le contrôle et vous retrouver au centre de votre propre aventure dans le Monde des sorciers.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/990080/header.jpg",
             "Link": "https://store.steampowered.com/app/990080/",
             "Hours": 45.4,
@@ -3991,8 +3991,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons...",
-            "RemainingDescription": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons &amp; Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.",
+            "FirstSentence": "Partini topla ve dostluk, ihanet, fedakârlık, hayatta kalma ve mutlak güç arzusu...",
+            "RemainingDescription": "Partini topla ve dostluk, ihanet, fedakârlık, hayatta kalma ve mutlak güç arzusuyla dolu bir hikâyede Unutulmuş Diyarlar'a dön.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg",
             "Link": "https://store.steampowered.com/app/1086940/",
             "Hours": 102.7,
@@ -4087,7 +4087,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1599600/header.jpg",
             "Link": "https://store.steampowered.com/app/1599600/",
             "Hours": 27.3,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {
@@ -4134,8 +4134,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Mow down thousands of night creatures and survive until dawn! Vampire Survivors...",
-            "RemainingDescription": "Mow down thousands of night creatures and survive until dawn! Vampire Survivors is a gothic horror casual game with rogue-lite elements, where your choices can allow you to quickly snowball against the hundreds of monsters that get thrown at you. Be the bullet hell!",
+            "FirstSentence": "Acabe com milhares de criaturas noturnas e sobreviva até o amanhecer! Vampire Su...",
+            "RemainingDescription": "Acabe com milhares de criaturas noturnas e sobreviva até o amanhecer! Vampire Survivors é um jogo casual de terror gótico com elementos roguelite onde suas escolhas podem fazer você crescer rapidamente e aniquilar os milhares de monstros que aparecem pelo caminho.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1794680/header.jpg",
             "Link": "https://store.steampowered.com/app/1794680/",
             "Hours": 13.5,
@@ -4147,8 +4147,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "ARC Raiders is een multiplayer extractie-avontuur dat zich afspeelt op een dodel...",
-            "RemainingDescription": "ARC Raiders is een multiplayer extractie-avontuur dat zich afspeelt op een dodelijke toekomstige aarde, verwoest door een mysterieuze gemechaniseerde bedreiging die bekendstaat als ARC.",
+            "FirstSentence": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth,...",
+            "RemainingDescription": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1808500/header.jpg",
             "Link": "https://store.steampowered.com/app/1808500/",
             "Hours": 105.9,
@@ -4160,8 +4160,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Lead the members of Expedition 33 on their quest to destroy the Paintress so tha...",
-            "RemainingDescription": "Lead the members of Expedition 33 on their quest to destroy the Paintress so that she can never paint death again. Explore a world of wonders inspired by Belle Époque France and battle unique enemies in this turn-based RPG with real-time mechanics.",
+            "FirstSentence": "Conduza os membros da Expedição 33 em uma missão para destruir a Artífice para q...",
+            "RemainingDescription": "Conduza os membros da Expedição 33 em uma missão para destruir a Artífice para que ela nunca mais possa pintar a morte. Explore um mundo inspirado na Belle Époque da França e enfrente inimigos únicos neste RPG em turnos com mecânicas em tempo real.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1903340/header.jpg",
             "Link": "https://store.steampowered.com/app/1903340/",
             "Hours": 32.9,

@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-06-24T09:44:27.005Z",
+    "updatedAt": "2026-06-25T09:35:36.685Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1979.7,
+            "hours": 1981.3,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2090,8 +2090,8 @@
             "recentlyPlayed": false
         },
         "crab champions": {
-            "hours": 41.4,
-            "recentlyPlayed": false
+            "hours": 42.5,
+            "recentlyPlayed": true
         },
         "project winter": {
             "hours": 0,
@@ -3484,8 +3484,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to d...",
-            "RemainingDescription": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to design co-op puzzles for you and your friends!",
+            "FirstSentence": "Программа вечного тестирования расширена: создавайте совместные головоломки для...",
+            "RemainingDescription": "Программа вечного тестирования расширена: создавайте совместные головоломки для себя и друзей!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/620/header.jpg",
             "Link": "https://store.steampowered.com/app/620/",
             "Hours": 14.6,
@@ -3497,8 +3497,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "For over two decades, Counter-Strike has offered an elite competitive experience...",
-            "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
+            "FirstSentence": "Counter-Strike, 20 yıldan fazladır dünyanın her yerinden milyonlarca oyuncunun g...",
+            "RemainingDescription": "Counter-Strike, 20 yıldan fazladır dünyanın her yerinden milyonlarca oyuncunun geri bildirimiyle şekillenen üstün rekabetçi oyun deneyimi sundu. Ve şimdi CS tarihinde yeni bir dönem başlıyor. Karşınızda Counter-Strike 2.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
             "Hours": 3844.8,
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1979.7,
+            "Hours": 1981.3,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3679,8 +3679,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with...",
-            "RemainingDescription": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+            "FirstSentence": "Вам досталась старая дедушкина ферма в долине Стардью. С горстью монет в кармане...",
+            "RemainingDescription": "Вам досталась старая дедушкина ферма в долине Стардью. С горстью монет в кармане и старыми инструментами в руках вы начинаете новую жизнь. Сможете ли вы превратить пустырь в цветущий сад?",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg",
             "Link": "https://store.steampowered.com/app/413150/",
             "Hours": 55,
@@ -3744,8 +3744,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Human Fall Flat is a hilarious, light-hearted platformer set in floating dreamsc...",
-            "RemainingDescription": "Human Fall Flat is a hilarious, light-hearted platformer set in floating dreamscapes that can be played solo or with up to 8 players online. Free new levels keep its vibrant community rewarded.",
+            "FirstSentence": "Human Fall Flat, havada asılı düşvari mekanlarda geçen eğlenceli, fizik tabanlı...",
+            "RemainingDescription": "Human Fall Flat, havada asılı düşvari mekanlarda geçen eğlenceli, fizik tabanlı bir platform oyunudur. Tek veya en fazla 8 kişiyle çevrimiçi oynanabilir ve müdavimleri için ücretsiz yepyeni seviyeler içerir.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/477160/header.jpg",
             "Link": "https://store.steampowered.com/app/477160/",
             "Hours": 11.1,
@@ -3878,8 +3878,8 @@
             "RemainingDescription": "Claw your way across exotic islands combining fluid movement with fast paced combat to become a Crab Champion in this third person roguelike shooter.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/774801/header.jpg",
             "Link": "https://store.steampowered.com/app/774801/",
-            "Hours": 41.4,
-            "RecentlyPlayed": false,
+            "Hours": 42.5,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {
@@ -4030,8 +4030,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Sea of Thieves bu özel sürümle oyunun çıkışının beşinci yılını kutluyor. Bu sürü...",
-            "RemainingDescription": "Sea of Thieves bu özel sürümle oyunun çıkışının beşinci yılını kutluyor. Bu sürümde oyunun çıkışından beri eklenen kalıcı içeriklerin de dâhil olduğu ana kopyasının yanı sıra 10.000 altın bonusu ve Avcı Palası, Tabanca, Pusula, Şapka, Ceket ve Yelken gibi çeşitli Avcı kozmetikleri bulunuyor.",
+            "FirstSentence": "Sea of Thieves — культовая игра о пиратских приключениях. Все для настоящего пир...",
+            "RemainingDescription": "Sea of Thieves — культовая игра о пиратских приключениях. Все для настоящего пирата: охота за сокровищами, напряженные сражения, битвы с морскими чудовищами. Переработанное издание включает дополнительные цифровые материалы: поднимайте паруса!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1172620/header.jpg",
             "Link": "https://store.steampowered.com/app/1172620/",
             "Hours": 149.3,
@@ -4134,8 +4134,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Binlerce gece yaratığını delik deşik et ve şafağa kadar hayatta kal! Vampire Sur...",
-            "RemainingDescription": "Binlerce gece yaratığını delik deşik et ve şafağa kadar hayatta kal! Vampire Survivors, üzerine gelen yüzlerce canavara karşı seçimlerinin hızlı bir şekilde etkili olacağı, rogue-lite unsurları içeren fantastik bir eğlencelik korku oyunudur.",
+            "FirstSentence": "Пачками косить порождений ночи и дожить до рассвета! Vampire Survivors — казуаль...",
+            "RemainingDescription": "Пачками косить порождений ночи и дожить до рассвета! Vampire Survivors — казуальная игра в стиле готического хоррора с элементами упрощенного рогалика. Здесь каждое ваше решение может вызвать лавину последствий для орд монстров, с которыми вам предстоит столкнуться.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1794680/header.jpg",
             "Link": "https://store.steampowered.com/app/1794680/",
             "Hours": 13.5,

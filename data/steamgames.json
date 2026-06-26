@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-06-25T09:35:36.685Z",
+    "updatedAt": "2026-06-26T09:41:35.558Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -2090,7 +2090,7 @@
             "recentlyPlayed": false
         },
         "crab champions": {
-            "hours": 42.5,
+            "hours": 45.2,
             "recentlyPlayed": true
         },
         "project winter": {
@@ -3484,8 +3484,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Программа вечного тестирования расширена: создавайте совместные головоломки для...",
-            "RemainingDescription": "Программа вечного тестирования расширена: создавайте совместные головоломки для себя и друзей!",
+            "FirstSentence": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to d...",
+            "RemainingDescription": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to design co-op puzzles for you and your friends!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/620/header.jpg",
             "Link": "https://store.steampowered.com/app/620/",
             "Hours": 14.6,
@@ -3497,8 +3497,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Counter-Strike, 20 yıldan fazladır dünyanın her yerinden milyonlarca oyuncunun g...",
-            "RemainingDescription": "Counter-Strike, 20 yıldan fazladır dünyanın her yerinden milyonlarca oyuncunun geri bildirimiyle şekillenen üstün rekabetçi oyun deneyimi sundu. Ve şimdi CS tarihinde yeni bir dönem başlıyor. Karşınızda Counter-Strike 2.",
+            "FirstSentence": "For over two decades, Counter-Strike has offered an elite competitive experience...",
+            "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
             "Hours": 3844.8,
@@ -3744,8 +3744,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Human Fall Flat, havada asılı düşvari mekanlarda geçen eğlenceli, fizik tabanlı...",
-            "RemainingDescription": "Human Fall Flat, havada asılı düşvari mekanlarda geçen eğlenceli, fizik tabanlı bir platform oyunudur. Tek veya en fazla 8 kişiyle çevrimiçi oynanabilir ve müdavimleri için ücretsiz yepyeni seviyeler içerir.",
+            "FirstSentence": "Human Fall Flat is a hilarious, light-hearted platformer set in floating dreamsc...",
+            "RemainingDescription": "Human Fall Flat is a hilarious, light-hearted platformer set in floating dreamscapes that can be played solo or with up to 8 players online. Free new levels keep its vibrant community rewarded.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/477160/header.jpg",
             "Link": "https://store.steampowered.com/app/477160/",
             "Hours": 11.1,
@@ -3878,7 +3878,7 @@
             "RemainingDescription": "Claw your way across exotic islands combining fluid movement with fast paced combat to become a Crab Champion in this third person roguelike shooter.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/774801/header.jpg",
             "Link": "https://store.steampowered.com/app/774801/",
-            "Hours": 42.5,
+            "Hours": 45.2,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4030,8 +4030,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Sea of Thieves — культовая игра о пиратских приключениях. Все для настоящего пир...",
-            "RemainingDescription": "Sea of Thieves — культовая игра о пиратских приключениях. Все для настоящего пирата: охота за сокровищами, напряженные сражения, битвы с морскими чудовищами. Переработанное издание включает дополнительные цифровые материалы: поднимайте паруса!",
+            "FirstSentence": "Sea of Thieves is a smash-hit pirate adventure game, offering the quintessential...",
+            "RemainingDescription": "Sea of Thieves is a smash-hit pirate adventure game, offering the quintessential pirate experience of plundering lost treasures, intense battles, vanquishing sea monsters and more. Dive in with this revised edition of the game, which includes access to digital bonus media.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1172620/header.jpg",
             "Link": "https://store.steampowered.com/app/1172620/",
             "Hours": 149.3,

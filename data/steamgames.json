@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-06-26T09:41:35.558Z",
+    "updatedAt": "2026-06-27T08:45:54.051Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1981.3,
+            "hours": 1983.6,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2090,7 +2090,7 @@
             "recentlyPlayed": false
         },
         "crab champions": {
-            "hours": 45.2,
+            "hours": 47.7,
             "recentlyPlayed": true
         },
         "project winter": {
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1981.3,
+            "Hours": 1983.6,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3679,8 +3679,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Вам досталась старая дедушкина ферма в долине Стардью. С горстью монет в кармане...",
-            "RemainingDescription": "Вам досталась старая дедушкина ферма в долине Стардью. С горстью монет в кармане и старыми инструментами в руках вы начинаете новую жизнь. Сможете ли вы превратить пустырь в цветущий сад?",
+            "FirstSentence": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with...",
+            "RemainingDescription": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg",
             "Link": "https://store.steampowered.com/app/413150/",
             "Hours": 55,
@@ -3878,7 +3878,7 @@
             "RemainingDescription": "Claw your way across exotic islands combining fluid movement with fast paced combat to become a Crab Champion in this third person roguelike shooter.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/774801/header.jpg",
             "Link": "https://store.steampowered.com/app/774801/",
-            "Hours": 45.2,
+            "Hours": 47.7,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4134,8 +4134,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Пачками косить порождений ночи и дожить до рассвета! Vampire Survivors — казуаль...",
-            "RemainingDescription": "Пачками косить порождений ночи и дожить до рассвета! Vampire Survivors — казуальная игра в стиле готического хоррора с элементами упрощенного рогалика. Здесь каждое ваше решение может вызвать лавину последствий для орд монстров, с которыми вам предстоит столкнуться.",
+            "FirstSentence": "Mow down thousands of night creatures and survive until dawn! Vampire Survivors...",
+            "RemainingDescription": "Mow down thousands of night creatures and survive until dawn! Vampire Survivors is a gothic horror casual game with rogue-lite elements, where your choices can allow you to quickly snowball against the hundreds of monsters that get thrown at you. Be the bullet hell!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1794680/header.jpg",
             "Link": "https://store.steampowered.com/app/1794680/",
             "Hours": 13.5,

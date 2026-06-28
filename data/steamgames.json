@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-06-27T08:45:54.051Z",
+    "updatedAt": "2026-06-28T09:22:38.211Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1983.6,
+            "hours": 1984.1,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -1238,8 +1238,8 @@
             "recentlyPlayed": false
         },
         "wallpaper engine": {
-            "hours": 10.8,
-            "recentlyPlayed": false
+            "hours": 10.9,
+            "recentlyPlayed": true
         },
         "z1 battle royale": {
             "hours": 4.2,
@@ -2090,7 +2090,7 @@
             "recentlyPlayed": false
         },
         "crab champions": {
-            "hours": 47.7,
+            "hours": 48.5,
             "recentlyPlayed": true
         },
         "project winter": {
@@ -2150,7 +2150,7 @@
             "recentlyPlayed": false
         },
         "wizard101": {
-            "hours": 1.2,
+            "hours": 1.4,
             "recentlyPlayed": true
         },
         "plane mechanic simulator": {
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1983.6,
+            "Hours": 1984.1,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3709,8 +3709,8 @@
             "RemainingDescription": "Use stunning live wallpapers on your desktop. Animate your own images to create new wallpapers or import videos/websites and share them on the Steam Workshop!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/431960/header.jpg",
             "Link": "https://store.steampowered.com/app/431960/",
-            "Hours": 10.8,
-            "RecentlyPlayed": false,
+            "Hours": 10.9,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {
@@ -3878,7 +3878,7 @@
             "RemainingDescription": "Claw your way across exotic islands combining fluid movement with fast paced combat to become a Crab Champion in this third person roguelike shooter.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/774801/header.jpg",
             "Link": "https://store.steampowered.com/app/774801/",
-            "Hours": 47.7,
+            "Hours": 48.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

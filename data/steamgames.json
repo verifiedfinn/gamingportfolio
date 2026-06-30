@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-06-29T11:16:33.190Z",
+    "updatedAt": "2026-06-30T09:54:14.357Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1987.5,
+            "hours": 1990.3,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2090,7 +2090,7 @@
             "recentlyPlayed": false
         },
         "crab champions": {
-            "hours": 48.5,
+            "hours": 51.4,
             "recentlyPlayed": true
         },
         "project winter": {
@@ -2647,7 +2647,7 @@
         },
         "wingspan": {
             "hours": 72.1,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "ori and the will of the wisps": {
             "hours": 0,
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1987.5,
+            "Hours": 1990.3,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3796,8 +3796,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Dead Cells is a roguelite, metroidvania inspired, action-platformer. You'll expl...",
-            "RemainingDescription": "Dead Cells is a roguelite, metroidvania inspired, action-platformer. You'll explore a sprawling, ever-changing castle... assuming you’re able to fight your way past its keepers in 2D souls-lite combat. No checkpoints. Kill, die, learn, repeat.",
+            "FirstSentence": "Dead Cells é um &quot;roguelite&quot; de ação em plataforma estilo Metroidvania....",
+            "RemainingDescription": "Dead Cells é um &quot;roguelite&quot; de ação em plataforma estilo Metroidvania. Você vai explorar um castelo extenso e em constante mutação... Sem checkpoints. Mate, morra, aprenda, repita.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/588650/header.jpg",
             "Link": "https://store.steampowered.com/app/588650/",
             "Hours": 43.8,
@@ -3878,7 +3878,7 @@
             "RemainingDescription": "Claw your way across exotic islands combining fluid movement with fast paced combat to become a Crab Champion in this third person roguelike shooter.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/774801/header.jpg",
             "Link": "https://store.steampowered.com/app/774801/",
-            "Hours": 48.5,
+            "Hours": 51.4,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3983,7 +3983,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
             "Hours": 72.1,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {
@@ -4095,8 +4095,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Erwache als Vampir. Jage in nahegelegenen Siedlungen nach Blut, um deine Kräfte...",
-            "RemainingDescription": "Erwache als Vampir. Jage in nahegelegenen Siedlungen nach Blut, um deine Kräfte wiederzuerlangen, und meide die sengende Sonne, um zu überleben. Errichte dein Schloss und überlebe in einer sich ständig verändernden, offenen Welt voller Geheimnisse. Finde Verbündete und erobere das Land der Lebenden.",
+            "FirstSentence": "Awaken as a Vampire. Hunt for blood in nearby settlements to regain your strengt...",
+            "RemainingDescription": "Awaken as a Vampire. Hunt for blood in nearby settlements to regain your strength and evade the scorching sun to survive. Raise your castle and thrive in an ever-changing, open world full of mystery. Gain allies online and conquer the land of the living.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1604030/header.jpg",
             "Link": "https://store.steampowered.com/app/1604030/",
             "Hours": 71.9,

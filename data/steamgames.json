@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-07-02T09:25:55.851Z",
+    "updatedAt": "2026-07-03T09:29:44.555Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 1994.6,
+            "hours": 1995.8,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 1994.6,
+            "Hours": 1995.8,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3588,8 +3588,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Grand Theft Auto V'in PC sürümü, oyunculara 4k ve ötesinde çözünürlükle ve saniy...",
-            "RemainingDescription": "Grand Theft Auto V'in PC sürümü, oyunculara 4k ve ötesinde çözünürlükle ve saniyede 60 kare tazeleme hızıyla Los Santos ve Blaine County dünyasını keşfetme fırsatını sunuyor.",
+            "FirstSentence": "Grand Theft Auto V for PC offers players the option to explore the award-winning...",
+            "RemainingDescription": "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg",
             "Link": "https://store.steampowered.com/app/271590/",
             "Hours": 206.6,

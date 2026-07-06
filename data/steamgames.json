@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-07-05T09:16:24.364Z",
+    "updatedAt": "2026-07-06T10:52:47.944Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2002.7,
+            "hours": 2004.4,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3562,8 +3562,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "The only aim in Rust is to survive. Everything wants you to die - the island’s w...",
-            "RemainingDescription": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night.",
+            "FirstSentence": "En Rust, el único propósito es sobrevivir. Todo lo que te rodea quiere liquidart...",
+            "RemainingDescription": "En Rust, el único propósito es sobrevivir. Todo lo que te rodea quiere liquidarte: la fauna de la isla, los demás habitantes, el entorno y otros supervivientes. Haz lo que sea para ver la luz de un nuevo día.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg",
             "Link": "https://store.steampowered.com/app/252490/",
             "Hours": 42.8,
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2002.7,
+            "Hours": 2004.4,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3640,8 +3640,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Forge your own path in Hollow Knight! An epic action adventure through a vast ru...",
-            "RemainingDescription": "Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style.",
+            "FirstSentence": "¡Forja tu propio camino en Hollow Knight! Una aventura épica a través de un vast...",
+            "RemainingDescription": "¡Forja tu propio camino en Hollow Knight! Una aventura épica a través de un vasto reino de insectos y héroes que se encuentra en ruinas. Explora cavernas tortuosas, combate contra criaturas corrompidas y entabla amistad con extraños insectos, todo en un estilo clásico en 2D dibujado a mano.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/367520/header.jpg",
             "Link": "https://store.steampowered.com/app/367520/",
             "Hours": 59.2,
@@ -3796,8 +3796,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Dead Cells is a roguelite, metroidvania inspired, action-platformer. You'll expl...",
-            "RemainingDescription": "Dead Cells is a roguelite, metroidvania inspired, action-platformer. You'll explore a sprawling, ever-changing castle... assuming you’re able to fight your way past its keepers in 2D souls-lite combat. No checkpoints. Kill, die, learn, repeat.",
+            "FirstSentence": "Dead Cells es un juego de acción de plataformas de estilo roguelite inspirado en...",
+            "RemainingDescription": "Dead Cells es un juego de acción de plataformas de estilo roguelite inspirado en juegos tipo metroidvania. Explorarás un castillo en constante cambio y expansión. Sin puntos de control: mata, muere, aprende, repite.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/588650/header.jpg",
             "Link": "https://store.steampowered.com/app/588650/",
             "Hours": 43.8,

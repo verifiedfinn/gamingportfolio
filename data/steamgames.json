@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-07-12T08:27:13.930Z",
+    "updatedAt": "2026-07-13T09:40:26.446Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2013.1,
+            "hours": 2013.7,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3182,8 +3182,8 @@
             "recentlyPlayed": false
         },
         "palworld": {
-            "hours": 28.5,
-            "recentlyPlayed": false
+            "hours": 30.3,
+            "recentlyPlayed": true
         },
         "lies of p": {
             "hours": 0,
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2013.1,
+            "Hours": 2013.7,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4112,8 +4112,8 @@
             "RemainingDescription": "Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quot; in this completely new multiplayer, open world survival and crafting game!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg",
             "Link": "https://store.steampowered.com/app/1623730/",
-            "Hours": 28.5,
-            "RecentlyPlayed": false,
+            "Hours": 30.3,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {

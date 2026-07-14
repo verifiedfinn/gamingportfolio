@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-07-13T09:40:26.446Z",
+    "updatedAt": "2026-07-14T08:20:03.197Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2013.7,
+            "hours": 2015.5,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3182,7 +3182,7 @@
             "recentlyPlayed": false
         },
         "palworld": {
-            "hours": 30.3,
+            "hours": 30.5,
             "recentlyPlayed": true
         },
         "lies of p": {
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2013.7,
+            "Hours": 2015.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4108,11 +4108,11 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quo...",
-            "RemainingDescription": "Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quot; in this completely new multiplayer, open world survival and crafting game!",
+            "FirstSentence": "Captura misteriosas criaturas llamadas Pals, capaces de combatir, construir, cul...",
+            "RemainingDescription": "Captura misteriosas criaturas llamadas Pals, capaces de combatir, construir, cultivar y trabajar en fábricas, en este juego de supervivencia multijugador con un vasto y original mundo abierto.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg",
             "Link": "https://store.steampowered.com/app/1623730/",
-            "Hours": 30.3,
+            "Hours": 30.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

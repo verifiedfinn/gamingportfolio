@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-07-14T08:20:03.197Z",
+    "updatedAt": "2026-07-15T08:26:21.024Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -3182,7 +3182,7 @@
             "recentlyPlayed": false
         },
         "palworld": {
-            "hours": 30.5,
+            "hours": 34.9,
             "recentlyPlayed": true
         },
         "lies of p": {
@@ -3484,8 +3484,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to d...",
-            "RemainingDescription": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to design co-op puzzles for you and your friends!",
+            "FirstSentence": "¡La &quot;Iniciativa de Prueba Perpetua&quot; ha sido ampliada, permitiéndote ah...",
+            "RemainingDescription": "¡La &quot;Iniciativa de Prueba Perpetua&quot; ha sido ampliada, permitiéndote ahora diseñar rompecabezas cooperativos para ti y tus amigos!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/620/header.jpg",
             "Link": "https://store.steampowered.com/app/620/",
             "Hours": 14.6,
@@ -3952,8 +3952,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control...",
-            "RemainingDescription": "Hogwarts Legacy is an immersive, open-world action RPG. Now you can take control of the action and be at the center of your own adventure in the wizarding world.",
+            "FirstSentence": "Hogwarts Legacy es un RPG de acción en un mundo abierto. Ahora puedes tomar el c...",
+            "RemainingDescription": "Hogwarts Legacy es un RPG de acción en un mundo abierto. Ahora puedes tomar el control de la acción y ser el centro de tu propia aventura en el mundo mágico.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/990080/header.jpg",
             "Link": "https://store.steampowered.com/app/990080/",
             "Hours": 45.4,
@@ -4108,11 +4108,11 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Captura misteriosas criaturas llamadas Pals, capaces de combatir, construir, cul...",
-            "RemainingDescription": "Captura misteriosas criaturas llamadas Pals, capaces de combatir, construir, cultivar y trabajar en fábricas, en este juego de supervivencia multijugador con un vasto y original mundo abierto.",
+            "FirstSentence": "Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quo...",
+            "RemainingDescription": "Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quot; in this completely new multiplayer, open world survival and crafting game!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg",
             "Link": "https://store.steampowered.com/app/1623730/",
-            "Hours": 30.5,
+            "Hours": 34.9,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4160,8 +4160,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Lead the members of Expedition 33 on their quest to destroy the Paintress so tha...",
-            "RemainingDescription": "Lead the members of Expedition 33 on their quest to destroy the Paintress so that she can never paint death again. Explore a world of wonders inspired by Belle Époque France and battle unique enemies in this turn-based RPG with real-time mechanics.",
+            "FirstSentence": "Guía a la expedición 33 en su misión de acabar con la Pintora para que no vuelva...",
+            "RemainingDescription": "Guía a la expedición 33 en su misión de acabar con la Pintora para que no vuelva a pintar la muerte. Explora un mundo inspirado en la Francia de la Belle Époque y lucha contra rivales únicos en este juego de rol por turnos con mecánicas en tiempo real.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1903340/header.jpg",
             "Link": "https://store.steampowered.com/app/1903340/",
             "Hours": 32.9,

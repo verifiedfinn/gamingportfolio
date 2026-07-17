@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-07-16T08:24:46.318Z",
+    "updatedAt": "2026-07-17T08:20:49.182Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -1239,7 +1239,7 @@
         },
         "wallpaper engine": {
             "hours": 10.9,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "z1 battle royale": {
             "hours": 4.2,
@@ -3182,7 +3182,7 @@
             "recentlyPlayed": false
         },
         "palworld": {
-            "hours": 38.1,
+            "hours": 39.4,
             "recentlyPlayed": true
         },
         "lies of p": {
@@ -3710,7 +3710,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/431960/header.jpg",
             "Link": "https://store.steampowered.com/app/431960/",
             "Hours": 10.9,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {
@@ -4112,7 +4112,7 @@
             "RemainingDescription": "Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quot; in this completely new multiplayer, open world survival and crafting game!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg",
             "Link": "https://store.steampowered.com/app/1623730/",
-            "Hours": 38.1,
+            "Hours": 39.4,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

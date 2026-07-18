@@ -285,18 +285,6 @@
 }
 </style>
 </head>
-    <script>
-// report full content height to the parent page (Wix embed)
-(function () {
-  function report() {
-    parent.postMessage({ type: 'site-height', h: document.documentElement.scrollHeight }, '*');
-  }
-  window.addEventListener('load', report);
-  if (window.ResizeObserver) new ResizeObserver(report).observe(document.body);
-  setInterval(report, 1000); // catches filter/sort/expand relayouts
-})();
-</script>
-</body>
 <body id="portfolio-page">
 
     <div id="mobile-nav-header">
@@ -837,6 +825,33 @@
     window.handleRadialOverlayClick = handleRadialOverlayClick;
 
     } // end mobile only
+    </script>
+
+    <script>
+    /* Report our full content height to the parent frame (the Wix embed) so it
+       can grow to fit — no inner scrollbar; the Wix page scrolls (its dark bar)
+       and the footer sits after all our content. No-op when opened directly. */
+    (function () {
+        if (window.parent === window) return; // not embedded — nothing to do
+        var last = 0;
+        function report() {
+            var h = Math.max(
+                document.body.scrollHeight, document.documentElement.scrollHeight,
+                document.body.offsetHeight, document.documentElement.offsetHeight
+            );
+            if (Math.abs(h - last) < 2) return;
+            last = h;
+            window.parent.postMessage({ type: 'site-height', h: h }, '*');
+        }
+        window.addEventListener('load', report);
+        window.addEventListener('resize', report);
+        // content loads/changes dynamically (games, filters, sort, radial menu)
+        if (window.ResizeObserver) new ResizeObserver(report).observe(document.body);
+        else setInterval(report, 1000);
+        // catch late async content settling
+        [200, 600, 1200, 2500, 4000].forEach(function (t) { setTimeout(report, t); });
+        report();
+    })();
     </script>
 </body>
 </html>

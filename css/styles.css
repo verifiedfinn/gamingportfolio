@@ -27,6 +27,7 @@ a:active {
 }
 
 html {
+    color-scheme: dark; /* native dark scrollbar, matches the other pages */
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 }

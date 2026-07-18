@@ -835,21 +835,21 @@
         if (window.parent === window) return; // not embedded — nothing to do
         var last = 0;
         function measure() {
-            return Math.max(
-                document.body.scrollHeight, document.documentElement.scrollHeight,
-                document.body.offsetHeight, document.documentElement.offsetHeight
-            );
+            // CONTENT height ONLY. Do not use documentElement.scrollHeight — it
+            // reflects the iframe's own viewport, so once the parent applies our
+            // reported height the page re-measures bigger and grows forever
+            // (that was the runaway auto-scroll bug).
+            return document.body.scrollHeight;
         }
         function send(force) {
             var h = measure();
             // ignore sub-24px wobble so the footer doesn't jitter while scrolling
             if (!force && Math.abs(h - last) < 24) return;
             last = h;
-            // +6px so the iframe is never SHORT — a short iframe traps the wheel
-            window.parent.postMessage({ type: 'site-height', h: h + 6 }, '*');
+            window.parent.postMessage({ type: 'site-height', h: h }, '*');
         }
         window.addEventListener('load', function () { send(true); });
-        window.addEventListener('resize', function () { send(true); });
+        window.addEventListener('resize', function () { send(false); });
         // calm low-frequency poll: catches filter/sort/expand changes without the
         // bursty reflow that a ResizeObserver caused (that was the jitter source)
         setInterval(function () { send(false); }, 750);

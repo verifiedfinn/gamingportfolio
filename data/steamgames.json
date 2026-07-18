@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-07-17T08:20:49.182Z",
+    "updatedAt": "2026-07-18T08:03:04.569Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -2150,7 +2150,7 @@
             "recentlyPlayed": false
         },
         "wizard101": {
-            "hours": 1.5,
+            "hours": 2.2,
             "recentlyPlayed": true
         },
         "plane mechanic simulator": {
@@ -3182,7 +3182,7 @@
             "recentlyPlayed": false
         },
         "palworld": {
-            "hours": 39.4,
+            "hours": 46.8,
             "recentlyPlayed": true
         },
         "lies of p": {
@@ -4112,7 +4112,7 @@
             "RemainingDescription": "Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quot; in this completely new multiplayer, open world survival and crafting game!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg",
             "Link": "https://store.steampowered.com/app/1623730/",
-            "Hours": 39.4,
+            "Hours": 46.8,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

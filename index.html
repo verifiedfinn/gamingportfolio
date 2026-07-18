@@ -285,6 +285,18 @@
 }
 </style>
 </head>
+    <script>
+// report full content height to the parent page (Wix embed)
+(function () {
+  function report() {
+    parent.postMessage({ type: 'site-height', h: document.documentElement.scrollHeight }, '*');
+  }
+  window.addEventListener('load', report);
+  if (window.ResizeObserver) new ResizeObserver(report).observe(document.body);
+  setInterval(report, 1000); // catches filter/sort/expand relayouts
+})();
+</script>
+</body>
 <body id="portfolio-page">
 
     <div id="mobile-nav-header">

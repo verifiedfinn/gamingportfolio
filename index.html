@@ -833,33 +833,40 @@
        and the footer sits after all our content. No-op when opened directly. */
     (function () {
         if (window.parent === window) return; // not embedded — nothing to do
-        var last = 0, pending = false;
+        var last = 0;
         function measure() {
             return Math.max(
                 document.body.scrollHeight, document.documentElement.scrollHeight,
                 document.body.offsetHeight, document.documentElement.offsetHeight
             );
         }
-        function flush() {
-            pending = false;
+        function send(force) {
             var h = measure();
-            if (Math.abs(h - last) < 8) return; // ignore sub-8px jitter (stops footer glitch)
+            // ignore sub-24px wobble so the footer doesn't jitter while scrolling
+            if (!force && Math.abs(h - last) < 24) return;
             last = h;
-            window.parent.postMessage({ type: 'site-height', h: h }, '*');
+            // +6px so the iframe is never SHORT — a short iframe traps the wheel
+            window.parent.postMessage({ type: 'site-height', h: h + 6 }, '*');
         }
-        function report() { // coalesce rapid fires into one per frame
-            if (pending) return;
-            pending = true;
-            (window.requestAnimationFrame || setTimeout)(flush);
-        }
-        window.addEventListener('load', report);
-        window.addEventListener('resize', report);
-        // content loads/changes dynamically (games, filters, sort, radial menu)
-        if (window.ResizeObserver) new ResizeObserver(report).observe(document.body);
-        else setInterval(report, 1000);
-        // catch late async content settling
-        [200, 600, 1200, 2500, 4000].forEach(function (t) { setTimeout(report, t); });
-        report();
+        window.addEventListener('load', function () { send(true); });
+        window.addEventListener('resize', function () { send(true); });
+        // calm low-frequency poll: catches filter/sort/expand changes without the
+        // bursty reflow that a ResizeObserver caused (that was the jitter source)
+        setInterval(function () { send(false); }, 750);
+        // catch late async content settling right after load
+        [200, 600, 1200, 2500, 4000].forEach(function (t) { setTimeout(function () { send(true); }, t); });
+        send(true);
+
+        // Forward the mouse wheel to the parent page. A cross-origin iframe does
+        // not chain the wheel to its embedder, so without this, scrolling with the
+        // wheel over this frame does nothing. We have no inner scroll (full height),
+        // so it's safe to forward everything.
+        window.addEventListener('wheel', function (e) {
+            var dy = e.deltaY, dx = e.deltaX;
+            if (e.deltaMode === 1) { dy *= 16; dx *= 16; }            // lines -> px
+            else if (e.deltaMode === 2) { dy *= window.innerHeight; dx *= window.innerWidth; } // pages
+            window.parent.postMessage({ type: 'scroll-by', dy: dy, dx: dx }, '*');
+        }, { passive: true });
     })();
     </script>
 </body>

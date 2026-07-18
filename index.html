@@ -833,15 +833,24 @@
        and the footer sits after all our content. No-op when opened directly. */
     (function () {
         if (window.parent === window) return; // not embedded — nothing to do
-        var last = 0;
-        function report() {
-            var h = Math.max(
+        var last = 0, pending = false;
+        function measure() {
+            return Math.max(
                 document.body.scrollHeight, document.documentElement.scrollHeight,
                 document.body.offsetHeight, document.documentElement.offsetHeight
             );
-            if (Math.abs(h - last) < 2) return;
+        }
+        function flush() {
+            pending = false;
+            var h = measure();
+            if (Math.abs(h - last) < 8) return; // ignore sub-8px jitter (stops footer glitch)
             last = h;
             window.parent.postMessage({ type: 'site-height', h: h }, '*');
+        }
+        function report() { // coalesce rapid fires into one per frame
+            if (pending) return;
+            pending = true;
+            (window.requestAnimationFrame || setTimeout)(flush);
         }
         window.addEventListener('load', report);
         window.addEventListener('resize', report);

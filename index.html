@@ -401,10 +401,26 @@
         </div>
     </div>
 
-    <footer id="site-copyright" style="text-align:center;padding:30px 16px 36px;color:#5a7278;font-size:0.85rem;letter-spacing:0.5px;">
-        &copy; <span id="copyright-year">2026</span> finnhorgan
+    <footer id="site-copyright" style="display:none;text-align:center;padding:30px 16px 36px;color:#5a7278;font-size:0.85rem;letter-spacing:0.5px;">
+        &copy; <span id="copyright-year">2026</span> Finn Horgan
     </footer>
-    <script>document.getElementById('copyright-year').textContent = new Date().getFullYear();</script>
+    <script>
+    (function () {
+        var footer = document.getElementById('site-copyright');
+        var year = document.getElementById('copyright-year');
+        if (year) year.textContent = new Date().getFullYear();
+        var grid = document.getElementById('game-container');
+        function reveal() { if (footer) footer.style.display = 'block'; }
+        if (!grid || grid.children.length) { reveal(); }              // already populated (or no grid)
+        else {                                                        // wait for games to load, THEN show footer
+            var mo = new MutationObserver(function () {
+                if (grid.children.length) { reveal(); mo.disconnect(); }
+            });
+            mo.observe(grid, { childList: true });
+            setTimeout(reveal, 4000);                                 // safety fallback
+        }
+    })();
+    </script>
 
     <script src="js/mainpagegames.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>

@@ -194,6 +194,7 @@ nav ul li a:hover {
 .game-image[src*="logo_steam"] {
     object-fit: contain;
     padding: 20px;
+    box-sizing: border-box; /* keep padding INSIDE the 100% width so the logo stays centered, not clipped */
 }
 
 .game-hours {

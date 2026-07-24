@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-07-23T08:40:25.539Z",
+    "updatedAt": "2026-07-24T08:35:57.579Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2021.4,
+            "hours": 2027.5,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3182,7 +3182,7 @@
             "recentlyPlayed": false
         },
         "palworld": {
-            "hours": 66.3,
+            "hours": 68.9,
             "recentlyPlayed": true
         },
         "lies of p": {
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2021.4,
+            "Hours": 2027.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3640,8 +3640,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Choisissez votre destin dans Hollow Knight ! Une aventure épique et pleine d’act...",
-            "RemainingDescription": "Choisissez votre destin dans Hollow Knight ! Une aventure épique et pleine d’action, qui vous plongera dans un vaste royaume en ruine peuplé d’insectes et de héros. Dans un monde en 2D classique, dessiné à la main.",
+            "FirstSentence": "Forge your own path in Hollow Knight! An epic action adventure through a vast ru...",
+            "RemainingDescription": "Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/367520/header.jpg",
             "Link": "https://store.steampowered.com/app/367520/",
             "Hours": 59.2,
@@ -4112,7 +4112,7 @@
             "RemainingDescription": "Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quot; in this completely new multiplayer, open world survival and crafting game!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg",
             "Link": "https://store.steampowered.com/app/1623730/",
-            "Hours": 66.3,
+            "Hours": 68.9,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-07-25T08:17:04.404Z",
+    "updatedAt": "2026-07-26T08:35:18.792Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2029.7,
+            "hours": 2032.4,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3182,7 +3182,7 @@
             "recentlyPlayed": false
         },
         "palworld": {
-            "hours": 69.5,
+            "hours": 72.4,
             "recentlyPlayed": true
         },
         "lies of p": {
@@ -3579,7 +3579,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2029.7,
+            "Hours": 2032.4,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3705,8 +3705,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Use stunning live wallpapers on your desktop. Animate your own images to create...",
-            "RemainingDescription": "Use stunning live wallpapers on your desktop. Animate your own images to create new wallpapers or import videos/websites and share them on the Steam Workshop!",
+            "FirstSentence": "Masaüstünüzde etkileyici canlı duvar kağıtları kullanın. Yeni duvar kağıtları ol...",
+            "RemainingDescription": "Masaüstünüzde etkileyici canlı duvar kağıtları kullanın. Yeni duvar kağıtları oluşturmak için kendi görüntülerinizi canlandırın veya videoları/web sitelerini içe aktarın ve bunları Steam Atölyesinde paylaşın!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/431960/header.jpg",
             "Link": "https://store.steampowered.com/app/431960/",
             "Hours": 10.9,
@@ -4112,7 +4112,7 @@
             "RemainingDescription": "Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quot; in this completely new multiplayer, open world survival and crafting game!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg",
             "Link": "https://store.steampowered.com/app/1623730/",
-            "Hours": 69.5,
+            "Hours": 72.4,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

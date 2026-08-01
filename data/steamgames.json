@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-07-31T09:11:12.091Z",
+    "updatedAt": "2026-08-01T08:29:43.049Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -2151,7 +2151,7 @@
         },
         "wizard101": {
             "hours": 2.2,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "plane mechanic simulator": {
             "hours": 0,
@@ -3653,8 +3653,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Join 40+ million players in SMITE, the Battleground of the Gods! Wield Thor’s ha...",
-            "RemainingDescription": "Join 40+ million players in SMITE, the Battleground of the Gods! Wield Thor’s hammer, turn your foes to stone as Medusa, or flex your divine power as one of 100+ other mythological icons. Become a God and play FREE today!",
+            "FirstSentence": "和三千五百多万名玩家一起在众神的战场中战个痛快！挥舞托尔的雷神之锤；以美杜莎之力石化你的敌人；你也可以从超过100位神话人物中选择你想发挥的神圣之力。化身神明并...",
+            "RemainingDescription": "和三千五百多万名玩家一起在众神的战场中战个痛快！挥舞托尔的雷神之锤；以美杜莎之力石化你的敌人；你也可以从超过100位神话人物中选择你想发挥的神圣之力。化身神明并马上开始免费游戏吧！",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/386360/header.jpg",
             "Link": "https://store.steampowered.com/app/386360/",
             "Hours": 106.2,
@@ -3926,8 +3926,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "An online and local party game of teamwork and betrayal for 4-15 players...in sp...",
-            "RemainingDescription": "An online and local party game of teamwork and betrayal for 4-15 players...in space!",
+            "FirstSentence": "Локальная и сетевая игра для компании от 4 до 15 игроков о командной работе и пр...",
+            "RemainingDescription": "Локальная и сетевая игра для компании от 4 до 15 игроков о командной работе и предательстве... в космосе!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg",
             "Link": "https://store.steampowered.com/app/945360/",
             "Hours": 62.9,

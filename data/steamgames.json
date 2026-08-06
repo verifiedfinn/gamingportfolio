@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-08-05T08:46:13.600Z",
+    "updatedAt": "2026-08-06T08:47:36.669Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2036.5,
+            "hours": 2036.8,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2647,7 +2647,7 @@
         },
         "wingspan": {
             "hours": 74.1,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "ori and the will of the wisps": {
             "hours": 0,
@@ -3583,7 +3583,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2036.5,
+            "Hours": 2036.8,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3592,8 +3592,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Grand Theft Auto V'in PC sürümü, oyunculara 4k ve ötesinde çözünürlükle ve saniy...",
-            "RemainingDescription": "Grand Theft Auto V'in PC sürümü, oyunculara 4k ve ötesinde çözünürlükle ve saniyede 60 kare tazeleme hızıyla Los Santos ve Blaine County dünyasını keşfetme fırsatını sunuyor.",
+            "FirstSentence": "Grand Theft Auto V for PC offers players the option to explore the award-winning...",
+            "RemainingDescription": "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg",
             "Link": "https://store.steampowered.com/app/271590/",
             "Hours": 206.6,
@@ -3930,8 +3930,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "An online and local party game of teamwork and betrayal for 4-15 players...in sp...",
-            "RemainingDescription": "An online and local party game of teamwork and betrayal for 4-15 players...in space!",
+            "FirstSentence": "Ein Partyspiel, online und lokal, um Teamarbeit und Verrat für 4–15 Spieler ......",
+            "RemainingDescription": "Ein Partyspiel, online und lokal, um Teamarbeit und Verrat für 4–15 Spieler ... im Weltraum!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg",
             "Link": "https://store.steampowered.com/app/945360/",
             "Hours": 62.9,
@@ -3987,7 +3987,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
             "Hours": 74.1,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {
@@ -4060,8 +4060,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Embark on the craziest journey of your life in It Takes Two. Invite a friend to...",
-            "RemainingDescription": "Embark on the craziest journey of your life in It Takes Two. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Winner of GAME OF THE YEAR at the Game Awards 2021.",
+            "FirstSentence": "Begib dich in It Takes Two auf die verrückteste Reise deines Lebens. Lade mit de...",
+            "RemainingDescription": "Begib dich in It Takes Two auf die verrückteste Reise deines Lebens. Lade mit dem Freunde-Pass* kostenlos einen Freund ein und arbeitet in einer enormen Vielzahl chaotisch-vergnüglicher Herausforderungen zusammen.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1426210/header.jpg",
             "Link": "https://store.steampowered.com/app/1426210/",
             "Hours": 10.9,

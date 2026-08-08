@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-08-07T07:26:30.352Z",
+    "updatedAt": "2026-08-08T07:03:43.194Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2037.1,
+            "hours": 2039.8,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3583,7 +3583,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2037.1,
+            "Hours": 2039.8,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3813,8 +3813,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Lucha contra hordas de monstruos enloquecidos junto a tus amigos o en solitario...",
-            "RemainingDescription": "Lucha contra hordas de monstruos enloquecidos junto a tus amigos o en solitario para lograr escapar de un planeta alienígena sumido en el caos. Combina el botín de maneras asombrosas y domina cada personaje hasta encarnar la destrucción que tanto te aterraba tras tu primer aterrizaje forzoso.",
+            "FirstSentence": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters –...",
+            "RemainingDescription": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters – with your friends, or on your own. Combine loot in surprising ways and master each character until you become the havoc you feared upon your first crash landing.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/632360/header.jpg",
             "Link": "https://store.steampowered.com/app/632360/",
             "Hours": 184,

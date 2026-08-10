@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-08-09T07:05:56.977Z",
+    "updatedAt": "2026-08-10T07:54:05.655Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2039.8,
+            "hours": 2044.7,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3110,7 +3110,7 @@
             "recentlyPlayed": false
         },
         "big walk": {
-            "hours": 0.9,
+            "hours": 2.6,
             "recentlyPlayed": true
         },
         "goons: legends & mayhem": {
@@ -3417,6 +3417,10 @@
             "hours": 0.7,
             "recentlyPlayed": false
         },
+        "battle crush beta test": {
+            "hours": 0.5,
+            "recentlyPlayed": false
+        },
         "dispatch": {
             "hours": 7.6,
             "recentlyPlayed": false
@@ -3583,7 +3587,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2039.8,
+            "Hours": 2044.7,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3826,8 +3830,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "我们将卡牌游戏与Roguelike游戏融为一体，制作出了这款最棒的单机组牌游戏。打造出独一无二的牌组、遇见无数离奇的生物、发现威力强大的遗物、去屠戮这座高塔吧！",
-            "RemainingDescription": "我们将卡牌游戏与Roguelike游戏融为一体，制作出了这款最棒的单机组牌游戏。打造出独一无二的牌组、遇见无数离奇的生物、发现威力强大的遗物、去屠戮这座高塔吧！",
+            "FirstSentence": "We fused card games and roguelikes together to make the best single player deckb...",
+            "RemainingDescription": "We fused card games and roguelikes together to make the best single player deckbuilder we could. Craft a unique deck, encounter bizarre creatures, discover relics of immense power, and Slay the Spire!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/646570/header.jpg",
             "Link": "https://store.steampowered.com/app/646570/",
             "Hours": 15.8,
@@ -4060,8 +4064,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Embark on the craziest journey of your life in It Takes Two. Invite a friend to...",
-            "RemainingDescription": "Embark on the craziest journey of your life in It Takes Two. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Winner of GAME OF THE YEAR at the Game Awards 2021.",
+            "FirstSentence": "Embarquez pour un périple incroyable dans It Takes Two. Grâce au Pass ami*, invi...",
+            "RemainingDescription": "Embarquez pour un périple incroyable dans It Takes Two. Grâce au Pass ami*, invitez gratuitement un(e) ami(e) à relever avec vous une myriade de défis délicieusement déstabilisants.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1426210/header.jpg",
             "Link": "https://store.steampowered.com/app/1426210/",
             "Hours": 10.9,

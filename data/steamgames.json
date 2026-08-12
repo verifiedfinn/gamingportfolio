@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-08-11T07:18:07.613Z",
+    "updatedAt": "2026-08-12T07:41:35.443Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2048.6,
+            "hours": 2049.5,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3492,8 +3492,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "&quot;Daimî Test Girişimi&quot; hem size hem de arkadaşlarınıza daha kapsamlı eş...",
-            "RemainingDescription": "&quot;Daimî Test Girişimi&quot; hem size hem de arkadaşlarınıza daha kapsamlı eşli bulmaca tasarlama imkânı sunuyor!",
+            "FirstSentence": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to d...",
+            "RemainingDescription": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to design co-op puzzles for you and your friends!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/620/header.jpg",
             "Link": "https://store.steampowered.com/app/620/",
             "Hours": 14.6,
@@ -3587,7 +3587,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2048.6,
+            "Hours": 2049.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3752,8 +3752,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Human Fall Flat, havada asılı düşvari mekanlarda geçen eğlenceli, fizik tabanlı...",
-            "RemainingDescription": "Human Fall Flat, havada asılı düşvari mekanlarda geçen eğlenceli, fizik tabanlı bir platform oyunudur. Tek veya en fazla 8 kişiyle çevrimiçi oynanabilir ve müdavimleri için ücretsiz yepyeni seviyeler içerir.",
+            "FirstSentence": "Human Fall Flat is a hilarious, light-hearted platformer set in floating dreamsc...",
+            "RemainingDescription": "Human Fall Flat is a hilarious, light-hearted platformer set in floating dreamscapes that can be played solo or with up to 8 players online. Free new levels keep its vibrant community rewarded.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/477160/header.jpg",
             "Link": "https://store.steampowered.com/app/477160/",
             "Hours": 11.1,

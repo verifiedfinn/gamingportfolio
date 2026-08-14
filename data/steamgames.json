@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-08-13T07:43:59.538Z",
+    "updatedAt": "2026-08-14T07:41:09.410Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2055.9,
+            "hours": 2061.4,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -1238,8 +1238,8 @@
             "recentlyPlayed": false
         },
         "wallpaper engine": {
-            "hours": 10.9,
-            "recentlyPlayed": false
+            "hours": 11.8,
+            "recentlyPlayed": true
         },
         "z1 battle royale": {
             "hours": 4.2,
@@ -3587,7 +3587,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2055.9,
+            "Hours": 2061.4,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3717,8 +3717,8 @@
             "RemainingDescription": "Use stunning live wallpapers on your desktop. Animate your own images to create new wallpapers or import videos/websites and share them on the Steam Workshop!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/431960/header.jpg",
             "Link": "https://store.steampowered.com/app/431960/",
-            "Hours": 10.9,
-            "RecentlyPlayed": false,
+            "Hours": 11.8,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {

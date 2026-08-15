@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-08-14T07:41:09.410Z",
+    "updatedAt": "2026-08-15T06:49:25.803Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -90,8 +90,8 @@
             "recentlyPlayed": false
         },
         "counter-strike 2": {
-            "hours": 3844.8,
-            "recentlyPlayed": false
+            "hours": 3845,
+            "recentlyPlayed": true
         },
         "peggle deluxe": {
             "hours": 5,
@@ -282,8 +282,8 @@
             "recentlyPlayed": false
         },
         "speedrunners": {
-            "hours": 146.4,
-            "recentlyPlayed": false
+            "hours": 147.4,
+            "recentlyPlayed": true
         },
         "batman™: arkham knight": {
             "hours": 0,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2061.4,
+            "hours": 2067.4,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3509,8 +3509,8 @@
             "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
-            "Hours": 3844.8,
-            "RecentlyPlayed": false,
+            "Hours": 3845,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {
@@ -3548,8 +3548,8 @@
             "RemainingDescription": "Cut-throat multiplayer running game that pits 4 players against each other, locally and/or online. Run, jump, swing around, and use devious weapons and pick-ups to knock opponents off-screen! One of the most competitive games you'll ever play.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/207140/header.jpg",
             "Link": "https://store.steampowered.com/app/207140/",
-            "Hours": 146.4,
-            "RecentlyPlayed": false,
+            "Hours": 147.4,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {
@@ -3587,7 +3587,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2061.4,
+            "Hours": 2067.4,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4064,8 +4064,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Embark on the craziest journey of your life in It Takes Two. Invite a friend to...",
-            "RemainingDescription": "Embark on the craziest journey of your life in It Takes Two. Invite a friend to join for free with Friend’s Pass and work together across a huge variety of gleefully disruptive gameplay challenges. Winner of GAME OF THE YEAR at the Game Awards 2021.",
+            "FirstSentence": "انطلق في لعبة It Takes Two. قم بدعوة صديق للانضمام بالمجان باستخدام Friend’s Pas...",
+            "RemainingDescription": "انطلق في لعبة It Takes Two. قم بدعوة صديق للانضمام بالمجان باستخدام Friend’s Pass* وانطلقا معًا عبر مجموعة كبيرة من تحديات أسلوب اللعب المرح والثوري.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1426210/header.jpg",
             "Link": "https://store.steampowered.com/app/1426210/",
             "Hours": 10.9,

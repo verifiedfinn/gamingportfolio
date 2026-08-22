@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-08-21T06:57:16.516Z",
+    "updatedAt": "2026-08-22T06:50:56.534Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2092.4,
+            "hours": 2092.8,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3481,6 +3481,10 @@
             "hours": 0,
             "recentlyPlayed": false
         },
+        "speedrunners 2: king of speed playtest": {
+            "hours": 1.5,
+            "recentlyPlayed": true
+        },
         "super battle golf": {
             "hours": 26.9,
             "recentlyPlayed": false
@@ -3587,7 +3591,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2092.4,
+            "Hours": 2092.8,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3921,8 +3925,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "一款灵感来源于维京文化并由程序生成的炼狱式1-10人探索生存游戏。用战斗，建造和征服来创造属于你的传奇史诗，赢得奥丁的眷顾！",
-            "RemainingDescription": "一款灵感来源于维京文化并由程序生成的炼狱式1-10人探索生存游戏。用战斗，建造和征服来创造属于你的传奇史诗，赢得奥丁的眷顾！",
+            "FirstSentence": "A brutal exploration and survival game for 1-10 players, set in a procedurally-g...",
+            "RemainingDescription": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg",
             "Link": "https://store.steampowered.com/app/892970/",
             "Hours": 194,

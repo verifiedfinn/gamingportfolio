@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-08-23T06:51:41.601Z",
+    "updatedAt": "2026-08-24T07:10:49.120Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -3111,7 +3111,7 @@
         },
         "big walk": {
             "hours": 2.6,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "goons: legends & mayhem": {
             "hours": 1,
@@ -3482,7 +3482,7 @@
             "recentlyPlayed": false
         },
         "speedrunners 2: king of speed playtest": {
-            "hours": 4.7,
+            "hours": 7.6,
             "recentlyPlayed": true
         },
         "super battle golf": {

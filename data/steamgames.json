@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-08-24T07:10:49.120Z",
+    "updatedAt": "2026-08-25T06:58:34.152Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2093.5,
+            "hours": 2094,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3171,7 +3171,7 @@
         },
         "plateup!": {
             "hours": 27.3,
-            "recentlyPlayed": false
+            "recentlyPlayed": true
         },
         "v rising": {
             "hours": 71.9,
@@ -3482,7 +3482,7 @@
             "recentlyPlayed": false
         },
         "speedrunners 2: king of speed playtest": {
-            "hours": 7.6,
+            "hours": 10.7,
             "recentlyPlayed": true
         },
         "super battle golf": {
@@ -3591,7 +3591,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2093.5,
+            "Hours": 2094,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4099,7 +4099,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1599600/header.jpg",
             "Link": "https://store.steampowered.com/app/1599600/",
             "Hours": 27.3,
-            "RecentlyPlayed": false,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {
@@ -4217,6 +4217,19 @@
             "Link": "https://store.steampowered.com/app/3164500/",
             "Hours": 11.5,
             "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "SpeedRunners 2: King of Speed Playtest",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "A game I've put 10.7 hours into.",
+            "RemainingDescription": "No description available.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/3730770/header.jpg",
+            "Link": "https://store.steampowered.com/app/3730770/",
+            "Hours": 10.7,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {

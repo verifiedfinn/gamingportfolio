@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-08-25T06:58:34.152Z",
+    "updatedAt": "2026-08-26T06:59:07.288Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2094,
+            "hours": 2095,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -697,7 +697,7 @@
             "hours": 0,
             "recentlyPlayed": false
         },
-        "the witcher 3: wild hunt": {
+        "the witcher 3: wild hunt - complete edition": {
             "hours": 0,
             "recentlyPlayed": false
         },
@@ -3591,7 +3591,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2094,
+            "Hours": 2095,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

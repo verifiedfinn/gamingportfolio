@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-08-27T17:32:57.448Z",
+    "updatedAt": "2026-08-28T18:29:43.935Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -1239,7 +1239,7 @@
         },
         "wallpaper engine": {
             "hours": 11.8,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "z1 battle royale": {
             "hours": 4.2,
@@ -3722,7 +3722,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/431960/header.jpg",
             "Link": "https://store.steampowered.com/app/431960/",
             "Hours": 11.8,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {

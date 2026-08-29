@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-08-28T18:29:43.935Z",
+    "updatedAt": "2026-08-29T12:35:06.699Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -91,7 +91,7 @@
         },
         "counter-strike 2": {
             "hours": 3845,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "peggle deluxe": {
             "hours": 5,
@@ -283,7 +283,7 @@
         },
         "speedrunners": {
             "hours": 147.4,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "batman™: arkham knight": {
             "hours": 0,
@@ -3514,7 +3514,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
             "Hours": 3845,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {
@@ -3553,7 +3553,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/207140/header.jpg",
             "Link": "https://store.steampowered.com/app/207140/",
             "Hours": 147.4,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {

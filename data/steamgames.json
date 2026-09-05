@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-04T11:02:45.331Z",
+    "updatedAt": "2026-09-05T10:24:46.413Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2112.9,
+            "hours": 2114,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3466,7 +3466,7 @@
             "recentlyPlayed": false
         },
         "speedrunners 2: king of speed": {
-            "hours": 4.8,
+            "hours": 9.8,
             "recentlyPlayed": true
         },
         "grand theft auto v enhanced": {
@@ -3595,7 +3595,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2112.9,
+            "Hours": 2114,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

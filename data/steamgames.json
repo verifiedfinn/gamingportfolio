@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-05T10:24:46.413Z",
+    "updatedAt": "2026-09-06T10:43:33.853Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2114,
+            "hours": 2117,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3466,7 +3466,7 @@
             "recentlyPlayed": false
         },
         "speedrunners 2: king of speed": {
-            "hours": 9.8,
+            "hours": 16.1,
             "recentlyPlayed": true
         },
         "grand theft auto v enhanced": {
@@ -3595,7 +3595,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2114,
+            "Hours": 2117,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3760,8 +3760,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Human Fall Flat is a hilarious, light-hearted platformer set in floating dreamsc...",
-            "RemainingDescription": "Human Fall Flat is a hilarious, light-hearted platformer set in floating dreamscapes that can be played solo or with up to 8 players online. Free new levels keep its vibrant community rewarded.",
+            "FirstSentence": "Human Fall Flat est un jeu de plates-formes drôle et divertissant situé dans des...",
+            "RemainingDescription": "Human Fall Flat est un jeu de plates-formes drôle et divertissant situé dans des paysages oniriques, jouable seul ou avec jusqu'à 8 amis en ligne. Des niveaux gratuits récompensent sa communauté.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/477160/header.jpg",
             "Link": "https://store.steampowered.com/app/477160/",
             "Hours": 11.1,
@@ -4046,8 +4046,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Sea of Thieves is a smash-hit pirate adventure game, offering the quintessential...",
-            "RemainingDescription": "Sea of Thieves is a smash-hit pirate adventure game, offering the quintessential pirate experience of plundering lost treasures, intense battles, vanquishing sea monsters and more. Dive in with this revised edition of the game, which includes access to digital bonus media.",
+            "FirstSentence": "Sea of Thieves est un jeu d’aventure pirate à succès offrant l'expérience ultime...",
+            "RemainingDescription": "Sea of Thieves est un jeu d’aventure pirate à succès offrant l'expérience ultime de la vie de pirate avec des trésors perdus, des batailles intenses, des monstres marins à affronter et plus encore. Cette édition mise à jour inclut des bonus numériques.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1172620/header.jpg",
             "Link": "https://store.steampowered.com/app/1172620/",
             "Hours": 149.3,
@@ -4176,8 +4176,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Lead the members of Expedition 33 on their quest to destroy the Paintress so tha...",
-            "RemainingDescription": "Lead the members of Expedition 33 on their quest to destroy the Paintress so that she can never paint death again. Explore a world of wonders inspired by Belle Époque France and battle unique enemies in this turn-based RPG with real-time mechanics.",
+            "FirstSentence": "À la tête de l'Expédition 33, partez éliminer la Peintresse pour que plus jamais...",
+            "RemainingDescription": "À la tête de l'Expédition 33, partez éliminer la Peintresse pour que plus jamais elle ne peigne la mort. Explorez un monde rappelant la France de la Belle Époque et affrontez des ennemis uniques dans ce RPG au tour par tour avec mécaniques de temps réel.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1903340/header.jpg",
             "Link": "https://store.steampowered.com/app/1903340/",
             "Hours": 32.9,
@@ -4221,6 +4221,19 @@
             "Link": "https://store.steampowered.com/app/3164500/",
             "Hours": 11.5,
             "RecentlyPlayed": false,
+            "SteamAutoAdded": true
+        },
+        {
+            "Name": "SpeedRunners 2: King of Speed",
+            "Tags": [
+                "Steam"
+            ],
+            "FirstSentence": "SpeedRunners 2 is a high-speed multiplayer platformer where rival superheroes fa...",
+            "RemainingDescription": "SpeedRunners 2 is a high-speed multiplayer platformer where rival superheroes face off in breakneck races using parkour, grappling hooks, and game-changing power-ups. Fall behind, and a shrinking ring of fire eliminates you – until only one runner remains.",
+            "Image": "https://cdn.akamai.steamstatic.com/steam/apps/3183760/header.jpg",
+            "Link": "https://store.steampowered.com/app/3183760/",
+            "Hours": 16.1,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {

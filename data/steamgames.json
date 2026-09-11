@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-10T11:04:10.196Z",
+    "updatedAt": "2026-09-11T11:02:39.614Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -3466,7 +3466,7 @@
             "recentlyPlayed": false
         },
         "speedrunners 2: king of speed": {
-            "hours": 33.7,
+            "hours": 35.8,
             "recentlyPlayed": true
         },
         "grand theft auto v enhanced": {
@@ -3490,7 +3490,7 @@
             "recentlyPlayed": false
         },
         "gamble with your friends": {
-            "hours": 1.7,
+            "hours": 3.6,
             "recentlyPlayed": true
         },
         "super battle golf": {
@@ -4037,8 +4037,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Desafie o deus dos mortos enquanto você batalha para sair do Submundo neste jogo...",
-            "RemainingDescription": "Desafie o deus dos mortos enquanto você batalha para sair do Submundo neste jogo roguelike dos mesmos criadores de Bastion, Transistor e Pyre.",
+            "FirstSentence": "Defy the god of the dead as you hack and slash out of the Underworld in this rog...",
+            "RemainingDescription": "Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion, Transistor, and Pyre.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg",
             "Link": "https://store.steampowered.com/app/1145360/",
             "Hours": 61.1,
@@ -4236,7 +4236,7 @@
             "RemainingDescription": "SpeedRunners 2 is a high-speed multiplayer platformer where rival superheroes face off in breakneck races using parkour, grappling hooks, and game-changing power-ups. Fall behind, and a shrinking ring of fire eliminates you – until only one runner remains.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/3183760/header.jpg",
             "Link": "https://store.steampowered.com/app/3183760/",
-            "Hours": 33.7,
+            "Hours": 35.8,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

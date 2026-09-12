@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-11T11:02:39.614Z",
+    "updatedAt": "2026-09-12T10:31:42.949Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -3466,7 +3466,7 @@
             "recentlyPlayed": false
         },
         "speedrunners 2: king of speed": {
-            "hours": 35.8,
+            "hours": 37,
             "recentlyPlayed": true
         },
         "grand theft auto v enhanced": {
@@ -4236,7 +4236,7 @@
             "RemainingDescription": "SpeedRunners 2 is a high-speed multiplayer platformer where rival superheroes face off in breakneck races using parkour, grappling hooks, and game-changing power-ups. Fall behind, and a shrinking ring of fire eliminates you – until only one runner remains.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/3183760/header.jpg",
             "Link": "https://store.steampowered.com/app/3183760/",
-            "Hours": 35.8,
+            "Hours": 37,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

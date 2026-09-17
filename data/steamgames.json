@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-16T11:18:29.531Z",
+    "updatedAt": "2026-09-17T11:26:53.541Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2122.7,
+            "hours": 2124.7,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -1258,8 +1258,8 @@
             "recentlyPlayed": false
         },
         "divinity: original sin 2": {
-            "hours": 131,
-            "recentlyPlayed": false
+            "hours": 131.1,
+            "recentlyPlayed": true
         },
         "hidden folks": {
             "hours": 0.6,
@@ -3171,7 +3171,7 @@
         },
         "plateup!": {
             "hours": 30.6,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "v rising": {
             "hours": 71.9,
@@ -3466,7 +3466,7 @@
             "recentlyPlayed": false
         },
         "speedrunners 2: king of speed": {
-            "hours": 47.5,
+            "hours": 47.7,
             "recentlyPlayed": true
         },
         "grand theft auto v enhanced": {
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2122.7,
+            "Hours": 2124.7,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3742,8 +3742,8 @@
             "RemainingDescription": "The critically acclaimed RPG that raised the bar, from the creators of Baldur's Gate 3. Gather your party. Master deep, tactical combat. Venture as a party of up to four - but know that only one of you will have the chance to become a God.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/435150/header.jpg",
             "Link": "https://store.steampowered.com/app/435150/",
-            "Hours": 131,
-            "RecentlyPlayed": false,
+            "Hours": 131.1,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {
@@ -4107,7 +4107,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1599600/header.jpg",
             "Link": "https://store.steampowered.com/app/1599600/",
             "Hours": 30.6,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {
@@ -4236,7 +4236,7 @@
             "RemainingDescription": "SpeedRunners 2 is a high-speed multiplayer platformer where rival superheroes face off in breakneck races using parkour, grappling hooks, and game-changing power-ups. Fall behind, and a shrinking ring of fire eliminates you – until only one runner remains.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/3183760/header.jpg",
             "Link": "https://store.steampowered.com/app/3183760/",
-            "Hours": 47.5,
+            "Hours": 47.7,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

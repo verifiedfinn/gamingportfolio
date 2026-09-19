@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-18T11:00:15.243Z",
+    "updatedAt": "2026-09-19T10:43:55.715Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2126,
+            "hours": 2129.3,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3110,8 +3110,8 @@
             "recentlyPlayed": false
         },
         "big walk": {
-            "hours": 2.6,
-            "recentlyPlayed": false
+            "hours": 4.6,
+            "recentlyPlayed": true
         },
         "goons: legends & mayhem": {
             "hours": 1,
@@ -3466,7 +3466,7 @@
             "recentlyPlayed": false
         },
         "speedrunners 2: king of speed": {
-            "hours": 49.5,
+            "hours": 51.6,
             "recentlyPlayed": true
         },
         "grand theft auto v enhanced": {
@@ -3517,8 +3517,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "For over two decades, Counter-Strike has offered an elite competitive experience...",
-            "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
+            "FirstSentence": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновател...",
+            "RemainingDescription": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновательной игры, путь развития которой определяют миллионы игроков со всего мира. Теперь пришло время нового этапа — Counter-Strike 2.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
             "Hours": 3845,
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2126,
+            "Hours": 2129.3,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4236,7 +4236,7 @@
             "RemainingDescription": "SpeedRunners 2 is a high-speed multiplayer platformer where rival superheroes face off in breakneck races using parkour, grappling hooks, and game-changing power-ups. Fall behind, and a shrinking ring of fire eliminates you – until only one runner remains.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/3183760/header.jpg",
             "Link": "https://store.steampowered.com/app/3183760/",
-            "Hours": 49.5,
+            "Hours": 51.6,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

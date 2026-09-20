@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-19T10:43:55.715Z",
+    "updatedAt": "2026-09-20T11:06:41.844Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2129.3,
+            "hours": 2132.8,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3186,7 +3186,7 @@
             "recentlyPlayed": false
         },
         "palworld": {
-            "hours": 81.1,
+            "hours": 83.9,
             "recentlyPlayed": true
         },
         "lies of p": {
@@ -3466,7 +3466,7 @@
             "recentlyPlayed": false
         },
         "speedrunners 2: king of speed": {
-            "hours": 51.6,
+            "hours": 51.9,
             "recentlyPlayed": true
         },
         "grand theft auto v enhanced": {
@@ -3517,8 +3517,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновател...",
-            "RemainingDescription": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновательной игры, путь развития которой определяют миллионы игроков со всего мира. Теперь пришло время нового этапа — Counter-Strike 2.",
+            "FirstSentence": "For over two decades, Counter-Strike has offered an elite competitive experience...",
+            "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
             "Hours": 3845,
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2129.3,
+            "Hours": 2132.8,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4132,7 +4132,7 @@
             "RemainingDescription": "Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quot; in this completely new multiplayer, open world survival and crafting game!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg",
             "Link": "https://store.steampowered.com/app/1623730/",
-            "Hours": 81.1,
+            "Hours": 83.9,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4236,7 +4236,7 @@
             "RemainingDescription": "SpeedRunners 2 is a high-speed multiplayer platformer where rival superheroes face off in breakneck races using parkour, grappling hooks, and game-changing power-ups. Fall behind, and a shrinking ring of fire eliminates you – until only one runner remains.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/3183760/header.jpg",
             "Link": "https://store.steampowered.com/app/3183760/",
-            "Hours": 51.6,
+            "Hours": 51.9,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

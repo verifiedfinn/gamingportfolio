@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-25T11:38:05.651Z",
+    "updatedAt": "2026-09-26T11:12:02.166Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2155.6,
+            "hours": 2157.8,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3595,11 +3595,11 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "A game I've put 2155.6 hours into.",
+            "FirstSentence": "A game I've put 2157.8 hours into.",
             "RemainingDescription": "No description available.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2155.6,
+            "Hours": 2157.8,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

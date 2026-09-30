@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-29T12:35:50.674Z",
+    "updatedAt": "2026-09-30T12:21:07.489Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -90,8 +90,8 @@
             "recentlyPlayed": false
         },
         "counter-strike 2": {
-            "hours": 3845,
-            "recentlyPlayed": false
+            "hours": 3845.1,
+            "recentlyPlayed": true
         },
         "peggle deluxe": {
             "hours": 5,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2171.9,
+            "hours": 2176.2,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3521,8 +3521,8 @@
             "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
-            "Hours": 3845,
-            "RecentlyPlayed": false,
+            "Hours": 3845.1,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2171.9,
+            "Hours": 2176.2,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-09-30T12:21:07.489Z",
+    "updatedAt": "2026-10-01T12:56:18.900Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2176.2,
+            "hours": 2183,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -1259,7 +1259,7 @@
         },
         "divinity: original sin 2": {
             "hours": 131.1,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "hidden folks": {
             "hours": 0.6,
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2176.2,
+            "Hours": 2183,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3743,7 +3743,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/435150/header.jpg",
             "Link": "https://store.steampowered.com/app/435150/",
             "Hours": 131.1,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {

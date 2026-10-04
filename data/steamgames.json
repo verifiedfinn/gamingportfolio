@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-03T11:28:52.139Z",
+    "updatedAt": "2026-10-04T12:10:04.529Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2189.5,
+            "hours": 2191.3,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2646,7 +2646,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 87.5,
+            "hours": 89.6,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -3187,7 +3187,7 @@
         },
         "palworld": {
             "hours": 83.9,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "lies of p": {
             "hours": 0,
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2189.5,
+            "Hours": 2191.3,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3803,8 +3803,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Deep Rock Galactic is a 1-4 player co-op FPS featuring dwarven space miners, pro...",
-            "RemainingDescription": "Deep Rock Galactic is a 1-4 player co-op FPS featuring dwarven space miners, procedurally-generated destructible environments, and endless hordes of alien monsters. Explore cave systems, mine for minerals, and work together to survive!",
+            "FirstSentence": "《深岩银河》是一款多人合作类第一人称射击游戏，有着了不起的矮人、100% 可破坏的地形、由程序生成的洞穴以及无数的外星怪物。",
+            "RemainingDescription": "《深岩银河》是一款多人合作类第一人称射击游戏，有着了不起的矮人、100% 可破坏的地形、由程序生成的洞穴以及无数的外星怪物。",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/548430/header.jpg",
             "Link": "https://store.steampowered.com/app/548430/",
             "Hours": 12.7,
@@ -4002,7 +4002,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 87.5,
+            "Hours": 89.6,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4133,7 +4133,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg",
             "Link": "https://store.steampowered.com/app/1623730/",
             "Hours": 83.9,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {

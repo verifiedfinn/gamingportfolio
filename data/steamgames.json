@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-04T12:10:04.529Z",
+    "updatedAt": "2026-10-05T14:18:58.081Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -90,7 +90,7 @@
             "recentlyPlayed": false
         },
         "counter-strike 2": {
-            "hours": 3845.1,
+            "hours": 3845.2,
             "recentlyPlayed": true
         },
         "peggle deluxe": {
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2191.3,
+            "hours": 2193.6,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2646,7 +2646,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 89.6,
+            "hours": 91.2,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -3517,11 +3517,11 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "For over two decades, Counter-Strike has offered an elite competitive experience...",
-            "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
+            "FirstSentence": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновател...",
+            "RemainingDescription": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновательной игры, путь развития которой определяют миллионы игроков со всего мира. Теперь пришло время нового этапа — Counter-Strike 2.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
-            "Hours": 3845.1,
+            "Hours": 3845.2,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2191.3,
+            "Hours": 2193.6,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3803,8 +3803,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "《深岩银河》是一款多人合作类第一人称射击游戏，有着了不起的矮人、100% 可破坏的地形、由程序生成的洞穴以及无数的外星怪物。",
-            "RemainingDescription": "《深岩银河》是一款多人合作类第一人称射击游戏，有着了不起的矮人、100% 可破坏的地形、由程序生成的洞穴以及无数的外星怪物。",
+            "FirstSentence": "Deep Rock Galactic is a 1-4 player co-op FPS featuring dwarven space miners, pro...",
+            "RemainingDescription": "Deep Rock Galactic is a 1-4 player co-op FPS featuring dwarven space miners, procedurally-generated destructible environments, and endless hordes of alien monsters. Explore cave systems, mine for minerals, and work together to survive!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/548430/header.jpg",
             "Link": "https://store.steampowered.com/app/548430/",
             "Hours": 12.7,
@@ -3829,8 +3829,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters –...",
-            "RemainingDescription": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters – with your friends, or on your own. Combine loot in surprising ways and master each character until you become the havoc you feared upon your first crash landing.",
+            "FirstSentence": "Entkomme allein oder mit Freunden von einem chaotischen fremden Planeten, indem...",
+            "RemainingDescription": "Entkomme allein oder mit Freunden von einem chaotischen fremden Planeten, indem du dich durch Horden von wilden Monstern kämpfst. Kombiniere deine Beute auf überraschende Arten und meistere jeden Charakter, bis du zu der zerstörerischen Kraft wirst, vor der du dich einst gefürchtet hast.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/632360/header.jpg",
             "Link": "https://store.steampowered.com/app/632360/",
             "Hours": 184,
@@ -4002,7 +4002,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 89.6,
+            "Hours": 91.2,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

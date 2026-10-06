@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-05T14:18:58.081Z",
+    "updatedAt": "2026-10-06T13:10:22.102Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2193.6,
+            "hours": 2199,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3517,8 +3517,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновател...",
-            "RemainingDescription": "Более двух десятилетий Counter-Strike служит примером первоклассной соревновательной игры, путь развития которой определяют миллионы игроков со всего мира. Теперь пришло время нового этапа — Counter-Strike 2.",
+            "FirstSentence": "For over two decades, Counter-Strike has offered an elite competitive experience...",
+            "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
             "Hours": 3845.2,
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2193.6,
+            "Hours": 2199,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3829,8 +3829,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Entkomme allein oder mit Freunden von einem chaotischen fremden Planeten, indem...",
-            "RemainingDescription": "Entkomme allein oder mit Freunden von einem chaotischen fremden Planeten, indem du dich durch Horden von wilden Monstern kämpfst. Kombiniere deine Beute auf überraschende Arten und meistere jeden Charakter, bis du zu der zerstörerischen Kraft wirst, vor der du dich einst gefürchtet hast.",
+            "FirstSentence": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters –...",
+            "RemainingDescription": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters – with your friends, or on your own. Combine loot in surprising ways and master each character until you become the havoc you feared upon your first crash landing.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/632360/header.jpg",
             "Link": "https://store.steampowered.com/app/632360/",
             "Hours": 184,

@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-11T12:33:58.031Z",
+    "updatedAt": "2026-10-12T15:06:43.363Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2213.4,
+            "hours": 2214.8,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3466,7 +3466,7 @@
             "recentlyPlayed": false
         },
         "speedrunners 2: king of speed": {
-            "hours": 55.4,
+            "hours": 56,
             "recentlyPlayed": true
         },
         "grand theft auto v enhanced": {
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2213.4,
+            "Hours": 2214.8,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3660,8 +3660,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Forge your own path in Hollow Knight! An epic action adventure through a vast ru...",
-            "RemainingDescription": "Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style.",
+            "FirstSentence": "Bahne dir in Hollow Knight, einem epischen Action-Adventure, deinen eigenen Weg...",
+            "RemainingDescription": "Bahne dir in Hollow Knight, einem epischen Action-Adventure, deinen eigenen Weg durch ein riesiges Königreich voller Insekten und Helden. Erkunde verwinkelte Höhlen, kämpfe gegen verdorbene Kreaturen und mache dir bizarre Käfer zu deinen Verbündeten.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/367520/header.jpg",
             "Link": "https://store.steampowered.com/app/367520/",
             "Hours": 59.2,
@@ -4236,7 +4236,7 @@
             "RemainingDescription": "SpeedRunners 2 is a high-speed multiplayer platformer where rival superheroes face off in breakneck races using parkour, grappling hooks, and game-changing power-ups. Fall behind, and a shrinking ring of fire eliminates you – until only one runner remains.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/3183760/header.jpg",
             "Link": "https://store.steampowered.com/app/3183760/",
-            "Hours": 55.4,
+            "Hours": 56,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

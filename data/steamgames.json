@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-21T11:35:04.342Z",
+    "updatedAt": "2026-10-22T11:34:34.964Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -91,7 +91,7 @@
         },
         "counter-strike 2": {
             "hours": 3845.2,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "peggle deluxe": {
             "hours": 5,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2222.8,
+            "hours": 2226.8,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2646,7 +2646,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 97,
+            "hours": 97.5,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -3495,7 +3495,7 @@
         },
         "super battle golf": {
             "hours": 28.2,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         }
     },
     "games": [
@@ -3522,7 +3522,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
             "Hours": 3845.2,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2222.8,
+            "Hours": 2226.8,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4002,7 +4002,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 97,
+            "Hours": 97.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4263,7 +4263,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/4069520/header.jpg",
             "Link": "https://store.steampowered.com/app/4069520/",
             "Hours": 28.2,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         }
     ]

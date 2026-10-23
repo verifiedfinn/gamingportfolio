@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-22T11:34:34.964Z",
+    "updatedAt": "2026-10-23T11:23:58.094Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2226.8,
+            "hours": 2229,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -1778,8 +1778,8 @@
             "recentlyPlayed": false
         },
         "risk of rain 2": {
-            "hours": 184,
-            "recentlyPlayed": false
+            "hours": 184.1,
+            "recentlyPlayed": true
         },
         "disco elysium": {
             "hours": 0,
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2226.8,
+            "Hours": 2229,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3833,8 +3833,8 @@
             "RemainingDescription": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters – with your friends, or on your own. Combine loot in surprising ways and master each character until you become the havoc you feared upon your first crash landing.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/632360/header.jpg",
             "Link": "https://store.steampowered.com/app/632360/",
-            "Hours": 184,
-            "RecentlyPlayed": false,
+            "Hours": 184.1,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {

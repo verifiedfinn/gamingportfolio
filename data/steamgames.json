@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-25T11:08:25.186Z",
+    "updatedAt": "2026-10-26T12:42:25.708Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2232.7,
+            "hours": 2234.5,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2232.7,
+            "Hours": 2234.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3725,8 +3725,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Utilisez des fonds d'écran animés magnifiques sur votre bureau. Animez vos propr...",
-            "RemainingDescription": "Utilisez des fonds d'écran animés magnifiques sur votre bureau. Animez vos propres images pour créer de nouveaux fonds d'écran ou importer des vidéos/sites Web et partagez-les sur Steam Workshop!",
+            "FirstSentence": "Use stunning live wallpapers on your desktop. Animate your own images to create...",
+            "RemainingDescription": "Use stunning live wallpapers on your desktop. Animate your own images to create new wallpapers or import videos/websites and share them on the Steam Workshop!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/431960/header.jpg",
             "Link": "https://store.steampowered.com/app/431960/",
             "Hours": 11.8,
@@ -3933,8 +3933,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "一款支持1–10名玩家的同时在线合作的探索生存游戏，背景设定在一个受维京文化启发、程序生成的神话世界中。战斗、建造并征服你的旅程，谱写一段足以获得奥丁眷顾的传奇...",
-            "RemainingDescription": "一款支持1–10名玩家的同时在线合作的探索生存游戏，背景设定在一个受维京文化启发、程序生成的神话世界中。战斗、建造并征服你的旅程，谱写一段足以获得奥丁眷顾的传奇史诗吧！",
+            "FirstSentence": "A collaborative exploration and survival game for 1-10 players, set in a procedu...",
+            "RemainingDescription": "A collaborative exploration and survival game for 1-10 players, set in a procedurally generated afterlife inspired by Viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg",
             "Link": "https://store.steampowered.com/app/892970/",
             "Hours": 194,

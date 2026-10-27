@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-26T12:42:25.708Z",
+    "updatedAt": "2026-10-27T11:57:00.803Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2234.5,
+            "hours": 2237.5,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2646,7 +2646,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 97.5,
+            "hours": 97.9,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -3467,7 +3467,7 @@
         },
         "speedrunners 2: king of speed": {
             "hours": 57.1,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "grand theft auto v enhanced": {
             "hours": 0,
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2234.5,
+            "Hours": 2237.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3933,8 +3933,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "A collaborative exploration and survival game for 1-10 players, set in a procedu...",
-            "RemainingDescription": "A collaborative exploration and survival game for 1-10 players, set in a procedurally generated afterlife inspired by Viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
+            "FirstSentence": "Симулятор выживания и исследования для компании от 1 до 10 человек. Вас ждет про...",
+            "RemainingDescription": "Симулятор выживания и исследования для компании от 1 до 10 человек. Вас ждет процедурно генерируемый мир, пропитанный духом скандинавских мифов. Сражайтесь, стройте крепости и докажите, что достойны покровительства Одина!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg",
             "Link": "https://store.steampowered.com/app/892970/",
             "Hours": 194,
@@ -4002,7 +4002,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 97.5,
+            "Hours": 97.9,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4237,7 +4237,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/3183760/header.jpg",
             "Link": "https://store.steampowered.com/app/3183760/",
             "Hours": 57.1,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {

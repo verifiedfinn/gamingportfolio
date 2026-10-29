@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-28T12:34:46.339Z",
+    "updatedAt": "2026-10-29T12:45:02.022Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2241.9,
+            "hours": 2243.5,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3355,7 +3355,7 @@
         },
         "4d golf": {
             "hours": 1,
-            "recentlyPlayed": false
+            "recentlyPlayed": true
         },
         "little nightmares enhanced edition": {
             "hours": 0,
@@ -3490,8 +3490,8 @@
             "recentlyPlayed": false
         },
         "gamble with your friends": {
-            "hours": 6,
-            "recentlyPlayed": false
+            "hours": 6.4,
+            "recentlyPlayed": true
         },
         "super battle golf": {
             "hours": 28.2,
@@ -3517,8 +3517,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Seit seiner Veröffentlichung vor über 20 Jahren bietet Counter-Strike eine unver...",
-            "RemainingDescription": "Seit seiner Veröffentlichung vor über 20 Jahren bietet Counter-Strike eine unvergleichliche Wettkampferfahrung, die von Millionen von Spielern weltweit geprägt wird. Jetzt beginnt das nächste Kapitel in der glorreichen CS-Geschichte: Willkommen bei Counter-Strike 2.",
+            "FirstSentence": "For over two decades, Counter-Strike has offered an elite competitive experience...",
+            "RemainingDescription": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
             "Link": "https://store.steampowered.com/app/730/",
             "Hours": 3845.2,
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2241.9,
+            "Hours": 2243.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

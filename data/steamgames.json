@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-10-30T12:36:40.927Z",
+    "updatedAt": "2026-10-31T12:03:37.677Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2245.9,
+            "hours": 2247.4,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2646,7 +2646,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 97.9,
+            "hours": 100.2,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -3582,8 +3582,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окру...",
-            "RemainingDescription": "Единственная цель в Rust — выживание. Дикая природа острова, его обитатели, окружение, другие выжившие — всё вокруг хочет твоей смерти. Делай всё, что в твоих силах, чтобы пережить ещё одну ночь.",
+            "FirstSentence": "The only aim in Rust is to survive. Everything wants you to die - the island’s w...",
+            "RemainingDescription": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg",
             "Link": "https://store.steampowered.com/app/252490/",
             "Hours": 42.8,
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2245.9,
+            "Hours": 2247.4,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3725,8 +3725,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Устанавливайте шикарные живые обои на рабочий стол. Анимируйте собственные изобр...",
-            "RemainingDescription": "Устанавливайте шикарные живые обои на рабочий стол. Анимируйте собственные изображения для создания новых обоев или импортируйте видео/веб-сайты и делитесь ими в Мастерской Steam!",
+            "FirstSentence": "Use stunning live wallpapers on your desktop. Animate your own images to create...",
+            "RemainingDescription": "Use stunning live wallpapers on your desktop. Animate your own images to create new wallpapers or import videos/websites and share them on the Steam Workshop!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/431960/header.jpg",
             "Link": "https://store.steampowered.com/app/431960/",
             "Hours": 11.8,
@@ -3803,8 +3803,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Deep Rock Galactic — кооперативный шутер от первого лица для 1-4 игроков, в кото...",
-            "RemainingDescription": "Deep Rock Galactic — кооперативный шутер от первого лица для 1-4 игроков, в котором вас ждут крутые космические дворфы, полностью разрушаемое окружение, процедурно генерируемые системы пещер, а также бесконечные волны инопланетных чудовищ.",
+            "FirstSentence": "Deep Rock Galactic is a 1-4 player co-op FPS featuring dwarven space miners, pro...",
+            "RemainingDescription": "Deep Rock Galactic is a 1-4 player co-op FPS featuring dwarven space miners, procedurally-generated destructible environments, and endless hordes of alien monsters. Explore cave systems, mine for minerals, and work together to survive!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/548430/header.jpg",
             "Link": "https://store.steampowered.com/app/548430/",
             "Hours": 12.7,
@@ -3829,8 +3829,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Выберитесь с хаотичной неизвестной планеты, отбиваясь от полчищ безумных монстро...",
-            "RemainingDescription": "Выберитесь с хаотичной неизвестной планеты, отбиваясь от полчищ безумных монстров в одиночку или с друзьями. Неожиданным образом сочетайте найденные предметы и постигайте все особенности персонажей, пока сами не станете разрушительной силой, вселяющей ужас в противников.",
+            "FirstSentence": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters –...",
+            "RemainingDescription": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters – with your friends, or on your own. Combine loot in surprising ways and master each character until you become the havoc you feared upon your first crash landing.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/632360/header.jpg",
             "Link": "https://store.steampowered.com/app/632360/",
             "Hours": 184.1,
@@ -4002,7 +4002,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 97.9,
+            "Hours": 100.2,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

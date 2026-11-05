@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-11-04T14:13:25.712Z",
+    "updatedAt": "2026-11-05T14:27:25.156Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2247.5,
+            "hours": 2248.5,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -1778,7 +1778,7 @@
             "recentlyPlayed": false
         },
         "risk of rain 2": {
-            "hours": 184.1,
+            "hours": 185.4,
             "recentlyPlayed": true
         },
         "disco elysium": {
@@ -3582,8 +3582,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "The only aim in Rust is to survive. Everything wants you to die - the island’s w...",
-            "RemainingDescription": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night.",
+            "FirstSentence": "In Rust geht es nur um eines: das blanke Überleben. Alles um dich herum will dei...",
+            "RemainingDescription": "In Rust geht es nur um eines: das blanke Überleben. Alles um dich herum will deinen Tod – die Tiere auf der Insel, sonstige Inselbewohner, die Umgebung und andere Überlebende. Tu alles, was nötig ist, um eine weitere Nacht durchzustehen.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg",
             "Link": "https://store.steampowered.com/app/252490/",
             "Hours": 42.8,
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2247.5,
+            "Hours": 2248.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3833,7 +3833,7 @@
             "RemainingDescription": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters – with your friends, or on your own. Combine loot in surprising ways and master each character until you become the havoc you feared upon your first crash landing.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/632360/header.jpg",
             "Link": "https://store.steampowered.com/app/632360/",
-            "Hours": 184.1,
+            "Hours": 185.4,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3907,8 +3907,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "42 Civilizations, 229 Campaign Missions, Singleplayer, Co-Op, Multiplayer, In-Ga...",
-            "RemainingDescription": "42 Civilizations, 229 Campaign Missions, Singleplayer, Co-Op, Multiplayer, In-Game Editor, Mods, Cross-play...It is good to be the king.",
+            "FirstSentence": "Age of Empires II: Definitive Edition incluye &quot;Los últimos khanes&quot;, qu...",
+            "RemainingDescription": "Age of Empires II: Definitive Edition incluye &quot;Los últimos khanes&quot;, que incorpora 3 campañas y 4 civilizaciones nuevas. Las frecuentes actualizaciones contienen eventos, contenido adicional, nuevos modos de juego (¡como el reciente modo cooperativo!) y funciones mejoradas.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/813780/header.jpg",
             "Link": "https://store.steampowered.com/app/813780/",
             "Hours": 46.6,
@@ -4115,8 +4115,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Awaken as a Vampire. Hunt for blood in nearby settlements to regain your strengt...",
-            "RemainingDescription": "Awaken as a Vampire. Hunt for blood in nearby settlements to regain your strength and evade the scorching sun to survive. Raise your castle and thrive in an ever-changing, open world full of mystery. Gain allies online and conquer the land of the living.",
+            "FirstSentence": "Erwache als Vampir. Jage in nahegelegenen Siedlungen nach Blut, um deine Kräfte...",
+            "RemainingDescription": "Erwache als Vampir. Jage in nahegelegenen Siedlungen nach Blut, um deine Kräfte wiederzuerlangen, und meide die sengende Sonne, um zu überleben. Errichte dein Schloss und überlebe in einer sich ständig verändernden, offenen Welt voller Geheimnisse. Finde Verbündete und erobere das Land der Lebenden.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1604030/header.jpg",
             "Link": "https://store.steampowered.com/app/1604030/",
             "Hours": 71.9,

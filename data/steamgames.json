@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-11-09T15:54:24.643Z",
+    "updatedAt": "2026-11-10T14:42:12.427Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2249.9,
+            "hours": 2250.5,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3582,8 +3582,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Єдина ціль у грі Rust — вижити. Все прагне вашої смерті — дика природа острова,...",
-            "RemainingDescription": "Єдина ціль у грі Rust — вижити. Все прагне вашої смерті — дика природа острова, інші жителі, оточення та інші вцілілі. Робіть усе можливе, щоб пережити ще одну ніч.",
+            "FirstSentence": "The only aim in Rust is to survive. Everything wants you to die - the island’s w...",
+            "RemainingDescription": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg",
             "Link": "https://store.steampowered.com/app/252490/",
             "Hours": 42.8,
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2249.9,
+            "Hours": 2250.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3608,8 +3608,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Grand Theft Auto V для ПК – це шанс знову відчути неповторну атмосферу славетног...",
-            "RemainingDescription": "Grand Theft Auto V для ПК – це шанс знову відчути неповторну атмосферу славетного містечка Los Santos і відвідати округ Blaine County, але тепер із роздільною здатністю 4K та частотою 60 кадр./с.",
+            "FirstSentence": "Grand Theft Auto V for PC offers players the option to explore the award-winning...",
+            "RemainingDescription": "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg",
             "Link": "https://store.steampowered.com/app/271590/",
             "Hours": 206.6,
@@ -3933,8 +3933,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Дослідницька гра на виживання для 1-10 гравців у процедурно згенерованому світі,...",
-            "RemainingDescription": "Дослідницька гра на виживання для 1-10 гравців у процедурно згенерованому світі, натхненному культурою вікінгів. Бийтеся й будуйте, завоюйте чистилище та покажіть Одіну, що ви варті Вальгалли!",
+            "FirstSentence": "A collaborative exploration and survival game for 1-10 players, set in a procedu...",
+            "RemainingDescription": "A collaborative exploration and survival game for 1-10 players, set in a procedurally generated afterlife inspired by Viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg",
             "Link": "https://store.steampowered.com/app/892970/",
             "Hours": 194,
@@ -4128,8 +4128,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quo...",
-            "RemainingDescription": "Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quot; in this completely new multiplayer, open world survival and crafting game!",
+            "FirstSentence": "在廣大的世界裡闖蕩並蒐集不可思議的生物『帕魯』，享受戰鬥、建造、農業和工業的樂趣。這是一款能對應多人同樂的全新開放世界生存工藝遊戲。",
+            "RemainingDescription": "在廣大的世界裡闖蕩並蒐集不可思議的生物『帕魯』，享受戰鬥、建造、農業和工業的樂趣。這是一款能對應多人同樂的全新開放世界生存工藝遊戲。",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg",
             "Link": "https://store.steampowered.com/app/1623730/",
             "Hours": 83.9,
@@ -4167,8 +4167,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "ARC Raiders — багатокористувацька гра жанру extraction adventure, дія якої розго...",
-            "RemainingDescription": "ARC Raiders — багатокористувацька гра жанру extraction adventure, дія якої розгортається у суворому майбутньому на Землі, атакованій загадковими механічними загарбниками ARC.",
+            "FirstSentence": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth,...",
+            "RemainingDescription": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1808500/header.jpg",
             "Link": "https://store.steampowered.com/app/1808500/",
             "Hours": 105.9,

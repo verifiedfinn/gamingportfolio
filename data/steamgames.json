@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-11-11T13:57:34.672Z",
+    "updatedAt": "2026-11-12T14:58:24.804Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2250.6,
+            "hours": 2251.9,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3355,7 +3355,7 @@
         },
         "4d golf": {
             "hours": 1,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "little nightmares enhanced edition": {
             "hours": 0,
@@ -3491,7 +3491,7 @@
         },
         "gamble with your friends": {
             "hours": 6.4,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "super battle golf": {
             "hours": 28.2,
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2250.6,
+            "Hours": 2251.9,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3907,8 +3907,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Age of Empires II: DE, 3 yeni sefer ve 4 yeni Medeniyet ile birlikte &quot;The L...",
-            "RemainingDescription": "Age of Empires II: DE, 3 yeni sefer ve 4 yeni Medeniyet ile birlikte &quot;The Last Khans&quot;ı da içermektedir. Sık sık yapılan güncellemeler arasında etkinlikler, ilave içerikler, yeni oyun modları ve son İşbirliği modunun dâhil olduğu gelişmiş özellikler de yer alıyor!",
+            "FirstSentence": "42 Civilizations, 229 Campaign Missions, Singleplayer, Co-Op, Multiplayer, In-Ga...",
+            "RemainingDescription": "42 Civilizations, 229 Campaign Missions, Singleplayer, Co-Op, Multiplayer, In-Game Editor, Mods, Cross-play...It is good to be the king.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/813780/header.jpg",
             "Link": "https://store.steampowered.com/app/813780/",
             "Hours": 46.6,
@@ -4115,8 +4115,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Awaken as a Vampire. Hunt for blood in nearby settlements to regain your strengt...",
-            "RemainingDescription": "Awaken as a Vampire. Hunt for blood in nearby settlements to regain your strength and evade the scorching sun to survive. Raise your castle and thrive in an ever-changing, open world full of mystery. Gain allies online and conquer the land of the living.",
+            "FirstSentence": "Erwache als Vampir. Jage in nahegelegenen Siedlungen nach Blut, um deine Kräfte...",
+            "RemainingDescription": "Erwache als Vampir. Jage in nahegelegenen Siedlungen nach Blut, um deine Kräfte wiederzuerlangen, und meide die sengende Sonne, um zu überleben. Errichte dein Schloss und überlebe in einer sich ständig verändernden, offenen Welt voller Geheimnisse. Finde Verbündete und erobere das Land der Lebenden.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1604030/header.jpg",
             "Link": "https://store.steampowered.com/app/1604030/",
             "Hours": 71.9,
@@ -4206,8 +4206,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "O pôquer roguelike. Balatro é um jogo de criação de baralho hipnoticamente satis...",
-            "RemainingDescription": "O pôquer roguelike. Balatro é um jogo de criação de baralho hipnoticamente satisfatório em que você joga mãos de pôquer ilegais, descobre curingas que mudam o jogo e aciona combos escandalosos e cheios de adrenalina.",
+            "FirstSentence": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you...",
+            "RemainingDescription": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/2379780/header.jpg",
             "Link": "https://store.steampowered.com/app/2379780/",
             "Hours": 132.8,

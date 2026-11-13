@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-11-12T14:58:24.804Z",
+    "updatedAt": "2026-11-13T14:23:55.832Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2251.9,
+            "hours": 2253,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2646,7 +2646,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 108.4,
+            "hours": 110.2,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -3599,7 +3599,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2251.9,
+            "Hours": 2253,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4002,7 +4002,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 108.4,
+            "Hours": 110.2,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4115,8 +4115,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Erwache als Vampir. Jage in nahegelegenen Siedlungen nach Blut, um deine Kräfte...",
-            "RemainingDescription": "Erwache als Vampir. Jage in nahegelegenen Siedlungen nach Blut, um deine Kräfte wiederzuerlangen, und meide die sengende Sonne, um zu überleben. Errichte dein Schloss und überlebe in einer sich ständig verändernden, offenen Welt voller Geheimnisse. Finde Verbündete und erobere das Land der Lebenden.",
+            "FirstSentence": "Awaken as a Vampire. Hunt for blood in nearby settlements to regain your strengt...",
+            "RemainingDescription": "Awaken as a Vampire. Hunt for blood in nearby settlements to regain your strength and evade the scorching sun to survive. Raise your castle and thrive in an ever-changing, open world full of mystery. Gain allies online and conquer the land of the living.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1604030/header.jpg",
             "Link": "https://store.steampowered.com/app/1604030/",
             "Hours": 71.9,

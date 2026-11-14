@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-11-13T14:23:55.832Z",
+    "updatedAt": "2026-11-14T13:20:19.126Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2253,
+            "hours": 2253.9,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -2646,7 +2646,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 110.2,
+            "hours": 112.2,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -2866,8 +2866,8 @@
             "recentlyPlayed": false
         },
         "slapshot: rebound": {
-            "hours": 2.3,
-            "recentlyPlayed": false
+            "hours": 2.6,
+            "recentlyPlayed": true
         },
         "red dead redemption 2": {
             "hours": 0,
@@ -3449,6 +3449,10 @@
             "hours": 0.4,
             "recentlyPlayed": false
         },
+        "slay the spire 2": {
+            "hours": 0,
+            "recentlyPlayed": false
+        },
         "cakey's twisted bakery": {
             "hours": 0,
             "recentlyPlayed": false
@@ -3599,7 +3603,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2253,
+            "Hours": 2253.9,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3699,8 +3703,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with...",
-            "RemainingDescription": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+            "FirstSentence": "Вам досталась старая дедушкина ферма в долине Стардью. С горстью монет в кармане...",
+            "RemainingDescription": "Вам досталась старая дедушкина ферма в долине Стардью. С горстью монет в кармане и старыми инструментами в руках вы начинаете новую жизнь. Сможете ли вы превратить пустырь в цветущий сад?",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg",
             "Link": "https://store.steampowered.com/app/413150/",
             "Hours": 55,
@@ -3907,8 +3911,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "42 Civilizations, 229 Campaign Missions, Singleplayer, Co-Op, Multiplayer, In-Ga...",
-            "RemainingDescription": "42 Civilizations, 229 Campaign Missions, Singleplayer, Co-Op, Multiplayer, In-Game Editor, Mods, Cross-play...It is good to be the king.",
+            "FirstSentence": "有史以来最受欢迎的战略游戏之一迎来 20 周年，为此我们推出了《帝国时代 II：决定版》。本作拥有惊人的 4K 超高画质，全面重制的新原声音乐，以及内含 3 个...",
+            "RemainingDescription": "有史以来最受欢迎的战略游戏之一迎来 20 周年，为此我们推出了《帝国时代 II：决定版》。本作拥有惊人的 4K 超高画质，全面重制的新原声音乐，以及内含 3 个新战役和 4 个新文明的内容：《最后的可汗》。常态更新项目包括活动、添加内容、新游戏模式，以及随近期上线的合作模式所带来的增强功能！",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/813780/header.jpg",
             "Link": "https://store.steampowered.com/app/813780/",
             "Hours": 46.6,
@@ -4002,7 +4006,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 110.2,
+            "Hours": 112.2,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4206,8 +4210,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you...",
-            "RemainingDescription": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
+            "FirstSentence": "Покерная игра-«рогалик». Balatro — гипнотически увлекательная игра с построением...",
+            "RemainingDescription": "Покерная игра-«рогалик». Balatro — гипнотически увлекательная игра с построением колод, где можно использовать нестандартные покерные комбинации, находить джокеров в решающие моменты и запускать забойные, возмутительно мощные комбо.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/2379780/header.jpg",
             "Link": "https://store.steampowered.com/app/2379780/",
             "Hours": 132.8,

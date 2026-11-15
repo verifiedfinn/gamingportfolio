@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-11-14T13:20:19.126Z",
+    "updatedAt": "2026-11-15T13:47:54.058Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2253.9,
+            "hours": 2255.9,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3603,7 +3603,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2253.9,
+            "Hours": 2255.9,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3703,8 +3703,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Вам досталась старая дедушкина ферма в долине Стардью. С горстью монет в кармане...",
-            "RemainingDescription": "Вам досталась старая дедушкина ферма в долине Стардью. С горстью монет в кармане и старыми инструментами в руках вы начинаете новую жизнь. Сможете ли вы превратить пустырь в цветущий сад?",
+            "FirstSentence": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with...",
+            "RemainingDescription": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg",
             "Link": "https://store.steampowered.com/app/413150/",
             "Hours": 55,
@@ -3911,8 +3911,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "有史以来最受欢迎的战略游戏之一迎来 20 周年，为此我们推出了《帝国时代 II：决定版》。本作拥有惊人的 4K 超高画质，全面重制的新原声音乐，以及内含 3 个...",
-            "RemainingDescription": "有史以来最受欢迎的战略游戏之一迎来 20 周年，为此我们推出了《帝国时代 II：决定版》。本作拥有惊人的 4K 超高画质，全面重制的新原声音乐，以及内含 3 个新战役和 4 个新文明的内容：《最后的可汗》。常态更新项目包括活动、添加内容、新游戏模式，以及随近期上线的合作模式所带来的增强功能！",
+            "FirstSentence": "42 Civilizations, 229 Campaign Missions, Singleplayer, Co-Op, Multiplayer, In-Ga...",
+            "RemainingDescription": "42 Civilizations, 229 Campaign Missions, Singleplayer, Co-Op, Multiplayer, In-Game Editor, Mods, Cross-play...It is good to be the king.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/813780/header.jpg",
             "Link": "https://store.steampowered.com/app/813780/",
             "Hours": 46.6,
@@ -4210,8 +4210,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Покерная игра-«рогалик». Balatro — гипнотически увлекательная игра с построением...",
-            "RemainingDescription": "Покерная игра-«рогалик». Balatro — гипнотически увлекательная игра с построением колод, где можно использовать нестандартные покерные комбинации, находить джокеров в решающие моменты и запускать забойные, возмутительно мощные комбо.",
+            "FirstSentence": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you...",
+            "RemainingDescription": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/2379780/header.jpg",
             "Link": "https://store.steampowered.com/app/2379780/",
             "Hours": 132.8,

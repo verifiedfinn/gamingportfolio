@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-11-20T15:14:59.942Z",
+    "updatedAt": "2026-11-21T14:29:27.091Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2258.2,
+            "hours": 2258.5,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3603,7 +3603,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2258.2,
+            "Hours": 2258.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

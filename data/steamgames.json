@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-11-21T14:29:27.091Z",
+    "updatedAt": "2026-11-22T14:25:22.269Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -306,8 +306,8 @@
             "recentlyPlayed": false
         },
         "sonic & all-stars racing transformed collection": {
-            "hours": 2.5,
-            "recentlyPlayed": false
+            "hours": 2.6,
+            "recentlyPlayed": true
         },
         "ftl: faster than light": {
             "hours": 0,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2258.5,
+            "hours": 2258.9,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -666,8 +666,8 @@
             "recentlyPlayed": false
         },
         "tabletop simulator": {
-            "hours": 10.2,
-            "recentlyPlayed": false
+            "hours": 10.3,
+            "recentlyPlayed": true
         },
         "fault - milestone one": {
             "hours": 0,
@@ -1226,7 +1226,7 @@
             "recentlyPlayed": false
         },
         "golf with your friends": {
-            "hours": 17.9,
+            "hours": 18.5,
             "recentlyPlayed": true
         },
         "aseprite": {
@@ -2646,7 +2646,7 @@
             "recentlyPlayed": false
         },
         "wingspan": {
-            "hours": 113.6,
+            "hours": 115.2,
             "recentlyPlayed": true
         },
         "ori and the will of the wisps": {
@@ -3603,7 +3603,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2258.5,
+            "Hours": 2258.9,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3629,8 +3629,8 @@
             "RemainingDescription": "Tabletop Simulator is the only simulator where you can let your aggression out by flipping the table! There are no rules to follow: just you, a physics sandbox, and your friends. Make your own online board games or play the thousands of community created mods. Unlimited gaming possibilities!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/286160/header.jpg",
             "Link": "https://store.steampowered.com/app/286160/",
-            "Hours": 10.2,
-            "RecentlyPlayed": false,
+            "Hours": 10.3,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {
@@ -3720,7 +3720,7 @@
             "RemainingDescription": "Why have friends if not to play Golf... With Your Friends! Nothing is out of bounds as you take on courses filled with fast paced, exciting, simultaneous mini golf for up to 12 players!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/431240/header.jpg",
             "Link": "https://store.steampowered.com/app/431240/",
-            "Hours": 17.9,
+            "Hours": 18.5,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4006,7 +4006,7 @@
             "RemainingDescription": "Wingspan is a relaxing, award-winning strategy card game about birds for 1 to 5 players. Each bird you play extends a chain of powerful combinations in one of your three habitats. Your goal is to discover and attract the best birds to your network of wildlife preserves.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1054490/header.jpg",
             "Link": "https://store.steampowered.com/app/1054490/",
-            "Hours": 113.6,
+            "Hours": 115.2,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },

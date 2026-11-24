@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-11-23T17:52:15.669Z",
+    "updatedAt": "2026-11-24T17:25:14.078Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2263.5,
+            "hours": 2264.7,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -3187,7 +3187,7 @@
         },
         "palworld": {
             "hours": 83.9,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "lies of p": {
             "hours": 0,
@@ -3471,7 +3471,7 @@
         },
         "speedrunners 2: king of speed": {
             "hours": 57.1,
-            "recentlyPlayed": false
+            "recentlyPlayed": true
         },
         "grand theft auto v enhanced": {
             "hours": 0,
@@ -3603,7 +3603,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2263.5,
+            "Hours": 2264.7,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -4137,7 +4137,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg",
             "Link": "https://store.steampowered.com/app/1623730/",
             "Hours": 83.9,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {
@@ -4241,7 +4241,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/3183760/header.jpg",
             "Link": "https://store.steampowered.com/app/3183760/",
             "Hours": 57.1,
-            "RecentlyPlayed": false,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {

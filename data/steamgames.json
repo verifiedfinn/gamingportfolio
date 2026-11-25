@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-11-24T17:25:14.078Z",
+    "updatedAt": "2026-11-25T17:01:18.534Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -530,7 +530,7 @@
             "recentlyPlayed": false
         },
         "rocket league": {
-            "hours": 2264.7,
+            "hours": 2264.9,
             "recentlyPlayed": true
         },
         "a hat in time": {
@@ -1238,8 +1238,8 @@
             "recentlyPlayed": false
         },
         "wallpaper engine": {
-            "hours": 11.8,
-            "recentlyPlayed": false
+            "hours": 11.9,
+            "recentlyPlayed": true
         },
         "z1 battle royale": {
             "hours": 4.2,
@@ -3471,7 +3471,7 @@
         },
         "speedrunners 2: king of speed": {
             "hours": 57.1,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "grand theft auto v enhanced": {
             "hours": 0,
@@ -3603,7 +3603,7 @@
             "RemainingDescription": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg",
             "Link": "https://store.steampowered.com/app/252950/",
-            "Hours": 2264.7,
+            "Hours": 2264.9,
             "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
@@ -3733,8 +3733,8 @@
             "RemainingDescription": "Use stunning live wallpapers on your desktop. Animate your own images to create new wallpapers or import videos/websites and share them on the Steam Workshop!",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/431960/header.jpg",
             "Link": "https://store.steampowered.com/app/431960/",
-            "Hours": 11.8,
-            "RecentlyPlayed": false,
+            "Hours": 11.9,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {
@@ -3872,8 +3872,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Gather coins, build defenses and reclaim your fallen Kingdom. Explore and uncove...",
-            "RemainingDescription": "Gather coins, build defenses and reclaim your fallen Kingdom. Explore and uncover secrets, unlock new technologies and protect your crown versus waves of Greed monsters that come at night. Kingdom is a solo or co-op micro-strategy and tower defense game set in an atmospheric pixel world.",
+            "FirstSentence": "Sammle Münzen, baue Verteidigungsanlagen und hol dir dein gefallenes Königreich...",
+            "RemainingDescription": "Sammle Münzen, baue Verteidigungsanlagen und hol dir dein gefallenes Königreich zurück. Enthülle Geheimnisse, schalte neue Technologien frei und beschütze deine Krone vor habgierigen Monstern. Kingdom vereint Solo- oder Koop-Mikrostrategie und Tower Defense in einer atmosphärischen Pixelwelt.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/701160/header.jpg",
             "Link": "https://store.steampowered.com/app/701160/",
             "Hours": 21.8,
@@ -4241,7 +4241,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/3183760/header.jpg",
             "Link": "https://store.steampowered.com/app/3183760/",
             "Hours": 57.1,
-            "RecentlyPlayed": true,
+            "RecentlyPlayed": false,
             "SteamAutoAdded": true
         },
         {

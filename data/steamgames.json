@@ -1,5 +1,5 @@
 {
-    "updatedAt": "2026-11-27T16:28:52.619Z",
+    "updatedAt": "2026-11-28T15:21:25.639Z",
     "hoursMap": {
         "140": {
             "hours": 2.9,
@@ -2867,7 +2867,7 @@
         },
         "slapshot: rebound": {
             "hours": 2.6,
-            "recentlyPlayed": true
+            "recentlyPlayed": false
         },
         "red dead redemption 2": {
             "hours": 0,
@@ -3471,7 +3471,7 @@
         },
         "speedrunners 2: king of speed": {
             "hours": 57.1,
-            "recentlyPlayed": false
+            "recentlyPlayed": true
         },
         "grand theft auto v enhanced": {
             "hours": 0,
@@ -3989,8 +3989,8 @@
             "Tags": [
                 "Steam"
             ],
-            "FirstSentence": "Исследуйте огромное проклятое царство в Hollow Knight: Silksong! Открывайте его...",
-            "RemainingDescription": "Исследуйте огромное проклятое царство в Hollow Knight: Silksong! Открывайте его тайны, сражайтесь и боритесь за свою жизнь, поднимаясь к вершинам земель, где правят шёлк и песня.",
+            "FirstSentence": "Discover a vast, haunted kingdom in Hollow Knight: Silksong! Explore, fight and...",
+            "RemainingDescription": "Discover a vast, haunted kingdom in Hollow Knight: Silksong! Explore, fight and survive as you ascend to the peak of a land ruled by silk and song.",
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/1030300/header.jpg",
             "Link": "https://store.steampowered.com/app/1030300/",
             "Hours": 98.1,
@@ -4241,7 +4241,7 @@
             "Image": "https://cdn.akamai.steamstatic.com/steam/apps/3183760/header.jpg",
             "Link": "https://store.steampowered.com/app/3183760/",
             "Hours": 57.1,
-            "RecentlyPlayed": false,
+            "RecentlyPlayed": true,
             "SteamAutoAdded": true
         },
         {
